@@ -26,25 +26,5 @@
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
   { "programName": "PGCPMB", "programId": 45, "programDataList": [] },
-  {
-    "programName": "Pharm D.",
-    "programId": 51,
-    "programDataList": [
-      {
-        "title": "Pharm D III Year Examination June 2021 Time 2 PM to 4 PM",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_1_2_3Year100821053546.pdf"
-      },
-      {
-        "title": "Pharm D II Year Examination June 2021 Time 2 PM to 4 PM",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_1_2_3Year100821053521.pdf"
-      },
-      {
-        "title": "Pharm D I Year Examination June 2021 Time 2 PM to 4 PM",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_1_2_3Year100821053454.pdf"
-      }
-    ]
-  }
+  { "programName": "Pharm D.", "programId": 51, "programDataList": [] }
 ]

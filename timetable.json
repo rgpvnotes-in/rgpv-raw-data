@@ -1,8 +1,88 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
   { "programName": "M.Arch", "programId": 22, "programDataList": [] },
-  { "programName": "B.Tech", "programId": 24, "programDataList": [] },
-  { "programName": "BE", "programId": 1, "programDataList": [] },
+  {
+    "programName": "B.Tech",
+    "programId": 24,
+    "programDataList": [
+      {
+        "title": "BTech VIII Semester Examination  December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech8151221051140.pdf"
+      },
+      {
+        "title": "BTech VII Semester Examination  December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech7151221051110.pdf"
+      },
+      {
+        "title": "BTech VI Semester Examination  December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech6151221051046.pdf"
+      },
+      {
+        "title": "BTech V Semester Examination  December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech5151221051024.pdf"
+      },
+      {
+        "title": "BTech IV Semester Examination  December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech4151221051000.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "BE",
+    "programId": 1,
+    "programDataList": [
+      {
+        "title": "BE VII Semester CBGS Examination  December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE7CBGS151221051810.pdf"
+      },
+      {
+        "title": "BE VI Semester CBGS Examination  December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE6CBGS151221051746.pdf"
+      },
+      {
+        "title": "BE V Semester CBGS Examination  December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE5CBGS151221051719.pdf"
+      },
+      {
+        "title": "BE VI Semester CBGS Examination  December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4CBGS151221051654.pdf"
+      },
+      {
+        "title": "BE VIII Semester Examination  December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE8Grading151221051532.pdf"
+      },
+      {
+        "title": "BE VII Semester Examination  December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE7Grading151221051508.pdf"
+      },
+      {
+        "title": "BE VI Semester Examination  December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE6Grading151221051446.pdf"
+      },
+      {
+        "title": "BE V Semester Examination  December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE5Grading151221051423.pdf"
+      },
+      {
+        "title": "BE IV Semester Examination  December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4Grading151221051315.pdf"
+      }
+    ]
+  },
   { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
   { "programName": "B.Tech.-PTDC", "programId": 42, "programDataList": [] },
   { "programName": "B.Pharm.(PCI)", "programId": 43, "programDataList": [] },

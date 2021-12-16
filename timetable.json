@@ -162,7 +162,77 @@
       }
     ]
   },
-  { "programName": "B.Arch", "programId": 11, "programDataList": [] },
+  {
+    "programName": "B.Arch",
+    "programId": 11,
+    "programDataList": [
+      {
+        "title": "BArch V Semester CoA Scheme Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to5COA161221034252.pdf"
+      },
+      {
+        "title": "BArch IV Semester CoA Scheme Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to5COA161221034232.pdf"
+      },
+      {
+        "title": "BArch III Semester CoA Scheme Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to5COA161221034211.pdf"
+      },
+      {
+        "title": "BArch II Semester CoA Scheme Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to5COA161221034152.pdf"
+      },
+      {
+        "title": "BArch X Semester CBGS Examination December 2021",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221034059.pdf"
+      },
+      {
+        "title": "BArch IX Semester CBGS Examination December 2021",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221034035.pdf"
+      },
+      {
+        "title": "BArch VIII Semester CBGS Examination December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221034013.pdf"
+      },
+      {
+        "title": "BArch VII Semester CBGS Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221033952.pdf"
+      },
+      {
+        "title": "BArch VI Semester CBGS Examination December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221033931.pdf"
+      },
+      {
+        "title": "BArch V Semester CBGS Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221033910.pdf"
+      },
+      {
+        "title": "BArch IV Semester CBGS Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221033850.pdf"
+      },
+      {
+        "title": "BArch III Semester CBGS Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221033826.pdf"
+      },
+      {
+        "title": "BArch II Semester CBGS Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch2to10CBGS161221033804.pdf"
+      }
+    ]
+  },
   { "programName": "M.E.", "programId": 6, "programDataList": [] },
   { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
   {
@@ -172,10 +242,160 @@
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
-  { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
-  { "programName": "MCA", "programId": 5, "programDataList": [] },
-  { "programName": "MCA Dual Degree", "programId": 23, "programDataList": [] },
-  { "programName": "MBA Integrated", "programId": 21, "programDataList": [] },
+  {
+    "programName": "MCA 2 Year",
+    "programId": 53,
+    "programDataList": [
+      {
+        "title": "MCA 2 Year III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year2to3161221033657.pdf"
+      },
+      {
+        "title": "MCA 2 Year II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year2to3161221033637.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "MCA",
+    "programId": 5,
+    "programDataList": [
+      {
+        "title": "MCA 3 Year VI Semester Examination December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033544.pdf"
+      },
+      {
+        "title": "MCA 3 Year V Semester Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033521.pdf"
+      },
+      {
+        "title": "MCA 3 Year IV Semester Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033500.pdf"
+      },
+      {
+        "title": "MCA 3 Year III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033438.pdf"
+      },
+      {
+        "title": "MCA 3 Year II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033416.pdf"
+      },
+      {
+        "title": "MCA 3 Year I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033356.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "MCA Dual Degree",
+    "programId": 23,
+    "programDataList": [
+      {
+        "title": "MCA Dual Degree X Semester Examination December 2021",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033227.pdf"
+      },
+      {
+        "title": "MCA Dual Degree IX Semester Examination December 2021",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033207.pdf"
+      },
+      {
+        "title": "MCA Dual Degree VIII Semester Examination December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033144.pdf"
+      },
+      {
+        "title": "MCA Dual Degree VII Semester Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033124.pdf"
+      },
+      {
+        "title": "MCA Dual Degree VI Semester Examination December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033105.pdf"
+      },
+      {
+        "title": "MCA Dual Degree V Semester Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033043.pdf"
+      },
+      {
+        "title": "MCA Dual Degree IV Semester Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033014.pdf"
+      },
+      {
+        "title": "MCA Dual Degree III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221032951.pdf"
+      },
+      {
+        "title": "MCA Dual Degree II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221032910.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "MBA Integrated",
+    "programId": 21,
+    "programDataList": [
+      {
+        "title": "MBA Integrated X Semester Examination December 2021",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032748.pdf"
+      },
+      {
+        "title": "MBA Integrated IX Semester Examination December 2021",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032726.pdf"
+      },
+      {
+        "title": "MBA Integrated VIII Semester Examination December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032658.pdf"
+      },
+      {
+        "title": "MBA Integrated VII Semester Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032638.pdf"
+      },
+      {
+        "title": "MBA Integrated VI Semester Examination December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032616.pdf"
+      },
+      {
+        "title": "MBA Integrated V Semester Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032556.pdf"
+      },
+      {
+        "title": "MBA Integrated IV Semester Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032533.pdf"
+      },
+      {
+        "title": "MBA Integrated III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032510.pdf"
+      },
+      {
+        "title": "MBA Integrated II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032342.pdf"
+      }
+    ]
+  },
   { "programName": "DDI-PG", "programId": 12, "programDataList": [] },
   { "programName": "Diploma", "programId": 3, "programDataList": [] },
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },

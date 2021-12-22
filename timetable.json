@@ -167,6 +167,51 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "BArch X Semester Grading Examination December 2021",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221014534.pdf"
+      },
+      {
+        "title": "BArch IX Semester Grading Examination December 2021",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221014514.pdf"
+      },
+      {
+        "title": "BArch VIII Semester Grading Examination December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221014434.pdf"
+      },
+      {
+        "title": "BArch VII Semester Grading Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221014412.pdf"
+      },
+      {
+        "title": "BArch VI Semester Grading Examination December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221014349.pdf"
+      },
+      {
+        "title": "BArch V Semester Grading Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221014327.pdf"
+      },
+      {
+        "title": "BArch IV Semester Grading Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221013806.pdf"
+      },
+      {
+        "title": "BArch II Semester Grading Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221013723.pdf"
+      },
+      {
+        "title": "BArch III Semester Grading Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchGS2to10221221013744.pdf"
+      },
+      {
         "title": "BArch X Semester CBGS Examination December 2021",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121810.pdf"
@@ -197,9 +242,9 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121417.pdf"
       },
       {
-        "title": "BArch IV Semester CBGS Examination December 2021",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121302.pdf"
+        "title": "BArch III Semester CBGS Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121247.pdf"
       },
       {
         "title": "BArch II Semester CBGS Examination December 2021",
@@ -207,9 +252,9 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121232.pdf"
       },
       {
-        "title": "BArch III Semester CBGS Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121247.pdf"
+        "title": "BArch IV Semester CBGS Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201221121302.pdf"
       },
       {
         "title": "BArch V Semester CoA Scheme Examination December 2021",

@@ -37,6 +37,11 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "BE V Semester CBGS Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEVCBGS271221124447.pdf"
+      },
+      {
         "title": "BE IV Semester CBCS Examination December 2021",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4CBCS151221051939.pdf"
@@ -55,11 +60,6 @@
         "title": "BE VI Semester CBGS Examination  December 2021",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE6CBGS151221051746.pdf"
-      },
-      {
-        "title": "BE V Semester CBGS Examination  December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE5CBGS151221051719.pdf"
       },
       {
         "title": "BE VI Semester CBGS Examination  December 2021",

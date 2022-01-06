@@ -278,14 +278,60 @@
       }
     ]
   },
-  { "programName": "M.E.", "programId": 6, "programDataList": [] },
-  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
+  {
+    "programName": "M.E.",
+    "programId": 6,
+    "programDataList": [
+      {
+        "title": "M.E./M.Tech III Semester Time Table December 2021 Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechIIIsem060122012034.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Tech.",
+    "programId": 8,
+    "programDataList": [
+      {
+        "title": "M.E./M.Tech III Semester Time Table December 2021 Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechIIIsem060122012552.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": []
+    "programDataList": [
+      {
+        "title": "M.Tech Part Time V Semester Time Table December 2021 Examination",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechPTIIItoVsem060122012713.pdf"
+      },
+      {
+        "title": "M.Tech Part Time Table IV Semester Time Table December 2021 Examination",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechPTIIItoVsem060122012359.pdf"
+      },
+      {
+        "title": "M.Tech Part Time Table III Semester Time Table December 2021 Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechPTIIItoVsem060122012640.pdf"
+      }
+    ]
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "M.Pharmacy III Semester Time Table December 2021 Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mpharmIIIsem060122012756.pdf"
+      }
+    ]
+  },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
   {
     "programName": "MCA 2 Year",

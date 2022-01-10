@@ -6,6 +6,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "BTech III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech3100122120526.pdf"
+      },
+      {
         "title": "BTech VIII Semester Examination  December 2021",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech8151221051140.pdf"
@@ -100,6 +105,11 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "BPharmacy III Semester CBGS Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPh3cbgs100122120807.pdf"
+      },
+      {
         "title": "BPharmacy PCI VII Semester Examination December 2021",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BphPCI5t08PCIscheme151221052153.pdf"
@@ -120,6 +130,16 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "BPharmacy IV Semester Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharma34gs100122120707.pdf"
+      },
+      {
+        "title": "BPharmacy III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharma34gs100122120640.pdf"
+      },
       {
         "title": "BPharmacy VIII Semester CBGS Examination December 2021",
         "semester": "8th Semester",

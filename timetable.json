@@ -42,6 +42,16 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "BE III Semester CBGS Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE3CBGS170122022838.pdf"
+      },
+      {
+        "title": "BE III Semester CBCS Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE3CBCS170122022815.pdf"
+      },
+      {
         "title": "BE VII Semester CBGS Examination December 2021",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BBEVIICBGS100122114130.pdf"

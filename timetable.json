@@ -115,9 +115,14 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "BPharmacy IV Semester CBGS Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPH_3_4_cbgs_pci210122041626.pdf"
+      },
+      {
         "title": "BPharmacy III Semester CBGS Examination December 2021",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPh3cbgs100122120807.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPH_3_4_cbgs_pci210122041601.pdf"
       },
       {
         "title": "BPharmacy PCI VII Semester Examination December 2021",
@@ -140,6 +145,16 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "BPharmacy IV Semester CBCS Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPH_3_4_cbcs210122041730.pdf"
+      },
+      {
+        "title": "BPharmacy III Semester CBCS Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPH_3_4_cbcs210122041708.pdf"
+      },
       {
         "title": "BPharmacy IV Semester Examination December 2021",
         "semester": "4th Semester",

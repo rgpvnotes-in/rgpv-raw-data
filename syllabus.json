@@ -2,7 +2,7 @@
   {
     "name": "MBA",
     "id": 4,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -34,7 +34,7 @@
   {
     "name": "M.Arch",
     "id": 22,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -71,7 +71,7 @@
   {
     "name": "B.Tech",
     "id": 24,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -658,7 +658,7 @@
   {
     "name": "BE",
     "id": 1,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -2165,7 +2165,7 @@
   {
     "name": "BE-PTDC",
     "id": 10,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -2262,7 +2262,7 @@
   {
     "name": "B.Tech.-PTDC",
     "id": 42,
-    "schemes": [
+    "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
@@ -2274,7 +2274,7 @@
   {
     "name": "B.Pharm.(PCI)",
     "id": 43,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -2331,7 +2331,7 @@
   {
     "name": "B.Pharm",
     "id": 2,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -2483,7 +2483,7 @@
   {
     "name": "B.Arch",
     "id": 11,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -2665,7 +2665,7 @@
   {
     "name": "M.E.",
     "id": 6,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -3017,7 +3017,7 @@
   {
     "name": "M.Tech.",
     "id": 8,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -3574,7 +3574,7 @@
   {
     "name": "M.Tech.(Part Time)",
     "id": 20,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -3661,7 +3661,7 @@
   {
     "name": "M.Pharm",
     "id": 7,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -3818,7 +3818,7 @@
   {
     "name": "M.Pharm. PCI",
     "id": 71,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -3935,7 +3935,7 @@
   {
     "name": "MCA 2 Year",
     "id": 53,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -3972,7 +3972,7 @@
   {
     "name": "MCA",
     "id": 5,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -4024,7 +4024,7 @@
   {
     "name": "MCA Dual Degree",
     "id": 23,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -4081,7 +4081,7 @@
   {
     "name": "MBA Integrated",
     "id": 21,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,
@@ -4138,7 +4138,7 @@
   {
     "name": "DDI-PG",
     "id": 12,
-    "schemes": [
+    "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
@@ -4150,7 +4150,7 @@
   {
     "name": "Diploma",
     "id": 3,
-    "schemes": [
+    "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
@@ -4162,7 +4162,7 @@
   {
     "name": "Ph.D.",
     "id": 44,
-    "schemes": [
+    "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
@@ -4174,7 +4174,7 @@
   {
     "name": "Ph.D. Entrance",
     "id": 52,
-    "schemes": [
+    "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
@@ -4186,7 +4186,7 @@
   {
     "name": "PGCPMB",
     "id": 45,
-    "schemes": [
+    "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
@@ -4198,7 +4198,7 @@
   {
     "name": "Pharm D.",
     "id": 51,
-    "schemes": [
+    "syllabus": [
       {
         "name": "Grading System",
         "id": 1,

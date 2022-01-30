@@ -1,0 +1,180 @@
+# This workflow download and publish latest data from RGPV API
+
+name: compile-latest-data
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '*/40 * * * *' # every 40 minutes
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  compiling-timetable-file:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: setup-node
+        uses: actions/setup-node@master
+
+      - name: installing dependencies
+        run: |
+          npm install
+
+      - name: compiling timetable file
+        run: |
+          node get_timetable_data.js
+
+      - name: cache timetable file
+        uses: actions/cache@v2
+        env:
+          cache-name: timetable-file
+        with:
+          path: ./dist/timetable.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+  compiling-syllabus-file:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: setup-node
+        uses: actions/setup-node@master
+
+      - name: installing dependencies
+        run: |
+          npm install
+
+      - name: compiling syllabus file
+        run: |
+          node get_syllabus_data.js
+
+      - name: cache syllabus file
+        uses: actions/cache@v2
+        env:
+          cache-name: syllabus-file
+        with:
+          path: ./dist/syllabus.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+  compiling-scheme-file:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: setup-node
+        uses: actions/setup-node@master
+
+      - name: installing dependencies
+        run: |
+          npm install
+
+      - name: compiling scheme file
+        run: |
+          node get_scheme_data.js
+
+      - name: cache scheme file
+        uses: actions/cache@v2
+        env:
+          cache-name: scheme-file
+        with:
+          path: ./dist/scheme.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+  compiling-info-file:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: setup-node
+        uses: actions/setup-node@master
+
+      - name: installing dependencies
+        run: |
+          npm install
+
+      - name: compiling info file
+        run: |
+          node get_info_data.js
+
+      - name: cache info file
+        uses: actions/cache@v2
+        env:
+          cache-name: info-file
+        with:
+          path: ./dist/info.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+  prettify-and-deploy:
+    needs:
+      [
+        compiling-timetable-file,
+        compiling-syllabus-file,
+        compiling-scheme-file,
+        compiling-info-file,
+      ]
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: setup-node
+        uses: actions/setup-node@master
+
+      - name: restore timetable file
+        uses: actions/cache@v2
+        env:
+          cache-name: timetable-file
+        with:
+          path: ./dist/timetable.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+      - name: restore syllabus file
+        uses: actions/cache@v2
+        env:
+          cache-name: syllabus-file
+        with:
+          path: ./dist/syllabus.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+      - name: restore scheme file
+        uses: actions/cache@v2
+        env:
+          cache-name: scheme-file
+        with:
+          path: ./dist/scheme.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+      - name: restore info file
+        uses: actions/cache@v2
+        env:
+          cache-name: info-file
+        with:
+          path: ./dist/info.json
+          key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
+
+      - name: prettify files in dist folder
+        run: |
+          npm i prettier -g
+          prettier --write "dist/**/*"
+          cd dist
+          ls -a
+
+      - name: Deploying on github pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: publish # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
+          git-config-email: '61523512+AadityaJain-Dev@users.noreply.github.com'
+          git-config-name: 'Aditya Jain - www.aadityajain.dev'

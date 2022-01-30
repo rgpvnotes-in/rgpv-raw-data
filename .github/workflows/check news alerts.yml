@@ -1,0 +1,45 @@
+# This workflow download and publish latest data from RGPV API
+
+name: compile-latest-news-data
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '*/5 * * * *' # every 5 minutes
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  compiling-news-live-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: setup-node
+        uses: actions/setup-node@master
+
+      - name: create .env file
+        run: |
+          touch .env
+          echo SPREADSHEET_ID = ${{ secrets.SPREADSHEET_ID }} >> .env
+          echo POST_ALL_NEWS_URL = ${{ secrets.POST_ALL_NEWS_URL }} >> .env
+          echo POST_RECENT_NEWS_URL = ${{ secrets.POST_RECENT_NEWS_URL }} >> .env
+          echo POST_NEWS_PASSWORD = ${{ secrets.POST_NEWS_PASSWORD }} >> .env
+          echo SHORT_URL_GENERATOR_URL = ${{ secrets.SHORT_URL_GENERATOR_URL }} >> .env
+          echo SHORT_URL_PASSWORD = ${{ secrets.SHORT_URL_PASSWORD }} >> .env
+
+      - name: create credentials.json
+        run: |
+          touch credentials.json
+          echo ${{ secrets.SHEET_CREDENTIALS }} >> credentials.json
+
+      - name: installing dependencies
+        run: |
+          npm install
+
+      - name: check news alerts
+        run: |
+          node write_news_alerts.js

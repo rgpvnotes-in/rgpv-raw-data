@@ -1,0 +1,28 @@
+{
+  "name": "rgpv-raw-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get_TT_data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgpvnotes-in/rgpv-raw-data.git"
+  },
+  "keywords": [],
+  "author": "Aditya Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgpvnotes-in/rgpv-raw-data/issues"
+  },
+  "homepage": "https://github.com/rgpvnotes-in/rgpv-raw-data#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "googleapis": "^89.0.0",
+    "md5": "^2.3.0"
+  }
+}

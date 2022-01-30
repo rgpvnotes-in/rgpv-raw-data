@@ -1,0 +1,906 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is an RGPV notes API server. Documentation by Manali Sethi. APIs by Aditya Jain",
+    "version": "1.0.0",
+    "title": "RGPV Notes Public API Swagger Documention",
+    "termsOfService": "https://www.rgpvnotes.in/terms/",
+    "contact": {
+      "email": "apiteam@rgpvnotes.in"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "api.rgpvnotes.in",
+  "tags": [
+    {
+      "name": "Info",
+      "description": "Information of all the parameters to be used in other APIs."
+    },
+    {
+      "name": "News",
+      "description": "Latest news alerts by RGPV university."
+    },
+    {
+      "name": "Syllabus",
+      "description": "Latest syllabus of all the subjects for all the registered programs."
+    },
+    {
+      "name": "Scheme",
+      "description": "Latest scheme of all the subjects for all the registered programs."
+    },
+    {
+      "name": "Time Table",
+      "description": "Latest exam timetable for all the RGPV affiliated colleges."
+    }
+  ],
+  "schemes": ["https"],
+  "paths": {
+    "/info": {
+      "get": {
+        "tags": ["Info"],
+        "summary": "Parameter information to be used with other API's",
+        "description": "Parameter information to be used with other API's.",
+        "operationId": "information",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/NewsApiResponse"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value"
+          }
+        }
+      }
+    },
+    "/news": {
+      "get": {
+        "tags": ["News"],
+        "summary": "Get last 100 RGPV news alerts",
+        "description": "Find last 100 news alerts from RGPV university.",
+        "operationId": "newsAll",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/NewsApiResponse"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value"
+          }
+        }
+      }
+    },
+    "/news/recent": {
+      "get": {
+        "tags": ["News"],
+        "summary": "Find latest alerts from RGPV.",
+        "description": "Find latest news alerts from RGPV.",
+        "operationId": "newsRecent",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/NewsApiResentResponse"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value"
+          }
+        }
+      }
+    },
+    "/syllabus": {
+      "get": {
+        "tags": ["Syllabus"],
+        "summary": "List of all the syllabus.",
+        "description": "List of all the syllabus.",
+        "operationId": "syllabusAll",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "items": {
+                "$ref": "#/definitions/SyllabusResponse"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/syllabus/program/{programId}": {
+      "get": {
+        "tags": ["Syllabus"],
+        "summary": "List of all syllabus by program id.",
+        "description": "List of all syllabus by program id.",
+        "operationId": "syllabusByProgramId",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/syllabusProgramId"
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "No Data found"
+          }
+        }
+      }
+    },
+    "/syllabus/program/{programId}/system/{systemId}": {
+      "get": {
+        "tags": ["Syllabus"],
+        "summary": "List of all syllabus by program id and system id.",
+        "description": "List of all syllabus by program id and system id.",
+        "operationId": "syllabusByProgramIdSystemId",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          },
+          {
+            "name": "systemId",
+            "in": "path",
+            "description": "ID of system that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/syllabusProgramId"
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "No Data found"
+          }
+        }
+      }
+    },
+    "/syllabus/program/{programId}/system/{systemId}/semester/{semesterId}": {
+      "get": {
+        "tags": ["Syllabus"],
+        "summary": "List of all syllabus by program id, system id and semester id.",
+        "description": "List of all syllabus by program id, system id and semester id.",
+        "operationId": "syllabusByProgramIdSystemIdSemesterId",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          },
+          {
+            "name": "systemId",
+            "in": "path",
+            "description": "ID of system that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          },
+          {
+            "name": "semesterId",
+            "in": "path",
+            "description": "ID of semester that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/SyllabusProgramIdSemesterId"
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "No Record found"
+          }
+        }
+      }
+    },
+    "/scheme": {
+      "get": {
+        "tags": ["Scheme"],
+        "summary": "Scheme of the RGPV ",
+        "description": "Scheme of the RGPV",
+        "operationId": "schemeAll",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/Scheme"
+            }
+          }
+        }
+      }
+    },
+    "/scheme/program/{programId}": {
+      "get": {
+        "tags": ["Scheme"],
+        "summary": "Scheme program by program Id",
+        "description": "Scheme program by program Id",
+        "operationId": "schemeByProgramId",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/SchemeProgramId"
+            }
+          }
+        }
+      }
+    },
+    "/scheme/program/{programId}/system/{systemId}": {
+      "get": {
+        "tags": ["Scheme"],
+        "summary": "Scheme by program Id and system id",
+        "description": "Scheme by program Id and system id",
+        "operationId": "schemeByProgramIdSystemId",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          },
+          {
+            "name": "systemId",
+            "in": "path",
+            "description": "ID of system that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/SchemeProgramIdSystemId"
+            }
+          }
+        }
+      }
+    },
+    "/scheme/program/{programId}/system/{systemId}/semester/{semesterId}": {
+      "get": {
+        "tags": ["Scheme"],
+        "summary": "Scheme program by program Id, system id and semester id",
+        "description": "Scheme program by program Id, system id and semester id",
+        "operationId": "schemeByProgramIdSystemIdSemesterId",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          },
+          {
+            "name": "systemId",
+            "in": "path",
+            "description": "ID of system that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          },
+          {
+            "name": "semesterId",
+            "in": "path",
+            "description": "ID of semester that needs to be fetched",
+            "required": true,
+            "type": "integer",
+            "maximum": 100,
+            "minimum": 1,
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/SyllabusProgramIdSemesterId"
+            }
+          }
+        }
+      }
+    },
+    "/timetable": {
+      "get": {
+        "tags": ["Time Table"],
+        "summary": "Get timetable of all programs and semsters",
+        "description": "Get timetable of all programs and semsters",
+        "operationId": "timetableAll",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/TimeTable"
+            }
+          }
+        }
+      }
+    },
+    "/timetable/program/{programId}": {
+      "get": {
+        "tags": ["Time Table"],
+        "summary": "Get timetable of any specific program",
+        "description": "Get timetable of any specific program",
+        "operationId": "timetableByProgramId",
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "ID of program that needs to be fetched",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/timeTableProgramId"
+            }
+          }
+        }
+      }
+    },
+    "/timetable/program/{programId}/semester/{semesterId}": {
+      "get": {
+        "tags": ["Time Table"],
+        "summary": "Get timetable of any specific program and specific semester",
+        "description": "Get timetable of any specific program and specific semester",
+        "operationId": "timetableByProgramIdSemesterId",
+        "parameters": [
+          {
+            "name": "programId",
+            "in": "path",
+            "description": "Program Id should be the name of the course  ",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "semesterId",
+            "in": "path",
+            "description": "Semester ID should be the identification of the trip ",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/timeTableProgramIdSemesterId"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Category"
+      }
+    },
+    "Scheme": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "id": {
+          "type": "string"
+        },
+        "program": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "id": {
+              "type": "string"
+            },
+            "syllabus": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "integer",
+                  "format": "int64"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "semester": {
+                      "type": "integer",
+                      "format": "int64"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "xml": {
+        "name": "Scheme"
+      }
+    },
+    "Tag": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Tag"
+      }
+    },
+    "News": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "category": {
+          "$ref": "#/definitions/Category"
+        },
+        "name": {
+          "type": "string",
+          "example": "doggie"
+        },
+        "photoUrls": {
+          "type": "array",
+          "xml": {
+            "name": "photoUrl",
+            "wrapped": true
+          },
+          "items": {
+            "type": "string"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "xml": {
+            "name": "tag",
+            "wrapped": true
+          },
+          "items": {
+            "$ref": "#/definitions/Tag"
+          }
+        },
+        "status": {
+          "type": "string",
+          "description": "News status in the Syllabus",
+          "enum": ["available", "pending", "sold"]
+        }
+      },
+      "xml": {
+        "name": "News"
+      }
+    },
+    "ApiResponse": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "type": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+    "NewsApiResponse": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "NewsApiResentResponse": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "SyllabusResponse": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "program": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "syllabus": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "semester": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "syllabusProgramId": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "syllabus": {
+          "type": "",
+          "description": "News status in the Syllabus",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "data": {
+              "type": "object",
+              "properties": {
+                "semester": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "syllabusProgramIdSystemId": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "semester": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "TimeTable": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "programName": {
+              "type": "string"
+            },
+            "programId": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "programDataList": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "timeTableProgramId": {
+      "type": "object",
+      "properties": {
+        "programName": {
+          "type": "string"
+        },
+        "programId": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "programDataList": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "semester": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "timeTableProgramIdSemesterId": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "semester": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "SchemeProgramId": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "schemes": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "data": {
+              "type": "object",
+              "properties": {
+                "semester": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SchemeProgramIdSystemId": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "system": {
+              "type": "string"
+            },
+            "title": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "SyllabusProgramIdSemesterId": {
+      "type": "object",
+      "properties": {
+        "semester": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -108,8 +108,38 @@
       }
     ]
   },
-  { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
-  { "programName": "B.Tech.-PTDC", "programId": 42, "programDataList": [] },
+  {
+    "programName": "BE-PTDC",
+    "programId": 10,
+    "programDataList": [
+      {
+        "title": "BE PTDC VII Semester Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_PTDC030222014949.pdf"
+      },
+      {
+        "title": "BE PTDC V Semester Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_PTDC030222014923.pdf"
+      },
+      {
+        "title": "BE PTDC III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_PTDC030222014849.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "B.Tech.-PTDC",
+    "programId": 42,
+    "programDataList": [
+      {
+        "title": "B Tech PTDC III Semester Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_PTDC030222015025.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
@@ -537,5 +567,20 @@
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
   { "programName": "PGCPMB", "programId": 45, "programDataList": [] },
-  { "programName": "Pharm D.", "programId": 51, "programDataList": [] }
+  {
+    "programName": "Pharm D.",
+    "programId": 51,
+    "programDataList": [
+      {
+        "title": "Pharm.D. III Year Supplementary Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharm_D030222014753.pdf"
+      },
+      {
+        "title": "Pharm.D. II Year Supplementary Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharm_D030222014715.pdf"
+      }
+    ]
+  }
 ]

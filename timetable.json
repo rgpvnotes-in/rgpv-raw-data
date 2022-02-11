@@ -1,5 +1,15 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "MBA I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I110222065724.pdf"
+      }
+    ]
+  },
   { "programName": "M.Arch", "programId": 22, "programDataList": [] },
   {
     "programName": "B.Tech",
@@ -393,6 +403,16 @@
     "programId": 6,
     "programDataList": [
       {
+        "title": "M.E./M.Tech II Semester Time Table December 2021 Examination",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_II110222071106.pdf"
+      },
+      {
+        "title": "M.E./M.Tech I Semester Time Table December 2021 Examination",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_I110222070723.pdf"
+      },
+      {
         "title": "M.E./M.Tech III Semester Time Table December 2021 Examination",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechIIIsem060122012034.pdf"
@@ -404,6 +424,16 @@
     "programId": 8,
     "programDataList": [
       {
+        "title": "M.E./M.Tech II Semester Time Table December 2021 Examination",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_II110222071001.pdf"
+      },
+      {
+        "title": "M.E./M.Tech I Semester Time Table December 2021 Examination",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_I110222070846.pdf"
+      },
+      {
         "title": "M.E./M.Tech III Semester Time Table December 2021 Examination",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechIIIsem060122012552.pdf"
@@ -414,6 +444,16 @@
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
     "programDataList": [
+      {
+        "title": "M.Tech Part Time Table II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_PTDC_I_II110222070220.pdf"
+      },
+      {
+        "title": "M.Tech Part Time Table I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_PTDC_I_II110222070126.pdf"
+      },
       {
         "title": "M.Tech Part Time V Semester Time Table December 2021 Examination",
         "semester": "5th Semester",
@@ -436,6 +476,16 @@
     "programId": 7,
     "programDataList": [
       {
+        "title": "M.Pharmacy II Semester Time Table December 2021 Examination",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharm_II110222070504.pdf"
+      },
+      {
+        "title": "M.Pharmacy I Semester Time Table December 2021 Examination",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharm_I110222070406.pdf"
+      },
+      {
         "title": "M.Pharmacy III Semester Time Table December 2021 Examination",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mpharmIIIsem060122012756.pdf"
@@ -447,6 +497,11 @@
     "programName": "MCA 2 Year",
     "programId": 53,
     "programDataList": [
+      {
+        "title": "MCA 2 Year I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Yr_I110222065900.pdf"
+      },
       {
         "title": "MCA 2 Year III Semester Examination December 2021",
         "semester": "3rd Semester",

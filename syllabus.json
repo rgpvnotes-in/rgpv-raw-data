@@ -1737,11 +1737,7 @@
             "title": "B.E. Electrical Engineering New CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem EE _SY_050817125452.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "B.E. EI New CBGS 2017",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem EI _SY_050817125514.pdf"
-          },
+          { "semester": "3rd Semester", "title": "B.E. EI New CBGS 2017" },
           {
             "semester": "3rd Semester",
             "title": "B.E. EX New CBGS 2017",
@@ -2680,8 +2676,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.Arch As per COA VI Semester Syllabus",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BArchVI_Sem_Sy070721114901.pdf"
+            "title": "B.Arch As per COA VI Semester Syllabus"
           }
         ]
       }

@@ -16,6 +16,36 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "B.Tech. I and II Semester CBGS Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CBGS130222084148.pdf"
+      },
+      {
+        "title": "B.Tech. I and II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II130222084112.pdf"
+      },
+      {
+        "title": "B.Tech. CSBS I and II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CSBS130222084045.pdf"
+      },
+      {
+        "title": "B.Tech. CSBS I and II Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CSBS130222084008.pdf"
+      },
+      {
+        "title": "B.Tech. I and II Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II130222083806.pdf"
+      },
+      {
+        "title": "B.Tech. I and II Semester CBGS Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CBGS130222083724.pdf"
+      },
+      {
         "title": "Special Examination BTech VIII Semester Examination December 2021",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_VIII110222065246.pdf"
@@ -34,16 +64,6 @@
         "title": "Special Examination BTech V Semester Examination December 2021",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_V110222065023.pdf"
-      },
-      {
-        "title": "BTech III Semester Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech3170122014828.pdf"
-      },
-      {
-        "title": "BTech IV Semester Examination  December 2021",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech4151221051000.pdf"
       }
     ]
   },

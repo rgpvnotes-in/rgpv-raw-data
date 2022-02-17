@@ -102,6 +102,26 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "Special Examination BE V Semester December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/SEBEVGr170222095701.pdf"
+      },
+      {
+        "title": "Special Examination BE VII Semester December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/SEBEVIIGr170222095608.pdf"
+      },
+      {
+        "title": "Special Examination BE VIII Semester December 2021",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/SEBEVIIIGr170222095544.pdf"
+      },
+      {
+        "title": "Special Examination BE VI Semester December 2021",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/SEBEVIGr170222095858.pdf"
+      },
+      {
         "title": "Special Examination BE VIII Semester CBGS Examination December 2021",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_CBGS_VIII110222064603.pdf"
@@ -140,31 +160,6 @@
         "title": "BE VI Semester CBGS Examination  December 2021",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4CBGS151221051654.pdf"
-      },
-      {
-        "title": "BE VIII Semester Examination  December 2021",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE8Grading151221051532.pdf"
-      },
-      {
-        "title": "BE VII Semester Examination  December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE7Grading151221051508.pdf"
-      },
-      {
-        "title": "BE VI Semester Examination  December 2021",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE6Grading151221051446.pdf"
-      },
-      {
-        "title": "BE V Semester Examination  December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE5Grading151221051423.pdf"
-      },
-      {
-        "title": "BE IV Semester Examination  December 2021",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4Grading151221051315.pdf"
       }
     ]
   },

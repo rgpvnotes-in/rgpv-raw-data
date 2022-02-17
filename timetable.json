@@ -15,7 +15,17 @@
       }
     ]
   },
-  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
+  {
+    "programName": "M.Arch",
+    "programId": 22,
+    "programDataList": [
+      {
+        "title": "M Arch I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MArch170222024939.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Tech",
     "programId": 24,

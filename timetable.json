@@ -195,14 +195,14 @@
     "programId": 43,
     "programDataList": [
       {
-        "title": "BPharmacy PCI II Semester  CBGS Examination December 2021",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharm_PCI_I_II110222064043.pdf"
+        "title": "Revised B Pharmacy PCI I Semester  CBGS Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Rev_BPharm_PCI_I_II170222113813.pdf"
       },
       {
-        "title": "BPharmacy PCI I Semester  CBGS Examination December 2021",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharm_PCI_I_II110222063927.pdf"
+        "title": "Revised B Pharmacy PCI II Semester  CBGS Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Rev_BPharm_PCI_I_II170222113708.pdf"
       },
       {
         "title": "BPharmacy IV Semester CBGS Examination December 2021",
@@ -512,7 +512,17 @@
       }
     ]
   },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "M Pharmacy PCI I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharm_PCI_I170222114108.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,

@@ -4,14 +4,14 @@
     "programId": 4,
     "programDataList": [
       {
+        "title": "MBA I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I210222124722.pdf"
+      },
+      {
         "title": "MBA III Semester December 2021 Examination",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBAIII170222124855.pdf"
-      },
-      {
-        "title": "MBA I Semester Examination December 2021",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I110222065724.pdf"
       }
     ]
   },

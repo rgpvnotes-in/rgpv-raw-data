@@ -4192,7 +4192,212 @@
     "name": "M.Pharm",
     "id": 7,
     "schemes": [
-      { "name": "Grading System", "id": 1 },
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "M.Pharm (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I MPharm190511051222.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II PMRA280511033040.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Drug Regulatory Affairs (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II DRA270511051219.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutical Chemistry (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II  Pharma. Chem270511051838.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutical Biotechnology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II PH Biotech280511032843.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutical Analysis (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmal Analysis280511020835.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Quality Assurance (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Quality Assurance280511033127.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutics (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmaceutics280511032920.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmacognosy (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacognosy280511032944.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmacology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacology280511033009.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Scheme for Industrial Pharmacy (IP)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Industrial Pharmacy290613042358.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Scheme for Pharmaceutical Technology (PTch)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharm Technology290613042624.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Scheme for Pharmaceutical Marketing (PM)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharm Marketing290613042855.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Scheme for Pharmacy Practice(PP)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacy Practice130913121436.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Analysis ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmaceutical Analysis)081012052817.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Chemistry ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmaceutical Chemistry)081012052849.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutics (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmaceutics)081012052935.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmacognosy (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmacognosy)081012053012.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmacology (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmacology)081012053050.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Quality Assurance ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Quality Assurance)081012053121.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Biotechnology (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmaceutical Biotech) 081012053218.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Drug Regulatory Affairs ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(DRA)081012053254.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "PMRA (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(PMRA)081012053325.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Industrial Pharmacy(Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Industrial Pharmacy201213050142.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Marketing (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Pharmaceutical Marketing201213050316.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Technology (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Pharmaceutical Technology201213050428.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmacy Practice (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Pharmacy Practice201213050533.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmaceutical Analysis ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharm. Analysis230911060255.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmaceutical Chemistry ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Ph. Chemistry230911060318.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmaceutics (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmaceutics230911060338.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmacognosy (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmacognosy230911060404.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmacology (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmacology230911060426.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Quality Assurance ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Quality Assurance230911060456.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmaceutical Biotechnology (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Biotech230911060517.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Drug Regulatory Affairs ( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV DRA230911060541.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "PMRA (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV PMRA230911060605.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmaceutical Marketing (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmaceutical Marketing201213050726.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Industrial Pharmacy (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Industrial Pharmacy201213050813.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmaceutical Technology (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmaceutical Technology201213050910.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Pharmacy Practice (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmacy Practice201213050959.pdf"
+          }
+        ]
+      },
       {
         "name": "Non Grading System",
         "id": 2,

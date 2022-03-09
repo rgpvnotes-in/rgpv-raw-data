@@ -1558,79 +1558,55 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "B.E. CBCS for 2015 and 2016 Admitted Students",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus020419125006.pdf"
+            "title": "B.E. CBCS for 2015 and 2016 Admitted Students"
           },
           {
             "semester": "2nd Semester",
-            "title": "B.E. CBCS for 2015 and 2016 Admitted Students",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus020419125048.pdf"
+            "title": "B.E. CBCS for 2015 and 2016 Admitted Students"
           },
           {
             "semester": "3rd Semester",
-            "title": "Automobile Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/au051016033320.pdf"
+            "title": "Automobile Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Biomedical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/bm051016032548.pdf"
+            "title": "Biomedical Engineering CBCS"
+          },
+          { "semester": "3rd Semester", "title": "Chemical Engineering CBCS" },
+          { "semester": "3rd Semester", "title": "Civil Engineering CBCS" },
+          {
+            "semester": "3rd Semester",
+            "title": "Computer Science and Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Chemical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/cm051016032651.pdf"
+            "title": "Electronics and Communication Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "Civil Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ce051016033210.pdf"
+            "title": "Mechanical Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Computer Science and Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/cs051016032920.pdf"
+            "title": "Electrical Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Electronics and Communication Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ece051016032628.pdf"
+            "title": "Electronics and Instrumentation Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Mechanical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/me051016032845.pdf"
+            "title": "Electrical and Electronics Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Electrical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ee051016032808.pdf"
+            "title": "Industrial Production Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
-            "title": "Electronics and Instrumentation Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ei051016032948.pdf"
+            "title": "Information Technology CBCS"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "Electrical and Electronics Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ex051016033144.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Industrial Production Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ipe051016033235.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Information Technology CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/it3sy191016040036.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Textile Technology CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/tx051016033042.pdf"
-          },
+          { "semester": "3rd Semester", "title": "Textile Technology CBCS" },
           {
             "semester": "3rd Semester",
             "title": "Mining Engineering CBCS",

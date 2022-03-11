@@ -503,6 +503,11 @@
     "programId": 6,
     "programDataList": [
       {
+        "title": "M.E./M.Tech III Semester Time Table December 2021 Special Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_M Tech III Sem  SPE110322045537.pdf"
+      },
+      {
         "title": "M.E./M.Tech II Semester Time Table December 2021 Examination",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_II110222071106.pdf"
@@ -511,11 +516,6 @@
         "title": "M.E./M.Tech I Semester Time Table December 2021 Examination",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_I110222070723.pdf"
-      },
-      {
-        "title": "M.E./M.Tech III Semester Time Table December 2021 Examination",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechIIIsem060122012034.pdf"
       }
     ]
   },
@@ -523,6 +523,11 @@
     "programName": "M.Tech.",
     "programId": 8,
     "programDataList": [
+      {
+        "title": "M.E./M.Tech III Semester Time Table December 2021 Special Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_M Tech III Sem  SPE110322045626.pdf"
+      },
       {
         "title": "M.E./M.Tech II Semester Time Table December 2021 Examination",
         "semester": "2nd Semester",
@@ -532,11 +537,6 @@
         "title": "M.E./M.Tech I Semester Time Table December 2021 Examination",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech_I110222070846.pdf"
-      },
-      {
-        "title": "M.E./M.Tech III Semester Time Table December 2021 Examination",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mtechIIIsem060122012552.pdf"
       }
     ]
   },
@@ -576,6 +576,11 @@
     "programId": 7,
     "programDataList": [
       {
+        "title": "M.Pharmacy III Semester Time Table December 2021 Special Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharmaIII Sem All SPE110322045709.pdf"
+      },
+      {
         "title": "M.Pharmacy II Semester Time Table December 2021 Examination",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharm_II110222070504.pdf"
@@ -584,11 +589,6 @@
         "title": "M.Pharmacy I Semester Time Table December 2021 Examination",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharm_I110222070406.pdf"
-      },
-      {
-        "title": "M.Pharmacy III Semester Time Table December 2021 Examination",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/mpharmIIIsem060122012756.pdf"
       }
     ]
   },
@@ -608,6 +608,11 @@
     "programId": 53,
     "programDataList": [
       {
+        "title": "MCA 2 Year II Semester Special Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year II Sem SPE110322045017.pdf"
+      },
+      {
         "title": "MCA 2 Year III Semester Special Examination December 2021",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2 Year III Sem SPE110322044927.pdf"
@@ -616,11 +621,6 @@
         "title": "MCA 2 Year I Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Yr_I110222065900.pdf"
-      },
-      {
-        "title": "MCA 2 Year II Semester Examination December 2021",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year2to3161221033637.pdf"
       }
     ]
   },
@@ -629,24 +629,24 @@
     "programId": 5,
     "programDataList": [
       {
+        "title": "MCA 3 Year III Semester Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 3 Year  III_ V Sem SPE110322045114.pdf"
+      },
+      {
+        "title": "MCA 3 Year V Semester Special Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 3 Year  III_ V Sem SPE110322045205.pdf"
+      },
+      {
         "title": "MCA 3 Year VI Semester Examination December 2021",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033544.pdf"
       },
       {
-        "title": "MCA 3 Year V Semester Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033521.pdf"
-      },
-      {
         "title": "MCA 3 Year IV Semester Examination December 2021",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033500.pdf"
-      },
-      {
-        "title": "MCA 3 Year III Semester Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033438.pdf"
       },
       {
         "title": "MCA 3 Year II Semester Examination December 2021",
@@ -664,6 +664,16 @@
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "MCA Dual Degree V Semester Special Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA Int V  VII Sem SPE110322045417.pdf"
+      },
+      {
+        "title": "MCA Dual Degree VII Semester Special Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA Int V  VII Sem SPE110322045440.pdf"
+      },
       {
         "title": "MCA Dual Degree I Semester Examination December 2021",
         "semester": "1st Semester",
@@ -685,19 +695,9 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033144.pdf"
       },
       {
-        "title": "MCA Dual Degree VII Semester Examination December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033124.pdf"
-      },
-      {
         "title": "MCA Dual Degree VI Semester Examination December 2021",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033105.pdf"
-      },
-      {
-        "title": "MCA Dual Degree V Semester Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033043.pdf"
       },
       {
         "title": "MCA Dual Degree IV Semester Examination December 2021",

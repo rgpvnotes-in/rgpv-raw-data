@@ -4,9 +4,19 @@
     "programId": 4,
     "programDataList": [
       {
-        "title": "MBA I Semester Examination December 2021",
+        "title": "MBA Pharmaceutical Management I Semester Examination Dec 2021",
         "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I210222124722.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM I sem110322042943.pdf"
+      },
+      {
+        "title": "MBA Marketing Management I Semester Examination Dec 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA MM I sem110322042856.pdf"
+      },
+      {
+        "title": "MBA Financial Administrator I Semester Examination Dec 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA I sem110322042754.pdf"
       },
       {
         "title": "MBA III Semester December 2021 Examination",
@@ -46,14 +56,24 @@
     "programId": 24,
     "programDataList": [
       {
-        "title": "B.Tech. I and II Semester Examination December 2021",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II210222125153.pdf"
+        "title": "BTech IV Semester Special Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechIV Sem All  SPE110322044512.pdf"
+      },
+      {
+        "title": "BTech III Semester Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechIIISem All SPE110322044426.pdf"
       },
       {
         "title": "B.Tech. I and II Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II210222125139.pdf"
+      },
+      {
+        "title": "B.Tech. I and II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II210222125153.pdf"
       },
       {
         "title": "B.Tech. I and II Semester CSBS Examination December 2021",
@@ -102,6 +122,26 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "BE III Semester Grading Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEIIIsem CE SPE Grading110322043838.pdf"
+      },
+      {
+        "title": "BE III Semester CBGS Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEIIIsemECSPECBGS110322044008.pdf"
+      },
+      {
+        "title": "BE IV Semester Grading Special Examination  December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEIV sem CESPEGrading110322044148.pdf"
+      },
+      {
+        "title": "BE VI Semester CBGS Special Examination  December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEIV emCECS EX SPE CBGS110322044059.pdf"
+      },
+      {
         "title": "Special Examination BE V Semester December 2021",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/SEBEVGr170222095701.pdf"
@@ -147,19 +187,9 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BECBCSIII180122110402.pdf"
       },
       {
-        "title": "BE III Semester CBGS Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE3CBGS170122022838.pdf"
-      },
-      {
         "title": "BE IV Semester CBCS Examination December 2021",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4CBCS151221051939.pdf"
-      },
-      {
-        "title": "BE VI Semester CBGS Examination  December 2021",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE4CBGS151221051654.pdf"
       }
     ]
   },
@@ -220,6 +250,16 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "BPharmacy III Semester CBGS Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyIIISemCBGSPCI SPE110322044302.pdf"
+      },
+      {
+        "title": "BPharmacy IV Semester CBGS Special Examination December 2021",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharmacy IV SemCBGS_PCI SPE110322043503.pdf"
+      },
+      {
         "title": "Special Examination BPharmacy PCI VII Semester December 2021",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmPCI_VII210222010512.pdf"
@@ -243,16 +283,6 @@
         "title": "Revised B Pharmacy PCI II Semester  CBGS Examination December 2021",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Rev_BPharm_PCI_I_II170222113708.pdf"
-      },
-      {
-        "title": "BPharmacy IV Semester CBGS Examination December 2021",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPH_3_4_cbgs_pci210122041626.pdf"
-      },
-      {
-        "title": "BPharmacy III Semester CBGS Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPH_3_4_cbgs_pci210122041601.pdf"
       },
       {
         "title": "BPharmacy PCI VII Semester Examination December 2021",
@@ -578,14 +608,14 @@
     "programId": 53,
     "programDataList": [
       {
+        "title": "MCA 2 Year III Semester Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2 Year III Sem SPE110322044927.pdf"
+      },
+      {
         "title": "MCA 2 Year I Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Yr_I110222065900.pdf"
-      },
-      {
-        "title": "MCA 2 Year III Semester Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year2to3161221033657.pdf"
       },
       {
         "title": "MCA 2 Year II Semester Examination December 2021",
@@ -691,6 +721,21 @@
     "programId": 21,
     "programDataList": [
       {
+        "title": "MBA Integrated III Semester Special Examination December 2021",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM_DD _MBA Int III_V_ VII110322044716.pdf"
+      },
+      {
+        "title": "MBA Integrated V Semester Special Examination December 2021",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM_DD _MBA Int III_V_ VII110322044743.pdf"
+      },
+      {
+        "title": "MBA Integrated VII Semester Special Examination December 2021",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM_DD _MBA Int III_V_ VII110322044813.pdf"
+      },
+      {
         "title": "MBA Integrated I Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/IMBA_I110222065420.pdf"
@@ -711,29 +756,14 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032658.pdf"
       },
       {
-        "title": "MBA Integrated VII Semester Examination December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032638.pdf"
-      },
-      {
         "title": "MBA Integrated VI Semester Examination December 2021",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032616.pdf"
       },
       {
-        "title": "MBA Integrated V Semester Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032556.pdf"
-      },
-      {
         "title": "MBA Integrated IV Semester Examination December 2021",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032533.pdf"
-      },
-      {
-        "title": "MBA Integrated III Semester Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032510.pdf"
       },
       {
         "title": "MBA Integrated II Semester Examination December 2021",

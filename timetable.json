@@ -56,6 +56,21 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Special Examination B.Tech. I and II Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech12Sem310322020408.pdf"
+      },
+      {
+        "title": "Special B.Tech.I Semester CSBS  Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech1SemCSBS310322020252.pdf"
+      },
+      {
+        "title": "Special Examination B.Tech. I and II Semester Examination December 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech12Sem310322020455.pdf"
+      },
+      {
         "title": "BTech IV Semester Special Examination December 2021",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechIV Sem All  SPE110322044512.pdf"
@@ -64,16 +79,6 @@
         "title": "BTech III Semester Special Examination December 2021",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechIIISem All SPE110322044426.pdf"
-      },
-      {
-        "title": "B.Tech. I and II Semester Examination December 2021",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II210222125139.pdf"
-      },
-      {
-        "title": "B.Tech. I and II Semester Examination December 2021",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II210222125153.pdf"
       },
       {
         "title": "B.Tech. I and II Semester CSBS Examination December 2021",
@@ -89,11 +94,6 @@
         "title": "B.Tech. I and II Semester CBGS Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CBGS130222083724.pdf"
-      },
-      {
-        "title": "B.Tech. I and II Semester CSBS Examination December 2021",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CSBS130222103831.pdf"
       },
       {
         "title": "Special Examination BTech VIII Semester Examination December 2021",
@@ -255,6 +255,11 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPh1semCBGSPCIScheme310322015420.pdf"
       },
       {
+        "title": "Special Examination BPharmacy II Sem CBGS PCI Scheme Examination Dec 2021",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPh2semCBGSPCIScheme310322015447.pdf"
+      },
+      {
         "title": "BPharmacy III Semester CBGS Special Examination December 2021",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyIIISemCBGSPCI SPE110322044302.pdf"
@@ -278,11 +283,6 @@
         "title": "Special Examination BPharmacy PCI V Semester December 2021",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmPCI_V_VI210222010407.pdf"
-      },
-      {
-        "title": "Revised B Pharmacy PCI II Semester  CBGS Examination December 2021",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Rev_BPharm_PCI_I_II170222113708.pdf"
       },
       {
         "title": "BPharmacy PCI VII Semester Examination December 2021",
@@ -608,19 +608,19 @@
     "programId": 53,
     "programDataList": [
       {
-        "title": "MCA 2 Year II Semester Special Examination December 2021",
+        "title": "Special Examination MCA 2 Year I Semester Examination December 2021",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year1sem310322020528.pdf"
+      },
+      {
+        "title": "Special Examination MCA 2 Year II Semester Examination December 2021",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year II Sem SPE110322045017.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year2sem310322020601.pdf"
       },
       {
         "title": "MCA 2 Year III Semester Special Examination December 2021",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2 Year III Sem SPE110322044927.pdf"
-      },
-      {
-        "title": "MCA 2 Year I Semester Examination December 2021",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Yr_I110222065900.pdf"
       }
     ]
   },

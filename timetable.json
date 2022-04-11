@@ -46,6 +46,16 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "BTech VII Semester Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech7110422041254.pdf"
+      },
+      {
+        "title": "BTech VIII Semester Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech8110422041221.pdf"
+      },
+      {
         "title": "Special Examination B.Tech. I and II Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech12Sem310322020408.pdf"
@@ -84,16 +94,6 @@
         "title": "B.Tech. I and II Semester CBGS Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I_II_CBGS130222083724.pdf"
-      },
-      {
-        "title": "Special Examination BTech VIII Semester Examination December 2021",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_VIII110222065246.pdf"
-      },
-      {
-        "title": "Special Examination BTech VII Semester Examination December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_VII110222065201.pdf"
       },
       {
         "title": "Special Examination BTech VI Semester Examination December 2021",
@@ -240,6 +240,26 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "BPharmacy PCI VIII Semester Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040741.pdf"
+      },
+      {
+        "title": "BPharmacy PCI VII Semester Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040722.pdf"
+      },
+      {
+        "title": "BPharmacy PCI VI Semester Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040700.pdf"
+      },
+      {
+        "title": "BPharmacy PCI V Semester Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040623.pdf"
+      },
+      {
         "title": "Special Examination BPharmacy I Sem CBGS PCI Scheme Examination Dec 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPh1semCBGSPCIScheme310322015420.pdf"
@@ -273,21 +293,6 @@
         "title": "Special Examination BPharmacy PCI V Semester December 2021",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmPCI_V_VI210222010407.pdf"
-      },
-      {
-        "title": "BPharmacy PCI VII Semester Examination December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BphPCI5t08PCIscheme151221052153.pdf"
-      },
-      {
-        "title": "BPharmacy PCI VI Semester Examination December 2021",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BphPCI5t08PCIscheme151221052127.pdf"
-      },
-      {
-        "title": "BPharmacy PCI V Semester Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BphPCI5t08PCIscheme151221052106.pdf"
       }
     ]
   },
@@ -295,6 +300,26 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "BPharmacy VIII Semester CBGS Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422041053.pdf"
+      },
+      {
+        "title": "BPharmacy VII Semester CBGS Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422041033.pdf"
+      },
+      {
+        "title": "BPharmacy VI Semester CBGS Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422041012.pdf"
+      },
+      {
+        "title": "BPharmacy V Semester CBGS Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040952.pdf"
+      },
       {
         "title": "B Pharmacy CBGS II Semester CBGS Examination December 2021",
         "semester": "2nd Semester",
@@ -324,26 +349,6 @@
         "title": "Special Examination BPharmacy Grading V Semester December 2021",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmGR_V_VI210222011128.pdf"
-      },
-      {
-        "title": "Special Examination BPharmacy CBGS V Semester December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmCBGS_V_VI210222010835.pdf"
-      },
-      {
-        "title": "Special Examination BPharmacy CBGS VI Semester December 2021",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmCBGS_V_VI210222010815.pdf"
-      },
-      {
-        "title": "Special Examination BPharmacy CBGS VII Semester December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmCBGS_VII_VIII210222010753.pdf"
-      },
-      {
-        "title": "Special Examination BPharmacy CBGS VIII Semester December 2021",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmCBGS_VII_VIII210222010722.pdf"
       },
       {
         "title": "BPharmacy IV Semester CBCS Examination December 2021",
@@ -529,24 +534,24 @@
     "programId": 5,
     "programDataList": [
       {
-        "title": "MCA 3 Year III Semester Special Examination December 2021",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 3 Year  III_ V Sem SPE110322045114.pdf"
-      },
-      {
-        "title": "MCA 3 Year V Semester Special Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 3 Year  III_ V Sem SPE110322045205.pdf"
-      },
-      {
-        "title": "MCA 3 Year VI Semester Examination December 2021",
+        "title": "MCA 3 Year VI Semester Examination June 2022",
         "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033544.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y3to5110422041623.pdf"
       },
       {
-        "title": "MCA 3 Year IV Semester Examination December 2021",
+        "title": "MCA 3 Year V Semester Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y3to5110422041602.pdf"
+      },
+      {
+        "title": "MCA 3 Year IV Semester Examination June 2022",
         "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Year1to6161221033500.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y3to5110422041544.pdf"
+      },
+      {
+        "title": "MCA 3 Year III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y3to5110422041522.pdf"
       },
       {
         "title": "MCA 3 Year II Semester Examination December 2021",

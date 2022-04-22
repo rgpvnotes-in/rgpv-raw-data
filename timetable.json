@@ -67,7 +67,27 @@
       }
     ]
   },
-  { "programName": "BE", "programId": 1, "programDataList": [] },
+  {
+    "programName": "BE",
+    "programId": 1,
+    "programDataList": [
+      {
+        "title": "BE VIII Semester Grading Scheme June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_8_Garding220422015320.pdf"
+      },
+      {
+        "title": "BE VII Semester Grading Scheme June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_7_Garding220422015300.pdf"
+      },
+      {
+        "title": "BE VII Semester CBGS Scheme June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_7_CBGS220422015216.pdf"
+      }
+    ]
+  },
   {
     "programName": "BE-PTDC",
     "programId": 10,
@@ -162,29 +182,44 @@
     "programId": 11,
     "programDataList": [
       {
-        "title": "BArch V Semester CoA Scheme Special Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/barch_coa_3_5080422084039.pdf"
+        "title": "BArch X Semester CBGS Examination June 2022",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARch5_10_sem_CBGS220422015028.pdf"
       },
       {
-        "title": "BArch VIII Semester CBGS Special Examination December 2021",
+        "title": "BArch IX Semester CBGS Examination June 2022",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARch5_10_sem_CBGS220422015009.pdf"
+      },
+      {
+        "title": "BArch VIII Semester CBGS Examination June 2022",
         "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/barch_cbgs_3to8080422083930.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARch5_10_sem_CBGS220422014948.pdf"
       },
       {
-        "title": "BArch VII Semester CBGS Special Examination December 2021",
+        "title": "BArch VII Semester CBGS Examination June 2022",
         "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/barch_cbgs_3to8080422083857.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARch5_10_sem_CBGS220422014927.pdf"
       },
       {
-        "title": "BArch VI Semester CBGS Special Examination December 2021",
+        "title": "BArch VI Semester CBGS Examination June 2022",
         "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/barch_cbgs_3to8080422083835.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARch5_10_sem_CBGS220422014908.pdf"
       },
       {
-        "title": "BArch V Semester CBGS Special Examination December 2021",
+        "title": "BArch V Semester CBGS Examination June 2022",
         "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/barch_cbgs_3to8080422083757.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARch5_10_sem_CBGS220422014807.pdf"
+      },
+      {
+        "title": "BArch V Semester CoA Scheme June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_sem_COA220422014549.pdf"
+      },
+      {
+        "title": "BArch VI Semester CoA Scheme June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_sem_COA220422014608.pdf"
       },
       {
         "title": "BArch III Semester CBGS Special Examination December 2021",
@@ -350,39 +385,9 @@
     "programId": 23,
     "programDataList": [
       {
-        "title": "MCA Dual Degree V Semester Special Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA Int V  VII Sem SPE110322045417.pdf"
-      },
-      {
-        "title": "MCA Dual Degree VII Semester Special Examination December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA Int V  VII Sem SPE110322045440.pdf"
-      },
-      {
         "title": "MCA Dual Degree I Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/IMCA_I110222065548.pdf"
-      },
-      {
-        "title": "MCA Dual Degree X Semester Examination December 2021",
-        "semester": "10th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033227.pdf"
-      },
-      {
-        "title": "MCA Dual Degree IX Semester Examination December 2021",
-        "semester": "9th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033207.pdf"
-      },
-      {
-        "title": "MCA Dual Degree VIII Semester Examination December 2021",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033144.pdf"
-      },
-      {
-        "title": "MCA Dual Degree VI Semester Examination December 2021",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADDIn2to10161221033105.pdf"
       },
       {
         "title": "MCA Dual Degree IV Semester Examination December 2021",
@@ -406,44 +411,44 @@
     "programId": 21,
     "programDataList": [
       {
+        "title": "MBA Integrated X Semester Examination June 2022",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_10_Sem220422015655.pdf"
+      },
+      {
+        "title": "MBA Integrated IX Semester Examination June 2022",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_10_Sem220422015638.pdf"
+      },
+      {
+        "title": "MBA Integrated VIII Semester Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_10_Sem220422015618.pdf"
+      },
+      {
+        "title": "MBA Integrated VII Semester Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_10_Sem220422015559.pdf"
+      },
+      {
+        "title": "MBA Integrated VI Semester Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_10_Sem220422015540.pdf"
+      },
+      {
+        "title": "MBA Integrated V Semester Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_10_Sem220422015520.pdf"
+      },
+      {
         "title": "MBA Integrated III Semester Special Examination December 2021",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM_DD _MBA Int III_V_ VII110322044716.pdf"
       },
       {
-        "title": "MBA Integrated V Semester Special Examination December 2021",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM_DD _MBA Int III_V_ VII110322044743.pdf"
-      },
-      {
-        "title": "MBA Integrated VII Semester Special Examination December 2021",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM_DD _MBA Int III_V_ VII110322044813.pdf"
-      },
-      {
         "title": "MBA Integrated I Semester Examination December 2021",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/IMBA_I110222065420.pdf"
-      },
-      {
-        "title": "MBA Integrated X Semester Examination December 2021",
-        "semester": "10th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032748.pdf"
-      },
-      {
-        "title": "MBA Integrated IX Semester Examination December 2021",
-        "semester": "9th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032726.pdf"
-      },
-      {
-        "title": "MBA Integrated VIII Semester Examination December 2021",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032658.pdf"
-      },
-      {
-        "title": "MBA Integrated VI Semester Examination December 2021",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDDMBAIn2to10sem161221032616.pdf"
       },
       {
         "title": "MBA Integrated IV Semester Examination December 2021",

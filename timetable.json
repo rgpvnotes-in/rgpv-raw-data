@@ -130,24 +130,24 @@
     "programId": 43,
     "programDataList": [
       {
-        "title": "BPharmacy PCI VIII Semester Examination June 2022",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040741.pdf"
-      },
-      {
-        "title": "BPharmacy PCI VII Semester Examination June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040722.pdf"
+        "title": "BPharmacy PCI V Semester Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014637.pdf"
       },
       {
         "title": "BPharmacy PCI VI Semester Examination June 2022",
         "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040700.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014659.pdf"
       },
       {
-        "title": "BPharmacy PCI V Semester Examination June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040623.pdf"
+        "title": "BPharmacy PCI VII Semester Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014720.pdf"
+      },
+      {
+        "title": "BPharmacy PCI VIII Semester Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014739.pdf"
       }
     ]
   },
@@ -156,24 +156,44 @@
     "programId": 2,
     "programDataList": [
       {
-        "title": "BPharmacy VIII Semester CBGS Examination June 2022",
+        "title": "BPharmacy VIII Semester Grading Examination June 2022",
         "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422041053.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014316.pdf"
       },
       {
-        "title": "BPharmacy VII Semester CBGS Examination June 2022",
+        "title": "BPharmacy VII Semester Grading Examination June 2022",
         "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422041033.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014253.pdf"
       },
       {
-        "title": "BPharmacy VI Semester CBGS Examination June 2022",
+        "title": "BPharmacy VI Semester Grading Examination June 2022",
         "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422041012.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014218.pdf"
+      },
+      {
+        "title": "BPharmacy V Semester Grading Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014139.pdf"
       },
       {
         "title": "BPharmacy V Semester CBGS Examination June 2022",
         "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5t08110422040952.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014813.pdf"
+      },
+      {
+        "title": "BPharmacy VI Semester CBGS Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014828.pdf"
+      },
+      {
+        "title": "BPharmacy VII Semester CBGS Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014847.pdf"
+      },
+      {
+        "title": "BPharmacy VIII Semester CBGS Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014907.pdf"
       }
     ]
   },
@@ -502,9 +522,14 @@
     "programId": 51,
     "programDataList": [
       {
-        "title": "Pharm.D. III Year Supplementary Examination December 2021",
+        "title": "Pharm.D. IV Year Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD3_4Year250422015117.pdf"
+      },
+      {
+        "title": "Pharm.D. III Year Examination June 2022",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharm_D030222014753.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD3_4Year250422015051.pdf"
       },
       {
         "title": "Pharm.D. II Year Supplementary Examination December 2021",

@@ -72,6 +72,16 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "BE VIII Semester CBGS Scheme June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_8_CBGS260422043327.pdf"
+      },
+      {
+        "title": "BE VII Semester CBGS Scheme June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE7_CBGS260422043308.pdf"
+      },
+      {
         "title": "BE VI Semester Grading Scheme June 2022",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_6_G260422121019.pdf"
@@ -100,11 +110,6 @@
         "title": "BE VII Semester Grading Scheme June 2022",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_7_Garding220422015300.pdf"
-      },
-      {
-        "title": "BE VII Semester CBGS Scheme June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_7_CBGS220422015216.pdf"
       }
     ]
   },

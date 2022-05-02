@@ -152,6 +152,16 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Revised BArch VI Semester CoA Scheme June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6COA020522123717.pdf"
+      },
+      {
+        "title": "Revised BArch V Semester CoA Scheme June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6COA020522123645.pdf"
+      },
+      {
         "title": "Revised Time Table BArch X Semester CBGS Examination June 2022",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125816.pdf"
@@ -180,16 +190,6 @@
         "title": "Revised Time Table BArch V Semester CBGS Examination June 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125630.pdf"
-      },
-      {
-        "title": "BArch V Semester CoA Scheme June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_sem_COA220422014549.pdf"
-      },
-      {
-        "title": "BArch VI Semester CoA Scheme June 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_sem_COA220422014608.pdf"
       }
     ]
   },

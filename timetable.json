@@ -6,6 +6,21 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "BTech CSBS IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_4_CSBS100522054840.pdf"
+      },
+      {
+        "title": "BTech III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_3100522054454.pdf"
+      },
+      {
+        "title": "BTech IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_4100522054430.pdf"
+      },
+      {
         "title": "BTech VI Semester Examination June 2022",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_6_Grading130422025434.pdf"
@@ -80,6 +95,16 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "BPharmacy PCI IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054148.pdf"
+      },
+      {
+        "title": "BPharmacy PCI III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054059.pdf"
+      },
+      {
         "title": "BPharmacy PCI V Semester Examination June 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014637.pdf"
@@ -105,6 +130,16 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "BPharmacy CBGS III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054253.pdf"
+      },
+      {
+        "title": "BPharmacy CBGS IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054226.pdf"
+      },
       {
         "title": "BPharmacy VIII Semester Grading Examination June 2022",
         "semester": "8th Semester",
@@ -217,7 +252,22 @@
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
-  { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
+  {
+    "programName": "MCA 2 Year",
+    "programId": 53,
+    "programDataList": [
+      {
+        "title": "MCA 2 Year IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Year_3_4100522054613.pdf"
+      },
+      {
+        "title": "MCA 2 Year III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Year_3_4100522054550.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA",
     "programId": 5,

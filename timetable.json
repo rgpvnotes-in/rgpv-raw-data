@@ -131,6 +131,26 @@
     "programId": 2,
     "programDataList": [
       {
+        "title": "Revised BPharmacy VIII Semester Grading Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_5_8_sem_Grading110522044816.pdf"
+      },
+      {
+        "title": "Revised BPharmacy VII Semester Grading Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_5_8_sem_Grading110522044754.pdf"
+      },
+      {
+        "title": "Revised BPharmacy VI Semester Grading Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_5_8_sem_Grading110522044733.pdf"
+      },
+      {
+        "title": "Revised BPharmacy V Semester Grading Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_5_8_sem_Grading110522044711.pdf"
+      },
+      {
         "title": "BPharmacy CBGS III Semester Examination June 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054253.pdf"
@@ -139,26 +159,6 @@
         "title": "BPharmacy CBGS IV Semester Examination June 2022",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054226.pdf"
-      },
-      {
-        "title": "BPharmacy VIII Semester Grading Examination June 2022",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014316.pdf"
-      },
-      {
-        "title": "BPharmacy VII Semester Grading Examination June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014253.pdf"
-      },
-      {
-        "title": "BPharmacy VI Semester Grading Examination June 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014218.pdf"
-      },
-      {
-        "title": "BPharmacy V Semester Grading Examination June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhGS5to8sem250422014139.pdf"
       },
       {
         "title": "BPharmacy V Semester CBGS Examination June 2022",
@@ -334,6 +334,11 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "MBA Integrated III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMMBA_3_4_sem110522044938.pdf"
+      },
       {
         "title": "MBA Integrated X Semester Examination June 2022",
         "semester": "10th Semester",

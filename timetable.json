@@ -243,14 +243,44 @@
       }
     ]
   },
-  { "programName": "M.E.", "programId": 6, "programDataList": [] },
-  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
+  {
+    "programName": "M.E.",
+    "programId": 6,
+    "programDataList": [
+      {
+        "title": "ME III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTech_3_Sem110522045236.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Tech.",
+    "programId": 8,
+    "programDataList": [
+      {
+        "title": "MTech III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTech_3_Sem110522045332.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
     "programDataList": []
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "MPharmacy III Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPh_3_Sem110522045406.pdf"
+      }
+    ]
+  },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
   {
     "programName": "MCA 2 Year",
@@ -299,6 +329,16 @@
     "programId": 23,
     "programDataList": [
       {
+        "title": "MCA Dual Degree IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADD_3_4_sem110522045130.pdf"
+      },
+      {
+        "title": "MCA Dual Degree III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADD_3_4_sem110522045059.pdf"
+      },
+      {
         "title": "MCA Dual Degree X Semester Examination June 2022",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCAInt_5_10_Sem220422015948.pdf"
@@ -334,6 +374,11 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "MBA Integrated IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMMBA_3_4_sem110522044959.pdf"
+      },
       {
         "title": "MBA Integrated III Semester Examination June 2022",
         "semester": "3rd Semester",
@@ -376,5 +421,25 @@
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
   { "programName": "PGCPMB", "programId": 45, "programDataList": [] },
-  { "programName": "Pharm D.", "programId": 51, "programDataList": [] }
+  {
+    "programName": "Pharm D.",
+    "programId": 51,
+    "programDataList": [
+      {
+        "title": "Pharm.D IV Year Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_2_3_4_Year110522045606.pdf"
+      },
+      {
+        "title": "Pharm.D III Year Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_2_3_4_Year110522045544.pdf"
+      },
+      {
+        "title": "Pharm.D II Year Examination June 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_2_3_4_Year110522045522.pdf"
+      }
+    ]
+  }
 ]

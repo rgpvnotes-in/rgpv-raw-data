@@ -1,6 +1,21 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
-  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
+  {
+    "programName": "M.Arch",
+    "programId": 22,
+    "programDataList": [
+      {
+        "title": "MArchitecture IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARch_3_4120522035349.pdf"
+      },
+      {
+        "title": "MArchitecture III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARch_3_4120522035314.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Tech",
     "programId": 24,
@@ -88,8 +103,78 @@
       }
     ]
   },
-  { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
-  { "programName": "B.Tech.-PTDC", "programId": 42, "programDataList": [] },
+  {
+    "programName": "BE-PTDC",
+    "programId": 10,
+    "programDataList": [
+      {
+        "title": "BEPTDC VIII Semester Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034612.pdf"
+      },
+      {
+        "title": "BEPTDC VII Semester Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034548.pdf"
+      },
+      {
+        "title": "BEPTDC VI Semester Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034516.pdf"
+      },
+      {
+        "title": "BEPTDC V Semester Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034453.pdf"
+      },
+      {
+        "title": "BEPTDC IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034431.pdf"
+      },
+      {
+        "title": "BEPTDC III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034407.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "B.Tech.-PTDC",
+    "programId": 42,
+    "programDataList": [
+      {
+        "title": "BTech PTDC VIII Semester Examination June 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522035134.pdf"
+      },
+      {
+        "title": "BTech PTDC VII Semester Examination June 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522035051.pdf"
+      },
+      {
+        "title": "BTech PTDC VI Semester Examination June 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522035020.pdf"
+      },
+      {
+        "title": "BTech PTDC V Semester Examination June 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034835.pdf"
+      },
+      {
+        "title": "BTech PTDC IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034807.pdf"
+      },
+      {
+        "title": "BTech PTDC III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT_3_8_sem120522034745.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
@@ -187,6 +272,26 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "BArch III Semester COA Scheme Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_3_4_COA120522034257.pdf"
+      },
+      {
+        "title": "BArch IV Semester COA Scheme Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_3_4_COA120522034221.pdf"
+      },
+      {
+        "title": "BArch IV Semester CBGS Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_3_4_CBGS120522034137.pdf"
+      },
+      {
+        "title": "BArch III Semester CBGS Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_3_4_CBGS120522034115.pdf"
+      },
+      {
         "title": "BArch X Semester Grading Examination June 2022",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch8_10_G040522024553.pdf"
@@ -268,7 +373,18 @@
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": []
+    "programDataList": [
+      {
+        "title": "MTech PT IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTechPT_3_4_sem120522035826.pdf"
+      },
+      {
+        "title": "MTech PT III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTechPT_3_4_sem120522035717.pdf"
+      }
+    ]
   },
   {
     "programName": "M.Pharm",

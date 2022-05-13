@@ -1,5 +1,15 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "MBA IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBAIVSem130522025340.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Arch",
     "programId": 22,
@@ -61,6 +71,16 @@
     "programName": "BE",
     "programId": 1,
     "programDataList": [
+      {
+        "title": "BE CBGS III Semester Examination June 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEIIISemCBGS130522025442.pdf"
+      },
+      {
+        "title": "BE CBGS IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEIVSemCBGS130522025420.pdf"
+      },
       {
         "title": "BE VIII Semester CBGS Scheme June 2022",
         "semester": "8th Semester",

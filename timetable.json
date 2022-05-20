@@ -31,6 +31,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "REVISED BTech IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/revisedbtechiv200522022000.pdf"
+      },
+      {
         "title": "BTech CSBS IV Semester Examination June 2022",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_4_CSBS100522054840.pdf"
@@ -39,11 +44,6 @@
         "title": "BTech III Semester Examination June 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_3100522054454.pdf"
-      },
-      {
-        "title": "BTech IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_4100522054430.pdf"
       },
       {
         "title": "BTech VI Semester Examination June 2022",
@@ -200,9 +200,9 @@
     "programId": 43,
     "programDataList": [
       {
-        "title": "BPharmacy PCI IV Semester Examination June 2022",
+        "title": "REVISED BPharmacy PCI IV Semester Examination June 2022",
         "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054148.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/revisedbpharmiv200522022042.pdf"
       },
       {
         "title": "BPharmacy PCI III Semester Examination June 2022",

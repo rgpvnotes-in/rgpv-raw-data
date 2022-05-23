@@ -423,14 +423,14 @@
     "programId": 53,
     "programDataList": [
       {
-        "title": "MCA 2 Year IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Year_3_4100522054613.pdf"
-      },
-      {
         "title": "MCA 2 Year III Semester Examination June 2022",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_2Year_3_4100522054550.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year230522111854.pdf"
+      },
+      {
+        "title": "MCA 2 Year IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Year230522111907.pdf"
       }
     ]
   },

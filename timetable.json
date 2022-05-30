@@ -400,14 +400,14 @@
     "programId": 20,
     "programDataList": [
       {
-        "title": "MTech PT IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTechPT_3_4_sem120522035826.pdf"
-      },
-      {
         "title": "MTech PT III Semester Examination June 2022",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTechPT_3_4_sem120522035717.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTechPT300522010017.pdf"
+      },
+      {
+        "title": "MTech PT IV Semester Examination June 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTechPT300522010030.pdf"
       }
     ]
   },

@@ -498,6 +498,16 @@
     "programId": 6,
     "programDataList": [
       {
+        "title": "ME II Semester Examination June 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_MTech_II040622024537.pdf"
+      },
+      {
+        "title": "ME I Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_MTech_I040622024509.pdf"
+      },
+      {
         "title": "ME III Semester Examination June 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTech_3_Sem110522045236.pdf"
@@ -508,6 +518,16 @@
     "programName": "M.Tech.",
     "programId": 8,
     "programDataList": [
+      {
+        "title": "M Tech II Semester Examination June 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_MTech_II040622024627.pdf"
+      },
+      {
+        "title": "M Tech I Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME_MTech_I040622024605.pdf"
+      },
       {
         "title": "MTech III Semester Examination June 2022",
         "semester": "3rd Semester",

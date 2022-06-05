@@ -83,6 +83,11 @@
         "pdfs": [
           {
             "semester": "1st Semester",
+            "title": "CSBS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_sem_CSBS_Syllabus050622115022.pdf"
+          },
+          {
+            "semester": "1st Semester",
             "title": "B.Tech Common To all A/B Group for 2017 Admitted",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CBG261217032129.pdf"
           },
@@ -90,6 +95,11 @@
             "semester": "1st Semester",
             "title": "B.Tech Common To all A/B Group for 2018 Admitted",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/1130919100717.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "CSBS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_CSBS_Syllabus050622115048.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -234,7 +244,7 @@
           {
             "semester": "3rd Semester",
             "title": "BTech Computer Science and Business System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_CSBS_Syllabus131021120958.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_CSBS_Syllabus050622115120.pdf"
           },
           {
             "semester": "4th Semester",

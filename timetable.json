@@ -556,6 +556,16 @@
     "programId": 7,
     "programDataList": [
       {
+        "title": "MPharmacy II Semester Examination June 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma_II070622012111.pdf"
+      },
+      {
+        "title": "MPharmacy I Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma_I070622012049.pdf"
+      },
+      {
         "title": "MPharmacy III Semester Examination June 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/frm_download_file040622012930.pdf"
@@ -567,7 +577,22 @@
       }
     ]
   },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "MPharmacy PCI II Semester Examination June 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma_II_PCI070622012019.pdf"
+      },
+      {
+        "title": "MPharmacy PCI I Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma_I_PCI070622011951.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,

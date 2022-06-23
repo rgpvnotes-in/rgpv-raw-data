@@ -2505,7 +2505,52 @@
     "name": "B.Pharm.(PCI)",
     "id": 43,
     "schemes": [
-      { "name": "Grading System", "id": 1 },
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharma1_PCI030719010553.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharma2_PCI030719010605.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharma3_PCI030719010620.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharma4_PCI030719010636.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/5_sch190919124911.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/6_sch190919124929.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.Pharmacy As per PCI Regulations",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/pcischeme7sem181019051702.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "B.Pharm.PCI",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme060320020850.pdf"
+          }
+        ]
+      },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },

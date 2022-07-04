@@ -4,6 +4,11 @@
     "programId": 4,
     "programDataList": [
       {
+        "title": "MBA I Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I040722023023.pdf"
+      },
+      {
         "title": "MBA Marketing Management II Semester Examination June 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_MM_II_Sem040622011152.pdf"
@@ -22,11 +27,6 @@
         "title": "MBA II Semester Examination June 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_II_Sem040622010852.pdf"
-      },
-      {
-        "title": "MBA I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_ISem040622010823.pdf"
       },
       {
         "title": "MBA III Semester Examination June 2022",
@@ -71,6 +71,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "B Tech I Semester Examination June 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTEch1_2040722023056.pdf"
+      },
+      {
         "title": "B Tech CSBS I Semester Examination June 2022",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_CSBS_I_II040622011721.pdf"
@@ -89,11 +94,6 @@
         "title": "B Tech II Semester Examination June 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechI_II040622011540.pdf"
-      },
-      {
-        "title": "B Tech I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechI_II040622011521.pdf"
       },
       {
         "title": "REVISED BTech IV Semester Examination June 2022",
@@ -594,7 +594,7 @@
       {
         "title": "MPharmacy PCI II Semester Examination June 2022",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharm_II080622112206.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPhPCI_2040722023125.pdf"
       },
       {
         "title": "MPharmacy PCI I Semester Examination June 2022",

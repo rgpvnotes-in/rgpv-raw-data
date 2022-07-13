@@ -781,7 +781,7 @@
   { "programName": "Diploma", "programId": 3, "programDataList": [] },
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
-  { "programName": "PGCPMB", "programId": 45, "programDataList": [] },
+  { "programName": "PGCMB", "programId": 45, "programDataList": [] },
   {
     "programName": "Pharm D.",
     "programId": 51,

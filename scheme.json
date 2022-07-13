@@ -4934,7 +4934,7 @@
     ]
   },
   {
-    "name": "PGCPMB",
+    "name": "PGCMB",
     "id": 45,
     "schemes": [
       { "name": "Grading System", "id": 1, "pdfs": [] },

@@ -22,7 +22,7 @@
     { "name": "Diploma", "id": 3 },
     { "name": "Ph.D.", "id": 44 },
     { "name": "Ph.D. Entrance", "id": 52 },
-    { "name": "PGCPMB", "id": 45 },
+    { "name": "PGCMB", "id": 45 },
     { "name": "Pharm D.", "id": 51 }
   ],
   "systemTypeList": [

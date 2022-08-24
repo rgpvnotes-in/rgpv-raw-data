@@ -2072,7 +2072,11 @@
             "title": "B.E. EC CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EC020118011733.pdf"
           },
-          { "semester": "6th Semester", "title": "B.E. EE CBGS 2017" },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. EE CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EE020118011721.pdf"
+          },
           {
             "semester": "6th Semester",
             "title": "B.E. EI CBGS 2017",

@@ -4560,103 +4560,153 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "MPharm PCI Industrial Pharmacy II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Industrial_Pharmacy121021035947.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmaceutical Analysis II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutical_analysis121021040356.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmaceutical Biotechnology II Sem",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutical_Bio121021040714.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmaceutical Chemistry II Sem",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutical_Chemistry121021040925.pdf"
-          },
-          {
-            "semester": "2nd Semester",
             "title": "MPharm PCI Pharmaceutical Quality Assurance II Sem",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_PQA121021041235.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmaceutics II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutics121021041542.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmacognosy II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmacognosy121021041923.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmacology II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmacology121021042115.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmacy Practice II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmacy_Practice121021043730.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_PQA070922123234.pdf"
           },
           {
             "semester": "2nd Semester",
             "title": "MPharm PCI Regulatory Affairs II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Regulatory_Affairs121021044222.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_Sem_Regulatory_Affairs070922123307.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Industrial Pharmacy II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_Sem_Industrial_Pharmacy070922121851.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Analysis II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_Pharmaceutical_Analysis070922122001.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Biotechnology II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_PharmBio070922122454.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Chemistry II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_Pharmaceutical_Chemistry070922122703.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutics II Semeste",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_Pharmaceutics070922122748.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmacognosy II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_Pharmacognosy070922122827.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmacology II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_Sem_Pharmacology070922122909.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmacy Practice II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_Pharmacy_Practice070922123004.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Industrial Pharmacy III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Industrial_Pharmacy121021040034.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_Sem_Industrial_Pharmacy070922124419.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmaceutical Analysis III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutical_analysis121021040432.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_Pharmaceutical_Analysis070922123417.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmaceutical Biotechnology III Sem",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutical_Bio121021040740.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_PharmBio070922124318.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmaceutical Chemistry III Sem",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutical_Chemistry121021040959.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_Pharmaceutical_Chemistry070922123457.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmaceutical Quality Assurance III",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_PQA121021041316.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_PQA070922124038.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmaceutics III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmaceutics121021041749.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_Pharmaceutics070922123520.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmacognosy III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmacognosy121021041955.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_Pharmacognosy070922123545.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmacology III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmacology121021042153.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_Sem_Pharmacology070922123627.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Pharmacy Practice III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Pharmacy_Practice121021043808.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_Pharmacy_Practice070922124358.pdf"
           },
           {
             "semester": "3rd Semester",
             "title": "MPharm PCI Regulatory Affairs III Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme_Regulatory_Affairs121021044255.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_Sem_Regulatory_Affairs070922124339.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Industrial Pharmacy IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_Industrial_Pharmacy070922124639.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmaceutical Analysis IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_Pharmaceutical_Analysis070922124728.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmaceutical Biotechnology IV Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_PBiot070922124811.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmaceutical Chemistry IV Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_Pharmaceutical_Chemistry070922124853.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmaceutics IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_Pharmaceutics070922124933.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmacognosy IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_Pharmacognosy070922125012.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmacology IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_Pharmacology070922125051.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmaceutical Quality Assurance IV Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_PQA070922125215.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Pharmacy Practice IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_Pharmacy_Practice070922125258.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MPharm PCI Regulatory Affairs IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_Regulatory_Affairs070922125337.pdf"
           }
         ]
       },

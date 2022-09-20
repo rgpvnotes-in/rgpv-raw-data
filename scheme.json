@@ -5029,7 +5029,7 @@
     "id": 44,
     "schemes": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
-      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Non Grading System", "id": 2 },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },

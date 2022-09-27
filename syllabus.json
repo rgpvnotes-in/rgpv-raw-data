@@ -1384,7 +1384,11 @@
             "title": "B.E.(EE)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V EE (SY)290911043229.pdf"
           },
-          { "semester": "5th Semester", "title": "B.E.(EI)" },
+          {
+            "semester": "5th Semester",
+            "title": "B.E.(EI)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V EI(Sy)290911035659.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "B.E.(EX)",

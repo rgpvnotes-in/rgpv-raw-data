@@ -483,11 +483,6 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Artificial Intelligence and Machine Learning",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechVsemCSEAIMLsyllabus010822012413.pdf"
-          },
-          {
-            "semester": "5th Semester",
             "title": "Automation and Robotics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syVsemAutomationandRobotics020822022025.pdf"
           },
@@ -540,6 +535,11 @@
             "semester": "5th Semester",
             "title": "B.Tec",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_AU_Syllabus160922010029.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "Artificial Intelligence and Machine Learning",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechVsemCSEAIMLsyl071022034628.pdf"
           },
           {
             "semester": "6th Semester",

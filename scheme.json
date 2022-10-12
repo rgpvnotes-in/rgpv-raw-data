@@ -113,58 +113,79 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Agriculture Technology"
+            "title": "B.Tech Agriculture Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Agriculture_Technology261121011247.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Automobile Engineering"
+            "title": "B.Tech Automobile Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AutomobileEngg261121011317.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Biomedical Engineering"
-          },
-          { "semester": "3rd Semester", "title": "B.Tech Civil Engineering" },
-          {
-            "semester": "3rd Semester",
-            "title": "B.Tech Chemical Engineering"
+            "title": "B.Tech Biomedical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BM261121011349.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer Science Engineering"
+            "title": "B.Tech Civil Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Civil_Engineering261121012214.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electronics and communication Engg"
+            "title": "B.Tech Chemical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Chemical_Engineering261121012201.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electrical Engineering"
+            "title": "B.Tech Computer Science Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE261121012238.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electrical  Electronics Engineering"
+            "title": "B.Tech Electronics and communication Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ECE261121012409.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electronics and Instrumentation Engg"
+            "title": "B.Tech Electrical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE261121012435.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Fire Technology Safety Engg."
+            "title": "B.Tech Electrical  Electronics Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EXE261121012611.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Industrial Production Engineering"
+            "title": "B.Tech Electronics and Instrumentation Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EI261121012519.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Information Technology"
+            "title": "B.Tech Fire Technology Safety Engg.",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT261121012654.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Mechanical Engineering"
+            "title": "B.Tech Industrial Production Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IPE261121012940.pdf"
           },
-          { "semester": "3rd Semester", "title": "B.Tech Mining Engineering" },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Tech Information Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IT261121012955.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Tech Mechanical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ME261121013025.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Tech Mining Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mining261121013059.pdf"
+          },
           {
             "semester": "3rd Semester",
             "title": "B.Tech Computer science and Information Technology",

@@ -121,90 +121,64 @@
             "title": "B.Tech Automobile Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AU III Sy080818125659.pdf"
           },
+          { "semester": "3rd Semester", "title": "B.Tech Civil Engineering" },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CE III  Sy080818125728.pdf"
+            "title": "B.Tech Chemical Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Chemical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM III Sy080818012541.pdf"
+            "title": "B.Tech Computer Science Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer Science Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CS III Sy100719012330.pdf"
+            "title": "B.Tech Electronics and communication Engg"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electronics and communication Engg",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EC III Sy080818125804.pdf"
+            "title": "B.Tech Electrical Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE III Sy100719012349.pdf"
+            "title": "B.Tech Electrical Electronics Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electrical Electronics Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EX III Sy100719012405.pdf"
+            "title": "B.Tech Fire Technology Safety Engg."
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Fire Technology Safety Engg.",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT III Sy100719012420.pdf"
+            "title": "B.Tech Information Technology"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Information Technology",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IT III Sy100719012505.pdf"
+            "title": "B.Tech Mechanical Engineering"
+          },
+          { "semester": "3rd Semester", "title": "B.Tech Mining Engineering" },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Tech Electronics and Instrumentation Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ME III Sy080818010055.pdf"
+            "title": "B.Tech Biomedical Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Mining Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MI III Sy100719012519.pdf"
+            "title": "B.Tech Industrial Production"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electronics and Instrumentation Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem EI _SY_100719012449.pdf"
+            "title": "B.Tech Computer science and Information Technology"
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Biomedical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem BM _SY_100719012434.pdf"
+            "title": "B.Tech. SYllabus Cyber Security"
           },
+          { "semester": "3rd Semester", "title": "BTech  CSE IOT/IOT" },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Industrial Production",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem IPE _SY_080818010020.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "B.Tech Computer science and Information Technology",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus040919030046.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "B.Tech. SYllabus Cyber Security",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Cyber_Security170921041124.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "BTech  CSE IOT/IOT",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_III_sem_IOT_Sy230921112803.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "BTech 3D Animation Graphics",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3_D_Animation_Graphics170921041406.pdf"
+            "title": "BTech 3D Animation Graphics"
           },
           {
             "semester": "3rd Semester",

@@ -71,9 +71,14 @@
     "programId": 24,
     "programDataList": [
       {
-        "title": "B Tech I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTEch1_2040722023056.pdf"
+        "title": "BTech VII Semester Examination Dec 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech7201022052614.pdf"
+      },
+      {
+        "title": "BTech VIII Semester Examination Dec 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech8201022052540.pdf"
       },
       {
         "title": "B Tech CSBS I Semester Examination June 2022",
@@ -91,44 +96,9 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechI_II_2017Batch040622011618.pdf"
       },
       {
-        "title": "B Tech II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechI_II040622011540.pdf"
-      },
-      {
-        "title": "REVISED BTech IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/revisedbtechiv200522022000.pdf"
-      },
-      {
         "title": "BTech CSBS IV Semester Examination June 2022",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_4_CSBS100522054840.pdf"
-      },
-      {
-        "title": "BTech III Semester Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_3100522054454.pdf"
-      },
-      {
-        "title": "BTech VI Semester Examination June 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_6_Grading130422025434.pdf"
-      },
-      {
-        "title": "BTech V Semester Examination June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_5_Grading130422025408.pdf"
-      },
-      {
-        "title": "BTech VII Semester Examination June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech7110422041254.pdf"
-      },
-      {
-        "title": "BTech VIII Semester Examination June 2022",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech8110422041221.pdf"
       }
     ]
   },
@@ -285,44 +255,19 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "BPharmacy PCI VIII Semester Examination Dec 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_7_8201022053206.pdf"
+      },
+      {
+        "title": "BPharmacy PCI VII Semester Examination Dec 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_7_8201022053134.pdf"
+      },
+      {
         "title": "BPharmacy PCI II Semester Examination June 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmaPCI_I_II040622012135.pdf"
-      },
-      {
-        "title": "BPharmacy PCI I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmaPCI_I_II040622012113.pdf"
-      },
-      {
-        "title": "Revised BPharmacy PCI III Semester Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/bpharma300522042102.pdf"
-      },
-      {
-        "title": "REVISED BPharmacy PCI IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/bpharma300522042031.pdf"
-      },
-      {
-        "title": "BPharmacy PCI V Semester Examination June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014637.pdf"
-      },
-      {
-        "title": "BPharmacy PCI VI Semester Examination June 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014659.pdf"
-      },
-      {
-        "title": "BPharmacy PCI VII Semester Examination June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014720.pdf"
-      },
-      {
-        "title": "BPharmacy PCI VIII Semester Examination June 2022",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014739.pdf"
       }
     ]
   },
@@ -330,6 +275,16 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "BPharmacy VIII Semester CBGS Examination Dec 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_7_8201022053415.pdf"
+      },
+      {
+        "title": "BPharmacy VII Semester CBGS Examination Dec 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_7_8201022053344.pdf"
+      },
       {
         "title": "BPharmacy CBGS II Semester Examination June 2022",
         "semester": "2nd Semester",
@@ -359,36 +314,6 @@
         "title": "Revised BPharmacy V Semester Grading Examination June 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_5_8_sem_Grading110522044711.pdf"
-      },
-      {
-        "title": "BPharmacy CBGS III Semester Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054253.pdf"
-      },
-      {
-        "title": "BPharmacy CBGS IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacyPCI_CBGS_3_4100522054226.pdf"
-      },
-      {
-        "title": "BPharmacy V Semester CBGS Examination June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014813.pdf"
-      },
-      {
-        "title": "BPharmacy VI Semester CBGS Examination June 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014828.pdf"
-      },
-      {
-        "title": "BPharmacy VII Semester CBGS Examination June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014847.pdf"
-      },
-      {
-        "title": "BPharmacy VIII Semester CBGS Examination June 2022",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS5to8sem250422014907.pdf"
       }
     ]
   },
@@ -397,14 +322,24 @@
     "programId": 11,
     "programDataList": [
       {
-        "title": "BArch CBGS Scheme I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS_I_II040622012530.pdf"
+        "title": "Time Table BArch X Semester CBGS Examination Dec 2022",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch7_10_CBGS201022053000.pdf"
       },
       {
-        "title": "BArch CBGS Scheme II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS_I_II040622012504.pdf"
+        "title": "Time Table BArch IX Semester CBGS Examination Dec 2022",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch7_10_CBGS201022052926.pdf"
+      },
+      {
+        "title": "Time Table BArch VIII Semester CBGS Examination Dec 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch7_10_CBGS201022052850.pdf"
+      },
+      {
+        "title": "Time Table BArch VII Semester CBGS Examination Dec 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch7_10_CBGS201022052819.pdf"
       },
       {
         "title": "BArch COA Scheme II Semester Examination June 2022",
@@ -425,16 +360,6 @@
         "title": "BArch IV Semester COA Scheme Examination June 2022",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Revised_BArchCoA_III_IV040622013736.pdf"
-      },
-      {
-        "title": "BArch IV Semester CBGS Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_3_4_CBGS120522034137.pdf"
-      },
-      {
-        "title": "BArch III Semester CBGS Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_3_4_CBGS120522034115.pdf"
       },
       {
         "title": "BArch X Semester Grading Examination June 2022",
@@ -460,36 +385,6 @@
         "title": "Revised BArch V Semester CoA Scheme June 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6COA020522123645.pdf"
-      },
-      {
-        "title": "Revised Time Table BArch X Semester CBGS Examination June 2022",
-        "semester": "10th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125816.pdf"
-      },
-      {
-        "title": "Revised Time Table BArch IX Semester CBGS Examination June 2022",
-        "semester": "9th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125756.pdf"
-      },
-      {
-        "title": "Revised Time Table BArch VIII Semester CBGS Examination June 2022",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125733.pdf"
-      },
-      {
-        "title": "Revised Time Table BArch VII Semester CBGS Examination June 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125713.pdf"
-      },
-      {
-        "title": "Revised Time Table BArch VI Semester CBGS Examination June 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125652.pdf"
-      },
-      {
-        "title": "Revised Time Table BArch V Semester CBGS Examination June 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArchCBGS 5to10280422125630.pdf"
       }
     ]
   },

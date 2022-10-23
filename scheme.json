@@ -226,11 +226,7 @@
             "title": "Mining and Mineral Processing",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Miningand_MineralProcessing131022123805.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "Internet Of Things",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechIOT131022123748.pdf"
-          },
+          { "semester": "3rd Semester", "title": "Internet Of Things" },
           {
             "semester": "3rd Semester",
             "title": "Cyber Security",
@@ -855,8 +851,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E.(Ind. Prod.)(Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III IP230711063033.pdf"
+            "title": "B.E.(Ind. Prod.)(Grading Sys.)"
           },
           {
             "semester": "3rd Semester",

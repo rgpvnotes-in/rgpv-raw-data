@@ -1253,7 +1253,11 @@
             "title": "TX (Grading System)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII TX _SY_311213032803.pdf"
           },
-          { "semester": "8th Semester", "title": "CM (Grading System)" },
+          {
+            "semester": "8th Semester",
+            "title": "CM (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII CM _SY_311213045123.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "Civil Engineering (Grading System)",

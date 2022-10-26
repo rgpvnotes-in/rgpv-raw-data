@@ -1,71 +1,6 @@
 [
-  {
-    "programName": "MBA",
-    "programId": 4,
-    "programDataList": [
-      {
-        "title": "MBA I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I040722023023.pdf"
-      },
-      {
-        "title": "MBA Marketing Management II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_MM_II_Sem040622011152.pdf"
-      },
-      {
-        "title": "MBA Pharmaceutical Management II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_PM_II_Sem040622011121.pdf"
-      },
-      {
-        "title": "MBA Financial Administration II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_FA_II_Sem040622011035.pdf"
-      },
-      {
-        "title": "MBA II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_II_Sem040622010852.pdf"
-      },
-      {
-        "title": "MBA III Semester Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBAIII230522114737.pdf"
-      },
-      {
-        "title": "MBA IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA170522103736.pdf"
-      }
-    ]
-  },
-  {
-    "programName": "M.Arch",
-    "programId": 22,
-    "programDataList": [
-      {
-        "title": "M Architecture II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARCH_I_II040622011400.pdf"
-      },
-      {
-        "title": "M Architecture I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARCH_I_II040622011336.pdf"
-      },
-      {
-        "title": "MArchitecture IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARch_3_4120522035349.pdf"
-      },
-      {
-        "title": "MArchitecture III Semester Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARch_3_4120522035314.pdf"
-      }
-    ]
-  },
+  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
   {
     "programName": "B.Tech",
     "programId": 24,
@@ -79,26 +14,6 @@
         "title": "BTech VIII Semester Examination Dec 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech8201022052540.pdf"
-      },
-      {
-        "title": "B Tech CSBS I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_CSBS_I_II040622011721.pdf"
-      },
-      {
-        "title": "B Tech 2017 Admitted I Semester Examination June 2022",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechI_II_2017Batch040622011641.pdf"
-      },
-      {
-        "title": "B Tech 2017 Admitted II Semester Examination June 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechI_II_2017Batch040622011618.pdf"
-      },
-      {
-        "title": "BTech CSBS IV Semester Examination June 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_4_CSBS100522054840.pdf"
       }
     ]
   },

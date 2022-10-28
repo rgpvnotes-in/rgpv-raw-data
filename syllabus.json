@@ -413,7 +413,8 @@
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Electronics and communication Engg"
+            "title": "B.Tech Electronics and communication Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem EC _SY060719033907.pdf"
           },
           {
             "semester": "5th Semester",
@@ -1760,7 +1761,11 @@
             "title": "Mechanical Engineering CBCS",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV ME _SY_230317034503.pdf"
           },
-          { "semester": "4th Semester", "title": "Mining Engineering CBCS" },
+          {
+            "semester": "4th Semester",
+            "title": "Mining Engineering CBCS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Mining _SY_230317034522.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "Textile Engineering CBCS",
@@ -2965,7 +2970,11 @@
             "title": "Power Elec,E.M.and Drives,P.E.andSys (Grading sys)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Power Electronics _SY_ 060511013051.pdf"
           },
-          { "semester": "2nd Semester", "title": "Power System(Grading sys)" },
+          {
+            "semester": "2nd Semester",
+            "title": "Power System(Grading sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Power System (SY)060511014443.pdf"
+          },
           {
             "semester": "2nd Semester",
             "title": "Ind. Dgn, Product and Ind. Sys.(Grading sys)",

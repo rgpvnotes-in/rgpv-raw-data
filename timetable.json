@@ -6,14 +6,14 @@
     "programId": 24,
     "programDataList": [
       {
-        "title": "BTech VII Semester Examination Dec 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech7201022052614.pdf"
-      },
-      {
         "title": "BTech VIII Semester Examination Dec 2022",
         "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech8201022052540.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTDec2022_BTechVIII281022114842.pdf"
+      },
+      {
+        "title": "BTech VII Semester Examination Dec 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTDec2022_BTechVII281022114736.pdf"
       }
     ]
   },

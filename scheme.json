@@ -636,7 +636,11 @@
             "title": "B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_BM290121043132.pdf"
           },
-          { "semester": "7th Semester", "title": "B.Tech Civil Engineering" },
+          {
+            "semester": "7th Semester",
+            "title": "B.Tech Civil Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_CE290121043212.pdf"
+          },
           {
             "semester": "7th Semester",
             "title": "B.Tech Chemical Engineering",

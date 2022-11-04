@@ -145,7 +145,32 @@
       }
     ]
   },
-  { "programName": "MBA Integrated", "programId": 21, "programDataList": [] },
+  {
+    "programName": "MBA Integrated",
+    "programId": 21,
+    "programDataList": [
+      {
+        "title": "Time Table MBA Integrated X semester Nov 2022",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/scan0001041122034854.pdf"
+      },
+      {
+        "title": "Time Table MBA Integrated IX semester Nov 2022",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/scan0001041122034818.pdf"
+      },
+      {
+        "title": "Time Table MBA Integrated VIII semester Nov 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/scan0001041122034744.pdf"
+      },
+      {
+        "title": "Time Table MBA Integrated VII semester Nov 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/scan0001041122034631.pdf"
+      }
+    ]
+  },
   { "programName": "DDI-PG", "programId": 12, "programDataList": [] },
   { "programName": "Diploma", "programId": 3, "programDataList": [] },
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },

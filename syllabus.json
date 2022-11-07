@@ -2506,7 +2506,11 @@
             "title": "B.Pharm.(Grading Sys.)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III B. Pharm_Sy_ 030811050525.pdf"
           },
-          { "semester": "4th Semester", "title": "B.Pharm.(Grading Sys.)" },
+          {
+            "semester": "4th Semester",
+            "title": "B.Pharm.(Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IVB.Pharm_Sy_030811050704.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "B.Pharm(Grading)",

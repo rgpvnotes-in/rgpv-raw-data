@@ -6,6 +6,21 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTECH Computer Scince and Business System V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTEchCSBS5091122033515.pdf"
+      },
+      {
+        "title": "Time Table BTech VI Semster Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTEch6091122032622.pdf"
+      },
+      {
+        "title": "Time Table BTech V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech5091122032438.pdf"
+      },
+      {
         "title": "BTech VIII Semester Examination Dec 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTDec2022_BTechVIII281022114842.pdf"
@@ -70,6 +85,16 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "Time Table BPharmacy PCI VI Semster Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_5_6091122031715.pdf"
+      },
+      {
+        "title": "Time Table BPharmacy PCI V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_5_6091122031209.pdf"
+      },
+      {
         "title": "BPharmacy PCI VIII Semester Examination Dec 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_7_8201022053206.pdf"
@@ -85,6 +110,16 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "Time Table BPharmacy CBGS VI Semster Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_5_6091122032224.pdf"
+      },
+      {
+        "title": "Time Table BPharmacy CBGS V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_5_6091122032034.pdf"
+      },
       {
         "title": "BPharmacy VIII Semester CBGS Examination Dec 2022",
         "semester": "8th Semester",
@@ -117,12 +152,52 @@
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
-  { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
-  { "programName": "MCA", "programId": 5, "programDataList": [] },
+  {
+    "programName": "MCA 2 Year",
+    "programId": 53,
+    "programDataList": [
+      {
+        "title": "Time Table MCA 2 Year  IV Semster Nov 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Y_3_4091122034014.pdf"
+      },
+      {
+        "title": "Time Table MCA 2 Year  III Semster Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA2Y_3_4091122033926.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "MCA",
+    "programId": 5,
+    "programDataList": [
+      {
+        "title": "Time Table MCA VI Semster Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y_5_6091122031023.pdf"
+      },
+      {
+        "title": "Time Table MCA V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y_5_6091122030917.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "Time Table MCA Dual Degree VI Semster Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADD5_6091122034426.pdf"
+      },
+      {
+        "title": "Time Table MCA Dual Degree V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCADD5_6091122034349.pdf"
+      },
       {
         "title": "Time Table MCA Dual Degree X Sem Nov 2022",
         "semester": "10th Semester",
@@ -149,6 +224,16 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table MBA Integrated VI Semster Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_6_MBAInt091122034708.pdf"
+      },
+      {
+        "title": "Time Table MBA Integrated V Semster Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAMDD5_6_MBAInt091122034630.pdf"
+      },
       {
         "title": "Time Table MBA Integrated X semester Nov 2022",
         "semester": "10th Semester",

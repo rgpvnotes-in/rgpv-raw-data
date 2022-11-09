@@ -1464,11 +1464,7 @@
             "title": "B.E.(Electrical Electronics Engg.)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EX (SY)080411020322.pdf"
           },
-          {
-            "semester": "6th Semester",
-            "title": "B.E.(Fire Tech.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI FT(SY)080411020629.pdf"
-          },
+          { "semester": "6th Semester", "title": "B.E.(Fire Tech.)" },
           {
             "semester": "6th Semester",
             "title": "B.E.(IP,IEM)",

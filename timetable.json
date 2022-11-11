@@ -6,6 +6,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "BTech VII Semester Examination Nov 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTEch7111122031422.pdf"
+      },
+      {
         "title": "Time Table BTECH Computer Scince and Business System V Semster Nov 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTEchCSBS5091122033515.pdf"
@@ -24,11 +29,6 @@
         "title": "BTech VIII Semester Examination Dec 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTDec2022_BTechVIII281022114842.pdf"
-      },
-      {
-        "title": "BTech VII Semester Examination Dec 2022",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTDec2022_BTechVII281022114736.pdf"
       }
     ]
   },

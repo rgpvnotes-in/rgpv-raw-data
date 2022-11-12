@@ -1369,11 +1369,7 @@
             "title": "B.E.(AU)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V AU290911030621.pdf"
           },
-          {
-            "semester": "5th Semester",
-            "title": "B.E.(CE)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme V Sem290911033531.pdf"
-          },
+          { "semester": "5th Semester", "title": "B.E.(CE)" },
           {
             "semester": "5th Semester",
             "title": "B.E.(CM)",

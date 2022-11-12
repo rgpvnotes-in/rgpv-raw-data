@@ -1947,7 +1947,11 @@
             "title": "B.E. Fire Technology CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem FT261217030400.pdf"
           },
-          { "semester": "4th Semester", "title": "B.E. IPE CBGS 2017" },
+          {
+            "semester": "4th Semester",
+            "title": "B.E. IPE CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem IPE261217030440.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "B.E. Information Technology CBGS 2017",

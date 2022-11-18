@@ -37,6 +37,16 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "Time table BE VIII semester Nov 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE 8181122015651.pdf"
+      },
+      {
+        "title": "Time table BE VII semester Nov 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE 7181122015347.pdf"
+      },
+      {
         "title": "Time Table BE VIII Sem CBGS Nov 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE8CBGS011122015451.pdf"
@@ -136,6 +146,26 @@
     "programName": "B.Arch",
     "programId": 11,
     "programDataList": [
+      {
+        "title": "Time table BArch CBGS X Semester Nov 2022",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122013044.pdf"
+      },
+      {
+        "title": "Time table BArch CBGS IX Semester Nov 2022",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122013003.pdf"
+      },
+      {
+        "title": "Time table BArch CBGS VIII Semester Nov 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122012900.pdf"
+      },
+      {
+        "title": "Time table BArch CBGS VII Semester Nov 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122012818.pdf"
+      },
       {
         "title": "Time table BArch CBGS V semester Nov 2022",
         "semester": "5th Semester",

@@ -4787,11 +4787,7 @@
             "title": "Scheme for M.C.A. II sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_MCA_201020032522.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "M.C.A.(Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III MCA 071011012201.pdf"
-          },
+          { "semester": "3rd Semester", "title": "M.C.A.(Grading Sys)" },
           {
             "semester": "4th Semester",
             "title": "Scheme for M.C.A. 4th sem(Grading Sys)",

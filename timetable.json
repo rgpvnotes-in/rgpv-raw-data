@@ -37,6 +37,16 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "Time Table BE CBGS VI semester Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE6cbgs291122032056.pdf"
+      },
+      {
+        "title": "Time Table BE CBGS V semester Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE5cbgs291122032031.pdf"
+      },
+      {
         "title": "Time table BE VIII semester Nov 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE 8181122015651.pdf"
@@ -63,6 +73,16 @@
     "programId": 10,
     "programDataList": [
       {
+        "title": "Time Table BE Part Time VI semester Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT5_6291122032243.pdf"
+      },
+      {
+        "title": "Time Table BE Part Time V semester Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT5_6291122032210.pdf"
+      },
+      {
         "title": "Time Table BE PTDC  VIII Sem Nov 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechPT78sem011122015909.pdf"
@@ -78,6 +98,16 @@
     "programName": "B.Tech.-PTDC",
     "programId": 42,
     "programDataList": [
+      {
+        "title": "Time Table BTech Part Time VI semester Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT5_6291122032357.pdf"
+      },
+      {
+        "title": "Time Table BTech Part Time VIsemester Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BEBTechPT5_6291122032332.pdf"
+      },
       {
         "title": "Time Table BTech PTDC  VIII Sem Nov 2022",
         "semester": "8th Semester",
@@ -147,6 +177,16 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table BArch CBGS VI semester Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_CBGS291122031906.pdf"
+      },
+      {
+        "title": "Time Table BArch CBGS V semester Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_CBGS291122031834.pdf"
+      },
+      {
         "title": "Time table BArch CBGS X Semester Nov 2022",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122013044.pdf"
@@ -170,11 +210,6 @@
         "title": "Time table BArch CoA V semester Nov 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024435.pdf"
-      },
-      {
-        "title": "Time table BArch CBGS VI semester Nov 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH CBGS 56141122024217.pdf"
       },
       {
         "title": "Time table BArch CoA VI semester Nov 2022",

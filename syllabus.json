@@ -948,7 +948,11 @@
             "title": "Bio-Medical Engineering(Grading)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V BM _SY_040612031445.pdf"
           },
-          { "semester": "5th Semester", "title": "Civil Engineering(Grading)" },
+          {
+            "semester": "5th Semester",
+            "title": "Civil Engineering(Grading)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Civil _SY_040612031543.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "Chemical Engineering(Grading)",

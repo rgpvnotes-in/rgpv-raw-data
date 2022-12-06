@@ -4394,7 +4394,7 @@
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
-      { "name": "CBGS", "id": 5 },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },

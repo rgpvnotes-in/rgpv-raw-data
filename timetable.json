@@ -178,11 +178,13 @@
     "programDataList": [
       {
         "title": "Time Table BArch CBGS VI semester Nov 2022",
-        "semester": "6th Semester"
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_CBGS291122031906.pdf"
       },
       {
         "title": "Time Table BArch CBGS V semester Nov 2022",
-        "semester": "5th Semester"
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_CBGS291122031834.pdf"
       },
       {
         "title": "Time table BArch CBGS X Semester Nov 2022",

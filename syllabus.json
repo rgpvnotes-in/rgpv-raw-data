@@ -2107,11 +2107,7 @@
             "title": "B.E. EI CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EI _SY020118035050.pdf"
           },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. EX CBGS 2017",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EX _SY020118035124.pdf"
-          },
+          { "semester": "6th Semester", "title": "B.E. EX CBGS 2017" },
           {
             "semester": "6th Semester",
             "title": "B.E. Information Technology CBGS 2017",

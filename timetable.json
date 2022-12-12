@@ -6,6 +6,16 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table B.Tech III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech 3sam121222122216.pdf"
+      },
+      {
+        "title": "Time Table B.Tech IV Semester Nov 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech sam 4121222121840.pdf"
+      },
+      {
         "title": "Time Table BTech V Semster Nov 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH 5 SEM141122025602.pdf"
@@ -125,6 +135,21 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "Time Table B.Pharmacy PCI IV Semester Nov 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124309.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy PCI III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124240.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy PCI II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124216.pdf"
+      },
+      {
         "title": "Time Table BPharmacy PCI VI Semster Nov 2022",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCI_BPhCBGS_5_6091122031715.pdf"
@@ -150,6 +175,41 @@
     "programName": "B.Pharm",
     "programId": 2,
     "programDataList": [
+      {
+        "title": "Time Table B.Pharmacy VIII Semester Nov 2022",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy sam 5678121222124716.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy VII Semester Nov 2022",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy sam 5678121222124653.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy VI Semester Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy sam 5678121222124628.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy V Semester Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy sam 5678121222124606.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy CBGS IV Semester Nov 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124454.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy CBGS III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124426.pdf"
+      },
+      {
+        "title": "Time Table B.Pharmacy CBGS II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124404.pdf"
+      },
       {
         "title": "Time Table BPharmacy CBGS VI Semster Nov 2022",
         "semester": "6th Semester",
@@ -223,15 +283,70 @@
       }
     ]
   },
-  { "programName": "M.E.", "programId": 6, "programDataList": [] },
-  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
+  {
+    "programName": "M.E.",
+    "programId": 6,
+    "programDataList": [
+      {
+        "title": "Time Table ME II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME MTech sam 2121222122534.pdf"
+      },
+      {
+        "title": "Time Table ME III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME MTech sam 3121222122107.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Tech.",
+    "programId": 8,
+    "programDataList": [
+      {
+        "title": "Time Table M.Tech II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME MTech sam 2121222122417.pdf"
+      },
+      {
+        "title": "Time Table M.Tech III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME MTech sam 3121222122017.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
     "programDataList": []
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "Time Table M.Pharmacy III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharmacy sam 3121222122848.pdf"
+      },
+      {
+        "title": "Time Table M.Pharmacy II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharmacy sam 2121222122725.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "Time Table M.Pharmacy PCI II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharmacy pcisam 2121222123015.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,

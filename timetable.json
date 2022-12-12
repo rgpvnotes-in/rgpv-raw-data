@@ -433,6 +433,21 @@
     "programId": 5,
     "programDataList": [
       {
+        "title": "Time Table MCA IV  Semester Nov 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA sam 2343 years121222012201.pdf"
+      },
+      {
+        "title": "Time Table MCA  III Semester Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA sam 2343 years121222012130.pdf"
+      },
+      {
+        "title": "Time Table MCA  II Semester Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA sam 2343 years121222012102.pdf"
+      },
+      {
         "title": "Time Table MCA VI Semster Nov 2022",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA3Y_5_6091122031023.pdf"
@@ -556,24 +571,24 @@
     "programId": 51,
     "programDataList": [
       {
-        "title": "Time Table Pharma D. II Semester Nov 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/D Pharma sam 234121222125346.pdf"
+        "title": "Time Table Pharma D. III Year Examination  Nov 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/D Pharma sam 234121222013110.pdf"
       },
       {
-        "title": "Time Table Pharma D. IV Years Nov 2022",
+        "title": "Time Table Pharma D. IV Year Examination  Nov 2022",
         "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/D Pharma sam 234121222011825.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/D Pharma sam 234121222013216.pdf"
+      },
+      {
+        "title": "Time Table Pharma D. II Year Examination  Nov 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/D Pharma sam 234121222012433.pdf"
       },
       {
         "title": "Pharm.D I Year Examination June 2022",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD040622013547.pdf"
-      },
-      {
-        "title": "Pharm.D III Year Examination June 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_2_3_4_Year110522045544.pdf"
       }
     ]
   }

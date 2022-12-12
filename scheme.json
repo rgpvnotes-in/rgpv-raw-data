@@ -1073,11 +1073,7 @@
             "title": "(Electronics  Communication Engineering)(Grading)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_EC200612052329.pdf"
           },
-          {
-            "semester": "5th Semester",
-            "title": "Mining Engineering Grading",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme010916025135.pdf"
-          },
+          { "semester": "5th Semester", "title": "Mining Engineering Grading" },
           {
             "semester": "6th Semester",
             "title": "BE(Textile Engg)(Grding System)",

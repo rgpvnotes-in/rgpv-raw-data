@@ -1,5 +1,25 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "Time Table MBA III Semester NOV 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA  sam141222033827.pdf"
+      },
+      {
+        "title": "Time Table MBA II Semester NOV 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA sam 2141222033740.pdf"
+      },
+      {
+        "title": "Time Table MBA IV Semester NOV 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 4 sam141222033404.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Arch",
     "programId": 22,
@@ -292,6 +312,21 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table B.Arch IV Semester NOV 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 234CoA141222033638.pdf"
+      },
+      {
+        "title": "Time Table B.Arch III Semester NOV 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 234CoA141222033610.pdf"
+      },
+      {
+        "title": "Time Table B.Arch II Semester NOV 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 234CoA141222033527.pdf"
+      },
+      {
         "title": "Time Table BArch CBGS VI semester Nov 2022",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch5_6_CBGS291122031906.pdf"
@@ -322,14 +357,14 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122012818.pdf"
       },
       {
-        "title": "Time table BArch CoA V semester Nov 2022",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024435.pdf"
-      },
-      {
         "title": "Time table BArch CoA VI semester Nov 2022",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024512.pdf"
+      },
+      {
+        "title": "Time table BArch CoA V semester Nov 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024435.pdf"
       },
       {
         "title": "Time Table BArch VII Sem As Per CoA",

@@ -408,7 +408,28 @@
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": []
+    "programDataList": [
+      {
+        "title": "Time Table M.Tech PTDC V Semester NOV 2022",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech PTDC sam 2345161222120616.pdf"
+      },
+      {
+        "title": "Time Table M.Tech PTDC IV Semester NOV 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech PTDC sam 2345161222120542.pdf"
+      },
+      {
+        "title": "Time Table M.Tech PTDC III Semester NOV 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech PTDC sam 2345161222120513.pdf"
+      },
+      {
+        "title": "Time Table M.Tech PTDC II Semester NOV 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech PTDC sam 2345161222120439.pdf"
+      }
+    ]
   },
   {
     "programName": "M.Pharm",

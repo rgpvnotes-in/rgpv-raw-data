@@ -4296,7 +4296,11 @@
         "name": "Grading System",
         "id": 1,
         "pdfs": [
-          { "semester": "1st Semester", "title": "M.Pharm (Grading Sys)" },
+          {
+            "semester": "1st Semester",
+            "title": "M.Pharm (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I MPharm190511051222.pdf"
+          },
           {
             "semester": "2nd Semester",
             "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)",

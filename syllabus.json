@@ -708,7 +708,8 @@
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus Fire Tech and Safety Engineering"
+            "title": "Syllabus Fire Tech and Safety Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT_BTech_VIII300121025619.pdf"
           },
           {
             "semester": "8th Semester",
@@ -737,8 +738,7 @@
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Electronics and communication Engg",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_EC_Sy020221063906.pdf"
+            "title": "Syllabus B.Tech Electronics and communication Engg"
           },
           {
             "semester": "8th Semester",
@@ -829,8 +829,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E.(BioMedical. Engg)(Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III  BM_Sy_ 260711062235.pdf"
+            "title": "B.E.(BioMedical. Engg)(Grading Sys)"
           },
           {
             "semester": "3rd Semester",
@@ -1069,8 +1068,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "BE(Textile Engg)(Grading System)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI TX _SY_221212032343.pdf"
+            "title": "BE(Textile Engg)(Grading System)"
           },
           {
             "semester": "6th Semester",
@@ -1553,11 +1551,7 @@
             "title": "B.E.(IE)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IE 7th (SY)170811065519.pdf"
           },
-          {
-            "semester": "7th Semester",
-            "title": "B.E. (IP)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IP 7th (SY)170811065616.pdf"
-          },
+          { "semester": "7th Semester", "title": "B.E. (IP)" },
           {
             "semester": "7th Semester",
             "title": "B.E. (ME)",
@@ -3313,7 +3307,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Syllabus for Digital Electronics I Sem"
+            "title": "Syllabus for Digital Electronics I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Digital Electronics _Sy_130913114741.pdf"
           },
           {
             "semester": "1st Semester",

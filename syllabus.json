@@ -738,7 +738,8 @@
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Electronics and communication Engg"
+            "title": "Syllabus B.Tech Electronics and communication Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_EC_Sy020221063906.pdf"
           },
           {
             "semester": "8th Semester",
@@ -829,7 +830,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E.(BioMedical. Engg)(Grading Sys)"
+            "title": "B.E.(BioMedical. Engg)(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III  BM_Sy_ 260711062235.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -1068,7 +1070,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "BE(Textile Engg)(Grading System)"
+            "title": "BE(Textile Engg)(Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI TX _SY_221212032343.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1551,7 +1554,11 @@
             "title": "B.E.(IE)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IE 7th (SY)170811065519.pdf"
           },
-          { "semester": "7th Semester", "title": "B.E. (IP)" },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. (IP)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IP 7th (SY)170811065616.pdf"
+          },
           {
             "semester": "7th Semester",
             "title": "B.E. (ME)",

@@ -1544,7 +1544,11 @@
             "title": "B.E.(EE)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE VII170811062128.pdf"
           },
-          { "semester": "7th Semester", "title": "B.E.(EI)" },
+          {
+            "semester": "7th Semester",
+            "title": "B.E.(EI)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EI 7th170811062243.pdf"
+          },
           {
             "semester": "7th Semester",
             "title": "B.E. (EX)",
@@ -1585,7 +1589,11 @@
             "title": "B.E.(ME)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII ME 150311035239.pdf"
           },
-          { "semester": "8th Semester", "title": "BE(AU)" },
+          {
+            "semester": "8th Semester",
+            "title": "BE(AU)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII AU150311043833.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "BE(CE)",
@@ -2111,7 +2119,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.E. Information Technology CBGS 2017"
+            "title": "B.E. Information Technology CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem IT Scheme020118011448.pdf"
           },
           {
             "semester": "6th Semester",

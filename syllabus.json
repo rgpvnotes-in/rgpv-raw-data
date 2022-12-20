@@ -1574,11 +1574,7 @@
             "title": "B.E.(EI)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/7thEI(sy)170811070833.pdf"
           },
-          {
-            "semester": "8th Semester",
-            "title": "BE (BM)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII BM(Sy) 150311043013.pdf"
-          },
+          { "semester": "8th Semester", "title": "BE (BM)" },
           {
             "semester": "8th Semester",
             "title": "BE (BT)",
@@ -2129,8 +2125,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.E. Mining Engineering CBGS 2017",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem Mining _SY_050118120410.pdf"
+            "title": "B.E. Mining Engineering CBGS 2017"
           },
           {
             "semester": "6th Semester",

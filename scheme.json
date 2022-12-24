@@ -1604,7 +1604,11 @@
             "title": "BE(CM)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII CM150311033613.pdf"
           },
-          { "semester": "8th Semester", "title": "BE(CS)" },
+          {
+            "semester": "8th Semester",
+            "title": "BE(CS)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII CS150311033740.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "BE(EC)",
@@ -1840,7 +1844,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E. Computer Science  Engineering New CBGS 2017"
+            "title": "B.E. Computer Science  Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem _CS__Scheme050817123059.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -3589,8 +3594,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Cyber Security(Grading System)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/1CSscme280913043406.pdf"
+            "title": "Cyber Security(Grading System)"
           },
           {
             "semester": "1st Semester",

@@ -210,19 +210,19 @@
     "programId": 43,
     "programDataList": [
       {
-        "title": "Time Table B.Pharmacy PCI IV Semester Nov 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124309.pdf"
-      },
-      {
-        "title": "Time Table B.Pharmacy PCI III Semester Nov 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124240.pdf"
-      },
-      {
-        "title": "Time Table B.Pharmacy PCI II Semester Nov 2022",
+        "title": "Revised Time Table B.Parmacy PCI II Semester November 2022",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124216.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120119.pdf"
+      },
+      {
+        "title": "Revised Time Table B.Parmacy PCI III Semester November 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123121646.pdf"
+      },
+      {
+        "title": "Revised Time Table B.Parmacy PCI IV Semester November 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120339.pdf"
       },
       {
         "title": "Time Table BPharmacy PCI VI Semster Nov 2022",
@@ -251,6 +251,21 @@
     "programId": 2,
     "programDataList": [
       {
+        "title": "Revised Time Table B.Parmacy CBGS II Semester November 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120620.pdf"
+      },
+      {
+        "title": "Revised Time Table B.Parmacy CBGS III Semester November 2022",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120737.pdf"
+      },
+      {
+        "title": "Revised Time Table B.Parmacy CBGS IV Semester November 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120810.pdf"
+      },
+      {
         "title": "Time Table B.Pharmacy VIII Semester Nov 2022",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy sam 5678121222124716.pdf"
@@ -269,21 +284,6 @@
         "title": "Time Table B.Pharmacy V Semester Nov 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy sam 5678121222124606.pdf"
-      },
-      {
-        "title": "Time Table B.Pharmacy CBGS IV Semester Nov 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124454.pdf"
-      },
-      {
-        "title": "Time Table B.Pharmacy CBGS III Semester Nov 2022",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124426.pdf"
-      },
-      {
-        "title": "Time Table B.Pharmacy CBGS II Semester Nov 2022",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B pharmacy PCI and CBGS 234 sam121222124404.pdf"
       },
       {
         "title": "Time Table BPharmacy CBGS VI Semster Nov 2022",

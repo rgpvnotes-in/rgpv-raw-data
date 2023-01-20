@@ -92,14 +92,14 @@
     "programId": 1,
     "programDataList": [
       {
-        "title": "Time Table BE IV Semester CBGS November 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_IV_CBGS-1120123114329.pdf"
-      },
-      {
         "title": "Time Table BE III Semester CBGS November 2022",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_III_CBGS120123114002.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_III_CBGS200123043450.pdf"
+      },
+      {
+        "title": "Time Table BE IV Semester CBGS November 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_IV_CBGS200123043507.pdf"
       },
       {
         "title": "Time table BE VI Semester November 2022",

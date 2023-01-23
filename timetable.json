@@ -25,6 +25,11 @@
     "programId": 22,
     "programDataList": [
       {
+        "title": "Time Table M.Arch I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch I Sem230123024236.pdf"
+      },
+      {
         "title": "Time Table M.Arch IV Semester Nov 2022",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch sam 234121222010055.pdf"
@@ -45,6 +50,26 @@
     "programName": "B.Tech",
     "programId": 24,
     "programDataList": [
+      {
+        "title": "Time Table B.Tech CSBS II Semester November 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B TEch 1 2 Sem CSBS230123024039.pdf"
+      },
+      {
+        "title": "Time Table B.Tech CSBS I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B TEch 1 2 Sem CSBS230123024013.pdf"
+      },
+      {
+        "title": "Time Table B.Tech II Semester November 2022",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 1 2 sem230123023626.pdf"
+      },
+      {
+        "title": "Time Table B.Tech I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 1 2 sem230123023557.pdf"
+      },
       {
         "title": "Revised Time Table B.Tech III Semester  November 2022",
         "semester": "3rd Semester",
@@ -332,6 +357,11 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table B.Arch I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch I sem CoA230123024157.pdf"
+      },
+      {
         "title": "Revised Time Table B.Arch II Semester November 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch CoA Sem 2 3 4130123042622.pdf"
@@ -382,14 +412,14 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch CBGS 78910181122012818.pdf"
       },
       {
-        "title": "Time table BArch CoA VI semester Nov 2022",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024512.pdf"
-      },
-      {
         "title": "Time table BArch CoA V semester Nov 2022",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024435.pdf"
+      },
+      {
+        "title": "Time table BArch CoA VI semester Nov 2022",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BARCH 56 COA141122024512.pdf"
       },
       {
         "title": "Time Table BArch VII Sem As Per CoA",
@@ -402,6 +432,11 @@
     "programName": "M.E.",
     "programId": 6,
     "programDataList": [
+      {
+        "title": "Time Table ME I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech 1SEM230123022931.pdf"
+      },
       {
         "title": "Time Table ME II Semester Nov 2022",
         "semester": "2nd Semester",
@@ -418,6 +453,11 @@
     "programName": "M.Tech.",
     "programId": 8,
     "programDataList": [
+      {
+        "title": "Time Table M. Tech I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech 1SEM230123023022.pdf"
+      },
       {
         "title": "Time Table M.Tech II Semester Nov 2022",
         "semester": "2nd Semester",
@@ -493,6 +533,11 @@
     "programId": 53,
     "programDataList": [
       {
+        "title": "Time Table MCA 2 Years I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 1 SEM 2Y230123022735.pdf"
+      },
+      {
         "title": "Time Table MCA II Semester Nov 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA sam 2 2 yeras121222010237.pdf"
@@ -545,6 +590,11 @@
     "programId": 23,
     "programDataList": [
       {
+        "title": "Time Table MCA DUAL DEGREE I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 1 SEM INT230123024642.pdf"
+      },
+      {
         "title": "Time Table MCA Dual Degree IV Semester Nov 2022",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA sam 234121222011033.pdf"
@@ -595,6 +645,11 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table MBA INTEGRATED I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MAM dd MBA int 1 SEM230123023251.pdf"
+      },
       {
         "title": "Time Table Integrated MBA IV Semester Nov 2022",
         "semester": "4th Semester",

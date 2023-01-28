@@ -301,6 +301,16 @@
     "programId": 2,
     "programDataList": [
       {
+        "title": "B.Pharm IV Semester CBCS Dec 2022 Examination",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTDec2022_BP_CBCS_IV280123092936.pdf"
+      },
+      {
+        "title": "Revised Time Table B.Parmacy CBGS IV Semester November 2022",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120810.pdf"
+      },
+      {
         "title": "Revised Time Table B.Parmacy CBGS II Semester November 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120620.pdf"
@@ -309,11 +319,6 @@
         "title": "Revised Time Table B.Parmacy CBGS III Semester November 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120737.pdf"
-      },
-      {
-        "title": "Revised Time Table B.Parmacy CBGS IV Semester November 2022",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120810.pdf"
       },
       {
         "title": "Time Table B.Pharmacy VIII Semester Nov 2022",

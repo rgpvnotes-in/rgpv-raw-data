@@ -260,6 +260,11 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "Time Table B.Pharmacy PCI I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharmacy PCI I Sem090223115826.pdf"
+      },
+      {
         "title": "Revised Time Table B.Parmacy PCI II Semester November 2022",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Parma PCI 2 3 4100123120119.pdf"
@@ -511,6 +516,11 @@
     "programId": 7,
     "programDataList": [
       {
+        "title": "Time Table M.Pharmacy  I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma I Sem090223120102.pdf"
+      },
+      {
         "title": "Time Table M.Pharmacy III Semester Nov 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharmacy sam 3121222122848.pdf"
@@ -526,6 +536,11 @@
     "programName": "M.Pharm. PCI",
     "programId": 71,
     "programDataList": [
+      {
+        "title": "Time Table M.Pharmacy PCI I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharmacy PCI I Sem090223115947.pdf"
+      },
       {
         "title": "Time Table M.Pharmacy III Semester Nov 2022",
         "semester": "3rd Semester",

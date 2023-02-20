@@ -122,6 +122,11 @@
     "programId": 1,
     "programDataList": [
       {
+        "title": "Time Table BE I Semester November 2022",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE I SEM200223013336.pdf"
+      },
+      {
         "title": "Time Table BE III Semester CBGS November 2022",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_III_CBGS200123043450.pdf"

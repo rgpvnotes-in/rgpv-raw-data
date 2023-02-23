@@ -1589,11 +1589,7 @@
             "title": "B.E.(Bio Medical Engg.)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Bio Medical (SY)080411024204.pdf"
           },
-          {
-            "semester": "7th Semester",
-            "title": "B.E(IT)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/7th IT(sy)wef July 11_060711015144.pdf"
-          },
+          { "semester": "7th Semester", "title": "B.E(IT)" },
           {
             "semester": "7th Semester",
             "title": "B.E.(CSE)",

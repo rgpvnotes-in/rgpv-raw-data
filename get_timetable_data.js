@@ -1,1 +1,79 @@
-const a0_0x3898d4=a0_0x29cd;(function(_0x119334,_0x1a7d85){const _0x1ea3e9=a0_0x29cd,_0x186690=_0x119334();while(!![]){try{const _0x44556a=-parseInt(_0x1ea3e9(0x96))/0x1*(-parseInt(_0x1ea3e9(0x88))/0x2)+-parseInt(_0x1ea3e9(0x7b))/0x3+-parseInt(_0x1ea3e9(0x97))/0x4*(-parseInt(_0x1ea3e9(0x79))/0x5)+parseInt(_0x1ea3e9(0x7a))/0x6*(-parseInt(_0x1ea3e9(0x7c))/0x7)+-parseInt(_0x1ea3e9(0x80))/0x8+parseInt(_0x1ea3e9(0x91))/0x9*(parseInt(_0x1ea3e9(0x95))/0xa)+parseInt(_0x1ea3e9(0x87))/0xb;if(_0x44556a===_0x1a7d85)break;else _0x186690['push'](_0x186690['shift']());}catch(_0x203a9e){_0x186690['push'](_0x186690['shift']());}}}(a0_0x565f,0x24d3c));function a0_0x29cd(_0x540aa4,_0x265270){const _0x565f1a=a0_0x565f();return a0_0x29cd=function(_0x29cd8a,_0x1d7b66){_0x29cd8a=_0x29cd8a-0x77;let _0x43f017=_0x565f1a[_0x29cd8a];return _0x43f017;},a0_0x29cd(_0x540aa4,_0x265270);}function a0_0x565f(){const _0x5bc83c=['fetchTimeTableFileUrl','208930pyNTDj','3373IXSTLT','13236zYCWzE','trim','some\x20error\x20occurred','405iNWZLm','789414urWkyQ','268239RRjWNs','7BOkaXH','programDataList','prepareTimeTableData','length','1250864ZkmdWB','./services/cheerio/index','error\x20while\x20extracting\x20PDF\x20url','./services/axios/index','stateData','programList','error','176957xnCVby','58bZMNIi','program\x20list\x20array\x20is\x20empty','programName','semester','programId','push','name','url','title','63UZbJyq','error\x20while\x20writing\x20file','TT\x20list\x20with\x20data\x20is\x20empty'];a0_0x565f=function(){return _0x5bc83c;};return a0_0x565f();}const fs=require('fs'),cheerioFunctions=require(a0_0x3898d4(0x81)),axiosFunctions=require(a0_0x3898d4(0x83)),write_timetable_data=async()=>{const _0x1cbbf8=a0_0x3898d4;try{const _0x5a9fa1=await cheerioFunctions['stateDataProgramListForTimeTable'](),_0x196898=_0x5a9fa1[_0x1cbbf8(0x85)],_0xb4e700=_0x5a9fa1[_0x1cbbf8(0x84)],_0x44c983=[];_0x196898['length']===0x0&&console['error'](_0x1cbbf8(0x89));for(const [_0x5848c9,_0x473fd1]of _0x196898['entries']()){const _0x4be5ea={};_0x4be5ea[_0x1cbbf8(0x8a)]=_0x473fd1[_0x1cbbf8(0x8e)],_0x4be5ea[_0x1cbbf8(0x8c)]=_0x473fd1['id'],_0x4be5ea[_0x1cbbf8(0x7d)]=[];const _0x2220d1={'state':_0xb4e700,'program':_0x473fd1['id']},_0x4b16b2=await cheerioFunctions[_0x1cbbf8(0x7e)](_0x2220d1);_0x4b16b2[_0x1cbbf8(0x7f)]===0x0&&console['error'](_0x1cbbf8(0x93));for(const [_0x1d0d29,_0x4b5bfd]of _0x4b16b2['entries']()){const _0x3e6b5b={};_0x3e6b5b[_0x1cbbf8(0x90)]=_0x4b5bfd[_0x1cbbf8(0x90)][_0x1cbbf8(0x77)](),_0x3e6b5b[_0x1cbbf8(0x8b)]=_0x4b5bfd[_0x1cbbf8(0x8b)][_0x1cbbf8(0x77)]();const _0x10cef7={'state':_0xb4e700,'program':_0x473fd1['id'],'triggerBy':_0x4b5bfd['btn']},_0x1840b4=await axiosFunctions[_0x1cbbf8(0x94)](_0x10cef7);!_0x1840b4&&console[_0x1cbbf8(0x86)](_0x1cbbf8(0x82)),_0x3e6b5b[_0x1cbbf8(0x8f)]=_0x1840b4,_0x4be5ea[_0x1cbbf8(0x7d)]['push'](_0x3e6b5b);}_0x44c983[_0x1cbbf8(0x8d)](_0x4be5ea);}fs['writeFile']('dist/timetable.json',JSON['stringify'](_0x44c983),_0x585e34=>{const _0x4b1667=_0x1cbbf8;if(_0x585e34){console[_0x4b1667(0x86)](_0x4b1667(0x92));return;}});}catch(_0x2df5eb){console[_0x1cbbf8(0x86)](_0x1cbbf8(0x78)),write_timetable_data();}};write_timetable_data();
+const fs = require('fs');
+const cheerioFunctions = require('./services/cheerio/index');
+const axiosFunctions = require('./services/axios/index');
+
+const write_timetable_data = async () => {
+  try {
+    const ttProgramListResponse =
+      await cheerioFunctions.stateDataProgramListForTimeTable();
+
+    const ttProgramList = ttProgramListResponse.programList;
+    const stateData = ttProgramListResponse.stateData;
+
+    const timeTableDataList = [];
+
+    if (ttProgramList.length === 0) {
+      // log if program list length is zero
+      console.error('program list array is empty');
+    }
+
+    for (const [index, program] of ttProgramList.entries()) {
+      const timeTableData = {};
+
+      timeTableData.programName = program.name;
+      timeTableData.programId = program.id;
+      timeTableData.programDataList = [];
+
+      const postData = {
+        state: stateData,
+        program: program.id,
+      };
+
+      const ttListData = await cheerioFunctions.prepareTimeTableData(postData);
+
+      if (ttListData.length === 0) {
+        // log if fileButton list length is zero
+        console.error('TT list with data is empty');
+      }
+
+      for (const [index, timeTable] of ttListData.entries()) {
+        const programData = {};
+
+        programData.title = timeTable.title.trim();
+        programData.semester = timeTable.semester.trim();
+
+        const postData = {
+          state: stateData,
+          program: program.id,
+          triggerBy: timeTable.btn,
+        };
+
+        const fileUrl = await axiosFunctions.fetchTimeTableFileUrl(postData);
+
+        if (!fileUrl) {
+          // log if fileButton list length is zero
+          console.error('error while extracting PDF url');
+        }
+        programData.url = fileUrl;
+        timeTableData.programDataList.push(programData);
+      }
+      timeTableDataList.push(timeTableData);
+    }
+
+    fs.writeFile(
+      'dist/timetable.json',
+      JSON.stringify(timeTableDataList),
+      (err) => {
+        if (err) {
+          console.error('error while writing file');
+          return;
+        }
+        //file written successfully
+      },
+    );
+  } catch (error) {
+    console.error('some error occurred');
+    write_timetable_data();
+  }
+};
+write_timetable_data();

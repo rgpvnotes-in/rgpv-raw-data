@@ -1,1 +1,144 @@
-const a0_0xc69d32=a0_0x3cab;(function(_0x257578,_0xa5bf32){const _0x260656=a0_0x3cab,_0x2af140=_0x257578();while(!![]){try{const _0x383ad2=-parseInt(_0x260656(0x1b6))/0x1+parseInt(_0x260656(0x1c7))/0x2+-parseInt(_0x260656(0x1c1))/0x3*(parseInt(_0x260656(0x1b2))/0x4)+-parseInt(_0x260656(0x1af))/0x5*(-parseInt(_0x260656(0x1b0))/0x6)+-parseInt(_0x260656(0x1b4))/0x7*(-parseInt(_0x260656(0x1b7))/0x8)+parseInt(_0x260656(0x19d))/0x9+-parseInt(_0x260656(0x1c6))/0xa;if(_0x383ad2===_0xa5bf32)break;else _0x2af140['push'](_0x2af140['shift']());}catch(_0x1fc33b){_0x2af140['push'](_0x2af140['shift']());}}}(a0_0x12ac,0x73a80));const axios=require('axios'),headers={'authority':a0_0xc69d32(0x1a1),'sec-ch-ua':a0_0xc69d32(0x1ac),'sec-ch-ua-mobile':'?0','user-agent':a0_0xc69d32(0x1cd),'content-type':a0_0xc69d32(0x1ae),'cache-control':a0_0xc69d32(0x1bb),'x-requested-with':a0_0xc69d32(0x19b),'x-microsoftajax':a0_0xc69d32(0x1b9),'sec-ch-ua-platform':a0_0xc69d32(0x1a0),'accept':'*/*','origin':a0_0xc69d32(0x19c),'sec-fetch-site':'same-origin','sec-fetch-mode':a0_0xc69d32(0x1c5),'sec-fetch-dest':a0_0xc69d32(0x1a6),'referer':'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%','accept-language':a0_0xc69d32(0x1a7),'cookie':'ASP.NET_SessionId=hznbm3vovcoagebriewkhpw0','dnt':'1','sec-gpc':'1'};function a0_0x12ac(){const _0x344b90=['no-cache','&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=','pattern','https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=%24%25','ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27updateNewsOnApiServer\x27,\x20error:\x20','35523jGKXma','schemeORsyllabus','&ctl00%24ContentPlaceHolder1%24drpSearchGrading=','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27simplePostData\x27,\x20error:\x20','cors','3680710pehXLy','157888IIROgZ','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27fetchTimeTableFileUrl\x27,\x20error:\x20','simpleGetData','error','ScriptContentWithTags','data','Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/94.0.4606.81\x20Safari/537.36','replace','XMLHttpRequest','https://www.rgpv.ac.in','8161263ZedfVG','get','fetchTimeTableFileUrl','\x22Windows\x22','www.rgpv.ac.in','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27fetchSchemeOrSyllabusFileUrl\x27,\x20error:\x20','https://www.rgpv.ac.in/','&__EVENTTARGET=','../UC/frm_download_file.aspx?Filepath=','empty','en-GB,en;q=0.9','program','https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx','triggerBy','post','\x22Chromium\x22;v=\x2294\x22,\x20\x22Google\x20Chrome\x22;v=\x2294\x22,\x20\x22;Not\x20A\x20Brand\x22;v=\x2299\x22','&__VIEWSTATEGENERATOR=87DDE0DB&__ASYNCPOST=true&','application/x-www-form-urlencoded;\x20charset=UTF-8','5uAkxag','958356CNNXzs','state','104tjmRfU','&ctl00%24ContentPlaceHolder1%24drpProgram=','3843etcsAp','updateNewsOnApiServer','414150aelCKf','6096AmKbgY','split','Delta=true','&ctl00%24ContentPlaceHolder1%24drpUploadType='];a0_0x12ac=function(){return _0x344b90;};return a0_0x12ac();}function a0_0x3cab(_0x555751,_0xe1c7d7){const _0x12ac51=a0_0x12ac();return a0_0x3cab=function(_0x3cab1c,_0x2af687){_0x3cab1c=_0x3cab1c-0x19a;let _0x372a72=_0x12ac51[_0x3cab1c];return _0x372a72;},a0_0x3cab(_0x555751,_0xe1c7d7);}exports[a0_0xc69d32(0x1c9)]=async _0x4201da=>{const _0x1e8a16=a0_0xc69d32;try{return(await axios[_0x1e8a16(0x19e)](_0x4201da))[_0x1e8a16(0x1cc)];}catch(_0x1de9d6){console['error']('Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27simpleGetData\x27,\x20error:\x20'+_0x1de9d6);}},exports['simplePostData']=async(_0x4fd780,_0x5634ed)=>{const _0x11e692=a0_0xc69d32;try{return(await axios[_0x11e692(0x1ab)](_0x4fd780,_0x5634ed,{'headers':headers}))[_0x11e692(0x1cc)];}catch(_0x4ef34f){console[_0x11e692(0x1ca)](_0x11e692(0x1c4)+_0x4ef34f);}},exports[a0_0xc69d32(0x1b5)]=async(_0x2bcac9,_0x21fc28,_0x322161)=>{const _0x29a65c=a0_0xc69d32;try{await axios['put'](_0x2bcac9,{'password':_0x21fc28,'newsData':_0x322161});}catch(_0x74317c){console[_0x29a65c(0x1ca)](_0x29a65c(0x1c0));}},exports[a0_0xc69d32(0x19f)]=async _0x172559=>{const _0x397b41=a0_0xc69d32;try{const _0x31f918=encodeURIComponent(_0x172559[_0x397b41(0x1b1)]),_0x391819=encodeURIComponent(_0x172559[_0x397b41(0x1aa)]),_0x436f27=encodeURIComponent(_0x172559[_0x397b41(0x1a8)]),_0x45f73b=_0x397b41(0x1be),_0x7d6099=_0x397b41(0x1bf)+_0x391819+'&ctl00%24ContentPlaceHolder1%24drpProgram='+_0x436f27+_0x397b41(0x1a4)+_0x391819+_0x397b41(0x1bc)+_0x31f918+'&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&';let _0x4ea036=await axios[_0x397b41(0x1ab)](_0x45f73b,_0x7d6099,{'headers':headers});return _0x4ea036=await _0x4ea036[_0x397b41(0x1cc)],_0x4ea036=await _0x4ea036[_0x397b41(0x1b8)](_0x397b41(0x1cb))[0x1],_0x4ea036=await _0x4ea036[_0x397b41(0x1b8)]('\x5c\x22')[0x1],_0x4ea036=await _0x4ea036['replace'](_0x397b41(0x1a5),_0x397b41(0x1a3)),_0x4ea036;}catch(_0x318d30){console['error'](_0x397b41(0x1c8)+_0x318d30);}},exports['fetchSchemeOrSyllabusFileUrl']=async _0x460b54=>{const _0xed982c=a0_0xc69d32;try{const _0xd3c99a=encodeURIComponent(_0x460b54[_0xed982c(0x1b1)]),_0x596485=encodeURIComponent(_0x460b54[_0xed982c(0x1aa)]),_0x6c9dff=_0x460b54[_0xed982c(0x1a8)],_0x2b28b3=_0x460b54[_0xed982c(0x1c2)],_0x2ac907=_0x460b54[_0xed982c(0x1bd)],_0x174d8f=_0xed982c(0x1a9),_0x430a74='ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C'+_0x596485+_0xed982c(0x1ba)+_0x2b28b3+_0xed982c(0x1b3)+_0x6c9dff+_0xed982c(0x1c3)+_0x2ac907+'&__EVENTTARGET='+_0x596485+_0xed982c(0x1bc)+_0xd3c99a+_0xed982c(0x1ad);let _0x1c4d56=(await axios[_0xed982c(0x1ab)](_0x174d8f,_0x430a74,{'headers':headers}))[_0xed982c(0x1cc)];return _0x1c4d56=await _0x1c4d56[_0xed982c(0x1b8)](_0xed982c(0x1cb))[0x1],_0x1c4d56=await _0x1c4d56[_0xed982c(0x1b8)]('\x5c\x22')[0x1],_0x1c4d56=await _0x1c4d56[_0xed982c(0x19a)]('../UC/frm_download_file.aspx?Filepath=',_0xed982c(0x1a3)),_0x1c4d56;}catch(_0xa00b85){console[_0xed982c(0x1ca)](_0xed982c(0x1a2)+_0xa00b85);}};
+const axios = require('axios');
+const headers = {
+  authority: 'www.rgpv.ac.in',
+  'sec-ch-ua':
+    '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'user-agent':
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'cache-control': 'no-cache',
+  'x-requested-with': 'XMLHttpRequest',
+  'x-microsoftajax': 'Delta=true',
+  'sec-ch-ua-platform': '"Windows"',
+  accept: '*/*',
+  origin: 'https://www.rgpv.ac.in',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%',
+  'accept-language': 'en-GB,en;q=0.9',
+  cookie: 'ASP.NET_SessionId=hznbm3vovcoagebriewkhpw0',
+  dnt: '1',
+  'sec-gpc': '1',
+};
+
+/**
+ *
+ * @param {String} sourceURL - The URL from which we have to fetch the data
+ * @returns {String} - The data it received from source page response
+ */
+exports.simpleGetData = async (sourceURL) => {
+  try {
+    return (await axios.get(sourceURL)).data;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'simpleGetData', error: ${error}`,
+    );
+  }
+};
+
+/**
+ *
+ * @param {String} fetchDataFromUrl  - The URL where we want to send the data
+ * @param {Object} postData - Post body data
+ * @returns
+ */
+exports.simplePostData = async (fetchDataFromUrl, postData) => {
+  try {
+    return (
+      await axios.post(fetchDataFromUrl, postData, {
+        headers: headers,
+      })
+    ).data;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'simplePostData', error: ${error}`,
+    );
+  }
+};
+
+/**
+ *
+ * @param {String} urlToUpdateNews - API server end point to update news Data
+ * @param {String} password - Secure password to authenticate
+ * @param {Array} newsData - news data to be uploaded on API server DB
+ */
+exports.updateNewsOnApiServer = async (urlToUpdateNews, password, newsData) => {
+  try {
+    await axios.put(urlToUpdateNews, {
+      password: password,
+      newsData: newsData,
+    });
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'updateNewsOnApiServer', error: `,
+    );
+  }
+};
+
+/**
+ *
+ * @param {Object} bodyData - This object will contain data that has to be sent with HTTP request
+ * @returns {String} This function will return Timetable PDF url
+ */
+exports.fetchTimeTableFileUrl = async (bodyData) => {
+  try {
+    const __VIEWSTATE = encodeURIComponent(bodyData.state);
+    const __EVENTTARGET = encodeURIComponent(bodyData.triggerBy);
+    const drpProgram = encodeURIComponent(bodyData.program);
+    const fetchFileFromUrl =
+      'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=%24%25';
+    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&`;
+
+    let data = await axios.post(fetchFileFromUrl, postData, {
+      headers: headers,
+    });
+    data = await data.data;
+    data = await data.split('ScriptContentWithTags')[1];
+    data = await data.split('\\"')[1];
+    data = await data.replace(
+      '../UC/frm_download_file.aspx?Filepath=',
+      'https://www.rgpv.ac.in/',
+    );
+    return data;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'fetchTimeTableFileUrl', error: ${error}`,
+    );
+  }
+};
+
+/**
+ *
+ * @param {Object} bodyData - This object will contain data that has to be sent with HTTP request
+ * @returns {String} This function will return Scheme or Syllabus PDF url
+ */
+exports.fetchSchemeOrSyllabusFileUrl = async (bodyData) => {
+  try {
+    const __VIEWSTATE = encodeURIComponent(bodyData.state);
+    const __EVENTTARGET = encodeURIComponent(bodyData.triggerBy);
+    const drpProgram = bodyData.program;
+    const drpUploadType = bodyData.schemeORsyllabus; // 1 for scheme, 2 for syllabus
+    const drpSearchGrading = bodyData.pattern;
+    const fetchFileFromUrl = 'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
+    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpUploadType=${drpUploadType}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&ctl00%24ContentPlaceHolder1%24drpSearchGrading=${drpSearchGrading}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=87DDE0DB&__ASYNCPOST=true&`;
+
+    let data = (
+      await axios.post(fetchFileFromUrl, postData, {
+        headers: headers,
+      })
+    ).data;
+    data = await data.split('ScriptContentWithTags')[1];
+    data = await data.split('\\"')[1];
+    data = await data.replace(
+      '../UC/frm_download_file.aspx?Filepath=',
+      'https://www.rgpv.ac.in/',
+    );
+    return data;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'fetchSchemeOrSyllabusFileUrl', error: ${error}`,
+    );
+  }
+};

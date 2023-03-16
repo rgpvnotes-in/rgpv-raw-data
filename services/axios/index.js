@@ -42,13 +42,14 @@ exports.simpleGetData = async (sourceURL) => {
  *
  * @param {String} fetchDataFromUrl  - The URL where we want to send the data
  * @param {Object} postData - Post body data
+ * @param {Object} customHeaders - Custom header for the post request
  * @returns
  */
-exports.simplePostData = async (fetchDataFromUrl, postData) => {
+exports.simplePostData = async (fetchDataFromUrl, postData, customHeaders = headers) => {
   try {
     return (
       await axios.post(fetchDataFromUrl, postData, {
-        headers: headers,
+        headers: customHeaders,
       })
     ).data;
   } catch (error) {

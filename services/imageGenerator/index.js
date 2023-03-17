@@ -86,6 +86,8 @@ exports.postImageUrl = async (postCaption) => {
     };
 
     const imageGeneratorCredentials = imageGeneratorAuth;
+    console.log('imageGeneratorCredentials', imageGeneratorCredentials);
+    console.log('imageGeneratorCredentials 2', JSON.stringify(imageGeneratorCredentials));
 
     const generatedImageResponse = await simplePostData(
       'https://hcti.io/v1/image',
@@ -98,7 +100,7 @@ exports.postImageUrl = async (postCaption) => {
       },
     );
 
-    return generatedImageResponse.url;
+    return generatedImageResponse.url; // or return default image url
   } catch (error) {
     console.error('something went wrong in postImageUrl ', error);
   }

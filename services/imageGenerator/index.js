@@ -74,7 +74,7 @@ const htmlForImage = (
 </span>
 </div>`;
 
-export const postImageUrl = async (postCaption) => {
+exports.postImageUrl = async (postCaption) => {
   try {
     const generateCssForImage = cssForImage(postCaption);
     const generateHtmlForImage = htmlForImage(postCaption);

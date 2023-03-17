@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-export const imageGeneratorAuth = (() => {
+exports.imageGeneratorAuth = (() => {
   try {
     const randomGradient = Math.floor(Math.random() * 5) + 1;
     console.log('imageGeneratorAuth is using number: ', randomGradient);

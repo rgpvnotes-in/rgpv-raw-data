@@ -155,7 +155,6 @@ const writeDataToSheet = async () => {
             postData,
           );
           news.shortUrl = responseData.shortened;
-          console.log('new short url generated', responseData.shortened);
         } else {
           news.shortUrl = isUrlAvailable[5];
         }

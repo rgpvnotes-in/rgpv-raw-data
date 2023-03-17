@@ -76,8 +76,14 @@ const htmlForImage = (
 
 exports.postImageUrl = async (postCaption) => {
   try {
-    const generateCssForImage = cssForImage(postCaption);
-    const generateHtmlForImage = htmlForImage(postCaption);
+    const generateCssForImage = cssForImage(postCaption).replace(
+      /(\r\n|\r|\n)/g,
+      '',
+    );
+    const generateHtmlForImage = htmlForImage(postCaption).replace(
+      /(\r\n|\r|\n)/g,
+      '',
+    );
 
     const imageOptions = {
       html: generateHtmlForImage,

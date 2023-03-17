@@ -86,10 +86,8 @@ exports.postImageUrl = async (postCaption) => {
     };
 
     const imageGeneratorCredentials = imageGeneratorAuth;
-    console.log('imageGeneratorCredentials', imageGeneratorCredentials);
-    console.log('imageGeneratorCredentials 2', JSON.stringify(imageGeneratorCredentials));
 
-    console.log('imageGeneratorCredentials username', imageGeneratorCredentials.username);
+    console.log('imageOptions', imageOptions);
 
     const generatedImageResponse = await simplePostData(
       'https://hcti.io/v1/image',

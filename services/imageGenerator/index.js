@@ -85,11 +85,10 @@ exports.postImageUrl = async (postCaption) => {
       '',
     );
 
-    const imageOptions = {
-      html: generateHtmlForImage,
-      css: generateCssForImage,
-      google_fonts: 'Roboto',
-    };
+    const imageOptions = {};
+    imageOptions.html = generateHtmlForImage;
+    imageOptions.css = generateCssForImage;
+    imageOptions.google_fonts = 'Roboto';
 
     const imageGeneratorCredentials = imageGeneratorAuth;
 

@@ -1,5 +1,5 @@
-import { simplePostData } from '../axios/index';
-import { imageGeneratorAuth } from '../auth/index';
+const { simplePostData } = require('../axios/index');
+const { imageGeneratorAuth } = require('../auth/index');
 
 const backgroundImage =
   'https://1.bp.blogspot.com/-nxB_j7rW58Y/XqbkngLEEnI/AAAAAAAAAjw/4u-oZufnVWwkl6wNo5ZOMH7y2VoIt4fmwCLcBGAsYHQ/s1600/rgpvnotes.in%2Btransparent%2Blogo.png';

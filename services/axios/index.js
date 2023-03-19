@@ -28,9 +28,15 @@ const headers = {
  * @param {String} sourceURL - The URL from which we have to fetch the data
  * @returns {String} - The data it received from source page response
  */
-exports.simpleGetData = async (sourceURL) => {
+exports.simpleGetData = async (sourceURL, responseType = null) => {
   try {
-    return (await axios.get(sourceURL)).data;
+    const config = {
+      method: 'get',
+    };
+
+    responseType ? config.responseType = responseType : '';
+
+    return (await axios.get(sourceURL, config)).data;
   } catch (error) {
     console.error(
       `Something went wrong with this request: Called by: 'simpleGetData', error: ${error}`,

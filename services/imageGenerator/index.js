@@ -61,14 +61,14 @@ const cssForImage = (postCaption) => `.box {
     font-size: 25px;
     position: absolute;
     left: 20px;
-    top: 1270px;
+    top: 1330px;
     line-height: 2rem;
   }`;
 
 const htmlForImage = (
   postCaption,
 ) => `<div class='box'>${postCaption}<br><br><br>
-<span class="footer">
+<span class='footer'>
     <strong>RGPV Alerts by rgpvnotes.in</strong><br>
     Check out https://www.rgpv.ac.in for more information.
 </span>
@@ -90,22 +90,36 @@ exports.postImageUrl = async (postCaption) => {
     imageOptions.css = generateCssForImage;
     imageOptions.google_fonts = 'Roboto';
 
-    const imageGeneratorCredentials = imageGeneratorAuth;
+    const imageGeneratorCredentials = JSON.parse(imageGeneratorAuth);
 
-    console.log('imageOptions', imageOptions);
+    if (
+      imageGeneratorCredentials.username &&
+      imageGeneratorCredentials.password
+    ) {
+      const { username, password } = imageGeneratorCredentials;
 
-    const generatedImageResponse = await simplePostData(
-      'https://hcti.io/v1/image',
-      imageOptions,
-      {
-        auth: {
-          username: imageGeneratorCredentials.username,
-          password: imageGeneratorCredentials.password,
-        },
-      },
+      const imageBasicAuth = {
+        username,
+        password,
+      };
+      const imageHeaders = {
+        'Content-Type': 'application/json',
+      };
+
+      const generatedImageResponse = await simplePostData(
+        'https://hcti.io/v1/image',
+        JSON.stringify(imageOptions),
+        imageHeaders,
+        imageBasicAuth,
+      );
+
+      return generatedImageResponse.url; // return generated image for post
+    }
+
+    console.log(
+      ' something went wrong with image generation, returning default post image',
     );
-
-    return generatedImageResponse.url; // or return default image url
+    return ''; // return default image url
   } catch (error) {
     console.error('something went wrong in postImageUrl ', error);
   }

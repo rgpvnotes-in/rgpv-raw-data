@@ -18,6 +18,7 @@ const uploadFilePath = path.relative(
   process.cwd(),
   __dirname + '\\' + socialMediaPostFileName,
 );
+console.log('uploadFilePath ', uploadFilePath);
 
 /*
   Use this function to wait for a specific amount of milliseconds
@@ -38,8 +39,9 @@ exports.shareOnSocialMedia = async (
 
     const cropThisMuchCharacter = socialMediaPostUrl ? 150 : 170 ;
     const textToPublishWithPost = `${socialMediaPostCaption.substring(0, cropThisMuchCharacter)} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
-    const socialMediaPostImageUrl = await postImageUrl(socialMediaPostCaption);
+    const socialMediaPostImageUrl = 'https://hcti.io/v1/image/585d6954-03d3-4ecc-a563-eb9135753322';
     const downloadFilePath = path.resolve(__dirname, socialMediaPostFileName);
+    console.log('downloadFilePath ', downloadFilePath);
     const downloadFileWriter = fs.createWriteStream(downloadFilePath);
 
     const response = await axiosFunctions.simpleGetData(

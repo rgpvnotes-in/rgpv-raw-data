@@ -119,91 +119,11 @@ const writeDataToSheet = async () => {
      * Write new news alert to google sheet
      */
 
-    const auth = new google.auth.GoogleAuth({
-      keyFile: 'credentials.json',
-      scopes: 'https://www.googleapis.com/auth/spreadsheets',
-    });
-
-    // Create client instance for auth
-    const client = await auth.getClient();
-
-    // Instance of Google Sheets API
-    const googleSheets = google.sheets({ version: 'v4', auth: client });
-
-    for (const news of latestAlerts) {
-      news.content = news.content.trim();
-      news.url = news.url ? news.url.toLowerCase() : null;
-      news.shortUrl = null;
-      const newsMd5 = news.url
-        ? md5(`${news.content}${news.url}`)
-        : md5(`${news.content}`);
-
-      // const newsMd5 = md5(`${news.content}${news.url}`);
-      const readNews = await readDataFromSheet();
-
-      if (news.url) {
-        const isUrlAvailable = readNews?.find(
-          (element) => element[4] === news.url,
-        );
-        if (undefined == isUrlAvailable) {
-          // if not available generate short url
-          const fetchDataFromUrl = process.env.SHORT_URL_GENERATOR_URL;
-          const postData = {
-            password: process.env.SHORT_URL_PASSWORD,
-            url: news.url,
-          };
-          const responseData = await axiosFunctions.simplePostData(
-            fetchDataFromUrl,
-            postData,
-          );
-          news.shortUrl = responseData.shortened;
-        } else {
-          news.shortUrl = isUrlAvailable[5];
-        }
-      }
-
-      // check if this is a new news alert or already available on sheet
-      const isAvailable = readNews?.find((element) => element[2] === newsMd5);
-      if (undefined == isAvailable) {
-        const accessId = `news_${(readNews?.length ?? 0) + 1}`;
-        ApiServerShouldUpdate = true; // new entries are found so API server should be updated
-
-        let today = new Date();
-        const dd = String(today.getDate()).padStart(2, '0');
-        const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        const yyyy = today.getFullYear();
-
-        today = `${dd}/${mm}/${yyyy}`;
-
-        const alertValue = [
-          accessId,
-          today,
-          newsMd5,
-          news.content,
-          news.url,
-          news.shortUrl,
-        ];
-
-        // Write row(s) to spreadsheet
-        await googleSheets.spreadsheets.values.append({
-          auth,
-          spreadsheetId,
-          range: 'Sheet1!A:F',
-          valueInputOption: 'USER_ENTERED',
-          resource: {
-            values: [alertValue],
-          },
-        });
-
-        // after writing news to google sheet share it on social media
-        await shareOnSocialMedia(news.content, news.shortUrl);
-
-        // TODO
-        // code to make post on social media
-      } else {
-        console.log('Duplicate entry!');
-      }
-    }
+    // after writing news to google sheet share it on social media
+    await shareOnSocialMedia(
+      'this is a test post, please ignore this',
+      'https://www.youtube.com/',
+    );
 
     if (true === ApiServerShouldUpdate) {
       /**

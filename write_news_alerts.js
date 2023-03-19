@@ -112,7 +112,7 @@ const readDataFromSheet = async () => {
 const writeDataToSheet = async () => {
   try {
 
-    const socialMediaPostUrl = postImageUrl('just a test post, please ignore this');
+    const socialMediaPostUrl = await postImageUrl('just a test post, please ignore this');
     console.log('socialMediaPostUrl: ', socialMediaPostUrl);
 
   } catch (error) {

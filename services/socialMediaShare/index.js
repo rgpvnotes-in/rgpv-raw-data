@@ -1,8 +1,10 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
+const fs = require('fs')  
 require('dotenv').config();
 
 const { postImageUrl } = require('../imageGenerator/index');
+const { constantHashTag } = require('../hashtagGenerator/index');
 const axiosFunctions = require('../axios/index');
 
 // const strings
@@ -34,10 +36,10 @@ exports.shareOnSocialMedia = async (
       return false;
     }
 
-    const textToPublishWithPost = `${socialMediaPostCaption} ${socialMediaPostUrl}`;
+    const textToPublishWithPost = `${socialMediaPostCaption.substring(0, 170)} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
     const socialMediaPostImageUrl = await postImageUrl(socialMediaPostCaption);
     const downloadFilePath = path.resolve(__dirname, socialMediaPostFileName);
-    const downloadFileWriter = Fs.createWriteStream(downloadFilePath);
+    const downloadFileWriter = fs.createWriteStream(downloadFilePath);
 
     const response = await axiosFunctions.simpleGetData(
       socialMediaPostImageUrl,
@@ -72,6 +74,8 @@ exports.shareOnSocialMedia = async (
     await page.type('input#password', zohoPassword), { delay: 50 };
     await page.click('button#nextbtn');
 
+    await waitForTimeout(2000); // wait 2 seconds after login
+
     // go to Home page to publish new post
     await page.goto(zohoHomePage, {
       waitUntil: 'networkidle0',
@@ -95,7 +99,7 @@ exports.shareOnSocialMedia = async (
     await inputFileUpload.evaluate((upload) =>
       upload.dispatchEvent(new Event('change', { bubbles: true })),
     );
-    await waitForTimeout(500); //you can remove this if you want
+    await waitForTimeout(10000); // waiting for 10 in second, to make sure file is uploaded
 
     // click on publish button
     await page.evaluate(() => {

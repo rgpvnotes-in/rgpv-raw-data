@@ -12,7 +12,10 @@ const zohoHomePage = 'https://social.zoho.in/Home.do';
 const zohoUsername = process.env.ZOHO_USERNAME; // your zoho username
 const zohoPassword = process.env.ZOHO_PASSWORD; // your zoho password
 const socialMediaPostFileName = '_social_post_image.png';
-const uploadFilePath = path.relative(process.cwd(), __dirname + socialMediaPostFileName);
+const uploadFilePath = path.relative(
+  process.cwd(),
+  __dirname + '\\' + socialMediaPostFileName,
+);
 
 /*
   Use this function to wait for a specific amount of milliseconds
@@ -21,19 +24,20 @@ const uploadFilePath = path.relative(process.cwd(), __dirname + socialMediaPostF
 const waitForTimeout = (milliseconds = 1000) =>
   new Promise((resolveInner) => setTimeout(resolveInner, milliseconds));
 
-exports.shareOnSocialMedia = async (socialMediaPostCaption = '') => {
+exports.shareOnSocialMedia = async (
+  socialMediaPostCaption = '',
+  socialMediaPostUrl = '',
+) => {
   try {
-
-    if(!socialMediaPostCaption){
-        console.log('received empty socialMediaPostCaption');
-        return false;
+    if (!socialMediaPostCaption) {
+      console.log('received empty socialMediaPostCaption');
+      return false;
     }
 
-    const textToPublishWithPost = socialMediaPostCaption;
-    const socialMediaPostImageUrl = await postImageUrl(textToPublishWithPost);
+    const textToPublishWithPost = `${socialMediaPostCaption} ${socialMediaPostUrl}`;
+    const socialMediaPostImageUrl = await postImageUrl(socialMediaPostCaption);
     const downloadFilePath = path.resolve(__dirname, socialMediaPostFileName);
     const downloadFileWriter = Fs.createWriteStream(downloadFilePath);
-
 
     const response = await axiosFunctions.simpleGetData(
       socialMediaPostImageUrl,
@@ -43,8 +47,8 @@ exports.shareOnSocialMedia = async (socialMediaPostCaption = '') => {
     response.data.pipe(downloadFileWriter);
 
     await new Promise((resolve, reject) => {
-      downloadFileWriter.on('file download finished ', resolve);
-      downloadFileWriter.on('file download error ', reject);
+      downloadFileWriter.on('finish', resolve);
+      downloadFileWriter.on('error', reject);
     });
 
     const browser = await puppeteer.launch({

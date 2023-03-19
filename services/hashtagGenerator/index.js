@@ -1,2 +1,2 @@
 exports.constantHashTag =
-  '#rgpv #rgpvalerts #rgpvbhopal #rgpvnotes #education #notestagram #theengineerbro #exam #engineeringcollege #engineeringstudents';
+  '#rgpv #rgpvalerts #rgpvbhopal #rgpvnotes #education #notestagram #engineeringcollege #engineeringstudents';

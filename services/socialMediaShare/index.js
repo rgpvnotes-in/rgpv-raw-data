@@ -47,7 +47,7 @@ exports.shareOnSocialMedia = async (
       'stream',
     );
 
-    response.data.pipe(downloadFileWriter);
+    response.pipe(downloadFileWriter);
 
     await new Promise((resolve, reject) => {
       downloadFileWriter.on('finish', resolve);

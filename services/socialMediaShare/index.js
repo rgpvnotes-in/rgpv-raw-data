@@ -36,7 +36,8 @@ exports.shareOnSocialMedia = async (
       return false;
     }
 
-    const textToPublishWithPost = `${socialMediaPostCaption.substring(0, 170)} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
+    const cropThisMuchCharacter = socialMediaPostUrl ? 150 : 170 ;
+    const textToPublishWithPost = `${socialMediaPostCaption.substring(0, cropThisMuchCharacter)} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
     const socialMediaPostImageUrl = await postImageUrl(socialMediaPostCaption);
     const downloadFilePath = path.resolve(__dirname, socialMediaPostFileName);
     const downloadFileWriter = fs.createWriteStream(downloadFilePath);

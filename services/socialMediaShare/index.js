@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
-const fs = require('fs')  
+const fs = require('fs');
 require('dotenv').config();
 
 const { postImageUrl } = require('../imageGenerator/index');
@@ -14,9 +14,10 @@ const zohoHomePage = 'https://social.zoho.in/Home.do';
 const zohoUsername = process.env.ZOHO_USERNAME; // your zoho username
 const zohoPassword = process.env.ZOHO_PASSWORD; // your zoho password
 const socialMediaPostFileName = '_social_post_image.png';
+const separatorBasedOnOs = process.platform === 'win32' ? '\\' : '/';
 const uploadFilePath = path.relative(
   process.cwd(),
-  __dirname + '\\' + socialMediaPostFileName,
+  __dirname + separatorBasedOnOs + socialMediaPostFileName,
 );
 console.log('uploadFilePath ', uploadFilePath);
 
@@ -37,9 +38,13 @@ exports.shareOnSocialMedia = async (
       return false;
     }
 
-    const cropThisMuchCharacter = socialMediaPostUrl ? 150 : 170 ;
-    const textToPublishWithPost = `${socialMediaPostCaption.substring(0, cropThisMuchCharacter)} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
-    const socialMediaPostImageUrl = 'https://hcti.io/v1/image/585d6954-03d3-4ecc-a563-eb9135753322';
+    const cropThisMuchCharacter = socialMediaPostUrl ? 150 : 170;
+    const textToPublishWithPost = `${socialMediaPostCaption.substring(
+      0,
+      cropThisMuchCharacter,
+    )} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
+    const socialMediaPostImageUrl =
+      'https://hcti.io/v1/image/585d6954-03d3-4ecc-a563-eb9135753322';
     const downloadFilePath = path.resolve(__dirname, socialMediaPostFileName);
     console.log('downloadFilePath ', downloadFilePath);
     const downloadFileWriter = fs.createWriteStream(downloadFilePath);
@@ -56,12 +61,16 @@ exports.shareOnSocialMedia = async (
       downloadFileWriter.on('error', reject);
     });
 
+    console.log(' after download file promise');
+
     const browser = await puppeteer.launch({
       // for debugging
       // headless: false,
       // slowMo: 250,
     });
+    console.log('created browser instance');
     const page = await browser.newPage();
+    console.log('new page');
     await page.goto(zohoLoginUrl, {
       waitUntil: 'networkidle0',
       timeout: 0,
@@ -78,7 +87,7 @@ exports.shareOnSocialMedia = async (
     await page.click('button#nextbtn');
 
     await waitForTimeout(2000); // wait 2 seconds after login
-
+    console.log('after login');
     // go to Home page to publish new post
     await page.goto(zohoHomePage, {
       waitUntil: 'networkidle0',
@@ -95,7 +104,7 @@ exports.shareOnSocialMedia = async (
       delay: 50,
     });
     await waitForTimeout(500); //you can remove this if you want
-
+    console.log('after typing caption');
     // upload a file
     const inputFileUpload = await page.$('#publish_image_attach > div > input');
     await inputFileUpload.uploadFile(uploadFilePath);
@@ -103,12 +112,12 @@ exports.shareOnSocialMedia = async (
       upload.dispatchEvent(new Event('change', { bubbles: true })),
     );
     await waitForTimeout(10000); // waiting for 10 in second, to make sure file is uploaded
-
+    console.log('after file upload');
     // click on publish button
     await page.evaluate(() => {
       document.querySelector('#publish_postnow').click();
     });
-
+    console.log('after publish');
     await waitForTimeout(10000); // waiting for 10 in second, to make sure post is published on all platform
 
     // go to this URL to end session
@@ -116,6 +125,7 @@ exports.shareOnSocialMedia = async (
       waitUntil: 'networkidle0',
       timeout: 0,
     });
+    console.log('after logout');
   } catch (error) {
     console.error('something went wrong', error);
   }

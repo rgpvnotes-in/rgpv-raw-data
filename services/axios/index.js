@@ -45,10 +45,16 @@ exports.simpleGetData = async (sourceURL) => {
  * @param {Object} customHeaders - Custom header for the post request
  * @returns
  */
-exports.simplePostData = async (fetchDataFromUrl, postData, customHeaders = headers) => {
+exports.simplePostData = async (
+  fetchDataFromUrl,
+  postData,
+  customHeaders = headers,
+  customBasicAuth = {},
+) => {
   try {
     return (
       await axios.post(fetchDataFromUrl, postData, {
+        auth: customBasicAuth,
         headers: customHeaders,
       })
     ).data;

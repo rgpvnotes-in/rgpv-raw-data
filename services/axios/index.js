@@ -28,9 +28,15 @@ const headers = {
  * @param {String} sourceURL - The URL from which we have to fetch the data
  * @returns {String} - The data it received from source page response
  */
-exports.simpleGetData = async (sourceURL) => {
+exports.simpleGetData = async (sourceURL, responseType = null) => {
   try {
-    return (await axios.get(sourceURL)).data;
+    const config = {
+      method: 'get',
+    };
+
+    responseType ? config.responseType = responseType : '';
+
+    return (await axios.get(sourceURL, config)).data;
   } catch (error) {
     console.error(
       `Something went wrong with this request: Called by: 'simpleGetData', error: ${error}`,
@@ -42,13 +48,20 @@ exports.simpleGetData = async (sourceURL) => {
  *
  * @param {String} fetchDataFromUrl  - The URL where we want to send the data
  * @param {Object} postData - Post body data
+ * @param {Object} customHeaders - Custom header for the post request
  * @returns
  */
-exports.simplePostData = async (fetchDataFromUrl, postData) => {
+exports.simplePostData = async (
+  fetchDataFromUrl,
+  postData,
+  customHeaders = headers,
+  customBasicAuth = {},
+) => {
   try {
     return (
       await axios.post(fetchDataFromUrl, postData, {
-        headers: headers,
+        auth: customBasicAuth,
+        headers: customHeaders,
       })
     ).data;
   } catch (error) {

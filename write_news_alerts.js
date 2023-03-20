@@ -4,6 +4,8 @@ const cheerioFunctions = require('./services/cheerio/index');
 const axiosFunctions = require('./services/axios/index');
 require('dotenv').config();
 
+const { shareOnSocialMedia } = require('./services/socialMediaShare/index');
+
 const spreadsheetId = process.env.SPREADSHEET_ID;
 
 /**
@@ -155,7 +157,6 @@ const writeDataToSheet = async () => {
             postData,
           );
           news.shortUrl = responseData.shortened;
-          console.log('new short url generated', responseData.shortened);
         } else {
           news.shortUrl = isUrlAvailable[5];
         }
@@ -195,6 +196,7 @@ const writeDataToSheet = async () => {
         });
 
         // after writing news to google sheet share it on social media
+        await shareOnSocialMedia(news.content, news.shortUrl);
 
         // TODO
         // code to make post on social media

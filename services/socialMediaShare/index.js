@@ -67,7 +67,7 @@ exports.shareOnSocialMedia = async (
       args: ['--no-sandbox'],
       // for debugging
       // headless: false,
-      // slowMo: 250,
+      slowMo: 250,
     });
     console.log('created browser instance');
     const page = await browser.newPage();
@@ -99,10 +99,6 @@ exports.shareOnSocialMedia = async (
       waitUntil: 'networkidle0',
       timeout: 0,
     });
-
-    const data2 = await page.evaluate(() => document.querySelector('*').outerHTML);
-
-    console.log(data2);
 
     await page.waitForSelector('#pconnect');
     await page.click(

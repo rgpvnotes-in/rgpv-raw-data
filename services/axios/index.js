@@ -38,8 +38,9 @@ exports.simpleGetData = async (sourceURL, responseType = null) => {
 
     return (await axios.get(sourceURL, config)).data;
   } catch (error) {
+    const domainExtractor = new URL(sourceURL).hostname;
     console.error(
-      `Something went wrong with this request: Called by: 'simpleGetData', error: ${error}`,
+      `Something went wrong with this request: Called by: 'simpleGetData' for url ${domainExtractor}, error: ${error}`,
     );
   }
 };
@@ -65,8 +66,9 @@ exports.simplePostData = async (
       })
     ).data;
   } catch (error) {
+    const domainExtractor = new URL(sourceURL).hostname;
     console.error(
-      `Something went wrong with this request: Called by: 'simplePostData', error: ${error}`,
+      `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
     );
   }
 };

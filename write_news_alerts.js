@@ -156,7 +156,11 @@ const writeDataToSheet = async () => {
             fetchDataFromUrl,
             postData,
           );
-          news.shortUrl = responseData.shortened;
+          if (!responseData.shortened) {
+            console.log('failed to generate short URL, returning empty string');
+          }
+
+          news.shortUrl = responseData.shortened || null;
         } else {
           news.shortUrl = isUrlAvailable[5];
         }
@@ -196,7 +200,7 @@ const writeDataToSheet = async () => {
         });
 
         // after writing news to google sheet share it on social media
-        await shareOnSocialMedia(news.content, news.shortUrl);
+        await shareOnSocialMedia(news.content, news.shortUrl || news.url);
 
         // TODO
         // code to make post on social media

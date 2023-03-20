@@ -132,8 +132,17 @@ exports.shareOnSocialMedia = async (
     const date3 = new Date();
     const timediff = date3 - date1;
     console.log('time taken:1 ', timediff);
-    // go to this URL to end session
-    await page.goto(zohoLogout);
+
+    // starting logout process
+    await page.evaluate(() => {
+      document.querySelector('#user_setup > div').click();
+    });
+    await page.waitForSelector('a.colorRed');
+    await page.evaluate(() => {
+      // click on logout button
+      document.querySelector('a.colorRed').click();
+    });
+
     await waitForTimeout(2000); // wait 2 seconds after logout
     console.log('after logout');
     await browser.close();

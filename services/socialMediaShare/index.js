@@ -33,6 +33,8 @@ exports.shareOnSocialMedia = async (
   socialMediaPostUrl = '',
 ) => {
   try {
+    const date1 = new Date();
+
     if (!socialMediaPostCaption) {
       console.log('received empty socialMediaPostCaption');
       return false;
@@ -78,7 +80,6 @@ exports.shareOnSocialMedia = async (
 
     await page.setViewport({ width: 1080, height: 1024 });
 
-
     await page.waitForSelector('#nextbtn');
 
     // fill username in login form
@@ -92,9 +93,6 @@ exports.shareOnSocialMedia = async (
 
     await page.waitForNavigation();
     await waitForTimeout(5000); // wait 5 seconds after login
-
-    const data = await page.evaluate(() => document.querySelector('*').outerHTML);
-    console.log(data);
 
     console.log('after login');
     // go to Home page to publish new post
@@ -131,10 +129,12 @@ exports.shareOnSocialMedia = async (
     console.log('after publish timeout');
     // go to this URL to end session
     await page.goto(zohoLogout);
-    await page.waitForNavigation();
     await waitForTimeout(2000); // wait 2 seconds after logout
     console.log('after logout');
     await browser.close();
+    const date2 = new Date();
+    const timediff = date2 - date1;
+    console.log('time taken: ', timediff);
   } catch (error) {
     console.error('something went wrong', error);
   }

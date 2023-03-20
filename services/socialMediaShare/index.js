@@ -64,6 +64,7 @@ exports.shareOnSocialMedia = async (
     console.log(' after download file promise');
 
     const browser = await puppeteer.launch({
+      args: ['--no-sandbox'],
       // for debugging
       // headless: false,
       // slowMo: 250,
@@ -86,13 +87,22 @@ exports.shareOnSocialMedia = async (
     await page.type('input#password', zohoPassword), { delay: 50 };
     await page.click('button#nextbtn');
 
-    await waitForTimeout(2000); // wait 2 seconds after login
+    await page.waitForNavigation();
+    await waitForTimeout(5000); // wait 5 seconds after login
+
+    const data = await page.evaluate(() => document.querySelector('*').outerHTML);
+    console.log(data);
+
     console.log('after login');
     // go to Home page to publish new post
     await page.goto(zohoHomePage, {
       waitUntil: 'networkidle0',
       timeout: 0,
     });
+
+    const data2 = await page.evaluate(() => document.querySelector('*').outerHTML);
+
+    console.log(data2);
 
     await page.waitForSelector('#pconnect');
     await page.click(
@@ -126,6 +136,7 @@ exports.shareOnSocialMedia = async (
       timeout: 0,
     });
     console.log('after logout');
+    await browser.close();
   } catch (error) {
     console.error('something went wrong', error);
   }

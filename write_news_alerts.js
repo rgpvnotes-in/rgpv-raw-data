@@ -155,6 +155,7 @@ const writeDataToSheet = async () => {
           const responseData = await axiosFunctions.simplePostData(
             fetchDataFromUrl,
             postData,
+            {}
           );
           if (!responseData.shortened) {
             console.log('failed to generate short URL, returning empty string');

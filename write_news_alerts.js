@@ -122,7 +122,7 @@ const writeDataToSheet = async () => {
     // after writing news to google sheet share it on social media
     console.log('before shareOnSocialMedia');
     await shareOnSocialMedia(
-      'this is hopefully final test post, please ignore this',
+      'for instagram test post, please ignore this',
       'https://www.youtube.com/',
     );
     console.log('after shareOnSocialMedia');

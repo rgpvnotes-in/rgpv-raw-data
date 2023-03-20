@@ -30,6 +30,13 @@ jobs:
           echo POST_NEWS_PASSWORD = ${{ secrets.POST_NEWS_PASSWORD }} >> .env
           echo SHORT_URL_GENERATOR_URL = ${{ secrets.SHORT_URL_GENERATOR_URL }} >> .env
           echo SHORT_URL_PASSWORD = ${{ secrets.SHORT_URL_PASSWORD }} >> .env
+          echo IMAGE_GENERATOR_AUTH_1 = ${{ secrets.IMAGE_GENERATOR_AUTH_1 }} >> .env
+          echo IMAGE_GENERATOR_AUTH_2 = ${{ secrets.IMAGE_GENERATOR_AUTH_2 }} >> .env
+          echo IMAGE_GENERATOR_AUTH_3 = ${{ secrets.IMAGE_GENERATOR_AUTH_3 }} >> .env
+          echo IMAGE_GENERATOR_AUTH_4 = ${{ secrets.IMAGE_GENERATOR_AUTH_4 }} >> .env
+          echo IMAGE_GENERATOR_AUTH_5 = ${{ secrets.IMAGE_GENERATOR_AUTH_5 }} >> .env
+          echo ZOHO_USERNAME = ${{ secrets.ZOHO_USERNAME }} >> .env
+          echo ZOHO_PASSWORD = ${{ secrets.ZOHO_PASSWORD }} >> .env
 
       - name: create credentials.json
         run: |

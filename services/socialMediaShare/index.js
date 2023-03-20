@@ -64,7 +64,6 @@ exports.shareOnSocialMedia = async (
     console.log(' after download file promise');
 
     const browser = await puppeteer.launch({
-      args: ['--no-sandbox'],
       // for debugging
       // headless: false,
       slowMo: 250,
@@ -76,6 +75,10 @@ exports.shareOnSocialMedia = async (
       waitUntil: 'networkidle0',
       timeout: 0,
     });
+
+    await page.setViewport({ width: 1080, height: 1024 });
+
+
     await page.waitForSelector('#nextbtn');
 
     // fill username in login form

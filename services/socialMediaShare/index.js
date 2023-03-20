@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
-const fs = require('fs')  
+const fs = require('fs');
 require('dotenv').config();
 
 const { postImageUrl } = require('../imageGenerator/index');
@@ -14,9 +14,10 @@ const zohoHomePage = 'https://social.zoho.in/Home.do';
 const zohoUsername = process.env.ZOHO_USERNAME; // your zoho username
 const zohoPassword = process.env.ZOHO_PASSWORD; // your zoho password
 const socialMediaPostFileName = '_social_post_image.png';
+const separatorBasedOnOs = process.platform === 'win32' ? '\\' : '/';
 const uploadFilePath = path.relative(
   process.cwd(),
-  __dirname + '\\' + socialMediaPostFileName,
+  __dirname + separatorBasedOnOs + socialMediaPostFileName,
 );
 
 /*
@@ -36,18 +37,21 @@ exports.shareOnSocialMedia = async (
       return false;
     }
 
-    const cropThisMuchCharacter = socialMediaPostUrl ? 150 : 170 ;
-    const textToPublishWithPost = `${socialMediaPostCaption.substring(0, cropThisMuchCharacter)} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
+    const keepThisMuchCharacter = socialMediaPostUrl ? 150 : 170;
+    const textToPublishWithPost = `${socialMediaPostCaption.substring(
+      0,
+      keepThisMuchCharacter,
+    )} \n\n ${socialMediaPostUrl} \n\n ${constantHashTag}`;
     const socialMediaPostImageUrl = await postImageUrl(socialMediaPostCaption);
     const downloadFilePath = path.resolve(__dirname, socialMediaPostFileName);
     const downloadFileWriter = fs.createWriteStream(downloadFilePath);
 
-    const response = await axiosFunctions.simpleGetData(
+    const downloadSocialMediaPostImageUrl = await axiosFunctions.simpleGetData(
       socialMediaPostImageUrl,
       'stream',
     );
 
-    response.pipe(downloadFileWriter);
+    downloadSocialMediaPostImageUrl.pipe(downloadFileWriter);
 
     await new Promise((resolve, reject) => {
       downloadFileWriter.on('finish', resolve);
@@ -57,13 +61,18 @@ exports.shareOnSocialMedia = async (
     const browser = await puppeteer.launch({
       // for debugging
       // headless: false,
-      // slowMo: 250,
+      slowMo: 100,
     });
     const page = await browser.newPage();
+    // Configure the navigation timeout
+    await page.setDefaultNavigationTimeout(0);
     await page.goto(zohoLoginUrl, {
       waitUntil: 'networkidle0',
       timeout: 0,
     });
+
+    await page.setViewport({ width: 1080, height: 1024 });
+
     await page.waitForSelector('#nextbtn');
 
     // fill username in login form
@@ -75,7 +84,8 @@ exports.shareOnSocialMedia = async (
     await page.type('input#password', zohoPassword), { delay: 50 };
     await page.click('button#nextbtn');
 
-    await waitForTimeout(2000); // wait 2 seconds after login
+    await page.waitForNavigation();
+    await waitForTimeout(5000); // wait 5 seconds after login
 
     // go to Home page to publish new post
     await page.goto(zohoHomePage, {
@@ -109,11 +119,7 @@ exports.shareOnSocialMedia = async (
 
     await waitForTimeout(10000); // waiting for 10 in second, to make sure post is published on all platform
 
-    // go to this URL to end session
-    await page.goto(zohoLogout, {
-      waitUntil: 'networkidle0',
-      timeout: 0,
-    });
+    await browser.close();
   } catch (error) {
     console.error('something went wrong', error);
   }

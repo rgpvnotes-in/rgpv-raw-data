@@ -73,6 +73,8 @@ exports.shareOnSocialMedia = async (
     console.log('created browser instance');
     const page = await browser.newPage();
     console.log('new page');
+    // Configure the navigation timeout
+    await page.setDefaultNavigationTimeout(0);
     await page.goto(zohoLoginUrl, {
       waitUntil: 'networkidle0',
       timeout: 0,
@@ -127,14 +129,17 @@ exports.shareOnSocialMedia = async (
     console.log('after publish');
     await waitForTimeout(10000); // waiting for 10 in second, to make sure post is published on all platform
     console.log('after publish timeout');
+    const date3 = new Date();
+    const timediff = date3 - date1;
+    console.log('time taken:1 ', timediff);
     // go to this URL to end session
     await page.goto(zohoLogout);
     await waitForTimeout(2000); // wait 2 seconds after logout
     console.log('after logout');
     await browser.close();
     const date2 = new Date();
-    const timediff = date2 - date1;
-    console.log('time taken: ', timediff);
+    const timediff2 = date2 - date1;
+    console.log('time taken:2 ', timediff2);
   } catch (error) {
     console.error('something went wrong', error);
   }

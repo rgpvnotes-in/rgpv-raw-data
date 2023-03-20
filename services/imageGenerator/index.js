@@ -3,6 +3,8 @@ const { imageGeneratorAuth } = require('../auth/index');
 
 const backgroundImage =
   'https://1.bp.blogspot.com/-nxB_j7rW58Y/XqbkngLEEnI/AAAAAAAAAjw/4u-oZufnVWwkl6wNo5ZOMH7y2VoIt4fmwCLcBGAsYHQ/s1600/rgpvnotes.in%2Btransparent%2Blogo.png';
+const defaultSocialPostImage =
+  'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin0mtmxPENfB7Gb7Rmbp_X8tJUU2Reezm6VDjWHQfLxZI5zkFx0qvjy3qn9IoSTSGanasrZXfEJDwGddNzXNQJ2ipeKzIhMD7U0fPqF2KhPqXGKuenZ-BX8AF9SGBaDfB5nxoBx41C3MpeJY4hX26_y4nLQ5uyuNlgWXhMpKitI8P949hqrvbcVw/s1600/fc8a3b30-72c8-4b33-b951-1cd275ccfc3b.png';
 
 const linearGradient = (() => {
   const linearGradientArray = [
@@ -113,14 +115,19 @@ exports.postImageUrl = async (postCaption) => {
         imageBasicAuth,
       );
 
-      return generatedImageResponse.url; // return generated image for post
+      if (!generatedImageResponse.url) {
+        console.log('failed to generate image, returning default image');
+      }
+
+      return generatedImageResponse.url || defaultSocialPostImage; // return generated image for post
     }
 
     console.log(
       ' something went wrong with image generation, returning default post image',
     );
-    return ''; // return default image url
+    return defaultSocialPostImage; // return default image url
   } catch (error) {
     console.error('something went wrong in postImageUrl ', error);
+    return defaultSocialPostImage; // return default image url
   }
 };

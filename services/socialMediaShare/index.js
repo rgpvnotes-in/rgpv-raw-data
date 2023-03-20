@@ -66,7 +66,7 @@ exports.shareOnSocialMedia = async (
     const browser = await puppeteer.launch({
       // for debugging
       // headless: false,
-      slowMo: 250,
+      slowMo: 100,
     });
     console.log('created browser instance');
     const page = await browser.newPage();

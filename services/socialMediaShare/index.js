@@ -128,12 +128,11 @@ exports.shareOnSocialMedia = async (
     });
     console.log('after publish');
     await waitForTimeout(10000); // waiting for 10 in second, to make sure post is published on all platform
-
+    console.log('after publish timeout');
     // go to this URL to end session
-    await page.goto(zohoLogout, {
-      waitUntil: 'networkidle0',
-      timeout: 0,
-    });
+    await page.goto(zohoLogout);
+    await page.waitForNavigation();
+    await waitForTimeout(2000); // wait 2 seconds after logout
     console.log('after logout');
     await browser.close();
   } catch (error) {

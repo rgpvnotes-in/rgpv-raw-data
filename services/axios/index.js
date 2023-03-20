@@ -47,26 +47,26 @@ exports.simpleGetData = async (sourceURL, responseType = null) => {
 
 /**
  *
- * @param {String} fetchDataFromUrl  - The URL where we want to send the data
+ * @param {String} postDataToUrl  - The URL where we want to send the data
  * @param {Object} postData - Post body data
  * @param {Object} customHeaders - Custom header for the post request
  * @returns
  */
 exports.simplePostData = async (
-  fetchDataFromUrl,
+  postDataToUrl,
   postData,
   customHeaders = headers,
   customBasicAuth = {},
 ) => {
   try {
     return (
-      await axios.post(fetchDataFromUrl, postData, {
+      await axios.post(postDataToUrl, postData, {
         auth: customBasicAuth,
         headers: customHeaders,
       })
     ).data;
   } catch (error) {
-    const domainExtractor = new URL(sourceURL).hostname;
+    const domainExtractor = new URL(postDataToUrl).hostname;
     console.error(
       `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
     );

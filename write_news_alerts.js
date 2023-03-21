@@ -141,36 +141,37 @@ const writeDataToSheet = async () => {
       // const newsMd5 = md5(`${news.content}${news.url}`);
       const readNews = await readDataFromSheet();
 
-      if (news.url) {
-        const isUrlAvailable = readNews?.find(
-          (element) => element[4] === news.url,
-        );
-        if (undefined == isUrlAvailable) {
-          // if not available generate short url
-          const fetchDataFromUrl = process.env.SHORT_URL_GENERATOR_URL;
-          const postData = {
-            password: process.env.SHORT_URL_PASSWORD,
-            url: news.url,
-          };
-          const responseData = await axiosFunctions.simplePostData(
-            fetchDataFromUrl,
-            postData,
-            {},
-          );
-          if (responseData && responseData.shortened) {
-            news.shortUrl = responseData.shortened;
-          } else {
-            news.shortUrl = null;
-            console.log('failed to generate short URL, returning null');
-          }
-        } else {
-          news.shortUrl = isUrlAvailable[5];
-        }
-      }
-
       // check if this is a new news alert or already available on sheet
       const isAvailable = readNews?.find((element) => element[2] === newsMd5);
       if (undefined == isAvailable) {
+        // check if alert have URL, if available check if we have short URL for that, if not, generate it
+        if (news.url) {
+          const isUrlAvailable = readNews?.find(
+            (element) => element[4] === news.url,
+          );
+          if (undefined == isUrlAvailable) {
+            // if not available generate short url
+            const fetchDataFromUrl = process.env.SHORT_URL_GENERATOR_URL;
+            const postData = {
+              password: process.env.SHORT_URL_PASSWORD,
+              url: news.url,
+            };
+            const responseData = await axiosFunctions.simplePostData(
+              fetchDataFromUrl,
+              postData,
+              {},
+            );
+            if (responseData && responseData.shortened) {
+              news.shortUrl = responseData.shortened;
+            } else {
+              news.shortUrl = null;
+              console.log('failed to generate short URL, returning null');
+            }
+          } else {
+            news.shortUrl = isUrlAvailable[5];
+          }
+        }
+
         const accessId = `news_${(readNews?.length ?? 0) + 1}`;
         ApiServerShouldUpdate = true; // new entries are found so API server should be updated
 

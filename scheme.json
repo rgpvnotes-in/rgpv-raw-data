@@ -628,7 +628,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Fire Tech and Safety Eng"
+            "title": "B.Tech Fire Tech and Safety Eng",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem FT161219110946.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1267,7 +1268,11 @@
             "title": "BE Mining Engineering Grading System",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/misch150217042823.pdf"
           },
-          { "semester": "7th Semester", "title": "B.E." },
+          {
+            "semester": "7th Semester",
+            "title": "B.E.",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AU VII300618042551.pdf"
+          },
           {
             "semester": "7th Semester",
             "title": "Scheme (Automobile Engineering) Grading System",
@@ -1908,7 +1913,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "FIRE TECHNOLOGY SAFETY ENGINEERING CBCS"
+            "title": "FIRE TECHNOLOGY SAFETY ENGINEERING CBCS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ft220217030832.pdf"
           }
         ]
       },
@@ -2557,7 +2563,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Scheme of Examination B.E. EC Engineering"
+            "title": "Scheme of Examination B.E. EC Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem170710070529.pdf"
           },
           {
             "semester": "4th Semester",
@@ -3170,7 +3177,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Scheme for Electronics  Instrumentation Engg 1 Sem"
+            "title": "Scheme for Electronics  Instrumentation Engg 1 Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/1_EIE_sch240715040410.pdf"
           },
           {
             "semester": "1st Semester",
@@ -3801,7 +3809,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Civil – Building Construction Technology"
+            "title": "Civil – Building Construction Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_Building180413062950.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -4419,7 +4428,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharmaceutical Analysis (Grading Sys)"
+            "title": "Pharmaceutical Analysis (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmal Analysis280511020835.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -5008,7 +5018,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Master of Applied Management"
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MAM I311213042834.pdf"
           },
           {
             "semester": "2nd Semester",

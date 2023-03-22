@@ -138,8 +138,10 @@ const writeDataToSheet = async () => {
         ? md5(`${news.content}${news.url}`)
         : md5(`${news.content}`);
 
-      // const newsMd5 = md5(`${news.content}${news.url}`);
       const readNews = await readDataFromSheet();
+
+      // URL encoding
+      news.url = encodeURI(news.url);
 
       // check if this is a new news alert or already available on sheet
       const isAvailable = readNews?.find((element) => element[2] === newsMd5);

@@ -34,7 +34,7 @@ exports.simpleGetData = async (sourceURL, responseType = null) => {
       method: 'get',
     };
 
-    responseType ? config.responseType = responseType : '';
+    responseType ? (config.responseType = responseType) : '';
 
     return (await axios.get(sourceURL, config)).data;
   } catch (error) {
@@ -59,12 +59,13 @@ exports.simplePostData = async (
   customBasicAuth = {},
 ) => {
   try {
-    return (
-      await axios.post(postDataToUrl, postData, {
-        auth: customBasicAuth,
-        headers: customHeaders,
-      })
-    ).data;
+    const options = {
+      headers: customHeaders,
+    };
+
+    customBasicAuth ? (options.auth = customBasicAuth) : '';
+
+    return (await axios.post(postDataToUrl, postData, options)).data;
   } catch (error) {
     const domainExtractor = new URL(postDataToUrl).hostname;
     console.error(

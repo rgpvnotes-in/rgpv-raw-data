@@ -158,8 +158,66 @@
       }
     ]
   },
-  { "programName": "MCA Dual Degree", "programId": 23, "programDataList": [] },
-  { "programName": "MBA Integrated", "programId": 21, "programDataList": [] },
+  {
+    "programName": "MCA Dual Degree",
+    "programId": 23,
+    "programDataList": [
+      {
+        "title": "Time Table MCA Integated Semester X MAY 2023",
+        "semester": "10th Semester"
+      },
+      {
+        "title": "Time Table MCA Integated Semester IX MAY 2023",
+        "semester": "9th Semester"
+      },
+      {
+        "title": "Time Table MCA Integated Semester VIII MAY 2023",
+        "semester": "8th Semester"
+      },
+      {
+        "title": "Time Table MCA Integated Semester VII MAY 2023",
+        "semester": "7th Semester"
+      },
+      {
+        "title": "Time Table MCA Integated Semester VI MAY 2023",
+        "semester": "6th Semester"
+      },
+      {
+        "title": "Time Table MCA Integrated Semester V MAY 2023",
+        "semester": "5th Semester"
+      }
+    ]
+  },
+  {
+    "programName": "MBA Integrated",
+    "programId": 21,
+    "programDataList": [
+      {
+        "title": "Time Table MBA Integrated Semester X MAY 2023",
+        "semester": "10th Semester"
+      },
+      {
+        "title": "Time Table MBA Integrated Semester IX MAY 2023",
+        "semester": "9th Semester"
+      },
+      {
+        "title": "Time Table MBA Integrated Semester VIII MAY 2023",
+        "semester": "8th Semester"
+      },
+      {
+        "title": "Time Table MBA Integrated Semester VII MAY 2023",
+        "semester": "7th Semester"
+      },
+      {
+        "title": "Time Table MBA Integrated Semester VI MAY 2023",
+        "semester": "6th Semester"
+      },
+      {
+        "title": "Time Table MBA Integrated Semester V MAY 2023",
+        "semester": "5th Semester"
+      }
+    ]
+  },
   { "programName": "DDI-PG", "programId": 12, "programDataList": [] },
   { "programName": "Diploma", "programId": 3, "programDataList": [] },
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },

@@ -92,7 +92,22 @@
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
-  { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
+  {
+    "programName": "MCA 2 Year",
+    "programId": 53,
+    "programDataList": [
+      {
+        "title": "Time Table MCA 2YEAR Semester IV MAY 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2Y 34280323031543.pdf"
+      },
+      {
+        "title": "Time Table MCA 2YEAR Semester III MAY 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2Y 34280323031517.pdf"
+      }
+    ]
+  },
   { "programName": "MCA", "programId": 5, "programDataList": [] },
   { "programName": "MCA Dual Degree", "programId": 23, "programDataList": [] },
   { "programName": "MBA Integrated", "programId": 21, "programDataList": [] },

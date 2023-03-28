@@ -1,27 +1,4 @@
 const axios = require('axios');
-const headers = {
-  authority: 'www.rgpv.ac.in',
-  'sec-ch-ua':
-    '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
-  'sec-ch-ua-mobile': '?0',
-  'user-agent':
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'cache-control': 'no-cache',
-  'x-requested-with': 'XMLHttpRequest',
-  'x-microsoftajax': 'Delta=true',
-  'sec-ch-ua-platform': '"Windows"',
-  accept: '*/*',
-  origin: 'https://www.rgpv.ac.in',
-  'sec-fetch-site': 'same-origin',
-  'sec-fetch-mode': 'cors',
-  'sec-fetch-dest': 'empty',
-  referer: 'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%',
-  'accept-language': 'en-GB,en;q=0.9',
-  cookie: 'ASP.NET_SessionId=hznbm3vovcoagebriewkhpw0',
-  dnt: '1',
-  'sec-gpc': '1',
-};
 
 /**
  *
@@ -50,19 +27,19 @@ exports.simpleGetData = async (sourceURL, responseType = null) => {
  * @param {String} postDataToUrl  - The URL where we want to send the data
  * @param {Object} postData - Post body data
  * @param {Object} customHeaders - Custom header for the post request
+ * @param {Object} customBasicAuth - Basic Auth data for the post request
  * @returns
  */
 exports.simplePostData = async (
   postDataToUrl,
   postData,
-  customHeaders = headers,
-  customBasicAuth = {},
+  customHeaders = null,
+  customBasicAuth = null,
 ) => {
   try {
-    const options = {
-      headers: customHeaders,
-    };
+    const options = {};
 
+    customHeaders ? (options.headers = customHeaders) : '';
     customBasicAuth ? (options.auth = customBasicAuth) : '';
 
     return (await axios.post(postDataToUrl, postData, options)).data;

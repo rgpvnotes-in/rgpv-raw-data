@@ -1,5 +1,29 @@
 const axios = require('axios');
 
+const rgpvHeaders = {
+  authority: 'www.rgpv.ac.in',
+  'sec-ch-ua':
+    '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'user-agent':
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'cache-control': 'no-cache',
+  'x-requested-with': 'XMLHttpRequest',
+  'x-microsoftajax': 'Delta=true',
+  'sec-ch-ua-platform': '"Windows"',
+  accept: '*/*',
+  origin: 'https://www.rgpv.ac.in',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%',
+  'accept-language': 'en-GB,en;q=0.9',
+  cookie: 'ASP.NET_SessionId=hznbm3vovcoagebriewkhpw0',
+  dnt: '1',
+  'sec-gpc': '1',
+};
+
 /**
  *
  * @param {String} sourceURL - The URL from which we have to fetch the data
@@ -85,7 +109,7 @@ exports.fetchTimeTableFileUrl = async (bodyData) => {
     const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&`;
 
     let data = await axios.post(fetchFileFromUrl, postData, {
-      headers: headers,
+      headers: rgpvHeaders,
     });
     data = await data.data;
     data = await data.split('ScriptContentWithTags')[1];
@@ -119,7 +143,7 @@ exports.fetchSchemeOrSyllabusFileUrl = async (bodyData) => {
 
     let data = (
       await axios.post(fetchFileFromUrl, postData, {
-        headers: headers,
+        headers: rgpvHeaders,
       })
     ).data;
     data = await data.split('ScriptContentWithTags')[1];

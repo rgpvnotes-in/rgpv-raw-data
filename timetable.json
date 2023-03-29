@@ -6,6 +6,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table B Tech Semester VI May 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTechVI290323053256.pdf"
+      },
+      {
         "title": "Time Table B Tech Semester VIII May 2023",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech Sem 8290323035045.pdf"
@@ -24,11 +29,6 @@
         "title": "Time Table B Tech Semester V May 2023",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 5280323010653.pdf"
-      },
-      {
-        "title": "Time Table B Tech Semester VI May 2023",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 6280323010629.pdf"
       },
       {
         "title": "Time Table B Tech Semester VII May 2023",

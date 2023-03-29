@@ -161,7 +161,6 @@ const writeDataToSheet = async () => {
             const responseData = await axiosFunctions.simplePostData(
               fetchDataFromUrl,
               postData,
-              {},
             );
             if (responseData && responseData.shortened) {
               news.shortUrl = responseData.shortened;

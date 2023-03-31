@@ -66,7 +66,16 @@ exports.simplePostData = async (
     customHeaders ? (options.headers = customHeaders) : '';
     customBasicAuth ? (options.auth = customBasicAuth) : '';
 
-    return (await axios.post(postDataToUrl, postData, options)).data;
+    let responseFromServer;
+    if (customHeaders || customBasicAuth) {
+      console.log('customHeaders value ', !!customHeaders);
+      console.log('customBasicAuth value ', !!customBasicAuth);
+      responseFromServer = await axios.post(postDataToUrl, postData, options);
+    } else {
+      responseFromServer = await axios.post(postDataToUrl, postData);
+    }
+
+    return responseFromServer.data;
   } catch (error) {
     const domainExtractor = new URL(postDataToUrl).hostname;
     console.error(

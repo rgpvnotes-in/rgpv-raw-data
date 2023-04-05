@@ -72,7 +72,9 @@ exports.simplePostData = async (
       console.log('customBasicAuth value ', !!customBasicAuth);
       responseFromServer = await axios.post(postDataToUrl, postData, options);
     } else {
+      console.log('else condition inside simplePostData function');
       responseFromServer = await axios.post(postDataToUrl, postData);
+      console.log('' + responseFromServer);
     }
 
     return responseFromServer.data;

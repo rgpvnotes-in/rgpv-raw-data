@@ -162,8 +162,8 @@ const writeDataToSheet = async () => {
               fetchDataFromUrl,
               postData,
             );
-            if (responseData && responseData.shortened) {
-              news.shortUrl = responseData.shortened;
+            if (responseData && responseData.isSuccess) {
+              news.shortUrl = responseData.data.shortened;
             } else {
               news.shortUrl = null;
               console.log('failed to generate short URL, returning null');

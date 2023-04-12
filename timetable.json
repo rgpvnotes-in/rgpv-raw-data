@@ -37,7 +37,42 @@
       }
     ]
   },
-  { "programName": "BE", "programId": 1, "programDataList": [] },
+  {
+    "programName": "BE",
+    "programId": 1,
+    "programDataList": [
+      {
+        "title": "Time Table BE VIII Semester CBGS Examination MAY 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE VIII CBGS120423041038.pdf"
+      },
+      {
+        "title": "Time Table BE VIII Semester Examination MAY 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE VIII SEM G120423040719.pdf"
+      },
+      {
+        "title": "Time Table BE V Semester Examination MAY 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE V G120423040647.pdf"
+      },
+      {
+        "title": "Time Table BE V  Semester CBGS Examination MAY 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE V CBGS120423040801.pdf"
+      },
+      {
+        "title": "Time Table BE VI  Semester CBGS Examination MAY 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE VI CBGS120423040835.pdf"
+      },
+      {
+        "title": "Time Table BE VII  Semester CBGS Examination MAY 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE VII CBGS120423040905.pdf"
+      }
+    ]
+  },
   {
     "programName": "BE-PTDC",
     "programId": 10,

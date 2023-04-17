@@ -4033,7 +4033,57 @@
           }
         ]
       },
-      { "name": "Non Grading System", "id": 2 },
+      {
+        "name": "Non Grading System",
+        "id": 2,
+        "pdfs": [
+          {
+            "semester": "",
+            "title": "Quality Assurance (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Quality Assurance110912060641.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Drug Regulatory Affairs(DRA)-(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Drug Regulatory Affairs110912060743.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutical Biotechnology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharm. Biotech110912060837.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutics (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutics110912060940.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmacognosy (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacognosy110912061014.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmacology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacology110912061117.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PMRA110912061149.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutical Chemistry (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Ph. Chemistry170912050751.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutical Analysis (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutical Analysis170912050823.pdf"
+          }
+        ]
+      },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },

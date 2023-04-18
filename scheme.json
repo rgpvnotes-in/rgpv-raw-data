@@ -1714,7 +1714,11 @@
             "title": "BE(CS)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII CS150311033740.pdf"
           },
-          { "semester": "8th Semester", "title": "BE(EC)" },
+          {
+            "semester": "8th Semester",
+            "title": "BE(EC)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII EC 150311033947.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "BE(EE)",

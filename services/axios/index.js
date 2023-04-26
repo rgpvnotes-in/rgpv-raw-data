@@ -86,6 +86,19 @@ exports.simplePostData = async (
   }
 };
 
+exports.simplePostData2 = async (fetchDataFromUrl, postData) => {
+  try {
+    return (
+      await axios.post(fetchDataFromUrl, postData)
+    ).data;
+  } catch (error) {
+    const domainExtractor = new URL(postDataToUrl).hostname;
+    console.error(
+      `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
+    );
+  }
+};
+
 /**
  *
  * @param {String} urlToUpdateNews - API server end point to update news Data

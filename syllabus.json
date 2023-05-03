@@ -203,7 +203,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Electrical Electronics Engineering"
+            "title": "B.Tech Electrical Electronics Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EX III Sy100719012405.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -247,7 +248,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech. SYllabus Cyber Security"
+            "title": "B.Tech. SYllabus Cyber Security",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CYBER302SYL031122015831.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -269,7 +271,11 @@
             "title": "CSEIOT Cyber security Including Block chain Tech",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BlockChain170921041840.pdf"
           },
-          { "semester": "3rd Semester", "title": "BTech CSE Data Science" },
+          {
+            "semester": "3rd Semester",
+            "title": "BTech CSE Data Science",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSEData_Science170921041932.pdf"
+          },
           {
             "semester": "3rd Semester",
             "title": "BTech Artificial Intelligence and Data Science",
@@ -302,7 +308,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Robotics and Artificial Intelligence"
+            "title": "Robotics and Artificial Intelligence",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_Sem_Robotic_AI_Sy130922013521.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -534,7 +541,11 @@
             "title": "Computer Science and Business System",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS_RGPV_5_sem_Syllabus130722102118.pdf"
           },
-          { "semester": "5th Semester", "title": "3D Animations and Graphics" },
+          {
+            "semester": "5th Semester",
+            "title": "3D Animations and Graphics",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSem3DAnimationGraphicsSyllabus220722052304.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "Automation and Robotics",

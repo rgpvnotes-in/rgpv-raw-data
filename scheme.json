@@ -7,7 +7,11 @@
         "name": "Grading System",
         "id": 1,
         "pdfs": [
-          { "semester": "1st Semester", "title": "MBA I Semester Scheme" },
+          {
+            "semester": "1st Semester",
+            "title": "MBA I Semester Scheme",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_SEM_SCHEME_MBA040121124918.pdf"
+          },
           {
             "semester": "1st Semester",
             "title": "Scheme Financial Administration MBA I Semester",
@@ -119,7 +123,7 @@
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
-      { "name": "CBCS", "id": 4 },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
@@ -177,7 +181,11 @@
             "title": "B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BM131022120354.pdf"
           },
-          { "semester": "3rd Semester", "title": "B.Tech Civil Engineering" },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Tech Civil Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Civil_Engineering131022120419.pdf"
+          },
           {
             "semester": "3rd Semester",
             "title": "B.Tech Chemical Engineering",
@@ -235,7 +243,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer science and Information Technology"
+            "title": "B.Tech Computer science and Information Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSIT131022123258.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -282,10 +291,15 @@
             "title": "Cyber Security",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechCyber_Security131022123715.pdf"
           },
-          { "semester": "3rd Semester", "title": "3D Animation and Graphics" },
           {
             "semester": "3rd Semester",
-            "title": "BTech Computer Science and Business System"
+            "title": "3D Animation and Graphics",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3DAnimationGraphics131022123434.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "BTech Computer Science and Business System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS131022123640.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -339,11 +353,13 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electronics and Instrumentation Engg"
+            "title": "B.Tech Electronics and Instrumentation Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_EI_IV_Sem220422043805.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Fire Technology Safety Engg."
+            "title": "B.Tech Fire Technology Safety Engg.",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_FT_IV_Sem220422043850.pdf"
           },
           {
             "semester": "4th Semester",
@@ -395,7 +411,11 @@
             "title": "Computer Science and Business System",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_CSBS_Scheme040522121124.pdf"
           },
-          { "semester": "4th Semester", "title": "Robotics and Mechatronics" },
+          {
+            "semester": "4th Semester",
+            "title": "Robotics and Mechatronics",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_Robotics_and_Mechatronics220422044714.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "Automation and Robotics",
@@ -491,7 +511,11 @@
             "title": "B.Tech Mechanical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ME131022010554.pdf"
           },
-          { "semester": "5th Semester", "title": "B.Tech Mining Engineering" },
+          {
+            "semester": "5th Semester",
+            "title": "B.Tech Mining Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mining_Scheme131022010611.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "B.Tech Fire Technology Safety Engg.",

@@ -92,7 +92,7 @@ exports.simplePostData2 = async (fetchDataFromUrl, postData) => {
       await axios.post(fetchDataFromUrl, postData)
     ).data;
   } catch (error) {
-    const domainExtractor = new URL(postDataToUrl).hostname;
+    const domainExtractor = new URL(fetchDataFromUrl).hostname;
     console.error(
       `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
     );

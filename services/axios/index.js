@@ -74,7 +74,7 @@ exports.simplePostData = async (
     } else {
       console.log('else condition inside simplePostData function');
       responseFromServer = await axios.post(postDataToUrl, postData);
-      console.log('' + responseFromServer);
+      console.log('' + JSON.stringify(responseFromServer.data));
     }
 
     return responseFromServer.data;

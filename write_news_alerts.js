@@ -158,6 +158,8 @@ const writeDataToSheet = async () => {
               password: process.env.SHORT_URL_PASSWORD,
               url: news.url,
             };
+            console.log(              fetchDataFromUrl,
+              postData, '              fetchDataFromUrl,              postData,');
             const responseData = await axiosFunctions.simplePostData2(
               fetchDataFromUrl,
               postData,

@@ -1594,7 +1594,11 @@
             "title": "B.E.(IP,IEM)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI IP (SY)080411021410.pdf"
           },
-          { "semester": "6th Semester", "title": "B.E.(Information Tech.)" },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Information Tech.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BE_6_SEM_SYLLABUS160212123750.pdf"
+          },
           {
             "semester": "6th Semester",
             "title": "B.E.(Mechanical Engg.)",

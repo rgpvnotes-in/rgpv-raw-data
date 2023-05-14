@@ -165,7 +165,9 @@ const writeDataToSheet = async () => {
             //   postData,
             // );
 
-            const responseData = await axios.post(fetchDataFromUrl, {
+            console.log('url equal ', 'https://redirect.rgpvnotes.in/generateLink' == fetchDataFromUrl);
+
+            const responseData = await axios.post('https://redirect.rgpvnotes.in/generateLink', {
               password: process.env.SHORT_URL_PASSWORD,
               url: news.url,
             })

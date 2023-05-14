@@ -273,9 +273,14 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "CSEIOT Cyber security Including Block chain Tech"
+            "title": "CSEIOT Cyber security Including Block chain Tech",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BlockChain170921041840.pdf"
           },
-          { "semester": "3rd Semester", "title": "BTech CSE Data Science" },
+          {
+            "semester": "3rd Semester",
+            "title": "BTech CSE Data Science",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSEData_Science170921041932.pdf"
+          },
           {
             "semester": "3rd Semester",
             "title": "BTech Artificial Intelligence and Data Science",
@@ -453,7 +458,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Syllabus Agriculture Engineering"
+            "title": "Syllabus Agriculture Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_Agriculture_Engg_Syllabus240123122734.pdf"
           },
           {
             "semester": "4th Semester",
@@ -627,7 +633,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Chemical Engineering"
+            "title": "B.Tech Chemical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM_VI Sem _SY311219032247.pdf"
           },
           {
             "semester": "6th Semester",
@@ -943,7 +950,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E.(BioMedical. Engg)(Grading Sys)"
+            "title": "B.E.(BioMedical. Engg)(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III  BM_Sy_ 260711062235.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -1573,7 +1581,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.E.(Electrical Electronics Engg.)"
+            "title": "B.E.(Electrical Electronics Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EX (SY)080411020322.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1615,7 +1624,11 @@
             "title": "B.E.(CSE)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII CS_Modified Sy_070711052904.pdf"
           },
-          { "semester": "7th Semester", "title": "B.E.(AU)" },
+          {
+            "semester": "7th Semester",
+            "title": "B.E.(AU)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AU 7th (SY)170811063624.pdf"
+          },
           {
             "semester": "7th Semester",
             "title": "B.E.(BM)",
@@ -2316,7 +2329,8 @@
           },
           {
             "semester": "7th Semester",
-            "title": "B.E.  Industrial Production Engineering CBGS"
+            "title": "B.E.  Industrial Production Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ipe7100718030052.pdf"
           },
           {
             "semester": "7th Semester",
@@ -2340,7 +2354,8 @@
           },
           {
             "semester": "8th Semester",
-            "title": "B.E. Chemical Engineering CBGS"
+            "title": "B.E. Chemical Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/cm211218024837.pdf"
           },
           {
             "semester": "8th Semester",
@@ -3007,7 +3022,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Construction Tech. and Mgt.(Grading Sys)"
+            "title": "Construction Tech. and Mgt.(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I CTM (Sy)281011051446.pdf"
           },
           {
             "semester": "1st Semester",
@@ -3156,11 +3172,13 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Computer Sc.( Grading Sys.)"
+            "title": "Computer Sc.( Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE SY III190911043938.pdf"
           },
           {
             "semester": "3rd Semester",
-            "title": "Computer Tech. and Application(Grading Sys.)"
+            "title": "Computer Tech. and Application(Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III CTA _Sy_291111054110.pdf"
           },
           {
             "semester": "3rd Semester",

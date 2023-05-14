@@ -198,7 +198,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer Science Engineering"
+            "title": "B.Tech Computer Science Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE131022120448.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -232,7 +233,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Information Technology"
+            "title": "B.Tech Information Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IT131022123140.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -611,7 +613,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Biomedical Engineering"
+            "title": "B.Tech Biomedical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem BM161219110540.pdf"
           },
           {
             "semester": "6th Semester",
@@ -765,7 +768,8 @@
           },
           {
             "semester": "7th Semester",
-            "title": "B.Tech Computer Science and Engineering"
+            "title": "B.Tech Computer Science and Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_CSE290121043414.pdf"
           },
           {
             "semester": "7th Semester",
@@ -912,7 +916,7 @@
       },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
-      { "name": "CBGS", "id": 5 },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
@@ -1056,7 +1060,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.E.Electrical and ElectronicsGrading"
+            "title": "B.E.Electrical and ElectronicsGrading",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV EX220217034312.pdf"
           },
           {
             "semester": "4th Semester",
@@ -1128,7 +1133,11 @@
             "title": "Bio-Medical Engineering(Grading)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V BM040612034226.pdf"
           },
-          { "semester": "5th Semester", "title": "Biotechnology(Grading)" },
+          {
+            "semester": "5th Semester",
+            "title": "Biotechnology(Grading)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Bio Tech040612034346.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "Civil Engineering(Grading)",
@@ -2030,7 +2039,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. Computer Science  Engineering CBGS 2017"
+            "title": "B.E. Computer Science  Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem CSE261217025458.pdf"
           },
           {
             "semester": "4th Semester",
@@ -2057,7 +2067,11 @@
             "title": "B.E. Fire Technology CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem FT261217030400.pdf"
           },
-          { "semester": "4th Semester", "title": "B.E. IPE CBGS 2017" },
+          {
+            "semester": "4th Semester",
+            "title": "B.E. IPE CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem IPE261217030440.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "B.E. Information Technology CBGS 2017",
@@ -2639,11 +2653,13 @@
           },
           {
             "semester": "7th Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering"
+            "title": "Scheme of Examination B.E. Mechanical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem170710071651.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering"
+            "title": "Scheme of Examination B.E. Civil Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Sem170710065612.pdf"
           },
           {
             "semester": "8th Semester",
@@ -2662,7 +2678,7 @@
           }
         ]
       },
-      { "name": "Lateral Entry", "id": 3 },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
@@ -2967,7 +2983,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "BACHELOR OF ARCHITECTURE CBCS"
+            "title": "BACHELOR OF ARCHITECTURE CBCS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme050517041732.pdf"
           },
           {
             "semester": "4th Semester",
@@ -2990,7 +3007,11 @@
             "title": "B.Architecture CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/two180118050240.pdf"
           },
-          { "semester": "3rd Semester", "title": "B.Architecture CBGS 2017" },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Architecture CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/three180118050253.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "B.Architecture CBGS 2017",
@@ -4618,7 +4639,7 @@
           }
         ]
       },
-      { "name": "Lateral Entry", "id": 3 },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
@@ -4929,8 +4950,7 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "MASTER OF COMPUTER APPLICATIONS (Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II MCA 150411010336.pdf"
+            "title": "MASTER OF COMPUTER APPLICATIONS (Grading Sys.)"
           },
           {
             "semester": "5th Semester",
@@ -5130,7 +5150,7 @@
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
-      { "name": "As per COA", "id": 7 }
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {

@@ -248,8 +248,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer science and Information Technology",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSIT131022123258.pdf"
+            "title": "B.Tech Computer science and Information Technology"
           },
           {
             "semester": "3rd Semester",
@@ -1969,8 +1968,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E. Electrical Engineering New CBGS 2017",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem _EE__Scheme050817123512.pdf"
+            "title": "B.E. Electrical Engineering New CBGS 2017"
           },
           {
             "semester": "3rd Semester",
@@ -2257,11 +2255,7 @@
             "title": "B.E. Agriculture Technology CBGS",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/6Agri211218121151.pdf"
           },
-          {
-            "semester": "7th Semester",
-            "title": "B.E.",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE VII290618032025.pdf"
-          },
+          { "semester": "7th Semester", "title": "B.E." },
           {
             "semester": "7th Semester",
             "title": "B.E. Chemical Engineering CBGS",
@@ -2452,8 +2446,7 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Electrical and Electronics Engineering PTDC",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/2exsc211016042849.pdf"
+            "title": "Electrical and Electronics Engineering PTDC"
           },
           {
             "semester": "2nd Semester",
@@ -3302,7 +3295,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Scheme for Electronics  Instrumentation Engg 2 Sem"
+            "title": "Scheme for Electronics  Instrumentation Engg 2 Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIEI130913120811.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -3738,8 +3732,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Mechanical Engineering (Grading)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ICC_Sch280715030634.pdf"
+            "title": "Mechanical Engineering (Grading)"
           },
           {
             "semester": "1st Semester",
@@ -3803,8 +3796,7 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Structural Engineering(Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Structural Engg 160511052044.pdf"
+            "title": "Structural Engineering(Grading Sys)"
           },
           {
             "semester": "2nd Semester",
@@ -3928,8 +3920,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Energy Technology (Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3semEEM230813034556.pdf"
+            "title": "Energy Technology (Grading Sys.)"
           },
           {
             "semester": "3rd Semester",
@@ -4123,8 +4114,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Scheme IOT and Sensor System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_IOTSensorSystemScheme120821051720.pdf"
+            "title": "Scheme IOT and Sensor System"
           },
           {
             "semester": "3rd Semester",
@@ -4213,18 +4203,15 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Digital Communication (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV  Digi 231111042656.pdf"
+            "title": "Digital Communication (Grading Sys)"
           },
           {
             "semester": "4th Semester",
-            "title": "Microwave,Microwave and Milli.Engg. (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Micro231111043806.pdf"
+            "title": "Microwave,Microwave and Milli.Engg. (Grading Sys)"
           },
           {
             "semester": "4th Semester",
-            "title": "Embedded System and VLSI Design (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Emb231111044300.pdf"
+            "title": "Embedded System and VLSI Design (Grading Sys)"
           },
           {
             "semester": "4th Semester",
@@ -4253,8 +4240,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Civil – Building Construction Technology",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Building180413063131.pdf"
+            "title": "Civil – Building Construction Technology"
           },
           {
             "semester": "4th Semester",
@@ -4263,8 +4249,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Scheme 4 Sem Electrical Power System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Power260913122434.pdf"
+            "title": "Scheme 4 Sem Electrical Power System"
           },
           {
             "semester": "4th Semester",
@@ -4298,8 +4283,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "CAD CAM Engineering (Grading)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IVCC_Sch290715030751.pdf"
+            "title": "CAD CAM Engineering (Grading)"
           }
         ]
       },
@@ -4507,8 +4491,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Pharmaceutics (Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MPharm(Pharmaceutics)081012052935.pdf"
+            "title": "Pharmaceutics (Grading Sys.)"
           },
           {
             "semester": "3rd Semester",
@@ -4769,7 +4752,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "MPharm PCI Pharmaceutical Chemistry III Sem"
+            "title": "MPharm PCI Pharmaceutical Chemistry III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_sem_Pharmaceutical_Chemistry070922123457.pdf"
           },
           {
             "semester": "3rd Semester",

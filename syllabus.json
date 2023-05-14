@@ -3627,11 +3627,7 @@
             "title": "Digital Communication",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II digi _SY_ 260419113755.pdf"
           },
-          {
-            "semester": "2nd Semester",
-            "title": "Internet of Things IOT",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II sem IOT _SY_250321015936.pdf"
-          },
+          { "semester": "2nd Semester", "title": "Internet of Things IOT" },
           {
             "semester": "2nd Semester",
             "title": "IOT and  sensor system",
@@ -3724,8 +3720,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Structural Engg.( Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Structural Engg_Sy_190911062135.pdf"
+            "title": "Structural Engg.( Grading Sys.)"
           },
           {
             "semester": "3rd Semester",

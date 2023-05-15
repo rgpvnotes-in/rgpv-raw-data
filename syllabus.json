@@ -843,8 +843,7 @@
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus Mining Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_Mining_Sy300121025918.pdf"
+            "title": "Syllabus Mining Engineering"
           },
           {
             "semester": "8th Semester",
@@ -1277,8 +1276,7 @@
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus (Textile Engineering) Grading System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII TX _SY_290613040736.pdf"
+            "title": "Syllabus (Textile Engineering) Grading System"
           },
           {
             "semester": "7th Semester",
@@ -1408,8 +1406,7 @@
         "pdfs": [
           {
             "semester": "4th Semester",
-            "title": "B.E. (Automobile Engineering)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV AU _SY_110112040941.pdf"
+            "title": "B.E. (Automobile Engineering)"
           },
           {
             "semester": "4th Semester",
@@ -1578,8 +1575,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.E.(Electronics and Comm.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EC (SY)080411014912.pdf"
+            "title": "B.E.(Electronics and Comm.)"
           },
           {
             "semester": "6th Semester",
@@ -1989,11 +1985,7 @@
             "title": "B.E. Computer Science Engineering New CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem CSE _SY_050817125404.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "B.E. EC New CBGS 2017",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem EC _SY_281017121400.pdf"
-          },
+          { "semester": "3rd Semester", "title": "B.E. EC New CBGS 2017" },
           {
             "semester": "3rd Semester",
             "title": "B.E. Electrical Engineering New CBGS 2017",
@@ -2543,7 +2535,7 @@
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
-      { "name": "As per COA", "id": 7, "pdfs": [] }
+      { "name": "As per COA", "id": 7 }
     ]
   },
   {
@@ -3144,13 +3136,11 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Syllabus for 2 Sem High Voltage and Power System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIHVPS_SY230913054837.pdf"
+            "title": "Syllabus for 2 Sem High Voltage and Power System"
           },
           {
             "semester": "2nd Semester",
-            "title": "Transportation Engineering (Grading System)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Sem _Sy_151014113649.pdf"
+            "title": "Transportation Engineering (Grading System)"
           },
           {
             "semester": "2nd Semester",

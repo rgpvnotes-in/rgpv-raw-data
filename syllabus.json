@@ -14,8 +14,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Syllabus Pharmaceutical Management MBA I Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PMIsemSyllabus020223111832.pdf"
+            "title": "Syllabus Pharmaceutical Management MBA I Semester"
           },
           {
             "semester": "1st Semester",
@@ -348,8 +347,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Biomedical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BM271218034551.pdf"
+            "title": "B.Tech Biomedical Engineering"
           },
           {
             "semester": "4th Semester",
@@ -383,8 +381,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Agriculture Technology",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/at020119030614.pdf"
+            "title": "B.Tech Agriculture Technology"
           },
           {
             "semester": "4th Semester",
@@ -843,7 +840,8 @@
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus Mining Engineering"
+            "title": "Syllabus Mining Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_Mining_Sy300121025918.pdf"
           },
           {
             "semester": "8th Semester",
@@ -1276,7 +1274,8 @@
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus (Textile Engineering) Grading System"
+            "title": "Syllabus (Textile Engineering) Grading System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII TX _SY_290613040736.pdf"
           },
           {
             "semester": "7th Semester",
@@ -1406,7 +1405,8 @@
         "pdfs": [
           {
             "semester": "4th Semester",
-            "title": "B.E. (Automobile Engineering)"
+            "title": "B.E. (Automobile Engineering)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV AU _SY_110112040941.pdf"
           },
           {
             "semester": "4th Semester",
@@ -1445,8 +1445,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. (Electrical and Electronics Engineering)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV EX _SY_250815034237.pdf"
+            "title": "B.E. (Electrical and Electronics Engineering)"
           },
           {
             "semester": "4th Semester",
@@ -1575,7 +1574,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.E.(Electronics and Comm.)"
+            "title": "B.E.(Electronics and Comm.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EC (SY)080411014912.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1796,8 +1796,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Automobile Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/au051016033320.pdf"
+            "title": "Automobile Engineering CBCS"
           },
           {
             "semester": "3rd Semester",
@@ -1985,7 +1984,11 @@
             "title": "B.E. Computer Science Engineering New CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem CSE _SY_050817125404.pdf"
           },
-          { "semester": "3rd Semester", "title": "B.E. EC New CBGS 2017" },
+          {
+            "semester": "3rd Semester",
+            "title": "B.E. EC New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem EC _SY_281017121400.pdf"
+          },
           {
             "semester": "3rd Semester",
             "title": "B.E. Electrical Engineering New CBGS 2017",
@@ -2535,7 +2538,7 @@
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
-      { "name": "As per COA", "id": 7 }
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
@@ -3136,11 +3139,13 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Syllabus for 2 Sem High Voltage and Power System"
+            "title": "Syllabus for 2 Sem High Voltage and Power System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIHVPS_SY230913054837.pdf"
           },
           {
             "semester": "2nd Semester",
-            "title": "Transportation Engineering (Grading System)"
+            "title": "Transportation Engineering (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Sem _Sy_151014113649.pdf"
           },
           {
             "semester": "2nd Semester",

@@ -165,15 +165,18 @@ const writeDataToSheet = async () => {
             //   postData,
             // );
 
-            console.log('url equal ', 'https://redirect.rgpvnotes.in/generateLink' == fetchDataFromUrl);
-
-            const responseData = await axios.post('https://redirect.rgpvnotes.in/generateLink', {
-              password: process.env.SHORT_URL_PASSWORD,
-              url: news.url,
-            })
-            if (responseData && responseData.isSuccess) {
-              news.shortUrl = responseData.data.shortened;
-            } else {
+            try {
+              const responseData = await axios.post(
+                fetchDataFromUrl,
+                {
+                  password: process.env.SHORT_URL_PASSWORD,
+                  url: news.url,
+                },
+              );
+              if (responseData && responseData.isSuccess) {
+                news.shortUrl = responseData.data.shortened;
+              }
+            } catch (error) {
               news.shortUrl = null;
               console.log('failed to generate short URL, returning null');
             }

@@ -3,6 +3,7 @@
     { "name": "MBA", "id": 4 },
     { "name": "M.Arch", "id": 22 },
     { "name": "B.Tech", "id": 24 },
+    { "name": "B.Design", "id": 25 },
     { "name": "BE", "id": 1 },
     { "name": "BE-PTDC", "id": 10 },
     { "name": "B.Tech.-PTDC", "id": 42 },

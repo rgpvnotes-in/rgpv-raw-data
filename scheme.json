@@ -283,73 +283,44 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Mining and Mineral Processing",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Miningand_MineralProcessing131022123805.pdf"
+            "title": "Mining and Mineral Processing"
+          },
+          { "semester": "3rd Semester", "title": "Internet Of Things" },
+          { "semester": "3rd Semester", "title": "Cyber Security" },
+          { "semester": "3rd Semester", "title": "3D Animation and Graphics" },
+          {
+            "semester": "3rd Semester",
+            "title": "BTech Computer Science and Business System"
           },
           {
             "semester": "3rd Semester",
-            "title": "Internet Of Things",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechIOT131022123748.pdf"
+            "title": "B.Tech Agriculture Engineering"
           },
           {
             "semester": "3rd Semester",
-            "title": "Cyber Security",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechCyber_Security131022123715.pdf"
+            "title": "Robotics and Artificial Intelligence"
           },
+          { "semester": "3rd Semester", "title": "Electric Vehicles" },
           {
-            "semester": "3rd Semester",
-            "title": "3D Animation and Graphics",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3DAnimationGraphics131022123434.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "BTech Computer Science and Business System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS131022123640.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "B.Tech Agriculture Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Agriculture_Engg131022124007.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Robotics and Artificial Intelligence",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Robotics_AI131022123943.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Electric Vehicles",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Electric_Vehicle131022123852.pdf"
+            "semester": "4th Semester",
+            "title": "B.Tech Agriculture Technology"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Agriculture Technology",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_AT_IV_Sem220422043421.pdf"
+            "title": "B.Tech Automobile Engineering"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Automobile Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_AU_IV_Sem220422043450.pdf"
+            "title": "B.Tech Biomedical Engineering"
+          },
+          { "semester": "4th Semester", "title": "B.Tech Civil Engineering" },
+          {
+            "semester": "4th Semester",
+            "title": "B.Tech Chemical Engineering"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Biomedical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_BM_IV_Sem220422043508.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "B.Tech Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_CE_IV_Sem220422043528.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "B.Tech Chemical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_CM_IV_Sem220422043547.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "B.Tech Computer Science Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_CSE_IV_Sem220422043615.pdf"
+            "title": "B.Tech Computer Science Engineering"
           },
           {
             "semester": "4th Semester",

@@ -181,11 +181,7 @@
             "title": "B.Tech Automobile Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AU III Sy080818125659.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "B.Tech Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CE III  Sy080818125728.pdf"
-          },
+          { "semester": "3rd Semester", "title": "B.Tech Civil Engineering" },
           {
             "semester": "3rd Semester",
             "title": "B.Tech Chemical Engineering",
@@ -283,13 +279,11 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "BTech Artificial Intelligence and Data Science",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AI_and_Data_Science170921042142.pdf"
+            "title": "BTech Artificial Intelligence and Data Science"
           },
           {
             "semester": "3rd Semester",
-            "title": "BTech Automation and Robotics",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Automation___Robotics_III_Sy210921043409.pdf"
+            "title": "BTech Automation and Robotics"
           },
           {
             "semester": "3rd Semester",
@@ -493,8 +487,7 @@
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Electrical and Electronics Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ex120719041315.pdf"
+            "title": "B.Tech Electrical and Electronics Engineering"
           },
           {
             "semester": "5th Semester",
@@ -924,8 +917,8 @@
           }
         ]
       },
-      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
-      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3 },
+      { "name": "CBCS", "id": 4 },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
@@ -1473,8 +1466,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. (Mechanical Engineering)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV ME _SY_110112042937.pdf"
+            "title": "B.E. (Mechanical Engineering)"
           },
           {
             "semester": "4th Semester",
@@ -1813,11 +1805,7 @@
             "title": "Chemical Engineering CBCS",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/cm051016032651.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "Civil Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ce051016033210.pdf"
-          },
+          { "semester": "3rd Semester", "title": "Civil Engineering CBCS" },
           {
             "semester": "3rd Semester",
             "title": "Computer Science and Engineering CBCS",

@@ -127,7 +127,7 @@
         ]
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
-      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3 },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
@@ -158,8 +158,7 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Computer Science and Business System CSBS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_CSBS_Scheme050622114620.pdf"
+            "title": "Computer Science and Business System CSBS"
           },
           {
             "semester": "2nd Semester",
@@ -198,8 +197,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer Science Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE131022120448.pdf"
+            "title": "B.Tech Computer Science Engineering"
           },
           {
             "semester": "3rd Semester",
@@ -223,8 +221,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Fire Technology Safety Engg.",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT131022121013.pdf"
+            "title": "B.Tech Fire Technology Safety Engg."
           },
           {
             "semester": "3rd Semester",
@@ -353,8 +350,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electronics and Communication Engg",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_EC_IV_Sem220422043723.pdf"
+            "title": "B.Tech Electronics and Communication Engg"
           },
           {
             "semester": "4th Semester",
@@ -388,8 +384,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_EE_IV_Sem220422043745.pdf"
+            "title": "B.Tech Electrical Engineering"
           },
           {
             "semester": "4th Semester",
@@ -593,8 +588,7 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Mining and Mineral Processing",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MMP131022011008.pdf"
+            "title": "Mining and Mineral Processing"
           },
           {
             "semester": "5th Semester",
@@ -708,8 +702,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "Scheme Robotics and   Mechatronics",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ROBOTICS  MECHATRONICS VI Sem060123020107.pdf"
+            "title": "Scheme Robotics and   Mechatronics"
           },
           {
             "semester": "6th Semester",
@@ -1205,11 +1198,7 @@
             "title": "(Electronics  Communication Engineering)(Grading)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_EC200612052329.pdf"
           },
-          {
-            "semester": "5th Semester",
-            "title": "Mining Engineering Grading",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme010916025135.pdf"
-          },
+          { "semester": "5th Semester", "title": "Mining Engineering Grading" },
           {
             "semester": "6th Semester",
             "title": "BE(Textile Engg)(Grding System)",
@@ -1390,11 +1379,7 @@
             "title": "B.E.",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Agriculture050719120629.pdf"
           },
-          {
-            "semester": "8th Semester",
-            "title": "Minin",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme230518040625.pdf"
-          },
+          { "semester": "8th Semester", "title": "Minin" },
           {
             "semester": "8th Semester",
             "title": "Automobile Engineering (Grading System)",
@@ -1686,11 +1671,7 @@
             "title": "B.E. (EX)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EX 7th170811062347.pdf"
           },
-          {
-            "semester": "7th Semester",
-            "title": "B.E. (FT)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT 7th170811062458.pdf"
-          },
+          { "semester": "7th Semester", "title": "B.E. (FT)" },
           {
             "semester": "7th Semester",
             "title": "B.E.(IE)",
@@ -4081,7 +4062,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Scheme For Digital Electronics 3 Sem"
+            "title": "Scheme For Digital Electronics 3 Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Digital Electronics130913115109.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -4200,7 +4182,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Adv Prod. Systems (Grading Sys)"
+            "title": "Adv Prod. Systems (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IVCC_Sch290715030546.pdf"
           },
           {
             "semester": "4th Semester",
@@ -4391,11 +4374,13 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Power System and Automation"
+            "title": "Power System and Automation",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V011013110236.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Advanced Production Systems (Part Time)"
+            "title": "Advanced Production Systems (Part Time)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Advanced161214125308.pdf"
           },
           {
             "semester": "5th Semester",
@@ -4422,7 +4407,7 @@
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
-      { "name": "CBGS", "id": 5 },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
@@ -4591,7 +4576,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Pharmacology (Grading Sys.)"
+            "title": "Pharmacology (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Pharmacology230911060426.pdf"
           },
           {
             "semester": "4th Semester",
@@ -4672,7 +4658,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "MPharm PCI Pharmaceutical Biotechnology I Sem"
+            "title": "MPharm PCI Pharmaceutical Biotechnology I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_sem_Pharmaceutical_Biotechnology070922120004.pdf"
           },
           {
             "semester": "1st Semester",
@@ -4756,7 +4743,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "MPharm PCI Pharmacy Practice II Semester"
+            "title": "MPharm PCI Pharmacy Practice II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_Pharmacy_Practice070922123004.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -4892,13 +4880,14 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Scheme MCA 2 Year IV Semester"
+            "title": "Scheme MCA 2 Year IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem__Scheme_MCA020622012338.pdf"
           }
         ]
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
-      { "name": "CBCS", "id": 4 },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
@@ -4949,7 +4938,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "MASTER OF COMPUTER APPLICATIONS (Grading Sys.)"
+            "title": "MASTER OF COMPUTER APPLICATIONS (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I MCA 150411010235.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -4979,7 +4969,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "MCA DUAL DEGREE (Grading System)"
+            "title": "MCA DUAL DEGREE (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mca_1030615042920.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -4988,7 +4979,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "MCA DUAL DEGREE (Grading System)"
+            "title": "MCA DUAL DEGREE (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mca_3030615042957.pdf"
           },
           {
             "semester": "4th Semester",
@@ -5012,7 +5004,8 @@
           },
           {
             "semester": "8th Semester",
-            "title": "MCA DUAL DEGREE Grading System"
+            "title": "MCA DUAL DEGREE Grading System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII MCA _Dual Degree_191118122356.pdf"
           },
           {
             "semester": "9th Semester",
@@ -5043,7 +5036,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Master of Applied Management"
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MAM I311213042834.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -5109,7 +5103,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Dual Degree 1 Sem (Common for all Branches)"
+            "title": "Dual Degree 1 Sem (Common for all Branches)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme I240913012632.pdf"
           },
           {
             "semester": "2nd Semester",

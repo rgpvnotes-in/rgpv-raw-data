@@ -127,7 +127,7 @@
         ]
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
-      { "name": "Lateral Entry", "id": 3 },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
@@ -158,7 +158,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Computer Science and Business System CSBS"
+            "title": "Computer Science and Business System CSBS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_sem_CSBS_Scheme050622114620.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -197,7 +198,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Computer Science Engineering"
+            "title": "B.Tech Computer Science Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE131022120448.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -221,7 +223,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.Tech Fire Technology Safety Engg."
+            "title": "B.Tech Fire Technology Safety Engg.",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT131022121013.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -350,7 +353,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electronics and Communication Engg"
+            "title": "B.Tech Electronics and Communication Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_EC_IV_Sem220422043723.pdf"
           },
           {
             "semester": "4th Semester",
@@ -384,7 +388,8 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electrical Engineering"
+            "title": "B.Tech Electrical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_EE_IV_Sem220422043745.pdf"
           },
           {
             "semester": "4th Semester",
@@ -588,7 +593,8 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Mining and Mineral Processing"
+            "title": "Mining and Mineral Processing",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MMP131022011008.pdf"
           },
           {
             "semester": "5th Semester",
@@ -702,7 +708,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "Scheme Robotics and   Mechatronics"
+            "title": "Scheme Robotics and   Mechatronics",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ROBOTICS  MECHATRONICS VI Sem060123020107.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1198,7 +1205,11 @@
             "title": "(Electronics  Communication Engineering)(Grading)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_EC200612052329.pdf"
           },
-          { "semester": "5th Semester", "title": "Mining Engineering Grading" },
+          {
+            "semester": "5th Semester",
+            "title": "Mining Engineering Grading",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme010916025135.pdf"
+          },
           {
             "semester": "6th Semester",
             "title": "BE(Textile Engg)(Grding System)",
@@ -1379,7 +1390,11 @@
             "title": "B.E.",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Agriculture050719120629.pdf"
           },
-          { "semester": "8th Semester", "title": "Minin" },
+          {
+            "semester": "8th Semester",
+            "title": "Minin",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme230518040625.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "Automobile Engineering (Grading System)",
@@ -1671,7 +1686,11 @@
             "title": "B.E. (EX)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EX 7th170811062347.pdf"
           },
-          { "semester": "7th Semester", "title": "B.E. (FT)" },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. (FT)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT 7th170811062458.pdf"
+          },
           {
             "semester": "7th Semester",
             "title": "B.E.(IE)",

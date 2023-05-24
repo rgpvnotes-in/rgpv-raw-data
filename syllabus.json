@@ -3928,153 +3928,614 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Electrical Power System (Part-time)"
+            "title": "Electrical Power System (Part-time)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Eps_SY_171214034313.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Power System and Automation"
+            "title": "Power System and Automation",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/4psaparttime030315031408.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Advanced Production Systems (Part Time)"
+            "title": "Advanced Production Systems (Part Time)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Advanced_SY_161214125653.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Electrical Power System (Part-time)"
+            "title": "Electrical Power System (Part-time)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Eps_SY_171214034341.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Power System and Automation"
+            "title": "Power System and Automation",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSY011013110554.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Electrical Power System (Part-time)"
+            "title": "Electrical Power System (Part-time)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Eps_SY_171214034400.pdf"
           }
         ]
       },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "M.Pharm",
     "id": 7,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "M.Pharm.I Sem. (Common for all branches)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I M.Pharm ( Sy)211011013011.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II PMRA _Sy_270511051426.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Drug Regulatory Affairs(DRA)-(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II DRA_Sy_270511051358.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutical Chemistry (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Ph. Chemistry_Sy_270511052518.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutical Biotechnology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Ph Biotech _Sy_270511053657.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutical Analysis (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharm. Analysis_sy_280511020940.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Quality Assurance (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II QA _Sy_280511023200.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmaceutics (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmaceutics _Sy_280511024551.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmacognosy (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacognosy_Sy_280511030435.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Pharmacology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacology _Sy_280511031035.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus for Industrial Pharmacy (IP)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Industrial Pharmacy _SY_290613042431.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus for Pharmaceutical Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmaceutical technology _SY_290613042653.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus for Pharmaceutical Marketing",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharma Marketing _SY_290613042924.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus for Pharmacy Practice(PP)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacy Practice_Sy_130913121504.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Industrial Pharmacy (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III  industrial pharmacy _SY_201213050016.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmacy Practice (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III  pharmacy practice _SY_201213050053.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Ph. Marketing (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Ph. Marketing (SY)201213050246.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Technology (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Pharmaceutical Technology _SY_201213050410.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Non Grading System",
+        "id": 2,
+        "pdfs": [
+          {
+            "semester": "",
+            "title": "Quality Assurance (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Quality Assurance110912060641.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Drug Regulatory Affairs(DRA)-(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Drug Regulatory Affairs110912060743.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutical Biotechnology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharm. Biotech110912060837.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutics (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutics110912060940.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmacognosy (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacognosy110912061014.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmacology (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacology110912061117.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PMRA110912061149.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutical Chemistry (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Ph. Chemistry170912050751.pdf"
+          },
+          {
+            "semester": "",
+            "title": "Pharmaceutical Analysis (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutical Analysis170912050823.pdf"
+          }
+        ]
+      },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "M.Pharm. PCI",
     "id": 71,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Industrial Pharmacy I Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Industrial_Pharmacy_I_sem_Sy121021121251.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmaceutical Analysis I Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutical_Analysis_I_sem_Sy121021121508.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmaceutical Biotechnology I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PharmBioI_Sem_Sy121021121922.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmaceutical Chemistry I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutical_chemistry_I_sem_Sy121021122230.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmaceutical Quality Assurance I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PQA_I_sem_syllabus121021122509.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Regulatory Affairs I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PRA_I_Sem_syllabus121021122757.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmaceutics I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutics_I_sem_syllabus121021123018.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmacognosy I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacognosy_I_sem_syllabus121021123401.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmacology I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacology_I_Sem_syllabus121021123546.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "MPharm PCI Pharmacy Practice I Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacy_Practice_I_sem_syllabus121021035155.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Industrial Pharmacy II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Industrial_Pharmacy_II_Sem_Sy121021121349.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Analysis II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutical_Analysis_II_sem_Sy121021121550.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Biotechnology II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PharmBio_IISem_Sy121021122043.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Chemistry II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutical_chemistry_II_sem_Sy121021122311.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutical Quality Assurance II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PQA_II_sem_syllabus121021122612.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Regulatory Affairs II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PRA_II_Sem_syllabus121021122842.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmaceutics II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmaceutics_II_sem_syllabus121021123257.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmacognosy II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacognosy__II_sem_syllabus121021123444.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmacology II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacology_II_Sem_syllabus121021123628.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MPharm PCI Pharmacy Practice II Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Pharmacy_Practice_II_sem_syllabus121021035242.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Industrial Pharmacy III Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIindustrialPharmacy120922120308.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmacognosy III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIPhamacognosy120922120408.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmacology III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIPharmacology120922120456.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmaceutical Analysis III Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIPharmacuticalAnalysis120922120552.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Pharmaceutical Quality Assurance III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIPQA120922120656.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Regulatory Affairs III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIRegulatory_Affairs120922120746.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmaceutical Biotechnology III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIsemPharmaceuticalBiotechnology120922120837.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmaceutical Chemistry III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIsemPharmaceuticalChemistry120922121015.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmaceutics III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIsemPharmaceutics120922121110.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MPharm PCI Pharmacy Practice III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIISPharmacyPractice120922121155.pdf"
+          }
+        ]
+      },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "MCA 2 Year",
     "id": 53,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "Syllabus MCA 2 Year I Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_Sem_Syllabus_MCA041120040757.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus MCA 2 Year II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_Sem_Syllabus_MCA041120040849.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Syllabus MCA 2 Year III Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_Sem_SY_MCA050821021814.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Syllabus MCA 2 Year IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_SY_MCA070721120129.pdf"
+          }
+        ]
+      },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "MCA",
     "id": 5,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "Syllabus for M.C.A. I sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_MCA__Sy_201020032545.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus for M.C.A. II sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_MCA__Sy_201020032607.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MCA (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III MCA _Sy_101011054058.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MCA (Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV  MCA _Sy_090713122113.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "MCA (Grading )",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V MCA _SY_090713115326.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Non Grading System",
+        "id": 2,
+        "pdfs": [
+          {
+            "semester": "",
+            "title": "MCA (Non Grading )",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V MCA _NG_ Sy250811045906.pdf"
+          }
+        ]
+      },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "MCA Dual Degree",
     "id": 23,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "MCA DUAL DEGREE (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I MCASy241114030210.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "MCA DUAL DEGREE (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mca2sydd060515122540.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "MCA DUAL DEGREE (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MCADD3_Sy041215033508.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "MCA DUAL DEGREE Grading System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/four050517115554.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "MCA DUAL DEGREE Grading System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syllabus160117010832.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "MCA DUAL DEGREE Grading System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_MCA_DD191118120231.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "MCA DUAL DEGREE Grading System",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MCA sy091117045928.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "MCA D",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/8191118120837.pdf"
+          }
+        ]
+      },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "MBA Integrated",
     "id": 21,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MAM I SEM _SY_311213042913.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MAM II SEM _SY_311213042928.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Semester syllabus171114025402.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IVSemester syllabus -171114025422.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V MAMSy120716040900.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI MAM SY120716040756.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syll7181116015808.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syll8181116015748.pdf"
+          }
+        ]
+      },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "DDI-PG",
     "id": 12,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      { "name": "Grading System", "id": 1, "pdfs": [] },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "Diploma",
     "id": 3,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      { "name": "Grading System", "id": 1, "pdfs": [] },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "Ph.D.",
     "id": 44,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
-      { "name": "Non Grading System", "id": 2 },
-      { "name": "Lateral Entry", "id": 3 },
-      { "name": "CBCS", "id": 4 },
-      { "name": "CBGS", "id": 5 },
-      { "name": "As per COA", "id": 7 }
+      { "name": "Grading System", "id": 1, "pdfs": [] },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBGS", "id": 5, "pdfs": [] },
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
     "name": "Ph.D. Entrance",
     "id": 52,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
+      { "name": "Grading System", "id": 1, "pdfs": [] },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
-      { "name": "CBCS", "id": 4 },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]

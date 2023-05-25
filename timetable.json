@@ -6,6 +6,26 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table B Tech II  Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 12 Sem250523032625.pdf"
+      },
+      {
+        "title": "Time Table B Tech I  Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 12 Sem250523032600.pdf"
+      },
+      {
+        "title": "Time Table B Tech CSBS I Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 12 CSBS250523032036.pdf"
+      },
+      {
+        "title": "Time Table B Tech CSBS  IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 4 Sem CSBS250523031612.pdf"
+      },
+      {
         "title": "Time Table B Tech IV Semester Jun 2023",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 4 Sem250523030802.pdf"
@@ -14,6 +34,11 @@
         "title": "Time Table B Tech III Semester Jun 2023",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 3 Sem250523030719.pdf"
+      },
+      {
+        "title": "Time Table B Tech CSBS II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 12 CSBS250523032204.pdf"
       },
       {
         "title": "Time Table B Tech Semester VI May 2023",
@@ -141,6 +166,26 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "Time Table B PHARMA PCI IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032514.pdf"
+      },
+      {
+        "title": "Time Table B PHARMA PCI II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032351.pdf"
+      },
+      {
+        "title": "Time Table B PHARMA PCI I Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032326.pdf"
+      },
+      {
+        "title": "Time Table B PHARMA PCI III Semester Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032449.pdf"
+      },
+      {
         "title": "Time Table B Pharmacy PCI Semester VIII May 2023",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma PCI B Pharma CBGS 5678280323010016.pdf"
@@ -257,6 +302,16 @@
     "programName": "MCA 2 Year",
     "programId": 53,
     "programDataList": [
+      {
+        "title": "Time Table MCA TWO YEAR II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 12 TWO Y250523031933.pdf"
+      },
+      {
+        "title": "Time Table MCA TWO YEAR I Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 12 TWO Y250523031911.pdf"
+      },
       {
         "title": "Time Table MCA 2YEAR Semester IV MAY 2023",
         "semester": "4th Semester",

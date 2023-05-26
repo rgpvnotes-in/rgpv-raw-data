@@ -191,24 +191,24 @@
     "programId": 43,
     "programDataList": [
       {
-        "title": "Time Table B PHARMA PCI IV Semester Jun 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032514.pdf"
-      },
-      {
-        "title": "Time Table B PHARMA PCI II Semester Jun 2023",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032351.pdf"
-      },
-      {
-        "title": "Time Table B PHARMA PCI I Semester Jun 2023",
+        "title": "Revised Time Table B PHARMA PCI I Semester Jun 2023",
         "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032326.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma PCI 1234260523052301.pdf"
       },
       {
-        "title": "Time Table B PHARMA PCI III Semester Jun 2023",
+        "title": "Revised Time Table B PHARMA PCI II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma PCI 1234260523052319.pdf"
+      },
+      {
+        "title": "Revised Time Table B PHARMA PCI III Semester Jun 2023",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma 1234 PCI250523032449.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma PCI 1234260523052424.pdf"
+      },
+      {
+        "title": "Revised Time Table B PHARMA PCI IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Pharma PCI 1234260523052448.pdf"
       },
       {
         "title": "Time Table B Pharmacy PCI Semester VIII May 2023",
@@ -335,7 +335,27 @@
     ]
   },
   { "programName": "M.E.", "programId": 6, "programDataList": [] },
-  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
+  {
+    "programName": "M.Tech.",
+    "programId": 8,
+    "programDataList": [
+      {
+        "title": "Time Table M Tech III Semester Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Tech 3 sem260523051828.pdf"
+      },
+      {
+        "title": "Time Table M Tech II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Tech 2 Sem260523051803.pdf"
+      },
+      {
+        "title": "Time Table M Tech 1 Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Tech 1 Sem260523051737.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
@@ -522,5 +542,35 @@
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
   { "programName": "PGCMB", "programId": 45, "programDataList": [] },
-  { "programName": "Pharm D.", "programId": 51, "programDataList": [] }
+  {
+    "programName": "Pharm D.",
+    "programId": 51,
+    "programDataList": [
+      {
+        "title": "Time Table Pharma D  V Semester Jun 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d 12345260523052157.pdf"
+      },
+      {
+        "title": "Time Table Pharma D  IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d 12345260523052135.pdf"
+      },
+      {
+        "title": "Time Table Pharma D  III Semester Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d 12345260523052112.pdf"
+      },
+      {
+        "title": "Time Table Pharma D  II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d 12345260523052050.pdf"
+      },
+      {
+        "title": "Time Table Pharma D  I Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d 12345260523052032.pdf"
+      }
+    ]
+  }
 ]

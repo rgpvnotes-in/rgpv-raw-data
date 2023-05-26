@@ -1,6 +1,31 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
-  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
+  {
+    "programName": "M.Arch",
+    "programId": 22,
+    "programDataList": [
+      {
+        "title": "Time Table M Arch PCI IV Semester Examination Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034744.pdf"
+      },
+      {
+        "title": "Time Table M Arch PCI III Semester Examination Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034718.pdf"
+      },
+      {
+        "title": "Time Table M Arch PCI II Semester Examination Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034652.pdf"
+      },
+      {
+        "title": "Time Table M Arch PCI I Semester Examination Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034628.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Tech",
     "programId": 24,
@@ -322,6 +347,11 @@
     "programId": 71,
     "programDataList": [
       {
+        "title": "Time Table M Pharma PCI III Sem Non University Exam  Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma PCI 3sem  NG260523034501.pdf"
+      },
+      {
         "title": "Time Table M Pharma PCI I Semester Examination Jun 2023",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma PCI   1 Sem260523033955.pdf"
@@ -379,6 +409,26 @@
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "Time Table MCA INT IV Semester Examination Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Int MCA 1234260523035223.pdf"
+      },
+      {
+        "title": "Time Table MCA INT III Semester Examination Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Int MCA 1234260523035151.pdf"
+      },
+      {
+        "title": "Time Table MCA INT II Semester Examination Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Int MCA 1234260523035119.pdf"
+      },
+      {
+        "title": "Time Table MCA INT I Semester Examination Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Int MCA 1234260523035048.pdf"
+      },
       {
         "title": "Time Table MCA Integated Semester X MAY 2023",
         "semester": "10th Semester",

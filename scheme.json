@@ -4438,50 +4438,38 @@
         "name": "Grading System",
         "id": 1,
         "pdfs": [
+          { "semester": "1st Semester", "title": "M.Pharm (Grading Sys)" },
           {
-            "semester": "1st Semester",
-            "title": "M.Pharm (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I MPharm190511051222.pdf"
+            "semester": "2nd Semester",
+            "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharma.Mgmt.Regulatory Affairs(PMRA)(Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II PMRA280511033040.pdf"
+            "title": "Drug Regulatory Affairs (Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Drug Regulatory Affairs (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II DRA270511051219.pdf"
+            "title": "Pharmaceutical Chemistry (Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharmaceutical Chemistry (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II  Pharma. Chem270511051838.pdf"
+            "title": "Pharmaceutical Biotechnology (Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharmaceutical Biotechnology (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II PH Biotech280511032843.pdf"
+            "title": "Pharmaceutical Analysis (Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharmaceutical Analysis (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmal Analysis280511020835.pdf"
+            "title": "Quality Assurance (Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Quality Assurance (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Quality Assurance280511033127.pdf"
+            "title": "Pharmaceutics (Grading Sys)"
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharmaceutics (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmaceutics280511032920.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "Pharmacognosy (Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacognosy280511032944.pdf"
+            "title": "Pharmacognosy (Grading Sys)"
           },
           {
             "semester": "2nd Semester",

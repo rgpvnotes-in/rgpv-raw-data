@@ -238,6 +238,26 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table B Arch CoA IV Semester Examination Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 1234 CoA260523033008.pdf"
+      },
+      {
+        "title": "Time Table B Arch CoA III Semester Examination Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 1234 CoA260523032942.pdf"
+      },
+      {
+        "title": "Time Table B Arch CoA II Semester Examination Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 1234 CoA260523032916.pdf"
+      },
+      {
+        "title": "Time Table B Arch CoA I Semester Examination Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 1234 CoA260523032758.pdf"
+      },
+      {
         "title": "Time Table B Arch CBGS Semester X Examination MAY 2023",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Arch 5678910 CBGS040423013610.pdf"
@@ -297,7 +317,22 @@
     "programDataList": []
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "Time Table M Pharma PCI I Semester Examination Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma PCI   1 Sem260523033955.pdf"
+      },
+      {
+        "title": "Time Table M Pharma PCI II Semester Examination Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M pharma PCI 2260523033643.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,
@@ -380,6 +415,26 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table MBA INT IV Semester Examination Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1234260523032606.pdf"
+      },
+      {
+        "title": "Time Table MBA INT III Semester Examination Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1234260523032446.pdf"
+      },
+      {
+        "title": "Time Table MBA INT II Semester Examination Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1234260523032422.pdf"
+      },
+      {
+        "title": "Time Table MBA INT I Semester Examination Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1234260523032401.pdf"
+      },
       {
         "title": "Time Table MBA Integrated Semester X MAY 2023",
         "semester": "10th Semester",

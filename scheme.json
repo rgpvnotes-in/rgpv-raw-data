@@ -39,8 +39,7 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Scheme Marketing Management MBA II Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/RGPV_MM_Scheme_IISem020223110825.pdf"
+            "title": "Scheme Marketing Management MBA II Semester"
           },
           {
             "semester": "2nd Semester",
@@ -79,13 +78,11 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Scheme Financial Administration MBA IV Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBA FA _Scheme IV Sem010523043321.pdf"
+            "title": "Scheme Financial Administration MBA IV Semester"
           },
           {
             "semester": "4th Semester",
-            "title": "Scheme MBA Pharmaceutical Management IV Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBA Scheme100523013356.pdf"
+            "title": "Scheme MBA Pharmaceutical Management IV Semester"
           }
         ]
       },
@@ -109,16 +106,8 @@
             "title": "Master of Architecture",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/1310719122737.pdf"
           },
-          {
-            "semester": "2nd Semester",
-            "title": "Master of Architecture",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/2310719122748.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Master of Architecture",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3310719122802.pdf"
-          },
+          { "semester": "2nd Semester", "title": "Master of Architecture" },
+          { "semester": "3rd Semester", "title": "Master of Architecture" },
           {
             "semester": "4th Semester",
             "title": "Master of Architecture",
@@ -143,13 +132,11 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Computer Science and Business System CSBS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_sem_CSBS050622114536.pdf"
+            "title": "Computer Science and Business System CSBS"
           },
           {
             "semester": "1st Semester",
-            "title": "B.Tech Common To all A/B Group for 2017 Admitted",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CBG261217032023.pdf"
+            "title": "B.Tech Common To all A/B Group for 2017 Admitted"
           },
           {
             "semester": "1st Semester",
@@ -186,11 +173,7 @@
             "title": "B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BM131022120354.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "B.Tech Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Civil_Engineering131022120419.pdf"
-          },
+          { "semester": "3rd Semester", "title": "B.Tech Civil Engineering" },
           {
             "semester": "3rd Semester",
             "title": "B.Tech Chemical Engineering",

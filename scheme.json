@@ -924,7 +924,7 @@
     "name": "B.Design",
     "id": 25,
     "schemes": [
-      { "name": "Grading System", "id": 1, "pdfs": [] },
+      { "name": "Grading System", "id": 1 },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
@@ -1875,8 +1875,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Biomedical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/bm220217030448.pdf"
+            "title": "Biomedical Engineering CBCS"
           },
           {
             "semester": "4th Semester",
@@ -2805,47 +2804,7 @@
           }
         ]
       },
-      {
-        "name": "Non Grading System",
-        "id": 2,
-        "pdfs": [
-          {
-            "semester": "1st Semester",
-            "title": "I Semester  Bachelor of Pharmacy",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B.Pharma I.211010061901.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "II Semester Bachelor of Pharmacy",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B.Pharma II.211010062041.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "IV B.Pharm",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV B.Pharm070311051931.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "Bachelor of Pharmacy V Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V B.Pharma 080311031908.pdf"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "Bachelor of Pharmacy VI Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI B. Pharm080311032628.pdf"
-          },
-          {
-            "semester": "7th Semester",
-            "title": "B.Pharmacy VII Sem Scheme (Non Grading)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII B.Pharm.010711025729.pdf"
-          },
-          {
-            "semester": "8th Semester",
-            "title": "Bachelor of Pharmacy VIII- Semester( New Scheme)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B-Pharmacy_8_sem_sch130112071615.pdf"
-          }
-        ]
-      },
+      { "name": "Non Grading System", "id": 2 },
       {
         "name": "Lateral Entry",
         "id": 3,
@@ -3769,11 +3728,7 @@
             "title": "IOT and Sensors Systems Scheme",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_sem_IOT_Sensor_System_Scheme040121125711.pdf"
           },
-          {
-            "semester": "1st Semester",
-            "title": "IOT I Semester Scheme",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_sem_IOT_Scheme040121010119.pdf"
-          },
+          { "semester": "1st Semester", "title": "IOT I Semester Scheme" },
           {
             "semester": "1st Semester",
             "title": "Artificial Intelligence and Machine Learning",
@@ -4707,8 +4662,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "MPharm PCI Pharmacy Practice I Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_sem_Pharmacy_Practice070922120706.pdf"
+            "title": "MPharm PCI Pharmacy Practice I Semester"
           },
           {
             "semester": "1st Semester",

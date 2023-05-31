@@ -613,8 +613,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Biomedical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem BM161219110540.pdf"
+            "title": "B.Tech Biomedical Engineering"
           },
           {
             "semester": "6th Semester",
@@ -1232,8 +1231,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "BE(Fire Technology)(Grading System)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI FT221212024640.pdf"
+            "title": "BE(Fire Technology)(Grading System)"
           },
           {
             "semester": "6th Semester",
@@ -1875,8 +1873,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Biomedical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/bm220217030448.pdf"
+            "title": "Biomedical Engineering CBCS"
           },
           {
             "semester": "4th Semester",
@@ -2524,172 +2521,7 @@
           }
         ]
       },
-      {
-        "name": "Non Grading System",
-        "id": 2,
-        "pdfs": [
-          {
-            "semester": "1st Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PTDC I211010062141.pdf"
-          },
-          {
-            "semester": "1st Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Sem170710070338.pdf"
-          },
-          {
-            "semester": "1st Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Sem170710070832.pdf"
-          },
-          {
-            "semester": "1st Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Sem170710071243.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/PTDC II.211010062236.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Sem170710070429.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Sem170710070903.pdf"
-          },
-          {
-            "semester": "2nd Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Sem170710071305.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem170710065345.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem170710070502.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem170710070923.pdf"
-          },
-          {
-            "semester": "3rd Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Sem170710071432.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem170710065425.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem170710070529.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem170710070952.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem170710071453.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem170710065454.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem170710070554.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem170710071014.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V130218013948.pdf"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem170710065520.pdf"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem170710070618.pdf"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem170710071040.pdf"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI130218014009.pdf"
-          },
-          {
-            "semester": "7th Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem170710065547.pdf"
-          },
-          {
-            "semester": "7th Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem170710070646.pdf"
-          },
-          {
-            "semester": "7th Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem170710071102.pdf"
-          },
-          {
-            "semester": "7th Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem170710071651.pdf"
-          },
-          {
-            "semester": "8th Semester",
-            "title": "Scheme of Examination B.E. Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Sem170710065612.pdf"
-          },
-          {
-            "semester": "8th Semester",
-            "title": "Scheme of Examination B.E. EC Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Sem170710070707.pdf"
-          },
-          {
-            "semester": "8th Semester",
-            "title": "Scheme of Examination B.E. Electrical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Sem170710071124.pdf"
-          },
-          {
-            "semester": "8th Semester",
-            "title": "Scheme of Examination B.E. Mechanical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Sem170710071735.pdf"
-          }
-        ]
-      },
+      { "name": "Non Grading System", "id": 2 },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
@@ -3139,8 +2971,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Digi, Comm., Comm. Tech., Comm. Sys.(Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Digi160511040434.pdf"
+            "title": "Digi, Comm., Comm. Tech., Comm. Sys.(Grading Sys)"
           },
           {
             "semester": "1st Semester",
@@ -3776,8 +3607,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Artificial Intelligence and Machine Learning",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/replace220221014558.pdf"
+            "title": "Artificial Intelligence and Machine Learning"
           },
           {
             "semester": "1st Semester",
@@ -4418,8 +4248,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "Electrical Power System (Part-time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Eps171214034221.pdf"
+            "title": "Electrical Power System (Part-time)"
           }
         ]
       },
@@ -5008,8 +4837,7 @@
           },
           {
             "semester": "5th Semester",
-            "title": "MCA DUAL DEGREE Grading System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme160117010850.pdf"
+            "title": "MCA DUAL DEGREE Grading System"
           },
           {
             "semester": "6th Semester",

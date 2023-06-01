@@ -613,8 +613,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus Automobile Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_AU_Syllabus260123094901.pdf"
+            "title": "Syllabus Automobile Engineering"
           },
           {
             "semester": "6th Semester",
@@ -1232,8 +1231,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "Aeronautical Engineering Grading System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Aeronautical Engg _Sy_270415045231.pdf"
+            "title": "Aeronautical Engineering Grading System"
           },
           {
             "semester": "6th Semester",
@@ -1875,8 +1873,7 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Electrical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ee161116011738.pdf"
+            "title": "Electrical Engineering CBCS"
           },
           {
             "semester": "4th Semester",
@@ -2524,8 +2521,7 @@
           },
           {
             "semester": "7th Semester",
-            "title": "B.E. Mechanical Engineering PTDC",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/7m031018033217.pdf"
+            "title": "B.E. Mechanical Engineering PTDC"
           },
           {
             "semester": "8th Semester",
@@ -3144,8 +3140,7 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Syllabus for 2 Sem High Voltage and Power System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIHVPS_SY230913054837.pdf"
+            "title": "Syllabus for 2 Sem High Voltage and Power System"
           },
           {
             "semester": "2nd Semester",
@@ -3781,8 +3776,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Thermal Engg.( Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Thermal  _SY_ 261211125623.pdf"
+            "title": "Thermal Engg.( Grading Sys.)"
           },
           {
             "semester": "3rd Semester",
@@ -4373,7 +4367,7 @@
         ]
       },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
-      { "name": "CBCS", "id": 4, "pdfs": [] },
+      { "name": "CBCS", "id": 4 },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]

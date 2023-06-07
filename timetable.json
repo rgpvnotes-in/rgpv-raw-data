@@ -1,5 +1,20 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "Time Table MBA I Sem Financial Administration Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 Financial070623022443.pdf"
+      },
+      {
+        "title": "Time Table MBA II Sem Financial Administration Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 Financial070623022542.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Arch",
     "programId": 22,

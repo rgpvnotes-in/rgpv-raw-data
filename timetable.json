@@ -244,6 +244,11 @@
     "programId": 10,
     "programDataList": [
       {
+        "title": "Time Table BE PTDC IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE Tech ptdc IV sem080623040813.pdf"
+      },
+      {
         "title": "Time Table BE PTDC Semester VIII MAY 2023",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE B Tech PTDC 5678280323032203.pdf"
@@ -269,6 +274,11 @@
     "programName": "B.Tech.-PTDC",
     "programId": 42,
     "programDataList": [
+      {
+        "title": "Time Table B Tech PTDC IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE Tech ptdc IV sem080623040849.pdf"
+      },
       {
         "title": "Time Table B Tech PTDC Semester VIII MAY 2023",
         "semester": "8th Semester",

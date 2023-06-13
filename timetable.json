@@ -474,9 +474,35 @@
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": []
+    "programDataList": [
+      {
+        "title": "Time Table M Tech PTDC IV Semester Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME M Tech PTDC IV sem130623121030.pdf"
+      }
+    ]
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "Time Table M Pharmacy II Semester Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma II sem130623120749.pdf"
+      },
+      {
+        "title": "Time Table M Pharmacy I Semester Jun 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma I sem130623120723.pdf"
+      },
+      {
+        "title": "Time Table M Pharmacy III Semester Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Pharma III sem130623120919.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,

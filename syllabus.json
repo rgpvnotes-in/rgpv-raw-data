@@ -2684,7 +2684,11 @@
             "title": "B.Pharm 7 Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII  B.Pharm 060711052259.pdf"
           },
-          { "semester": "8th Semester", "title": "B.Pharma 8 sem" }
+          {
+            "semester": "8th Semester",
+            "title": "B.Pharma 8 sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B.Pharm_VIII_Semester_Syllabus130112113341.pdf"
+          }
         ]
       },
       {

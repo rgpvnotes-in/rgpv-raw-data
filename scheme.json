@@ -271,11 +271,7 @@
             "title": "Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTechDataScience131022123735.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "Automation and Robotics",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Automation_Robotics131022123623.pdf"
-          },
+          { "semester": "3rd Semester", "title": "Automation and Robotics" },
           {
             "semester": "3rd Semester",
             "title": "Robotics and Mechatronics",

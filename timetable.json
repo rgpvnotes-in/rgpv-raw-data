@@ -14,9 +14,24 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 1234 MM190623011422.pdf"
       },
       {
-        "title": "Revised Time Table MBA II Sem Pharmaceutical  Management Jun 2023",
+        "title": "Revised Time Table MBA III Sem Marketing Management Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 1234 MM190623011548.pdf"
+      },
+      {
+        "title": "Revised Time Table MBA IV Sem Marketing Management Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 1234 MM190623011624.pdf"
+      },
+      {
+        "title": "Revised Time Table MBA II Semester Jun 2023",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 PM160623024536.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 Sem160623025144.pdf"
+      },
+      {
+        "title": "Revised Time Table MBA IV Sem Pharmaceutical Management Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 34 PM160623024650.pdf"
       },
       {
         "title": "Revised Time Table MBA III Sem Pharmaceutical Management Jun 2023",
@@ -24,9 +39,9 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 34 PM160623024605.pdf"
       },
       {
-        "title": "Revised Time Table MBA II Semester Jun 2023",
+        "title": "Revised Time Table MBA II Sem Pharmaceutical  Management Jun 2023",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 Sem160623025144.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 PM160623024536.pdf"
       },
       {
         "title": "Revised Time Table MBA I Semester Jun 2023",
@@ -37,11 +52,6 @@
         "title": "Revised Time Table MBA I Sem Pharmaceutical  Management Jun 2023",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 12 PM160623024330.pdf"
-      },
-      {
-        "title": "Revised Time Table MBA IV Sem Pharmaceutical Management Jun 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 34 PM160623024650.pdf"
       },
       {
         "title": "Time Table MBA IV Semester Jun 2023",
@@ -62,16 +72,6 @@
         "title": "Time Table MBA III Sem Financial Administration Jun 2023",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 34 Financial070623032333.pdf"
-      },
-      {
-        "title": "Time Table MBA IV Sem Marketing Management Jun 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 1234Market070623032154.pdf"
-      },
-      {
-        "title": "Time Table MBA III Sem Marketing Management Jun 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 1234Market070623032118.pdf"
       },
       {
         "title": "Time Table MBA II Sem Rural  Management Jun 2023",
@@ -110,24 +110,24 @@
     "programId": 22,
     "programDataList": [
       {
-        "title": "Time Table M Arch PCI IV Semester Examination Jun 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034744.pdf"
-      },
-      {
-        "title": "Time Table M Arch PCI III Semester Examination Jun 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034718.pdf"
-      },
-      {
-        "title": "Time Table M Arch PCI II Semester Examination Jun 2023",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034652.pdf"
-      },
-      {
-        "title": "Time Table M Arch PCI I Semester Examination Jun 2023",
+        "title": "Revised Time Table M Arch  I Semester Examination Jun 2023",
         "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234260523034628.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234190623012113.pdf"
+      },
+      {
+        "title": "Revised Time Table M Arch  II Semester Examination Jun 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234190623012208.pdf"
+      },
+      {
+        "title": "Revised Time Table M Arch  III Semester Examination Jun 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234190623012431.pdf"
+      },
+      {
+        "title": "Revised Time Table M Arch  IV Semester Examination Jun 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/M Arch 1234190623012530.pdf"
       }
     ]
   },

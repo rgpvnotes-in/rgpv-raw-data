@@ -1661,11 +1661,7 @@
             "title": "B.E.(EC)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EC 7th170811061242.pdf"
           },
-          {
-            "semester": "7th Semester",
-            "title": "B.E.(EE)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE VII170811062128.pdf"
-          },
+          { "semester": "7th Semester", "title": "B.E.(EE)" },
           {
             "semester": "7th Semester",
             "title": "B.E.(EI)",

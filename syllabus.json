@@ -1706,7 +1706,11 @@
             "title": "BE (BM)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII BM(Sy) 150311043013.pdf"
           },
-          { "semester": "8th Semester", "title": "BE (BT)" },
+          {
+            "semester": "8th Semester",
+            "title": "BE (BT)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII B.T(Sy)150311043156.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "BE CE)",
@@ -2297,7 +2301,8 @@
           },
           {
             "semester": "7th Semester",
-            "title": "B.E. Civil Engineering CBGS"
+            "title": "B.E. Civil Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ce020818050447.pdf"
           },
           {
             "semester": "7th Semester",
@@ -2859,7 +2864,11 @@
             "title": "B.Architecture CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/sy2261017044517.pdf"
           },
-          { "semester": "3rd Semester", "title": "B.Architecture CBGS 2017" },
+          {
+            "semester": "3rd Semester",
+            "title": "B.Architecture CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/sy3261017044532.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "B.Architecture CBGS 2017",
@@ -3447,7 +3456,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Syllabus For Digital Instrumentation 1 Sem"
+            "title": "Syllabus For Digital Instrumentation 1 Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Digital Instrumentation_Sy_130913115548.pdf"
           },
           {
             "semester": "1st Semester",
@@ -4010,7 +4020,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Pharmacognosy (Grading Sys)"
+            "title": "Pharmacognosy (Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II Pharmacognosy_Sy_280511030435.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -4503,7 +4514,7 @@
     "id": 3,
     "syllabus": [
       { "name": "Grading System", "id": 1, "pdfs": [] },
-      { "name": "Non Grading System", "id": 2 },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },

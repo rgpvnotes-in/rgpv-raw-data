@@ -511,15 +511,10 @@
             "title": "B.Tech Mechanical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem ME _Sy060719034258.pdf"
           },
+          { "semester": "5th Semester", "title": "B.Tech Mining Engineering" },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Mining Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mi170719031805.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "B.Tech Biomedical Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem BM_Sy080719034811.pdf"
+            "title": "B.Tech Biomedical Engineering"
           },
           {
             "semester": "5th Semester",
@@ -1032,13 +1027,11 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "B.E. (Biotechnology) (Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIIBiotech _SY_070911033754.pdf"
+            "title": "B.E. (Biotechnology) (Grading Sys.)"
           },
           {
             "semester": "3rd Semester",
-            "title": "Aeronautical Engineering(Grading System)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/aresyllabus211113051029.pdf"
+            "title": "Aeronautical Engineering(Grading System)"
           },
           {
             "semester": "3rd Semester",

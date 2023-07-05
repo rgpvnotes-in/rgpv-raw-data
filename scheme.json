@@ -2104,7 +2104,11 @@
             "title": "B.E. Computer Science Engineering New CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE050817011148.pdf"
           },
-          { "semester": "5th Semester", "title": "B.E. EC New CBGS 2017" },
+          {
+            "semester": "5th Semester",
+            "title": "B.E. EC New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ECE050817011214.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "B.E. Electrical Engineering New CBGS 2017",

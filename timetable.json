@@ -688,6 +688,11 @@
     "programId": 51,
     "programDataList": [
       {
+        "title": "Revised Time Table Pharma D V Year Examination Jun 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/scan0001110723052319.pdf"
+      },
+      {
         "title": "Revised Time Table Pharma D I Year Examination Jun 2023",
         "semester": "1st Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d260623044800.pdf"
@@ -706,11 +711,6 @@
         "title": "Revised Time Table Pharma D IV Year Examination Jun 2023",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d260623044951.pdf"
-      },
-      {
-        "title": "Revised Time Table Pharma D V Year Examination Jun 2023",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma d260623045018.pdf"
       }
     ]
   }

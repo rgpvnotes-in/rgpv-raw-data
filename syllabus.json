@@ -256,11 +256,7 @@
             "title": "B.Tech. SYllabus Cyber Security",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CYBER302SYL031122015831.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "BTech  CSE IOT/IOT",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_III_sem_IOT_Sy230921112803.pdf"
-          },
+          { "semester": "3rd Semester", "title": "BTech  CSE IOT/IOT" },
           {
             "semester": "3rd Semester",
             "title": "BTech 3D Animation Graphics",

@@ -2149,7 +2149,11 @@
             "title": "B.E. Electrical Engineering New CBGS 2017",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE050817011241.pdf"
           },
-          { "semester": "5th Semester", "title": "B.E. EI New CBGS 2017" },
+          {
+            "semester": "5th Semester",
+            "title": "B.E. EI New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EI050817011316.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "B.E. EXE New CBGS 2017",

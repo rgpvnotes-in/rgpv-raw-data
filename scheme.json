@@ -613,7 +613,8 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Scheme BTech Agriculture Engineering V Sem"
+            "title": "Scheme BTech Agriculture Engineering V Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_ Sem_Sch_2023 Agriculture Engg020823042330.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1231,7 +1232,8 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Electrical and Electronics Engineering(Grading)"
+            "title": "Electrical and Electronics Engineering(Grading)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Ex200612042030.pdf"
           },
           {
             "semester": "5th Semester",
@@ -1871,7 +1873,11 @@
             "title": "Chemical Engineering CBCS",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM131016113946.pdf"
           },
-          { "semester": "3rd Semester", "title": "Civil Engineering CBCS" },
+          {
+            "semester": "3rd Semester",
+            "title": "Civil Engineering CBCS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CE131016114017.pdf"
+          },
           {
             "semester": "3rd Semester",
             "title": "Computer Science and Engineering CBCS",
@@ -2518,7 +2524,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Electrical and Electronics Engineering PTDC"
+            "title": "Electrical and Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/2exsc211016042849.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -3125,7 +3132,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "B.Arch As per COA students admitted in 2019"
+            "title": "B.Arch As per COA students admitted in 2019",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/2_sch250719033149.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -3763,7 +3771,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Scheme for M.Tech 1 Semester ( Energy Technology)"
+            "title": "Scheme for M.Tech 1 Semester ( Energy Technology)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/1sem_EEM270813031701.pdf"
           },
           {
             "semester": "1st Semester",
@@ -4394,7 +4403,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Power System and Automation"
+            "title": "Power System and Automation",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I011013110132.pdf"
           },
           {
             "semester": "1st Semester",
@@ -4989,7 +4999,11 @@
             "title": "Scheme for M.C.A. II sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_MCA_201020032522.pdf"
           },
-          { "semester": "3rd Semester", "title": "M.C.A.(Grading Sys)" },
+          {
+            "semester": "3rd Semester",
+            "title": "M.C.A.(Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III MCA 071011012201.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "Scheme for M.C.A. 4th sem(Grading Sys)",

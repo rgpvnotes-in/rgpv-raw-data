@@ -613,7 +613,8 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Syllabus BTech Agriculture Engineering V Sem"
+            "title": "Syllabus BTech Agriculture Engineering V Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_ Sem_SY_2023 Agriculture Engg020823042515.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1229,7 +1230,11 @@
             "title": "Electronics  Communication EngineeringGrading",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem ECE _SY_090817042026.pdf"
           },
-          { "semester": "5th Semester", "title": "Mining Engineering Grading" },
+          {
+            "semester": "5th Semester",
+            "title": "Mining Engineering Grading",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/sylla010916025215.pdf"
+          },
           {
             "semester": "6th Semester",
             "title": "BE Automobile Engg)(Grading System)",
@@ -1885,7 +1890,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Biomedical Engineering CBCS"
+            "title": "Biomedical Engineering CBCS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/bm051016032548.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -2532,7 +2538,92 @@
     "name": "BE-PTDC",
     "id": 10,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "Electrical and Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/first210317110509.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "Mechanical Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mesy211016043039.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Electrical and Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/second210317110528.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Mechanical Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mesy211016043123.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Mechanical Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III ME _SY_010317113901.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Electrical  Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syllabus080517012851.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Mechanical Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV ME_SY_010317113950.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Electrical  Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/fsyllabus080517012909.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "B.E. Electrical  Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V EX Sy _Part Time_061217113432.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "Syllabus B.E. Mechanical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/5130220034414.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Electrical  Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EX SY _Part Time_061217113214.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "Syllabus B.E. Mechanical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/6130220034426.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. Electrical and Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/7ex_sy031018033108.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. Mechanical Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/7m031018033217.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "B.E. Electrical and Electronics Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/8ex_sy031018033128.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "B.E. Mechanical Engineering PTDC",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/8m031018033232.pdf"
+          }
+        ]
+      },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
@@ -3058,7 +3149,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Micro Electronics and VLSI Design ( Grading Sys)"
+            "title": "Micro Electronics and VLSI Design ( Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Emb (SY)221111032501.pdf"
           },
           {
             "semester": "1st Semester",
@@ -3694,7 +3786,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Construction Tech. and Mgmt.(Grading Sys.)"
+            "title": "Construction Tech. and Mgmt.(Grading Sys.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IIICTM _Sy_070911042551.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -4295,7 +4388,32 @@
     "name": "MCA 2 Year",
     "id": 53,
     "syllabus": [
-      { "name": "Grading System", "id": 1 },
+      {
+        "name": "Grading System",
+        "id": 1,
+        "pdfs": [
+          {
+            "semester": "1st Semester",
+            "title": "Syllabus MCA 2 Year I Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_Sem_Syllabus_MCA041120040757.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Syllabus MCA 2 Year II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/II_Sem_Syllabus_MCA041120040849.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Syllabus MCA 2 Year III Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III_Sem_SY_MCA050821021814.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Syllabus MCA 2 Year IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_SY_MCA070721120129.pdf"
+          }
+        ]
+      },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },

@@ -2161,166 +2161,248 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. Civil Engineering CBGS 2017"
+            "title": "B.E. Civil Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem Civil _SY050118115245.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. Chemical Engineering CBGS 2017"
+            "title": "B.E. Chemical Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem CM _SY301217015655.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. Computer Science and Engineering CBGS 2017"
-          },
-          { "semester": "4th Semester", "title": "B.E. ECE CBGS 2017" },
-          { "semester": "4th Semester", "title": "B.E. EI CBGS 2017" },
-          {
-            "semester": "4th Semester",
-            "title": "B.E. Fire Technology and Safty CBGS 2017"
+            "title": "B.E. Computer Science and Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem CSE _SY301217015758.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.E. Information Technology CBGS 2017"
+            "title": "B.E. ECE CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem ECE _SY301217015850.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "B.E. EI CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem EI _SY301217020021.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "B.E. Fire Technology and Safty CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem FT _SY301217020216.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "B.E. Information Technology CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem IT _SY301217020314.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Chemical Engineering New CBGS 2017"
+            "title": "B.E. Chemical Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_CM__SY_080817011114.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Computer Science Engineering New CBGS 2017"
+            "title": "B.E. Computer Science Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_CSE__SY_080817011327.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Electronins  and Communication New CBGS 2017"
+            "title": "B.E. Electronins  and Communication New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem ECE _SY_090817042229.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Electrical Engineering New CBGS 2017"
+            "title": "B.E. Electrical Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem EE _SY_180817043614.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Electronins and Instrumentation New CBGS 2017"
+            "title": "B.E. Electronins and Instrumentation New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_EI__SY_080817012018.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Electrical and Electronics New CBGS 2017"
+            "title": "B.E. Electrical and Electronics New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem EX _SY_180817043647.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Fire Technology Safety Engg New CBGS 2017"
+            "title": "B.E. Fire Technology Safety Engg New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_FT__SY_181017011440.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Information Technology New CBGS 2017"
+            "title": "B.E. Information Technology New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_IT__SY_080817012616.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Mechanical Engineering New CBGS 2017"
+            "title": "B.E. Mechanical Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_ME__SY_080817012703.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Textile Technology New CBGS 2017"
+            "title": "B.E. Textile Technology New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_TX__SY_080817012822.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Automobile Engineering New CBGS 2017"
+            "title": "B.E. Automobile Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_Auto__SY_080817013120.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Biomedical Engineering New CBGS 2017"
+            "title": "B.E. Biomedical Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_BM__SY_080817013242.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Mining Engineering New CBGS 2017"
+            "title": "B.E. Mining Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_Mining__SY_080817023112.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.E. Civil Engineering New CBGS 2017"
+            "title": "B.E. Civil Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ce281017010655.pdf"
           },
-          { "semester": "5th Semester", "title": "B.E. IPE New CBGS 2017" },
           {
             "semester": "5th Semester",
-            "title": "B.E. Agriculture Technology CBGS"
-          },
-          { "semester": "6th Semester", "title": "BE Ch" },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Automobile Engineering CBGS 2017"
+            "title": "B.E. IPE New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IPE_sy220817014018.pdf"
           },
           {
-            "semester": "6th Semester",
-            "title": "B.E. Chemical Engineering CBGS 2017"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Fire Technology CBGS 2017"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Biomedical Engineering CBGS 2017"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Civil Engineering CBGS 2017"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Computer Science Engineering CBGS 2017"
-          },
-          { "semester": "6th Semester", "title": "B.E. ECE CBGS 2017" },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Electrical Engineering CBGS 2017"
-          },
-          { "semester": "6th Semester", "title": "B.E. EI CBGS 2017" },
-          { "semester": "6th Semester", "title": "B.E. EX CBGS 2017" },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Information Technology CBGS 2017"
-          },
-          {
-            "semester": "6th Semester",
-            "title": "B.E. Mechanical Engineering CBGS 2017"
+            "semester": "5th Semester",
+            "title": "B.E. Agriculture Technology CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/5_agrisy120718120402.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.E. Textile Technology  CBGS 2017"
+            "title": "BE Ch",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM VI Sem _SY020118014635.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.E. Mining Engineering CBGS 2017"
+            "title": "B.E. Automobile Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem AU _SY020118034511.pdf"
           },
-          { "semester": "6th Semester", "title": "B.E. IPE CBGS 2017" },
           {
             "semester": "6th Semester",
-            "title": "B.E. Agriculture Technology CBGS"
+            "title": "B.E. Chemical Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM VI Sem _SY020118034556.pdf"
           },
-          { "semester": "7th Semester", "title": "B.E." },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Fire Technology CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI FT _SY_170118042953.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Biomedical Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem BM _SY020118034724.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Civil Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_CE _SY220318042129.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Computer Science Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem CSE _SY020118034837.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. ECE CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EC _SY020118034924.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Electrical Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EE _SY020118035022.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. EI CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EI _SY020118035050.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. EX CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem EX _SY020118035124.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Information Technology CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem IT _SY020118035208.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Mechanical Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem ME _SY_100118122725.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Textile Technology  CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem TX _SY020118035353.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Mining Engineering CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem Mining _SY_050118120410.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. IPE CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IPE_syllabus130318110201.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E. Agriculture Technology CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/6arCBGS281218010455.pdf"
+          },
           {
             "semester": "7th Semester",
-            "title": "B.E. Chemical Engineering New CBGS 2017"
-          },
-          { "semester": "7th Semester", "title": "B.E. EC CBGS" },
-          {
-            "semester": "7th Semester",
-            "title": "B.E. Fire Technology Safety Engg. CBGS"
+            "title": "B.E.",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem EE _SY_290618032045.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "B.E. Electrical Engineering CBGS"
-          },
-          { "semester": "7th Semester", "title": "B.E. EX CBGS" },
-          {
-            "semester": "7th Semester",
-            "title": "B.E. Civil Engineering CBGS"
+            "title": "B.E. Chemical Engineering New CBGS 2017",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM VII Sem _SY_270618014134.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "B.E. Automobile Engineering CBGS"
+            "title": "B.E. EC CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ec_sy090718050753.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "B.E. Computer Science Engineering CBGS"
+            "title": "B.E. Fire Technology Safety Engg. CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT VII _SY_270618014349.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. Electrical Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ee160718044930.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. EX CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ex160718044948.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. Civil Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ce020818050447.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. Automobile Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AU7_sy120718033319.pdf"
+          },
+          {
+            "semester": "7th Semester",
+            "title": "B.E. Computer Science Engineering CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE VII Final SY020718040655.pdf"
           },
           {
             "semester": "7th Semester",

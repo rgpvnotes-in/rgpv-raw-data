@@ -343,24 +343,33 @@
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electronics and communication Engg"
+            "title": "B.Tech Electronics and communication Engg",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem EC _SY100719012307.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Fire Technology Safety Engg."
-          },
-          { "semester": "4th Semester", "title": "B.Tech Mining Engineering" },
-          {
-            "semester": "4th Semester",
-            "title": "B.Tech Biomedical Engineering"
+            "title": "B.Tech Fire Technology Safety Engg.",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT _SY221218021400.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electrical Engineering"
+            "title": "B.Tech Mining Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MI221218022643.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "B.Tech Electronics and Instrumentation Engineering"
+            "title": "B.Tech Biomedical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BM271218034551.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "B.Tech Electrical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ee4sy281218010349.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "B.Tech Electronics and Instrumentation Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EI271218034740.pdf"
           },
           {
             "semester": "4th Semester",

@@ -628,8 +628,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus Automobile Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_AU_Syllabus260123094901.pdf"
+            "title": "Syllabus Automobile Engineering"
           },
           {
             "semester": "6th Semester",
@@ -1257,8 +1256,7 @@
           },
           {
             "semester": "6th Semester",
-            "title": "BE(Bio-Medical Engg)(Grading System)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI BM _SY_221212031556.pdf"
+            "title": "BE(Bio-Medical Engg)(Grading System)"
           },
           {
             "semester": "6th Semester",
@@ -1903,11 +1901,7 @@
             "title": "Biomedical Engineering CBCS",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/bm051016032548.pdf"
           },
-          {
-            "semester": "3rd Semester",
-            "title": "Chemical Engineering CBCS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/cm051016032651.pdf"
-          },
+          { "semester": "3rd Semester", "title": "Chemical Engineering CBCS" },
           {
             "semester": "3rd Semester",
             "title": "Civil Engineering CBCS",
@@ -2554,8 +2548,7 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Electrical and Electronics Engineering PTDC",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/first210317110509.pdf"
+            "title": "Electrical and Electronics Engineering PTDC"
           },
           {
             "semester": "1st Semester",
@@ -3169,8 +3162,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Syllabus for 1 Sem High Voltage and Power System",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IHvps  _SY_230913054808.pdf"
+            "title": "Syllabus for 1 Sem High Voltage and Power System"
           },
           {
             "semester": "1st Semester",
@@ -3806,8 +3798,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Computer Sc.( Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE SY III190911044310.pdf"
+            "title": "Computer Sc.( Grading Sys.)"
           },
           {
             "semester": "3rd Semester",
@@ -4404,8 +4395,7 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Syllabus MCA 2 Year I Semester",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I_Sem_Syllabus_MCA041120040757.pdf"
+            "title": "Syllabus MCA 2 Year I Semester"
           },
           {
             "semester": "2nd Semester",

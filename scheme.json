@@ -623,7 +623,8 @@
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Agriculture Technology"
+            "title": "B.Tech Agriculture Technology",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem AT161219110452.pdf"
           },
           {
             "semester": "6th Semester",
@@ -1239,7 +1240,11 @@
             "title": "Biotechnology(Grading)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Bio Tech040612034346.pdf"
           },
-          { "semester": "5th Semester", "title": "Civil Engineering(Grading)" },
+          {
+            "semester": "5th Semester",
+            "title": "Civil Engineering(Grading)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Civil040612034444.pdf"
+          },
           {
             "semester": "5th Semester",
             "title": "Chemical Engineering(Grading)",
@@ -1880,7 +1885,8 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "B.E. CBCS for 2015 and 2016 Admitted Students"
+            "title": "B.E. CBCS for 2015 and 2016 Admitted Students",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CBCS020419124911.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -2525,7 +2531,7 @@
           }
         ]
       },
-      { "name": "As per COA", "id": 7 }
+      { "name": "As per COA", "id": 7, "pdfs": [] }
     ]
   },
   {
@@ -3128,7 +3134,11 @@
             "title": "B. Architecture CBGS",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme_7090718045953.pdf"
           },
-          { "semester": "8th Semester", "title": "B. Architecture CBGS" },
+          {
+            "semester": "8th Semester",
+            "title": "B. Architecture CBGS",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/scheme_8090718050014.pdf"
+          },
           {
             "semester": "9th Semester",
             "title": "B. Architecture CBGS",
@@ -3766,7 +3776,8 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Micro Electronics and VLSI Design ( Grading Sys)"
+            "title": "Micro Electronics and VLSI Design ( Grading Sys)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I Emb221111032112.pdf"
           },
           {
             "semester": "1st Semester",
@@ -4406,7 +4417,7 @@
         ]
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
-      { "name": "Lateral Entry", "id": 3 },
+      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
@@ -4995,7 +5006,7 @@
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
-      { "name": "CBCS", "id": 4 },
+      { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }
     ]

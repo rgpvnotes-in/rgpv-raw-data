@@ -613,8 +613,7 @@
           },
           {
             "semester": "5th Semester",
-            "title": "CSE  Artificial Intelligence and Machine Learning",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B Tech V sem CSE AIML syllabus010223052406.pdf"
+            "title": "CSE  Artificial Intelligence and Machine Learning"
           },
           {
             "semester": "5th Semester",
@@ -1232,8 +1231,7 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Textile Technology(Grading)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V TX _SY_040612033423.pdf"
+            "title": "Textile Technology(Grading)"
           },
           {
             "semester": "5th Semester",
@@ -1878,7 +1876,7 @@
           }
         ]
       },
-      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3 },
       {
         "name": "CBCS",
         "id": 4,
@@ -2516,8 +2514,7 @@
           },
           {
             "semester": "8th Semester",
-            "title": "B.E. Mechanical Engineering CBGS",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/me291218043150.pdf"
+            "title": "B.E. Mechanical Engineering CBGS"
           },
           {
             "semester": "8th Semester",
@@ -3139,8 +3136,7 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Construction Tech. and Mgt.(Grading Sys)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/I CTM (Sy)281011051446.pdf"
+            "title": "Construction Tech. and Mgt.(Grading Sys)"
           },
           {
             "semester": "1st Semester",
@@ -3781,8 +3777,7 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Microwave and Millimeter Engg. ( Grading Sys.)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Micro _SY_020911054828.pdf"
+            "title": "Microwave and Millimeter Engg. ( Grading Sys.)"
           },
           {
             "semester": "3rd Semester",
@@ -4388,7 +4383,7 @@
         ]
       },
       { "name": "Non Grading System", "id": 2, "pdfs": [] },
-      { "name": "Lateral Entry", "id": 3, "pdfs": [] },
+      { "name": "Lateral Entry", "id": 3 },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },
       { "name": "As per COA", "id": 7, "pdfs": [] }

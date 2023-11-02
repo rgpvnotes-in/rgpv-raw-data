@@ -99,15 +99,60 @@
   },
   { "programName": "B.Pharm", "programId": 2, "programDataList": [] },
   { "programName": "B.Arch", "programId": 11, "programDataList": [] },
-  { "programName": "M.E.", "programId": 6, "programDataList": [] },
-  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
+  {
+    "programName": "M.E.",
+    "programId": 6,
+    "programDataList": [
+      {
+        "title": "Time Table ME II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech 2 Sem A021123032101.pdf"
+      },
+      {
+        "title": "Time Table ME III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech 3 Sem A021123032038.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Tech.",
+    "programId": 8,
+    "programDataList": [
+      {
+        "title": "Time Table MTech III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech 3 Sem A021123031946.pdf"
+      },
+      {
+        "title": "Time Table MTech II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech 2 Sem A021123031857.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
     "programDataList": []
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "Time Table MPharma PCI II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma PCI 2 sem021123032237.pdf"
+      },
+      {
+        "title": "Time Table MPharma PCI III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma PCI 3 sem021123032213.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,

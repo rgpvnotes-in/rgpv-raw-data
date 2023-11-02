@@ -1,40 +1,5 @@
 [
-  {
-    "programName": "MBA",
-    "programId": 4,
-    "programDataList": [
-      {
-        "title": "Time Table MBA Financial Administration IV Sem Nov 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 to 4 sem021123041514.pdf"
-      },
-      {
-        "title": "Time Table MBA Financial Administration III Sem Nov 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 to 4 sem021123041446.pdf"
-      },
-      {
-        "title": "Time Table MBA Financial Administration II Sem Nov 2023",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 to 4 sem021123041423.pdf"
-      },
-      {
-        "title": "Time Table MBA Pharmaceutical management IV Sem Nov 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 to 4 sem021123041256.pdf"
-      },
-      {
-        "title": "Time Table MBA Pharmaceutical management III Sem Nov 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 to 4 sem021123041221.pdf"
-      },
-      {
-        "title": "Time Table MBA Pharmaceutical management II Sem Nov 2023",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 to 4 sem021123041124.pdf"
-      }
-    ]
-  },
+  { "programName": "MBA", "programId": 4, "programDataList": [] },
   { "programName": "M.Arch", "programId": 22, "programDataList": [] },
   {
     "programName": "B.Tech",
@@ -95,7 +60,32 @@
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
   { "programName": "BE", "programId": 1, "programDataList": [] },
   { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
-  { "programName": "B.Tech.-PTDC", "programId": 42, "programDataList": [] },
+  {
+    "programName": "B.Tech.-PTDC",
+    "programId": 42,
+    "programDataList": [
+      {
+        "title": "Time Table BTech PTDC VIII Semester November 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech PTDC 5 to 8 sem021123043040.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC VII Semester November 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech PTDC 5 to 8 sem021123043014.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC VI Semester November 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech PTDC 5 to 8 sem021123042951.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC V Semester November 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech PTDC 5 to 8 sem021123042912.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Pharm.(PCI)",
     "programId": 43,

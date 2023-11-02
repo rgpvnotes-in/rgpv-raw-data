@@ -1,5 +1,40 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "Time Table MBA Financial Administration IV Sem Nov 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 to 4 sem021123041514.pdf"
+      },
+      {
+        "title": "Time Table MBA Financial Administration III Sem Nov 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 to 4 sem021123041446.pdf"
+      },
+      {
+        "title": "Time Table MBA Financial Administration II Sem Nov 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 to 4 sem021123041423.pdf"
+      },
+      {
+        "title": "Time Table MBA Pharmaceutical management IV Sem Nov 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 to 4 sem021123041256.pdf"
+      },
+      {
+        "title": "Time Table MBA Pharmaceutical management III Sem Nov 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 to 4 sem021123041221.pdf"
+      },
+      {
+        "title": "Time Table MBA Pharmaceutical management II Sem Nov 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 to 4 sem021123041124.pdf"
+      }
+    ]
+  },
   { "programName": "M.Arch", "programId": 22, "programDataList": [] },
   {
     "programName": "B.Tech",

@@ -6,6 +6,21 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech CSBS VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 4 to 6 sem021123025928.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 4 to 6 sem021123025835.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS IV Semester NOVEMBER 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 4 to 6 sem021123025756.pdf"
+      },
+      {
         "title": "Time Table BTech CSBS VIII Semester NOVEMBER 2023",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 7 and 8 sem021123022051.pdf"
@@ -93,12 +108,72 @@
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
-  { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
+  {
+    "programName": "MCA 2 Year",
+    "programId": 53,
+    "programDataList": [
+      {
+        "title": "Time Table MCA TWO YEAR IV Semester NOVEMBER 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA II Year 2 to 4 sem021123024930.pdf"
+      },
+      {
+        "title": "Time Table MCA TWO YEAR III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA II Year 2 to 4 sem021123024907.pdf"
+      },
+      {
+        "title": "Time Table MCA TWO YEAR II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA II Year 2 to 4 sem021123024839.pdf"
+      }
+    ]
+  },
   { "programName": "MCA", "programId": 5, "programDataList": [] },
   {
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "Time Table MCA INT X Semester NOVEMBER 2023",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 5 to 10 sem021123024638.pdf"
+      },
+      {
+        "title": "Time Table MCA INT IX Semester NOVEMBER 2023",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 5 to 10 sem021123024612.pdf"
+      },
+      {
+        "title": "Time Table MCA INT VIII Semester NOVEMBER 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 5 to 10 sem021123024539.pdf"
+      },
+      {
+        "title": "Time Table MCA INT VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 5 to 10 sem021123024507.pdf"
+      },
+      {
+        "title": "Time Table MCA INT VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 5 to 10 sem021123024439.pdf"
+      },
+      {
+        "title": "Time Table MCA INT V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 5 to 10 sem021123024413.pdf"
+      },
+      {
+        "title": "Time Table MCA INT IV Semester NOVEMBER 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 2 to 4 sem021123024340.pdf"
+      },
+      {
+        "title": "Time Table MCA INT III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 2 to 4 sem021123024313.pdf"
+      },
       {
         "title": "Time Table MCA INT II Semester NOVEMBER 2023",
         "semester": "2nd Semester",

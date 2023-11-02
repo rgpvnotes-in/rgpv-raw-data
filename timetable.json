@@ -1,7 +1,47 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
   { "programName": "M.Arch", "programId": 22, "programDataList": [] },
-  { "programName": "B.Tech", "programId": 24, "programDataList": [] },
+  {
+    "programName": "B.Tech",
+    "programId": 24,
+    "programDataList": [
+      {
+        "title": "Time Table BTech CSBS VIII Semester NOVEMBER 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 7 and 8 sem021123022051.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 7 and 8 sem021123022024.pdf"
+      },
+      {
+        "title": "Time Table BTech VIII Semester NOVEMBER 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 8 Sem A_merged021123021854.pdf"
+      },
+      {
+        "title": "Time Table BTech VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 7 Sem A_merged021123021816.pdf"
+      },
+      {
+        "title": "Time Table BTech VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 6 Sem A_merged021123021728.pdf"
+      },
+      {
+        "title": "Time Table BTech V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 5 Sem A_merged021123021641.pdf"
+      },
+      {
+        "title": "Time Table BTech IV Semester NOVEMBER 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 4 Sem A_merged021123021610.pdf"
+      }
+    ]
+  },
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
   { "programName": "BE", "programId": 1, "programDataList": [] },
   { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
@@ -55,12 +95,102 @@
   { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
   { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
   { "programName": "MCA", "programId": 5, "programDataList": [] },
-  { "programName": "MCA Dual Degree", "programId": 23, "programDataList": [] },
-  { "programName": "MBA Integrated", "programId": 21, "programDataList": [] },
+  {
+    "programName": "MCA Dual Degree",
+    "programId": 23,
+    "programDataList": [
+      {
+        "title": "Time Table MCA INT II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 2 to 4 sem021123024122.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "MBA Integrated",
+    "programId": 21,
+    "programDataList": [
+      {
+        "title": "Time Table MBA INT X Semester NOVEMBER 2023",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 5 to 10 sem021123023724.pdf"
+      },
+      {
+        "title": "Time Table MBA INT IX Semester NOVEMBER 2023",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 5 to 10 sem021123023618.pdf"
+      },
+      {
+        "title": "Time Table MBA INT VIII Semester NOVEMBER 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 5 to 10 sem021123023550.pdf"
+      },
+      {
+        "title": "Time Table MBA INT VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 5 to 10 sem021123023523.pdf"
+      },
+      {
+        "title": "Time Table MBA INT VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 5 to 10 sem021123023246.pdf"
+      },
+      {
+        "title": "Time Table MBA INT V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 5 to 10 sem021123022920.pdf"
+      },
+      {
+        "title": "Time Table MBA INT IV Semester NOVEMBER 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 2 to 4 sem021123022854.pdf"
+      },
+      {
+        "title": "Time Table MBA INT III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 2 to 4 sem021123022825.pdf"
+      },
+      {
+        "title": "Time Table MBA INT II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 2 to 4 sem021123022800.pdf"
+      }
+    ]
+  },
   { "programName": "DDI-PG", "programId": 12, "programDataList": [] },
   { "programName": "Diploma", "programId": 3, "programDataList": [] },
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
   { "programName": "PGCMB", "programId": 45, "programDataList": [] },
-  { "programName": "Pharm D.", "programId": 51, "programDataList": [] }
+  {
+    "programName": "Pharm D.",
+    "programId": 51,
+    "programDataList": [
+      {
+        "title": "Time Table Pharma D Supplementary V Year NOV 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022624.pdf"
+      },
+      {
+        "title": "Time Table Pharma D Supplementary IV Year NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022558.pdf"
+      },
+      {
+        "title": "Time Table Pharma D Supplementary III Year NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022503.pdf"
+      },
+      {
+        "title": "Time Table Pharma D Supplementary II Year NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022440.pdf"
+      },
+      {
+        "title": "Time Table Pharma D Supplementary I Year NOVEMBER 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022348.pdf"
+      }
+    ]
+  }
 ]

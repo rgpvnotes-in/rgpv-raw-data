@@ -6,6 +6,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBTechV061123124501.pdf"
+      },
+      {
         "title": "Time Table BTech CSBS VII Semester NOVEMBER 2023",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTCSBSVII061123120315.pdf"
@@ -39,11 +44,6 @@
         "title": "Time Table BTech VI Semester NOVEMBER 2023",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 6 Sem A_merged021123021728.pdf"
-      },
-      {
-        "title": "Time Table BTech V Semester NOVEMBER 2023",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 5 Sem A_merged021123021641.pdf"
       },
       {
         "title": "Time Table BTech IV Semester NOVEMBER 2023",
@@ -118,7 +118,47 @@
     ]
   },
   { "programName": "B.Pharm", "programId": 2, "programDataList": [] },
-  { "programName": "B.Arch", "programId": 11, "programDataList": [] },
+  {
+    "programName": "B.Arch",
+    "programId": 11,
+    "programDataList": [
+      {
+        "title": "Time Table BArch CoA Scheme VIII Sem NOV 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 5 to 8 sem CoA061123011410.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme VII Sem NOV 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 5 to 8 sem CoA061123011348.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme VI Sem NOV 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 5 to 8 sem CoA061123011327.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme V Sem NOV 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 5 to 8 sem CoA061123011306.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme IV Sem NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 2 to 4 sem CoA061123011245.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme III Sem NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 2 to 4 sem CoA061123011220.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 2 to 4 sem CoA061123011124.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.E.",
     "programId": 6,

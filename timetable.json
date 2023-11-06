@@ -1,6 +1,26 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
-  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
+  {
+    "programName": "M.Arch",
+    "programId": 22,
+    "programDataList": [
+      {
+        "title": "Time Table MArch IV Semester NOVEMBER 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MArch 2 to 4 sem061123022226.pdf"
+      },
+      {
+        "title": "Time Table MArch III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MArch 2 to 4 sem061123022205.pdf"
+      },
+      {
+        "title": "Time Table MArch II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MArch 2 to 4 sem061123022142.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Tech",
     "programId": 24,

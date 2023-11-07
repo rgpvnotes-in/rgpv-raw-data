@@ -184,14 +184,14 @@
     "programId": 6,
     "programDataList": [
       {
+        "title": "Time Table ME III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII071123013129.pdf"
+      },
+      {
         "title": "Time Table ME II Semester NOVEMBER 2023",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech 2 Sem A021123032101.pdf"
-      },
-      {
-        "title": "Time Table ME III Semester NOVEMBER 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech 3 Sem A021123032038.pdf"
       }
     ]
   },
@@ -202,7 +202,7 @@
       {
         "title": "Time Table MTech III Semester NOVEMBER 2023",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII031123013949.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII071123013101.pdf"
       },
       {
         "title": "Time Table MTech II Semester NOVEMBER 2023",

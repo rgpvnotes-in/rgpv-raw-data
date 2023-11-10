@@ -1422,17 +1422,39 @@
           },
           {
             "semester": "8th Semester",
-            "title": "Automobile Engineering (Grading System)"
+            "title": "Automobile Engineering (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII AU _SY_311213031410.pdf"
           },
-          { "semester": "8th Semester", "title": "Bio tech (Grading System)" },
           {
             "semester": "8th Semester",
-            "title": "Bio Medical Engineering (Grading System)"
+            "title": "Bio tech (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Bio Tech _SY_311213031627.pdf"
           },
-          { "semester": "8th Semester", "title": "EC (Grading System)" },
-          { "semester": "8th Semester", "title": "EE (Grading System)" },
-          { "semester": "8th Semester", "title": "EI (Grading System)" },
-          { "semester": "8th Semester", "title": "EX (Grading System)" },
+          {
+            "semester": "8th Semester",
+            "title": "Bio Medical Engineering (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII BM _SY_311213044522.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "EC (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII EC _SY_250815045638.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "EE (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII EE _SY_311213032019.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "EI (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII EI _SY_311213032112.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "EX (Grading System)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII EX _SY_030114043427.pdf"
+          },
           {
             "semester": "8th Semester",
             "title": "Fire Technology (Grading System)",

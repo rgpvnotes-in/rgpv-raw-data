@@ -26,6 +26,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBTechVI201123123737.pdf"
+      },
+      {
         "title": "Time Table BTech V Semester NOVEMBER 2023",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBTechV061123124501.pdf"
@@ -59,11 +64,6 @@
         "title": "Time Table BTech VIII Semester NOVEMBER 2023",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 8 Sem A_merged021123021854.pdf"
-      },
-      {
-        "title": "Time Table BTech VI Semester NOVEMBER 2023",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/B Tech 6 Sem A_merged021123021728.pdf"
       },
       {
         "title": "Time Table BTech IV Semester NOVEMBER 2023",
@@ -143,6 +143,21 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table BArch CoA Scheme II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123413.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme III Sem NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123430.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA Scheme IV Sem NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123445.pdf"
+      },
+      {
         "title": "Time Table BArch CoA Scheme VIII Sem NOV 2023",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 5 to 8 sem CoA061123011410.pdf"
@@ -161,21 +176,6 @@
         "title": "Time Table BArch CoA Scheme V Sem NOV 2023",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 5 to 8 sem CoA061123011306.pdf"
-      },
-      {
-        "title": "Time Table BArch CoA Scheme IV Sem NOV 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 2 to 4 sem CoA061123011245.pdf"
-      },
-      {
-        "title": "Time Table BArch CoA Scheme III Sem NOV 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 2 to 4 sem CoA061123011220.pdf"
-      },
-      {
-        "title": "Time Table BArch CoA Scheme II Sem NOV 2023",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 2 to 4 sem CoA061123011124.pdf"
       }
     ]
   },
@@ -216,7 +216,22 @@
     "programId": 20,
     "programDataList": []
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "Time Table MPharma Non PCI III Semester NOVEMBER 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMPharmIII201123124550.pdf"
+      },
+      {
+        "title": "Time Table MPharma Non PCI II Semester NOVEMBER 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMPharmII201123124529.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,
@@ -367,29 +382,29 @@
     "programId": 51,
     "programDataList": [
       {
-        "title": "Time Table Pharma D Supplementary V Year NOV 2023",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022624.pdf"
-      },
-      {
-        "title": "Time Table Pharma D Supplementary IV Year NOV 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022558.pdf"
-      },
-      {
-        "title": "Time Table Pharma D Supplementary III Year NOV 2023",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022503.pdf"
+        "title": "Time Table Pharma D Supplementary I Year NOVEMBER 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTPharmD201123123943.pdf"
       },
       {
         "title": "Time Table Pharma D Supplementary II Year NOV 2023",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022440.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTPharmD201123123956.pdf"
       },
       {
-        "title": "Time Table Pharma D Supplementary I Year NOVEMBER 2023",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 1 to 5 sem021123022348.pdf"
+        "title": "Time Table Pharma D Supplementary III Year NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTPharmD201123124013.pdf"
+      },
+      {
+        "title": "Time Table Pharma D Supplementary IV Year NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTPharmD201123124026.pdf"
+      },
+      {
+        "title": "Time Table Pharma D Supplementary V Year NOV 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTPharmD201123124040.pdf"
       }
     ]
   }

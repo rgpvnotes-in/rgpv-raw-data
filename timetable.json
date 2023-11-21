@@ -73,7 +73,32 @@
     ]
   },
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
-  { "programName": "BE", "programId": 1, "programDataList": [] },
+  {
+    "programName": "BE",
+    "programId": 1,
+    "programDataList": [
+      {
+        "title": "Time Table BE CBGS VIII Semester NOVEMBER 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBEVIII211123051336.pdf"
+      },
+      {
+        "title": "Time Table BE CBGS VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBEVII211123051311.pdf"
+      },
+      {
+        "title": "Time Table BE CBGS VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBEVI211123051249.pdf"
+      },
+      {
+        "title": "Time Table BE CBGS V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBEV211123051224.pdf"
+      }
+    ]
+  },
   { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
   {
     "programName": "B.Tech.-PTDC",

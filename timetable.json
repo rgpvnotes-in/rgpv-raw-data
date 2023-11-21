@@ -26,6 +26,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBTechVII211123013618.pdf"
+      },
+      {
         "title": "Time Table BTech VI Semester NOVEMBER 2023",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBTechVI201123123737.pdf"
@@ -39,11 +44,6 @@
         "title": "Time Table BTech CSBS VII Semester NOVEMBER 2023",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTCSBSVII061123120315.pdf"
-      },
-      {
-        "title": "Time Table BTech VII Semester NOVEMBER 2023",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBTechVII061123121342.pdf"
       },
       {
         "title": "Time Table BTech CSBS VI Semester NOVEMBER 2023",
@@ -216,7 +216,7 @@
       {
         "title": "Time Table ME III Semester NOVEMBER 2023",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII071123013129.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII211123014056.pdf"
       },
       {
         "title": "Time Table ME II Semester NOVEMBER 2023",
@@ -232,7 +232,7 @@
       {
         "title": "Time Table MTech III Semester NOVEMBER 2023",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII071123013101.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII211123014035.pdf"
       },
       {
         "title": "Time Table MTech II Semester NOVEMBER 2023",

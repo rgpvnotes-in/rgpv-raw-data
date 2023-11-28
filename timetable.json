@@ -269,7 +269,18 @@
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": []
+    "programDataList": [
+      {
+        "title": "Time Table BTech PTDC V Semester Examination Nov 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech PTDC 56281123050344.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC IV Semester Examination Nov 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MTech PTDC 56281123050321.pdf"
+      }
+    ]
   },
   {
     "programName": "M.Pharm",

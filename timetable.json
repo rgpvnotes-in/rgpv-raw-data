@@ -168,6 +168,11 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table BArch CBGS Scheme IV Sem NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS301123045431.pdf"
+      },
+      {
         "title": "Time Table BArch CBGS Scheme X Sem NOV 2023",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201123045215.pdf"
@@ -198,6 +203,11 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS201123044957.pdf"
       },
       {
+        "title": "Time Table BArch CoA Scheme IV Sem NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123445.pdf"
+      },
+      {
         "title": "Time Table BArch CoA Scheme II Sem NOV 2023",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123413.pdf"
@@ -206,11 +216,6 @@
         "title": "Time Table BArch CoA Scheme III Sem NOV 2023",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123430.pdf"
-      },
-      {
-        "title": "Time Table BArch CoA Scheme IV Sem NOV 2023",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchII201123123445.pdf"
       },
       {
         "title": "Time Table BArch CoA Scheme VIII Sem NOV 2023",

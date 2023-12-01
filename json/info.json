@@ -1,0 +1,37 @@
+{
+  "programList": [
+    { "name": "MBA", "id": 4 },
+    { "name": "M.Arch", "id": 22 },
+    { "name": "B.Tech", "id": 24 },
+    { "name": "B.Design", "id": 25 },
+    { "name": "BE", "id": 1 },
+    { "name": "BE-PTDC", "id": 10 },
+    { "name": "B.Tech.-PTDC", "id": 42 },
+    { "name": "B.Pharm.(PCI)", "id": 43 },
+    { "name": "B.Pharm", "id": 2 },
+    { "name": "B.Arch", "id": 11 },
+    { "name": "M.E.", "id": 6 },
+    { "name": "M.Tech.", "id": 8 },
+    { "name": "M.Tech.(Part Time)", "id": 20 },
+    { "name": "M.Pharm", "id": 7 },
+    { "name": "M.Pharm. PCI", "id": 71 },
+    { "name": "MCA 2 Year", "id": 53 },
+    { "name": "MCA", "id": 5 },
+    { "name": "MCA Dual Degree", "id": 23 },
+    { "name": "MBA Integrated", "id": 21 },
+    { "name": "DDI-PG", "id": 12 },
+    { "name": "Diploma", "id": 3 },
+    { "name": "Ph.D.", "id": 44 },
+    { "name": "Ph.D. Entrance", "id": 52 },
+    { "name": "PGCMB", "id": 45 },
+    { "name": "Pharm D.", "id": 51 }
+  ],
+  "systemTypeList": [
+    { "name": "Grading System", "id": 1 },
+    { "name": "Non Grading System", "id": 2 },
+    { "name": "Lateral Entry", "id": 3 },
+    { "name": "CBCS", "id": 4 },
+    { "name": "CBGS", "id": 5 },
+    { "name": "As per COA", "id": 7 }
+  ]
+}

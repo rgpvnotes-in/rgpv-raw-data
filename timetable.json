@@ -162,7 +162,32 @@
       }
     ]
   },
-  { "programName": "B.Pharm", "programId": 2, "programDataList": [] },
+  {
+    "programName": "B.Pharm",
+    "programId": 2,
+    "programDataList": [
+      {
+        "title": "Time Table B Pharmacy CBGS VIII Semester NOVEMBER 2023",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBPharmCBGS011223120225.pdf"
+      },
+      {
+        "title": "Time Table B Pharmacy CBGS VII Semester NOVEMBER 2023",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBPharmCBGS011223120204.pdf"
+      },
+      {
+        "title": "Time Table B Pharmacy CBGS VI Semester NOVEMBER 2023",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBPharmCBGS011223120139.pdf"
+      },
+      {
+        "title": "Time Table B Pharmacy CBGS V Semester NOVEMBER 2023",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBPharmCBGS011223120054.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Arch",
     "programId": 11,

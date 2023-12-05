@@ -1,5 +1,50 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "Time Table MBA II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 2 and  4051223114123.pdf"
+      },
+      {
+        "title": "Time Table MBA IV Sem NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA 2 and  4051223114053.pdf"
+      },
+      {
+        "title": "Time Table MBA Marketing Management IV Sem NOV 2023",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA MM 2 and  4 Sem051223114012.pdf"
+      },
+      {
+        "title": "Time Table MBA Marketing Management II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA MM 2 and  4 Sem051223113905.pdf"
+      },
+      {
+        "title": "Time Table MBA Pharmaceutical Management II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 2 sem051223113515.pdf"
+      },
+      {
+        "title": "Time Table MBA Rural Management II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA RURAL 2 Sem051223113403.pdf"
+      },
+      {
+        "title": "Time Table MBA Healthcare Management II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA HM 2 Sem051223113316.pdf"
+      },
+      {
+        "title": "Time Table MBA Financial Administration II Sem NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 2 Sem051223113204.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Arch",
     "programId": 22,

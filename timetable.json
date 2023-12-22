@@ -4,14 +4,64 @@
     "programId": 4,
     "programDataList": [
       {
-        "title": "Time Table MBA III Sem DEC 2023",
+        "title": "TIME TABLE MBA III SEM  NOV 2023",
         "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMBA_I_III201223052441.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III221223013601.pdf"
       },
       {
-        "title": "Time Table MBA I Sem DEC 2023",
+        "title": "TIME TABLE MBA I SEM  NOV 2023",
         "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMBA_I_III201223052413.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III221223013538.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA III SEM FINANCIAL ADMINISTRATION NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III FA221223012806.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA I SEM FINANCIAL ADMINISTRATION NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III FA221223012745.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA III SEM PHARMACEUTICAL MANAGEMENT NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III PM221223012509.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA I SEM PHARMACEUTICAL MANAGEMENT NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III PM221223012443.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA III SEM MARKETING MANAGEMENT NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III MM221223012317.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA I SEM MARKETING MANAGEMENT NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III MM221223012253.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA I SEM HEALTH MANAGEMENT NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III HM221223012113.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA I SEM RURAL MANAGEMENT NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III RM221223011938.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA III SEM RURAL MANAGEMENT NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III RM221223012027.pdf"
+      },
+      {
+        "title": "TIME TABLE MBA III SEM HEALTH MANAGEMENT NOV 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA I and III HM221223012211.pdf"
       },
       {
         "title": "Time Table MBA II Sem NOV 2023",
@@ -86,19 +136,29 @@
     "programId": 24,
     "programDataList": [
       {
-        "title": "Time Table BTech I Semester DECEMBER 2023",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I BTech_II Semester221223121553.pdf"
+        "title": "TIME TABLE B.TECH CSBS  II SEM  NOV 2023",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH I AND II CSBS221223013426.pdf"
       },
       {
-        "title": "Time Table BTech II Semester DECEMBER 2023",
+        "title": "TIME TABLE B.TECH CSBS  I SEM  NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH I AND II CSBS221223013405.pdf"
+      },
+      {
+        "title": "TIME TABLE B.TECH  II SEM  NOV 2023",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_I BTech_II Semester221223122238.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH IAND II221223013338.pdf"
       },
       {
         "title": "Time Table BTech III Semester DECEMBER 2023",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech_III Semester221223123438.pdf"
+      },
+      {
+        "title": "TIME TABLE B.TECH  I SEM  NOV 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH IAND II221223013305.pdf"
       },
       {
         "title": "Time Table BTech VII Semester NOVEMBER 2023",

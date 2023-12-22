@@ -60,6 +60,11 @@
     "programId": 22,
     "programDataList": [
       {
+        "title": "Time Table M.Arch I Semester December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MArchitecture_I Semester221223125437.pdf"
+      },
+      {
         "title": "Time Table MArch IV Semester NOVEMBER 2023",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MArch 2 to 4 sem061123022226.pdf"
@@ -142,7 +147,17 @@
       }
     ]
   },
-  { "programName": "B.Design", "programId": 25, "programDataList": [] },
+  {
+    "programName": "B.Design",
+    "programId": 25,
+    "programDataList": [
+      {
+        "title": "Time Table B.Design I Semester   December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BDesign_I Semester221223124744.pdf"
+      }
+    ]
+  },
   {
     "programName": "BE",
     "programId": 1,
@@ -200,6 +215,11 @@
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
     "programDataList": [
+      {
+        "title": "Time Table B.Pharma III Semester December 2023",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_III Sem PCI221223124835.pdf"
+      },
       {
         "title": "Time Table B Pharmacy PCI VIII Semester NOVEMBER 2023",
         "semester": "8th Semester",
@@ -262,6 +282,11 @@
     "programName": "B.Arch",
     "programId": 11,
     "programDataList": [
+      {
+        "title": "Time Table BArch I Semester CoA  December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch_I Semester CoA221223124631.pdf"
+      },
       {
         "title": "Time Table BArch CBGS Scheme IV Sem NOV 2023",
         "semester": "4th Semester",
@@ -339,6 +364,11 @@
     "programId": 6,
     "programDataList": [
       {
+        "title": "Time Table ME I Semester December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTech_I Semester221223125630.pdf"
+      },
+      {
         "title": "Time Table ME III Semester NOVEMBER 2023",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTMTechIII211123014056.pdf"
@@ -354,6 +384,11 @@
     "programName": "M.Tech.",
     "programId": 8,
     "programDataList": [
+      {
+        "title": "Time Table M.Tech I Semester December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MEMTech_I Semester221223125519.pdf"
+      },
       {
         "title": "Time Table MTech III Semester NOVEMBER 2023",
         "semester": "3rd Semester",
@@ -419,6 +454,11 @@
     "programId": 53,
     "programDataList": [
       {
+        "title": "Time Table MCA TWO YEAR I Semester December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA_I Sem 2 Y221223125337.pdf"
+      },
+      {
         "title": "Time Table MCA TWO YEAR IV Semester NOVEMBER 2023",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA II Year 2 to 4 sem021123024930.pdf"
@@ -440,6 +480,11 @@
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "Time Table MCA INT  I Semester December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA _I Sem INT221223125212.pdf"
+      },
       {
         "title": "Time Table MCA INT X Semester NOVEMBER 2023",
         "semester": "10th Semester",
@@ -491,6 +536,11 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table MBA INT  I Semester December 2023",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_I Sem INT221223124932.pdf"
+      },
       {
         "title": "Time Table MBA INT X Semester NOVEMBER 2023",
         "semester": "10th Semester",

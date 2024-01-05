@@ -3,6 +3,7 @@ const md5 = require('md5');
 const cheerioFunctions = require('./services/cheerio/index');
 const axiosFunctions = require('./services/axios/index');
 require('dotenv').config();
+const axios = require('axios');
 
 const { shareOnSocialMedia } = require('./services/socialMediaShare/index');
 
@@ -158,14 +159,24 @@ const writeDataToSheet = async () => {
               password: process.env.SHORT_URL_PASSWORD,
               url: news.url,
             };
-            const responseData = await axiosFunctions.simplePostData(
-              fetchDataFromUrl,
-              postData,
-              {},
-            );
-            if (responseData && responseData.shortened) {
-              news.shortUrl = responseData.shortened;
-            } else {
+
+            // const responseData = await axiosFunctions.simplePostData2(
+            //   fetchDataFromUrl,
+            //   postData,
+            // );
+
+            try {
+              const responseData = await axios.post(
+                fetchDataFromUrl,
+                {
+                  password: process.env.SHORT_URL_PASSWORD,
+                  url: news.url,
+                },
+              );
+              if (responseData && responseData.isSuccess) {
+                news.shortUrl = responseData.data.shortened;
+              }
+            } catch (error) {
               news.shortUrl = null;
               console.log('failed to generate short URL, returning null');
             }

@@ -1,5 +1,6 @@
 const axios = require('axios');
-const headers = {
+
+const rgpvHeaders = {
   authority: 'www.rgpv.ac.in',
   'sec-ch-ua':
     '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
@@ -50,24 +51,48 @@ exports.simpleGetData = async (sourceURL, responseType = null) => {
  * @param {String} postDataToUrl  - The URL where we want to send the data
  * @param {Object} postData - Post body data
  * @param {Object} customHeaders - Custom header for the post request
+ * @param {Object} customBasicAuth - Basic Auth data for the post request
  * @returns
  */
 exports.simplePostData = async (
   postDataToUrl,
   postData,
-  customHeaders = headers,
-  customBasicAuth = {},
+  customHeaders = null,
+  customBasicAuth = null,
 ) => {
   try {
-    const options = {
-      headers: customHeaders,
-    };
+    const options = {};
 
+    customHeaders ? (options.headers = customHeaders) : '';
     customBasicAuth ? (options.auth = customBasicAuth) : '';
 
-    return (await axios.post(postDataToUrl, postData, options)).data;
+    let responseFromServer;
+    if (customHeaders || customBasicAuth) {
+      console.log('customHeaders value ', !!customHeaders);
+      console.log('customBasicAuth value ', !!customBasicAuth);
+      responseFromServer = await axios.post(postDataToUrl, postData, options);
+    } else {
+      console.log('else condition inside simplePostData function');
+      responseFromServer = await axios.post(postDataToUrl, postData);
+      console.log('' + JSON.stringify(responseFromServer.data));
+    }
+
+    return responseFromServer.data;
   } catch (error) {
     const domainExtractor = new URL(postDataToUrl).hostname;
+    console.error(
+      `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
+    );
+  }
+};
+
+exports.simplePostData2 = async (fetchDataFromUrl, postData) => {
+  try {
+    return (
+      await axios.post(fetchDataFromUrl, postData)
+    ).data;
+  } catch (error) {
+    const domainExtractor = new URL(fetchDataFromUrl).hostname;
     console.error(
       `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
     );
@@ -108,7 +133,7 @@ exports.fetchTimeTableFileUrl = async (bodyData) => {
     const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&`;
 
     let data = await axios.post(fetchFileFromUrl, postData, {
-      headers: headers,
+      headers: rgpvHeaders,
     });
     data = await data.data;
     data = await data.split('ScriptContentWithTags')[1];
@@ -142,7 +167,7 @@ exports.fetchSchemeOrSyllabusFileUrl = async (bodyData) => {
 
     let data = (
       await axios.post(fetchFileFromUrl, postData, {
-        headers: headers,
+        headers: rgpvHeaders,
       })
     ).data;
     data = await data.split('ScriptContentWithTags')[1];

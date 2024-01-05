@@ -6,7 +6,7 @@ const backgroundImage =
 const defaultSocialPostImage =
   'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin0mtmxPENfB7Gb7Rmbp_X8tJUU2Reezm6VDjWHQfLxZI5zkFx0qvjy3qn9IoSTSGanasrZXfEJDwGddNzXNQJ2ipeKzIhMD7U0fPqF2KhPqXGKuenZ-BX8AF9SGBaDfB5nxoBx41C3MpeJY4hX26_y4nLQ5uyuNlgWXhMpKitI8P949hqrvbcVw/s1600/fc8a3b30-72c8-4b33-b951-1cd275ccfc3b.png';
 
-const linearGradient = (() => {
+const linearGradient = () => {
   const linearGradientArray = [
     'linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)',
     'linear-gradient(135deg, #7474BF 0%, #348AC7 100%)',
@@ -29,10 +29,19 @@ const linearGradient = (() => {
     'linear-gradient(135deg, #8360c3 0%, #2ebf91 100%)',
     'linear-gradient(135deg, #FF512F 0%, #DD2476 100%)',
     'linear-gradient(135deg, #FF512F 0%, #DD2476 100%)',
+    'linear-gradient(140deg, rgb(165, 142, 251), rgb(233, 191, 248))',
+    'linear-gradient(140deg, rgb(207, 47, 152), rgb(106, 61, 236))',
+    'linear-gradient(140deg, rgb(255, 99, 99), rgb(115, 52, 52))',
+    'linear-gradient(140deg, rgb(189, 227, 236), rgb(54, 54, 84))',
+    'linear-gradient(140deg, rgb(89, 212, 153), rgb(160, 135, 45))',
+    'linear-gradient(140deg, rgb(76, 200, 200), rgb(32, 32, 51))',
+    'linear-gradient(140deg, rgb(142, 199, 251), rgb(28, 85, 170))',
+    'linear-gradient(140deg, rgb(255, 207, 115), rgb(255, 122, 47))',
   ];
   const randomGradient = Math.floor(Math.random() * linearGradientArray.length);
+  console.log('will be using ', randomGradient, ' gradient');
   return linearGradientArray[randomGradient];
-})();
+};
 
 const imageTextFontSize = (postCaption) => {
   const postCaptionLength = postCaption.length;
@@ -57,7 +66,7 @@ const cssForImage = (postCaption) => `.box {
     background-image: url('${backgroundImage}');
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('${backgroundImage}'),${linearGradient};
+    background-image: url('${backgroundImage}'),${linearGradient()};
   }
   .footer {
     font-size: 25px;

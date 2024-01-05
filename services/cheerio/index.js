@@ -1,1 +1,347 @@
-function a0_0x2335(){const _0x34f7f9=['prepareSchemeOrSyllabusList','#ContentPlaceHolder1_gvViewAct\x20>\x20tbody','state','ctl00$ContentPlaceHolder1$drpProgram','https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%','&__EVENTTARGET=','771888fzUVvy','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27prepareTimeTableData\x27,\x20error:\x20','url','split','toLowerCase','name','replace','push','&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&','find','error','__doPostBack','program','ctl00$ContentPlaceHolder1$drpSearchGrading','value','644010ejicdb','prepareTimeTableData','&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=','ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C','stateDataProgramListForTimeTable','href','2qGiElg','https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx','trim','undefined','load','5384zUsquf','2763537NQKpSH','7380MANFEo','input#__VIEWSTATE','prepareSchemeOrSyllabusData','html','cheerio','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27stateDataProgramListForTimeTable\x27,\x20error:\x20','https://www.rgpv.ac.in/CDN/PubContent','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27ProgramAndSystemList\x27,\x20error:\x20','.lblHeadingFontType','attr','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27latestAlerts\x27,\x20error:\x20','2832375ugNTru','#ContentPlaceHolder1_drpUploadType','../axios/index','/CDN/PubContent','&__VIEWSTATEGENERATOR=87DDE0DB&__ASYNCPOST=true','#ContentPlaceHolder1_drpSearchGrading','pattern','ProgramAndSystemList','305781igUGcR','#ContentPlaceHolder1_drpProgram','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27prepareSchemeOrSyllabusList\x27,\x20error:\x20','simplePostData','text','77741TzVqzz','schemeORsyllabus','latestAlerts','.link2','each'];a0_0x2335=function(){return _0x34f7f9;};return a0_0x2335();}function a0_0x34b0(_0x1d6622,_0xcc35df){const _0x2335df=a0_0x2335();return a0_0x34b0=function(_0x34b00c,_0x234430){_0x34b00c=_0x34b00c-0x15b;let _0x17a085=_0x2335df[_0x34b00c];return _0x17a085;},a0_0x34b0(_0x1d6622,_0xcc35df);}const a0_0x31ff83=a0_0x34b0;(function(_0x22add8,_0x1e022c){const _0x25dc62=a0_0x34b0,_0x1dd915=_0x22add8();while(!![]){try{const _0xbbd3f0=parseInt(_0x25dc62(0x197))/0x1*(parseInt(_0x25dc62(0x178))/0x2)+-parseInt(_0x25dc62(0x192))/0x3+-parseInt(_0x25dc62(0x163))/0x4+parseInt(_0x25dc62(0x18a))/0x5+-parseInt(_0x25dc62(0x172))/0x6+-parseInt(_0x25dc62(0x17e))/0x7+parseInt(_0x25dc62(0x17d))/0x8*(parseInt(_0x25dc62(0x17f))/0x9);if(_0xbbd3f0===_0x1e022c)break;else _0x1dd915['push'](_0x1dd915['shift']());}catch(_0xa73c17){_0x1dd915['push'](_0x1dd915['shift']());}}}(a0_0x2335,0x616cb));const cheerio=require(a0_0x31ff83(0x183)),axiosFunctions=require(a0_0x31ff83(0x18c));exports[a0_0x31ff83(0x199)]=async()=>{const _0x234f60=a0_0x31ff83;try{const _0x2e169b='https://www.rgpv.ac.in/',_0x49b4e9=await axiosFunctions['simpleGetData'](_0x2e169b),_0x546d3e=cheerio[_0x234f60(0x17c)](_0x49b4e9),_0x5f0acf=[];for(let _0x1affe2=0x1;_0x1affe2<=0x32;_0x1affe2++){const _0x25e818=_0x546d3e('#alert-modal\x20>\x20div\x20>\x20div\x20>\x20div.modal-body\x20>\x20div\x20>\x20div\x20>\x20div:nth-child('+_0x1affe2+')')[_0x234f60(0x182)]();if(null===_0x25e818)continue;_0x546d3e(_0x25e818)[_0x234f60(0x15c)](function(_0x4a1e68,_0x5e2522){const _0x392f38=_0x234f60,_0x10f915={};_0x10f915['content']=_0x546d3e(this)[_0x392f38(0x196)]()[_0x392f38(0x169)]('Click\x20Here\x20to\x20View','')[_0x392f38(0x17a)]();let _0x59d9d6=_0x546d3e(this)[_0x392f38(0x16c)]('a')['attr'](_0x392f38(0x177))?_0x546d3e(this)[_0x392f38(0x16c)]('a')[_0x392f38(0x188)](_0x392f38(0x177)):null;_0x59d9d6&&(_0x59d9d6=_0x59d9d6[_0x392f38(0x169)](/\\/g,'/')[_0x392f38(0x169)](_0x392f38(0x18d),_0x392f38(0x185))[_0x392f38(0x167)]()),_0x10f915[_0x392f38(0x165)]=_0x59d9d6,_0x5f0acf['push'](_0x10f915);});}return _0x5f0acf;}catch(_0x3760ef){console['error'](_0x234f60(0x189)+_0x3760ef);}},exports[a0_0x31ff83(0x191)]=async()=>{const _0x15d39d=a0_0x31ff83;try{const _0x231885=_0x15d39d(0x179),_0x4cada9=await axiosFunctions['simpleGetData'](_0x231885),_0x470045=cheerio[_0x15d39d(0x17c)](_0x4cada9),_0x8ee8c1=[],_0x74aaa7=[],_0x4b5c3a=_0x470045('#ContentPlaceHolder1_drpProgram')[_0x15d39d(0x182)]();_0x470045(_0x4b5c3a)[_0x15d39d(0x15c)](function(_0x34f440,_0x5be9a5){const _0x27126b=_0x15d39d;if(_0x34f440!==0x0&&_0x34f440%0x2!==0x0){const _0x449df8={};_0x449df8[_0x27126b(0x168)]=_0x470045(this)[_0x27126b(0x196)]()[_0x27126b(0x17a)](),_0x449df8['id']=parseInt(_0x470045(this)[_0x27126b(0x188)](_0x27126b(0x171))[_0x27126b(0x17a)](),0xa),_0x8ee8c1[_0x27126b(0x16a)](_0x449df8);}});const _0x53d954=_0x470045(_0x15d39d(0x18f))['html']();return _0x470045(_0x53d954)[_0x15d39d(0x15c)](function(_0x53da53,_0x462853){const _0x14f4b3=_0x15d39d;if(_0x53da53!==0x0&&_0x53da53%0x2!==0x0){const _0x11d2ce={};_0x11d2ce[_0x14f4b3(0x168)]=_0x470045(this)[_0x14f4b3(0x196)]()[_0x14f4b3(0x17a)](),_0x11d2ce['id']=parseInt(_0x470045(this)[_0x14f4b3(0x188)]('value')[_0x14f4b3(0x17a)](),0xa),_0x74aaa7[_0x14f4b3(0x16a)](_0x11d2ce);}}),{'programList':_0x8ee8c1,'systemTypeList':_0x74aaa7};}catch(_0x323936){console[_0x15d39d(0x16d)](_0x15d39d(0x186)+_0x323936);}},exports[a0_0x31ff83(0x176)]=async()=>{const _0x3b11ca=a0_0x31ff83;try{const _0x516d3a=_0x3b11ca(0x161),_0x3bdca1=[],_0x307ddd=await axiosFunctions['simpleGetData'](_0x516d3a),_0x53cdbc=cheerio['load'](_0x307ddd),_0x4a6b62=_0x53cdbc(_0x3b11ca(0x180))[_0x3b11ca(0x188)](_0x3b11ca(0x171)),_0x417300=_0x53cdbc(_0x3b11ca(0x193))['html']();return _0x53cdbc(_0x417300)[_0x3b11ca(0x15c)](function(_0x53d7bd,_0x387dd5){const _0x4fdd20=_0x3b11ca;if(_0x53d7bd!==0x0&&_0x53d7bd%0x2!==0x0){const _0x4d75a0={};_0x4d75a0[_0x4fdd20(0x168)]=_0x53cdbc(this)[_0x4fdd20(0x196)]()[_0x4fdd20(0x17a)](),_0x4d75a0['id']=parseInt(_0x53cdbc(this)[_0x4fdd20(0x188)]('value')[_0x4fdd20(0x17a)](),0xa),_0x3bdca1[_0x4fdd20(0x16a)](_0x4d75a0);}}),{'stateData':_0x4a6b62,'programList':_0x3bdca1};}catch(_0x356ae5){console[_0x3b11ca(0x16d)](_0x3b11ca(0x184)+_0x356ae5);}},exports[a0_0x31ff83(0x173)]=async _0x485dec=>{const _0x30d057=a0_0x31ff83;try{const _0x152607='https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=%24%25',_0x4f9a32=encodeURIComponent(_0x485dec[_0x30d057(0x15f)]),_0x2fcf29=encodeURIComponent(_0x30d057(0x160)),_0x14d150=_0x485dec[_0x30d057(0x16f)],_0x387eb3=_0x30d057(0x175)+_0x2fcf29+'&ctl00%24ContentPlaceHolder1%24drpProgram='+_0x14d150+_0x30d057(0x162)+_0x2fcf29+_0x30d057(0x174)+_0x4f9a32+_0x30d057(0x16b),_0x20d309=await axiosFunctions[_0x30d057(0x195)](_0x152607,_0x387eb3),_0x24a2e9=cheerio[_0x30d057(0x17c)](_0x20d309),_0x2752dd=_0x24a2e9(_0x30d057(0x15e))[_0x30d057(0x182)](),_0x48f33b=[];let _0x4ec88c='';return _0x24a2e9(_0x2752dd)[_0x30d057(0x15c)](function(_0x452a73,_0x3cc984){const _0x4d38d2=_0x30d057;if(0x0!==_0x452a73){let _0x183208=_0x24a2e9(this)+'',_0x2d451f=_0x24a2e9(this)[_0x4d38d2(0x16c)](_0x4d38d2(0x15b))[_0x4d38d2(0x196)]();_0x24a2e9(this)[_0x4d38d2(0x16c)]('.lblHeadingFontType')[_0x4d38d2(0x196)]()[_0x4d38d2(0x169)]('\x20','')!==''&&(_0x4ec88c=_0x24a2e9(this)[_0x4d38d2(0x16c)](_0x4d38d2(0x187))[_0x4d38d2(0x196)]()[_0x4d38d2(0x169)]('\x20',''));_0x183208=_0x183208['split']('__doPostBack')[0x1]+'',_0x183208=_0x183208[_0x4d38d2(0x166)]('\x27')[0x1]+'';if('undefined'!==_0x183208&&_0x4d38d2(0x17b)!==_0x2d451f){const _0x43dd5e={'btn':_0x183208,'title':_0x2d451f,'semester':_0x4ec88c};_0x48f33b[_0x4d38d2(0x16a)](_0x43dd5e);}}}),_0x48f33b;}catch(_0x1abb9a){console['error'](_0x30d057(0x164)+_0x1abb9a);}},exports[a0_0x31ff83(0x181)]=async _0x5f4a15=>{const _0x4d304e=a0_0x31ff83;try{const _0x2a1755=encodeURIComponent(_0x5f4a15['state']),_0x59d6d5=encodeURIComponent(_0x4d304e(0x170)),_0x2a42e5=_0x5f4a15[_0x4d304e(0x16f)],_0x59a9dc=_0x5f4a15[_0x4d304e(0x198)],_0x549302=_0x5f4a15[_0x4d304e(0x190)],_0x57d6fe=_0x4d304e(0x179),_0x214a54='ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C'+_0x59d6d5+'&ctl00%24ContentPlaceHolder1%24drpUploadType='+_0x59a9dc+'&ctl00%24ContentPlaceHolder1%24drpProgram='+_0x2a42e5+'&ctl00%24ContentPlaceHolder1%24drpSearchGrading='+_0x549302+'&__EVENTTARGET='+_0x59d6d5+_0x4d304e(0x174)+_0x2a1755+_0x4d304e(0x18e),_0x20743b=await axiosFunctions[_0x4d304e(0x195)](_0x57d6fe,_0x214a54),_0x46fdc7=cheerio[_0x4d304e(0x17c)](_0x20743b),_0x3a8758=_0x46fdc7('#ContentPlaceHolder1_gvViewAct\x20>\x20tbody')[_0x4d304e(0x182)](),_0x4fe979=[];let _0x39db2b='';return _0x46fdc7(_0x3a8758)['each'](function(_0x1dac35,_0x1c7421){const _0x16d90d=_0x4d304e;if(0x0!==_0x1dac35){let _0x560993=_0x46fdc7(this)+'',_0x144c82=_0x46fdc7(this)[_0x16d90d(0x16c)](_0x16d90d(0x15b))['text']();_0x46fdc7(this)[_0x16d90d(0x16c)](_0x16d90d(0x187))[_0x16d90d(0x196)]()['replace']('\x20','')!==''&&(_0x39db2b=_0x46fdc7(this)[_0x16d90d(0x16c)](_0x16d90d(0x187))[_0x16d90d(0x196)]()[_0x16d90d(0x169)]('\x20',''));_0x560993=_0x560993['split'](_0x16d90d(0x16e))[0x1]+'',_0x560993=_0x560993[_0x16d90d(0x166)]('\x27')[0x1]+'';if(_0x16d90d(0x17b)!==_0x560993&&'undefined'!==_0x144c82){const _0x3ff06d={'btn':_0x560993,'title':_0x144c82,'semester':_0x39db2b};_0x4fe979[_0x16d90d(0x16a)](_0x3ff06d);}}}),_0x4fe979;}catch(_0x3cc685){console['error']('Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27prepareSchemeOrSyllabusData\x27,\x20error:\x20'+_0x3cc685);}},exports[a0_0x31ff83(0x15d)]=async()=>{const _0x40e0ad=a0_0x31ff83;try{const _0x44f786=_0x40e0ad(0x179),_0x7c7029=await axiosFunctions['simpleGetData'](_0x44f786),_0x5af72c=cheerio[_0x40e0ad(0x17c)](_0x7c7029),_0x3708fb=_0x5af72c('input#__VIEWSTATE')[_0x40e0ad(0x188)](_0x40e0ad(0x171)),_0x3bd81d=_0x5af72c(_0x40e0ad(0x193))[_0x40e0ad(0x182)](),_0x2cfdd1=[];_0x5af72c(_0x3bd81d)['each'](function(_0x590806,_0x1f5019){const _0xdbd4b7=_0x40e0ad;if(_0x590806!==0x0&&_0x590806%0x2!==0x0){const _0x370b9b={};_0x370b9b[_0xdbd4b7(0x168)]=_0x5af72c(this)[_0xdbd4b7(0x196)]()[_0xdbd4b7(0x17a)](),_0x370b9b['id']=parseInt(_0x5af72c(this)[_0xdbd4b7(0x188)](_0xdbd4b7(0x171))[_0xdbd4b7(0x17a)](),0xa),_0x2cfdd1[_0xdbd4b7(0x16a)](_0x370b9b);}});const _0x16bd71=_0x5af72c(_0x40e0ad(0x18b))['html'](),_0x10858e=[];_0x5af72c(_0x16bd71)[_0x40e0ad(0x15c)](function(_0x3a7541,_0x3fefe0){const _0x4e96d1=_0x40e0ad;if(_0x3a7541!==0x0&&_0x3a7541%0x2!==0x0){const _0x516d35={};_0x516d35[_0x4e96d1(0x168)]=_0x5af72c(this)[_0x4e96d1(0x196)]()[_0x4e96d1(0x17a)](),_0x516d35['id']=parseInt(_0x5af72c(this)[_0x4e96d1(0x188)](_0x4e96d1(0x171))[_0x4e96d1(0x17a)](),0xa),_0x10858e[_0x4e96d1(0x16a)](_0x516d35);}});const _0x33bfd5=_0x5af72c('#ContentPlaceHolder1_drpSearchGrading')[_0x40e0ad(0x182)](),_0x21a108=[];return _0x5af72c(_0x33bfd5)[_0x40e0ad(0x15c)](function(_0x54af82,_0x3c56cd){const _0x2a9375=_0x40e0ad;if(_0x54af82!==0x0&&_0x54af82%0x2!==0x0){const _0x585f11={};_0x585f11[_0x2a9375(0x168)]=_0x5af72c(this)[_0x2a9375(0x196)]()['trim'](),_0x585f11['id']=parseInt(_0x5af72c(this)[_0x2a9375(0x188)]('value')[_0x2a9375(0x17a)](),0xa),_0x21a108[_0x2a9375(0x16a)](_0x585f11);}}),{'stateData':_0x3708fb,'programList':_0x2cfdd1,'programTypeList':_0x10858e,'systemTypeList':_0x21a108};}catch(_0x1bea60){console['error'](_0x40e0ad(0x194)+_0x1bea60);}};
+const cheerio = require('cheerio');
+const axiosFunctions = require('../axios/index');
+
+const rgpvHeaders = {
+  authority: 'www.rgpv.ac.in',
+  'sec-ch-ua':
+    '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'user-agent':
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'cache-control': 'no-cache',
+  'x-requested-with': 'XMLHttpRequest',
+  'x-microsoftajax': 'Delta=true',
+  'sec-ch-ua-platform': '"Windows"',
+  accept: '*/*',
+  origin: 'https://www.rgpv.ac.in',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%',
+  'accept-language': 'en-GB,en;q=0.9',
+  cookie: 'ASP.NET_SessionId=hznbm3vovcoagebriewkhpw0',
+  dnt: '1',
+  'sec-gpc': '1',
+};
+
+/**
+ * This function fetches html page of RGPV university.
+ * Search through all the tabs (max 50, realistically there may be 10 tabs at max).
+ * Compile a list of all the found news by pushing each news it found on an array.
+ * @returns {Array} recentNews
+ */
+
+exports.latestAlerts = async () => {
+  try {
+    const sourceURL = 'https://www.rgpv.ac.in/';
+    const html = await axiosFunctions.simpleGetData(sourceURL);
+    const $ = cheerio.load(html);
+    const recentNews = [];
+
+    for (let tabNumber = 1; tabNumber <= 50; tabNumber++) {
+      const alertModal = $(
+        `#alert-modal > div > div > div.modal-body > div > div > div:nth-child(${tabNumber})`,
+      ).html();
+
+      if (null === alertModal) {
+        continue;
+      }
+
+      $(alertModal).each(function (i, elem) {
+        const news = {};
+        news.content = $(this).text().replace('Click Here to View', '').trim();
+        let url = $(this).find('a').attr('href')
+          ? $(this).find('a').attr('href')
+          : null;
+        if (url) {
+          url = url
+            .replace(/\\/g, '/')
+            .replace('/CDN/PubContent', 'https://www.rgpv.ac.in/CDN/PubContent')
+            .toLowerCase();
+        }
+        news.url = url;
+        recentNews.push(news);
+      });
+    }
+    return recentNews;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'latestAlerts', error: ${error}`,
+    );
+  }
+};
+
+/**
+ * This function returns a list of all the programs & system with their respective id's.
+ * We are using this for /info end point of the API
+ * @returns {Object}
+ */
+exports.ProgramAndSystemList = async () => {
+  try {
+    const sourceURL = 'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
+    const html = await axiosFunctions.simpleGetData(sourceURL);
+    const $ = cheerio.load(html);
+    const programList = [];
+    const systemList = [];
+
+    // Prepare program list
+    const drpProgramList = $('#ContentPlaceHolder1_drpProgram').html();
+    $(drpProgramList).each(function (i, elem) {
+      if (i !== 0 && i % 2 !== 0) {
+        const program = {};
+        program.name = $(this).text().trim();
+        program.id = parseInt($(this).attr('value').trim(), 10);
+        programList.push(program);
+      }
+    });
+
+    // Prepare system list
+    const drpSystemType = $('#ContentPlaceHolder1_drpSearchGrading').html();
+    $(drpSystemType).each(function (i, elem) {
+      if (i !== 0 && i % 2 !== 0) {
+        const systemType = {};
+        systemType.name = $(this).text().trim();
+        systemType.id = parseInt($(this).attr('value').trim(), 10);
+        systemList.push(systemType);
+      }
+    });
+
+    return {
+      programList: programList,
+      systemTypeList: systemList,
+    };
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'ProgramAndSystemList', error: ${error}`,
+    );
+  }
+};
+
+/**
+ * This function will return a list of programs & state data
+ * @returns {Object}
+ */
+exports.stateDataProgramListForTimeTable = async () => {
+  try {
+    const timeTableUrl = 'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=$%';
+    const programList = [];
+
+    const html = await axiosFunctions.simpleGetData(timeTableUrl);
+    const $ = cheerio.load(html);
+
+    const stateData = $('input#__VIEWSTATE').attr('value');
+    const drpProgramList = $('#ContentPlaceHolder1_drpProgram').html();
+
+    $(drpProgramList).each(function (i, elem) {
+      if (i !== 0 && i % 2 !== 0) {
+        const program = {};
+        program.name = $(this).text().trim();
+        program.id = parseInt($(this).attr('value').trim(), 10);
+        programList.push(program);
+      }
+    });
+
+    return {
+      stateData: stateData,
+      programList: programList,
+    };
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'stateDataProgramListForTimeTable', error: ${error}`,
+    );
+  }
+};
+
+/**
+ *
+ * @param {Object} stateAndProgramData - This object will contain a list of programs & state data
+ * @returns {Array} timetableList -This will return list with all table data
+ */
+exports.prepareTimeTableData = async (stateAndProgramData) => {
+  try {
+    const fetchDataFromUrl =
+      'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=%24%25';
+    const __VIEWSTATE = encodeURIComponent(stateAndProgramData.state);
+    const __EVENTTARGET = encodeURIComponent(
+      'ctl00$ContentPlaceHolder1$drpProgram',
+    );
+    const drpProgram = stateAndProgramData.program;
+
+    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&`;
+
+    const responseData = await axiosFunctions.simplePostData(
+      fetchDataFromUrl,
+      postData,
+      rgpvHeaders,
+    );
+
+    const $ = cheerio.load(responseData);
+    const tableData = $('#ContentPlaceHolder1_gvViewAct > tbody').html();
+    const timetableList = [];
+    let semester = '';
+
+    $(tableData).each(function (i, elem) {
+      if (0 !== i) {
+        let programPostBack = $(this) + '';
+        // let title =
+        //   $(this).find('.lblHeadingFontType').text().replace(' ', '') +
+        //   ' - ' +
+        //   $(this).find('.link2').text();
+
+        let title = $(this).find('.link2').text();
+        if (
+          $(this).find('.lblHeadingFontType').text().replace(' ', '') !== ''
+        ) {
+          semester = $(this)
+            .find('.lblHeadingFontType')
+            .text()
+            .replace(' ', '');
+        }
+
+        programPostBack = programPostBack.split('__doPostBack')[1] + '';
+        programPostBack = programPostBack.split("'")[1] + '';
+
+        if ('undefined' !== programPostBack && 'undefined' !== title) {
+          const timetable = {
+            btn: programPostBack,
+            title: title,
+            semester: semester,
+          };
+          timetableList.push(timetable);
+        }
+      }
+    });
+
+    return timetableList;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'prepareTimeTableData', error: ${error}`,
+    );
+  }
+};
+
+/**
+ *
+ * @param {Object} bodyData - This object will contain state data, program id, drpUploadType (scheme or syllabus) and drpSearchGrading
+ * @returns {Array} schemeSyllabusList - A list of all scheme or syllabus data
+ */
+exports.prepareSchemeOrSyllabusData = async (bodyData) => {
+  try {
+    const __VIEWSTATE = encodeURIComponent(bodyData.state);
+    const __EVENTTARGET = encodeURIComponent(
+      'ctl00$ContentPlaceHolder1$drpSearchGrading',
+    );
+    const drpProgram = bodyData.program;
+    const drpUploadType = bodyData.schemeORsyllabus; // 1 for scheme, 2 for syllabus
+    const drpSearchGrading = bodyData.pattern;
+
+    const schemeOrSyllabusDataUrl =
+      'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
+    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpUploadType=${drpUploadType}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&ctl00%24ContentPlaceHolder1%24drpSearchGrading=${drpSearchGrading}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=87DDE0DB&__ASYNCPOST=true`;
+
+    const responseData = await axiosFunctions.simplePostData(
+      schemeOrSyllabusDataUrl,
+      postData,
+      rgpvHeaders,
+    );
+
+    const $ = cheerio.load(responseData);
+    const schemeSyllabusData = $(
+      '#ContentPlaceHolder1_gvViewAct > tbody',
+    ).html();
+    const schemeSyllabusList = [];
+    let semester = '';
+
+    $(schemeSyllabusData).each(function (i, elem) {
+      if (0 !== i) {
+        let programPostBack = $(this) + '';
+        // let title =
+        //   $(this).find('.lblHeadingFontType').text().replace(' ', '') +
+        //   ' - ' +
+        //   $(this).find('.link2').text();
+        let title = $(this).find('.link2').text();
+        if (
+          $(this).find('.lblHeadingFontType').text().replace(' ', '') !== ''
+        ) {
+          semester = $(this)
+            .find('.lblHeadingFontType')
+            .text()
+            .replace(' ', '');
+        }
+        programPostBack = programPostBack.split('__doPostBack')[1] + '';
+        programPostBack = programPostBack.split("'")[1] + '';
+        if ('undefined' !== programPostBack && 'undefined' !== title) {
+          const schemeSyllabus = {
+            btn: programPostBack,
+            title: title,
+            semester: semester,
+          };
+          schemeSyllabusList.push(schemeSyllabus);
+        }
+      }
+    });
+    return schemeSyllabusList;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'prepareSchemeOrSyllabusData', error: ${error}`,
+    );
+  }
+};
+
+/**
+ * This function will prepare stateData, a list of programs, a list of type, a list of system
+ * @returns  {Object} - This object will contain stateData, programList, typeList, systemList
+ */
+exports.prepareSchemeOrSyllabusList = async () => {
+  try {
+    const sourceURL = 'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
+    const html = await axiosFunctions.simpleGetData(sourceURL);
+    const $ = cheerio.load(html);
+
+    const stateData = $('input#__VIEWSTATE').attr('value');
+    const drpProgramList = $('#ContentPlaceHolder1_drpProgram').html();
+    const programList = [];
+    $(drpProgramList).each(function (i, elem) {
+      if (i !== 0 && i % 2 !== 0) {
+        const program = {};
+        program.name = $(this).text().trim();
+        program.id = parseInt($(this).attr('value').trim(), 10);
+        programList.push(program);
+      }
+    });
+
+    const drpProgramType = $('#ContentPlaceHolder1_drpUploadType').html();
+    const typeList = [];
+    $(drpProgramType).each(function (i, elem) {
+      if (i !== 0 && i % 2 !== 0) {
+        const programType = {};
+        programType.name = $(this).text().trim();
+        programType.id = parseInt($(this).attr('value').trim(), 10);
+        typeList.push(programType);
+      }
+    });
+
+    const drpSystemType = $('#ContentPlaceHolder1_drpSearchGrading').html();
+    const systemList = [];
+    $(drpSystemType).each(function (i, elem) {
+      if (i !== 0 && i % 2 !== 0) {
+        const systemType = {};
+        systemType.name = $(this).text().trim();
+        systemType.id = parseInt($(this).attr('value').trim(), 10);
+        systemList.push(systemType);
+      }
+    });
+
+    return {
+      stateData: stateData,
+      programList: programList,
+      programTypeList: typeList,
+      systemTypeList: systemList,
+    };
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'prepareSchemeOrSyllabusList', error: ${error}`,
+    );
+  }
+};

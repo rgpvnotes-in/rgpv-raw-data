@@ -1,1 +1,20 @@
-function a0_0x11f4(_0x583716,_0x2c0e7f){const _0x524c6e=a0_0x524c();return a0_0x11f4=function(_0x11f42a,_0x4a57dc){_0x11f42a=_0x11f42a-0x98;let _0x439066=_0x524c6e[_0x11f42a];return _0x439066;},a0_0x11f4(_0x583716,_0x2c0e7f);}function a0_0x524c(){const _0xdf47ef=['error','255013KbhqjF','8028jNzoXL','stringify','dist/info.json','6454lIyOJr','./services/cheerio/index','5964876mFHZLE','20QKvwlE','283980Eoainy','ProgramAndSystemList','8276sfcutP','458764FuNGTN','28LoZvOV','1362xrCOFx','4288jVkixq','writeFile','140EUnzAB'];a0_0x524c=function(){return _0xdf47ef;};return a0_0x524c();}const a0_0x1b9b0d=a0_0x11f4;(function(_0x1d776c,_0x53b0ce){const _0x3a7610=a0_0x11f4,_0x42158a=_0x1d776c();while(!![]){try{const _0x3d513e=parseInt(_0x3a7610(0x9a))/0x1*(parseInt(_0x3a7610(0x9c))/0x2)+-parseInt(_0x3a7610(0x98))/0x3+parseInt(_0x3a7610(0x9b))/0x4*(parseInt(_0x3a7610(0xa9))/0x5)+parseInt(_0x3a7610(0x9d))/0x6*(parseInt(_0x3a7610(0xa6))/0x7)+parseInt(_0x3a7610(0x9e))/0x8*(-parseInt(_0x3a7610(0xa3))/0x9)+-parseInt(_0x3a7610(0xa0))/0xa*(parseInt(_0x3a7610(0xa2))/0xb)+parseInt(_0x3a7610(0xa8))/0xc;if(_0x3d513e===_0x53b0ce)break;else _0x42158a['push'](_0x42158a['shift']());}catch(_0x2ce4db){_0x42158a['push'](_0x42158a['shift']());}}}(a0_0x524c,0x5daad));const fs=require('fs'),cheerioFunctions=require(a0_0x1b9b0d(0xa7)),write_info_parameter_data=async()=>{const _0x138cd4=a0_0x1b9b0d;try{const _0xe4f7aa=await cheerioFunctions[_0x138cd4(0x99)]();fs[_0x138cd4(0x9f)](_0x138cd4(0xa5),JSON[_0x138cd4(0xa4)](_0xe4f7aa),_0x3a88b4=>{if(_0x3a88b4){console['error']('error\x20while\x20writing\x20file');return;}});}catch(_0x591471){console[_0x138cd4(0xa1)]('some\x20error\x20occurred'),write_info_parameter_data();}};write_info_parameter_data();
+const fs = require('fs');
+const cheerioFunctions = require('./services/cheerio/index');
+
+const write_info_parameter_data = async () => {
+  try {
+    const informationData = await cheerioFunctions.ProgramAndSystemList();
+
+    fs.writeFile('dist/info.json', JSON.stringify(informationData), (err) => {
+      if (err) {
+        console.error('error while writing file');
+        return;
+      }
+      //file written successfully
+    });
+  } catch (error) {
+    console.error('some error occurred');
+    write_info_parameter_data();
+  }
+};
+write_info_parameter_data();

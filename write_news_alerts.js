@@ -1,1 +1,250 @@
-function a0_0x824a(){const _0x2c2b73=['config','Duplicate\x20entry!','getClient','2388fFevNt','url','getFullYear','values','26240HAELRc','2XYqFqa','md5','USER_ENTERED','length','POST_RECENT_NEWS_URL','shortened','find','5978679syTrpm','POST_NEWS_PASSWORD','2500684gKkzxB','1845ZPjXvG','simplePostData','sheets','slice','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27writeFullDataToApi\x27,\x20error:\x20','auth','log','shortUrl','push','trim','padStart','env','7913464Llxfre','3LxjbyB','content','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27writeDataToSheet\x27,\x20error:\x20','spreadsheets','SHORT_URL_PASSWORD','credentials.json','max','toLowerCase','updateNewsOnApiServer','googleapis','1507685owlDKg','news_','new\x20short\x20url\x20generated','error','POST_ALL_NEWS_URL','append','Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27readDataFromSheet\x27,\x20error:\x20','data','latestAlerts','./services/cheerio/index','1031454yWDfvD','https://www.googleapis.com/auth/spreadsheets','GoogleAuth'];a0_0x824a=function(){return _0x2c2b73;};return a0_0x824a();}const a0_0x59b5a4=a0_0x376e;(function(_0x1655cd,_0x1e94a3){const _0x2776a4=a0_0x376e,_0x3a582f=_0x1655cd();while(!![]){try{const _0x1bcc80=-parseInt(_0x2776a4(0x16c))/0x1*(parseInt(_0x2776a4(0x161))/0x2)+parseInt(_0x2776a4(0x183))/0x3*(parseInt(_0x2776a4(0x175))/0x4)+-parseInt(_0x2776a4(0x18d))/0x5+-parseInt(_0x2776a4(0x167))/0x6+parseInt(_0x2776a4(0x173))/0x7+parseInt(_0x2776a4(0x182))/0x8+parseInt(_0x2776a4(0x176))/0x9*(-parseInt(_0x2776a4(0x16b))/0xa);if(_0x1bcc80===_0x1e94a3)break;else _0x3a582f['push'](_0x3a582f['shift']());}catch(_0x241bab){_0x3a582f['push'](_0x3a582f['shift']());}}}(a0_0x824a,0x91c96));const {google}=require(a0_0x59b5a4(0x18c)),md5=require(a0_0x59b5a4(0x16d)),cheerioFunctions=require(a0_0x59b5a4(0x160)),axiosFunctions=require('./services/axios/index');require('dotenv')[a0_0x59b5a4(0x164)]();function a0_0x376e(_0x6a1202,_0x1e7846){const _0x824ae4=a0_0x824a();return a0_0x376e=function(_0x376eef,_0x3ec170){_0x376eef=_0x376eef-0x15c;let _0x312eb7=_0x824ae4[_0x376eef];return _0x312eb7;},a0_0x376e(_0x6a1202,_0x1e7846);}const spreadsheetId=process[a0_0x59b5a4(0x181)]['SPREADSHEET_ID'],writeFullDataToApi=async()=>{const _0x2dc602=a0_0x59b5a4;try{const _0x2f01a8=process[_0x2dc602(0x181)][_0x2dc602(0x191)],_0x5091bc=process[_0x2dc602(0x181)][_0x2dc602(0x174)];let _0x39ccaf=await readDataFromSheet();_0x39ccaf=_0x39ccaf[_0x2dc602(0x179)](Math[_0x2dc602(0x189)](_0x39ccaf[_0x2dc602(0x16f)]-0x64,0x0));const _0x3870d6=[];for(const _0x15cb4e of _0x39ccaf){const _0x22a132={'accessId':_0x15cb4e[0x0],'content':_0x15cb4e[0x3],'url':_0x15cb4e[0x5]??null};_0x3870d6[_0x2dc602(0x17e)](_0x22a132);}await axiosFunctions[_0x2dc602(0x18b)](_0x2f01a8,_0x5091bc,_0x3870d6);}catch(_0x2ca783){console[_0x2dc602(0x190)](_0x2dc602(0x17a)+_0x2ca783);}},writeRecentDataToApi=async _0x43bfaf=>{const _0x1146ec=a0_0x59b5a4;try{const _0x193d1e=process[_0x1146ec(0x181)][_0x1146ec(0x170)],_0x14fd21=process[_0x1146ec(0x181)][_0x1146ec(0x174)];await axiosFunctions[_0x1146ec(0x18b)](_0x193d1e,_0x14fd21,_0x43bfaf);}catch(_0x474860){console[_0x1146ec(0x190)]('Something\x20went\x20wrong\x20with\x20this\x20request:\x20Called\x20by:\x20\x27writeRecentDataToApi\x27,\x20error:\x20'+_0x474860);}},readDataFromSheet=async()=>{const _0xda0e7a=a0_0x59b5a4;try{const _0xa7b66f=new google[(_0xda0e7a(0x17b))][(_0xda0e7a(0x163))]({'keyFile':'credentials.json','scopes':_0xda0e7a(0x162)}),_0x4cb4ce=await _0xa7b66f[_0xda0e7a(0x166)](),_0x4f0e57=google['sheets']({'version':'v4','auth':_0x4cb4ce}),_0x15329a=await _0x4f0e57[_0xda0e7a(0x186)]['values']['get']({'auth':_0xa7b66f,'spreadsheetId':spreadsheetId,'range':'Sheet1!A2:F'});return _0x15329a[_0xda0e7a(0x15e)][_0xda0e7a(0x16a)];}catch(_0x1d56f6){console[_0xda0e7a(0x190)](_0xda0e7a(0x15d)+_0x1d56f6);}},writeDataToSheet=async()=>{const _0x1d2475=a0_0x59b5a4;try{const _0x1aa41e=await cheerioFunctions[_0x1d2475(0x15f)]();let _0x396e85=![];const _0x1ce90d=new google[(_0x1d2475(0x17b))][(_0x1d2475(0x163))]({'keyFile':_0x1d2475(0x188),'scopes':_0x1d2475(0x162)}),_0x3bf0a7=await _0x1ce90d[_0x1d2475(0x166)](),_0x24a7ae=google[_0x1d2475(0x178)]({'version':'v4','auth':_0x3bf0a7});for(const _0x268d84 of _0x1aa41e){_0x268d84[_0x1d2475(0x184)]=_0x268d84[_0x1d2475(0x184)][_0x1d2475(0x17f)](),_0x268d84[_0x1d2475(0x168)]=_0x268d84[_0x1d2475(0x168)]?_0x268d84[_0x1d2475(0x168)][_0x1d2475(0x18a)]():null,_0x268d84[_0x1d2475(0x17d)]=null;const _0x21b7f3=_0x268d84['url']?md5(''+_0x268d84[_0x1d2475(0x184)]+_0x268d84[_0x1d2475(0x168)]):md5(''+_0x268d84['content']),_0x7f6fc7=await readDataFromSheet();if(_0x268d84[_0x1d2475(0x168)]){const _0x46fdf9=_0x7f6fc7?.[_0x1d2475(0x172)](_0xf08e0b=>_0xf08e0b[0x4]===_0x268d84[_0x1d2475(0x168)]);if(undefined==_0x46fdf9){const _0x34a7a8=process['env']['SHORT_URL_GENERATOR_URL'],_0x2e9635={'password':process[_0x1d2475(0x181)][_0x1d2475(0x187)],'url':_0x268d84[_0x1d2475(0x168)]},_0x14b339=await axiosFunctions[_0x1d2475(0x177)](_0x34a7a8,_0x2e9635);_0x268d84[_0x1d2475(0x17d)]=_0x14b339[_0x1d2475(0x171)],console['log'](_0x1d2475(0x18f),_0x14b339[_0x1d2475(0x171)]);}else _0x268d84['shortUrl']=_0x46fdf9[0x5];}const _0x154c3a=_0x7f6fc7?.[_0x1d2475(0x172)](_0x34d3f3=>_0x34d3f3[0x2]===_0x21b7f3);if(undefined==_0x154c3a){const _0x56220f=_0x1d2475(0x18e)+((_0x7f6fc7?.[_0x1d2475(0x16f)]??0x0)+0x1);_0x396e85=!![];let _0x131bda=new Date();const _0x48be4d=String(_0x131bda['getDate']())[_0x1d2475(0x180)](0x2,'0'),_0x1690e3=String(_0x131bda['getMonth']()+0x1)[_0x1d2475(0x180)](0x2,'0'),_0x5a3798=_0x131bda[_0x1d2475(0x169)]();_0x131bda=_0x48be4d+'/'+_0x1690e3+'/'+_0x5a3798;const _0xab3409=[_0x56220f,_0x131bda,_0x21b7f3,_0x268d84[_0x1d2475(0x184)],_0x268d84['url'],_0x268d84[_0x1d2475(0x17d)]];await _0x24a7ae[_0x1d2475(0x186)]['values'][_0x1d2475(0x15c)]({'auth':_0x1ce90d,'spreadsheetId':spreadsheetId,'range':'Sheet1!A:F','valueInputOption':_0x1d2475(0x16e),'resource':{'values':[_0xab3409]}});}else console[_0x1d2475(0x17c)](_0x1d2475(0x165));}if(!![]===_0x396e85){writeFullDataToApi();for(const _0x557a6e of _0x1aa41e){_0x557a6e[_0x1d2475(0x168)]=_0x557a6e[_0x1d2475(0x17d)],delete _0x557a6e[_0x1d2475(0x17d)];}writeRecentDataToApi(_0x1aa41e);}}catch(_0x1946b5){console['error'](_0x1d2475(0x185)+_0x1946b5);}};writeDataToSheet();
+const { google } = require('googleapis');
+const md5 = require('md5');
+const cheerioFunctions = require('./services/cheerio/index');
+const axiosFunctions = require('./services/axios/index');
+require('dotenv').config();
+const axios = require('axios');
+
+const { shareOnSocialMedia } = require('./services/socialMediaShare/index');
+
+const spreadsheetId = process.env.SPREADSHEET_ID;
+
+/**
+ * Write data to API server.
+ * It takes POST url from ENV file & using PUT method send the data from google sheet to API server.
+ * Password is required to update data on API server & this password is stored in ENV file.
+ */
+
+const writeFullDataToApi = async () => {
+  try {
+    const urlToUpdateAllNews = process.env.POST_ALL_NEWS_URL;
+    const password = process.env.POST_NEWS_PASSWORD;
+
+    let readNews = await readDataFromSheet(); // read all data from google sheet
+    readNews = readNews.slice(Math.max(readNews.length - 100, 0)); // slice to only show last 100 entry
+
+    const accessData = [];
+    for (const news of readNews) {
+      const data = {
+        accessId: news[0],
+        content: news[3],
+        url: news[5] ?? null,
+      };
+      accessData.push(data);
+    }
+    await axiosFunctions.updateNewsOnApiServer(
+      urlToUpdateAllNews,
+      password,
+      accessData,
+    );
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'writeFullDataToApi', error: ${error}`,
+    );
+  }
+};
+
+/**
+ * @params Array - recent news fetched from RGPV website
+ * Write data to Recent API server.
+ * It takes POST url from ENV file & using PUT method send the data from RGPV website to API server.
+ * Password is required to update data on API server & this password is stored in ENV file.
+ */
+
+const writeRecentDataToApi = async (newsData) => {
+  try {
+    const urlToUpdateRecentNews = process.env.POST_RECENT_NEWS_URL;
+    const password = process.env.POST_NEWS_PASSWORD;
+    await axiosFunctions.updateNewsOnApiServer(
+      urlToUpdateRecentNews,
+      password,
+      newsData,
+    );
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'writeRecentDataToApi', error: ${error}`,
+    );
+  }
+};
+
+/**
+ * It reads all the available news entry in google sheet & return them as response.
+ * Credentials.json file is required to read data from sheet.
+ *
+ * @returns Array
+ */
+
+const readDataFromSheet = async () => {
+  try {
+    const auth = new google.auth.GoogleAuth({
+      keyFile: 'credentials.json',
+      scopes: 'https://www.googleapis.com/auth/spreadsheets',
+    });
+
+    // Create client instance for auth
+    const client = await auth.getClient();
+
+    // Instance of Google Sheets API
+    const googleSheets = google.sheets({ version: 'v4', auth: client });
+
+    // Read rows from spreadsheet
+    const getRows = await googleSheets.spreadsheets.values.get({
+      auth,
+      spreadsheetId,
+      range: 'Sheet1!A2:F',
+    });
+    return getRows.data.values;
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'readDataFromSheet', error: ${error}`,
+    );
+  }
+};
+
+/**
+ * This is entry function
+ * 1. Gets list of recent news from rgpv website.
+ * 2. Write recent news data to API server
+ * 3. Check if there is any new news alerts available on that file.
+ * 4. If any new alert is present it will add it in the google sheet.
+ * 5. If news alert is already available in the list it will just console log the message.
+ * 6. Trigger writeFullDataToApi function to write data on API server.
+ */
+
+const writeDataToSheet = async () => {
+  try {
+    const latestAlerts = await cheerioFunctions.latestAlerts();
+    let ApiServerShouldUpdate = false; // if new entries are found then only update KV for news
+
+    /**
+     * Write new news alert to google sheet
+     */
+
+    const auth = new google.auth.GoogleAuth({
+      keyFile: 'credentials.json',
+      scopes: 'https://www.googleapis.com/auth/spreadsheets',
+    });
+
+    // Create client instance for auth
+    const client = await auth.getClient();
+
+    // Instance of Google Sheets API
+    const googleSheets = google.sheets({ version: 'v4', auth: client });
+
+    for (const news of latestAlerts) {
+      news.content = news.content.trim();
+      news.url = news.url ? news.url.toLowerCase() : null;
+      news.shortUrl = null;
+      const newsMd5 = news.url
+        ? md5(`${news.content}${news.url}`)
+        : md5(`${news.content}`);
+
+      const readNews = await readDataFromSheet();
+
+      // URL encoding
+      news.url = encodeURI(news.url);
+
+      // check if this is a new news alert or already available on sheet
+      const isAvailable = readNews?.find((element) => element[2] === newsMd5);
+      if (undefined == isAvailable) {
+        // check if alert have URL, if available check if we have short URL for that, if not, generate it
+        if (news.url) {
+          const isUrlAvailable = readNews?.find(
+            (element) => element[4] === news.url,
+          );
+          if (undefined == isUrlAvailable) {
+            // if not available generate short url
+            const fetchDataFromUrl = process.env.SHORT_URL_GENERATOR_URL;
+            const postData = {
+              password: process.env.SHORT_URL_PASSWORD,
+              url: news.url,
+            };
+
+            // const responseData = await axiosFunctions.simplePostData2(
+            //   fetchDataFromUrl,
+            //   postData,
+            // );
+
+            try {
+              const responseData = await axios.post(
+                fetchDataFromUrl,
+                {
+                  password: process.env.SHORT_URL_PASSWORD,
+                  url: news.url,
+                },
+              );
+              if (responseData && responseData.isSuccess) {
+                news.shortUrl = responseData.data.shortened;
+              }
+            } catch (error) {
+              news.shortUrl = null;
+              console.log('failed to generate short URL, returning null');
+            }
+          } else {
+            news.shortUrl = isUrlAvailable[5];
+          }
+        }
+
+        const accessId = `news_${(readNews?.length ?? 0) + 1}`;
+        ApiServerShouldUpdate = true; // new entries are found so API server should be updated
+
+        let today = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        const yyyy = today.getFullYear();
+
+        today = `${dd}/${mm}/${yyyy}`;
+
+        const alertValue = [
+          accessId,
+          today,
+          newsMd5,
+          news.content,
+          news.url,
+          news.shortUrl,
+        ];
+
+        // Write row(s) to spreadsheet
+        await googleSheets.spreadsheets.values.append({
+          auth,
+          spreadsheetId,
+          range: 'Sheet1!A:F',
+          valueInputOption: 'USER_ENTERED',
+          resource: {
+            values: [alertValue],
+          },
+        });
+
+        // after writing news to google sheet share it on social media
+        await shareOnSocialMedia(news.content, news.shortUrl || news.url);
+
+        // TODO
+        // code to make post on social media
+      } else {
+        console.log('Duplicate entry!');
+      }
+    }
+
+    if (true === ApiServerShouldUpdate) {
+      /**
+       * Update all news alert to API server
+       */
+      writeFullDataToApi();
+
+      /**
+       * Update latest news alert to API server
+       */
+      for (const news of latestAlerts) {
+        news.url = news.shortUrl;
+        delete news.shortUrl;
+      }
+      writeRecentDataToApi(latestAlerts);
+    }
+  } catch (error) {
+    console.error(
+      `Something went wrong with this request: Called by: 'writeDataToSheet', error: ${error}`,
+    );
+  }
+};
+
+writeDataToSheet();

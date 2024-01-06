@@ -26,12 +26,9 @@ const rgpvHeaders = {
 };
 
 /**
- * This function fetches html page of RGPV university.
- * Search through all the tabs (max 50, realistically there may be 10 tabs at max).
- * Compile a list of all the found news by pushing each news it found on an array.
- * @returns {Array} recentNews
+ * Fetches the latest alerts from the RGPV university website.
+ * @returns {Promise<Array>} An array of recent news objects.
  */
-
 exports.latestAlerts = async () => {
   try {
     const sourceURL = 'https://www.rgpv.ac.in/';
@@ -44,16 +41,14 @@ exports.latestAlerts = async () => {
         `#alert-modal > div > div > div.modal-body > div > div > div:nth-child(${tabNumber})`,
       ).html();
 
-      if (null === alertModal) {
+      if (!alertModal) {
         continue;
       }
 
       $(alertModal).each(function (i, elem) {
         const news = {};
         news.content = $(this).text().replace('Click Here to View', '').trim();
-        let url = $(this).find('a').attr('href')
-          ? $(this).find('a').attr('href')
-          : null;
+        let url = $(this).find('a').attr('href') || null;
         if (url) {
           url = url
             .replace(/\\/g, '/')
@@ -66,16 +61,13 @@ exports.latestAlerts = async () => {
     }
     return recentNews;
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'latestAlerts', error: ${error}`,
-    );
+    console.error(`Error in latestAlerts: ${error}`);
   }
 };
 
 /**
- * This function returns a list of all the programs & system with their respective id's.
- * We are using this for /info end point of the API
- * @returns {Object}
+ * Retrieves a list of programs and system types from the RGPV website.
+ * @returns {Promise<Object>} An object containing programList and systemTypeList.
  */
 exports.ProgramAndSystemList = async () => {
   try {
@@ -108,19 +100,17 @@ exports.ProgramAndSystemList = async () => {
     });
 
     return {
-      programList: programList,
+      programList,
       systemTypeList: systemList,
     };
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'ProgramAndSystemList', error: ${error}`,
-    );
+    console.error(`Error in ProgramAndSystemList: ${error}`);
   }
 };
 
 /**
- * This function will return a list of programs & state data
- * @returns {Object}
+ * Fetches state data and program list for the timetable.
+ * @returns {Object} - An object containing state data and program list.
  */
 exports.stateDataProgramListForTimeTable = async () => {
   try {
@@ -135,78 +125,59 @@ exports.stateDataProgramListForTimeTable = async () => {
 
     $(drpProgramList).each(function (i, elem) {
       if (i !== 0 && i % 2 !== 0) {
-        const program = {};
-        program.name = $(this).text().trim();
-        program.id = parseInt($(this).attr('value').trim(), 10);
+        const program = {
+          name: $(this).text().trim(),
+          id: parseInt($(this).attr('value').trim(), 10),
+        };
         programList.push(program);
       }
     });
 
     return {
-      stateData: stateData,
-      programList: programList,
+      stateData,
+      programList,
     };
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'stateDataProgramListForTimeTable', error: ${error}`,
-    );
+    console.error(`Error in 'stateDataProgramListForTimeTable': ${error}`);
   }
 };
 
 /**
- *
- * @param {Object} stateAndProgramData - This object will contain a list of programs & state data
- * @returns {Array} timetableList -This will return list with all table data
+ * Fetches timetable data based on state and program information.
+ * @param {Object} stateAndProgramData - An object containing state data and program id.
+ * @returns {Array} - An array containing timetable data.
  */
 exports.prepareTimeTableData = async (stateAndProgramData) => {
   try {
-    const fetchDataFromUrl =
-      'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=%24%25';
-    const __VIEWSTATE = encodeURIComponent(stateAndProgramData.state);
-    const __EVENTTARGET = encodeURIComponent(
-      'ctl00$ContentPlaceHolder1$drpProgram',
-    );
-    const drpProgram = stateAndProgramData.program;
+    const fetchDataFromUrl = 'https://www.rgpv.ac.in/Uni/frm_ViewTT.aspx?id=%24%25';
+    const { state, program } = stateAndProgramData;
 
-    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&`;
+    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7Cctl00%24ContentPlaceHolder1%24drpProgram&ctl00%24ContentPlaceHolder1%24drpProgram=${program}&__EVENTTARGET=ctl00$ContentPlaceHolder1$drpProgram&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${encodeURIComponent(state)}&__VIEWSTATEGENERATOR=E4409011&__ASYNCPOST=true&`;
 
     const responseData = await axiosFunctions.simplePostData(
       fetchDataFromUrl,
       postData,
       rgpvHeaders,
     );
-
     const $ = cheerio.load(responseData);
     const tableData = $('#ContentPlaceHolder1_gvViewAct > tbody').html();
     const timetableList = [];
     let semester = '';
 
     $(tableData).each(function (i, elem) {
-      if (0 !== i) {
-        let programPostBack = $(this) + '';
-        // let title =
-        //   $(this).find('.lblHeadingFontType').text().replace(' ', '') +
-        //   ' - ' +
-        //   $(this).find('.link2').text();
+      if (i !== 0) {
+        const programPostBack = $(this).toString().split('__doPostBack')[1]?.split("'")[1]?.trim();
+        const title = $(this).find('.link2').text().trim();
 
-        let title = $(this).find('.link2').text();
-        if (
-          $(this).find('.lblHeadingFontType').text().replace(' ', '') !== ''
-        ) {
-          semester = $(this)
-            .find('.lblHeadingFontType')
-            .text()
-            .replace(' ', '');
+        if ($(this).find('.lblHeadingFontType').text().trim() !== '') {
+          semester = $(this).find('.lblHeadingFontType').text().trim();
         }
 
-        programPostBack = programPostBack.split('__doPostBack')[1] + '';
-        programPostBack = programPostBack.split("'")[1] + '';
-
-        if ('undefined' !== programPostBack && 'undefined' !== title) {
+        if (programPostBack && title) {
           const timetable = {
             btn: programPostBack,
-            title: title,
-            semester: semester,
+            title,
+            semester,
           };
           timetableList.push(timetable);
         }
@@ -215,133 +186,108 @@ exports.prepareTimeTableData = async (stateAndProgramData) => {
 
     return timetableList;
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'prepareTimeTableData', error: ${error}`,
-    );
+    console.error(`Error in 'prepareTimeTableData': ${error}`);
   }
 };
 
 /**
- *
- * @param {Object} bodyData - This object will contain state data, program id, drpUploadType (scheme or syllabus) and drpSearchGrading
- * @returns {Array} schemeSyllabusList - A list of all scheme or syllabus data
+ * Fetches scheme or syllabus data based on provided parameters.
+ * @param {Object} bodyData - An object containing state data, program id, schemeORsyllabus, and pattern.
+ * @returns {Array} - An array containing scheme or syllabus data.
  */
 exports.prepareSchemeOrSyllabusData = async (bodyData) => {
   try {
-    const __VIEWSTATE = encodeURIComponent(bodyData.state);
-    const __EVENTTARGET = encodeURIComponent(
-      'ctl00$ContentPlaceHolder1$drpSearchGrading',
-    );
-    const drpProgram = bodyData.program;
-    const drpUploadType = bodyData.schemeORsyllabus; // 1 for scheme, 2 for syllabus
-    const drpSearchGrading = bodyData.pattern;
+    const { state, program, schemeORsyllabus, pattern } = bodyData;
+    const __VIEWSTATE = encodeURIComponent(state);
+    const __EVENTTARGET = encodeURIComponent('ctl00$ContentPlaceHolder1$drpSearchGrading');
 
-    const schemeOrSyllabusDataUrl =
-      'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
-    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpUploadType=${drpUploadType}&ctl00%24ContentPlaceHolder1%24drpProgram=${drpProgram}&ctl00%24ContentPlaceHolder1%24drpSearchGrading=${drpSearchGrading}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=87DDE0DB&__ASYNCPOST=true`;
+    const schemeOrSyllabusDataUrl = 'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
+    const postData = `ctl00%24ScriptManager1=ctl00%24ContentPlaceHolder1%24UpdatePanel1%7C${__EVENTTARGET}&ctl00%24ContentPlaceHolder1%24drpUploadType=${schemeORsyllabus}&ctl00%24ContentPlaceHolder1%24drpProgram=${program}&ctl00%24ContentPlaceHolder1%24drpSearchGrading=${pattern}&__EVENTTARGET=${__EVENTTARGET}&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=${__VIEWSTATE}&__VIEWSTATEGENERATOR=87DDE0DB&__ASYNCPOST=true`;
 
     const responseData = await axiosFunctions.simplePostData(
       schemeOrSyllabusDataUrl,
       postData,
       rgpvHeaders,
     );
-
-    const $ = cheerio.load(responseData);
-    const schemeSyllabusData = $(
-      '#ContentPlaceHolder1_gvViewAct > tbody',
-    ).html();
+    const $ = cheerio.load(responseData.data);
+    const schemeSyllabusData = $('#ContentPlaceHolder1_gvViewAct > tbody').html();
     const schemeSyllabusList = [];
     let semester = '';
 
     $(schemeSyllabusData).each(function (i, elem) {
-      if (0 !== i) {
-        let programPostBack = $(this) + '';
-        // let title =
-        //   $(this).find('.lblHeadingFontType').text().replace(' ', '') +
-        //   ' - ' +
-        //   $(this).find('.link2').text();
-        let title = $(this).find('.link2').text();
-        if (
-          $(this).find('.lblHeadingFontType').text().replace(' ', '') !== ''
-        ) {
-          semester = $(this)
-            .find('.lblHeadingFontType')
-            .text()
-            .replace(' ', '');
+      if (i !== 0) {
+        const programPostBack = $(this).toString().split('__doPostBack')[1]?.split("'")[1]?.trim();
+        const title = $(this).find('.link2').text().trim();
+
+        if ($(this).find('.lblHeadingFontType').text().trim() !== '') {
+          semester = $(this).find('.lblHeadingFontType').text().trim();
         }
-        programPostBack = programPostBack.split('__doPostBack')[1] + '';
-        programPostBack = programPostBack.split("'")[1] + '';
-        if ('undefined' !== programPostBack && 'undefined' !== title) {
+
+        if (programPostBack && title) {
           const schemeSyllabus = {
             btn: programPostBack,
-            title: title,
-            semester: semester,
+            title,
+            semester,
           };
           schemeSyllabusList.push(schemeSyllabus);
         }
       }
     });
+
     return schemeSyllabusList;
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'prepareSchemeOrSyllabusData', error: ${error}`,
-    );
+    console.error(`Error in 'prepareSchemeOrSyllabusData': ${error}`);
   }
 };
 
 /**
- * This function will prepare stateData, a list of programs, a list of type, a list of system
- * @returns  {Object} - This object will contain stateData, programList, typeList, systemList
+ * Fetches state data, program list, program type list, and system type list.
+ * @returns {Object} - An object containing state data, program list, program type list, and system type list.
  */
 exports.prepareSchemeOrSyllabusList = async () => {
   try {
     const sourceURL = 'https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx';
     const html = await axiosFunctions.simpleGetData(sourceURL);
-    const $ = cheerio.load(html);
+    const $ = cheerio.load(html.data);
 
     const stateData = $('input#__VIEWSTATE').attr('value');
     const drpProgramList = $('#ContentPlaceHolder1_drpProgram').html();
-    const programList = [];
-    $(drpProgramList).each(function (i, elem) {
-      if (i !== 0 && i % 2 !== 0) {
-        const program = {};
-        program.name = $(this).text().trim();
-        program.id = parseInt($(this).attr('value').trim(), 10);
-        programList.push(program);
-      }
-    });
-
     const drpProgramType = $('#ContentPlaceHolder1_drpUploadType').html();
-    const typeList = [];
-    $(drpProgramType).each(function (i, elem) {
-      if (i !== 0 && i % 2 !== 0) {
-        const programType = {};
-        programType.name = $(this).text().trim();
-        programType.id = parseInt($(this).attr('value').trim(), 10);
-        typeList.push(programType);
-      }
-    });
-
     const drpSystemType = $('#ContentPlaceHolder1_drpSearchGrading').html();
-    const systemList = [];
-    $(drpSystemType).each(function (i, elem) {
-      if (i !== 0 && i % 2 !== 0) {
-        const systemType = {};
-        systemType.name = $(this).text().trim();
-        systemType.id = parseInt($(this).attr('value').trim(), 10);
-        systemList.push(systemType);
-      }
-    });
+
+    const programList = parseDropdownOptions(drpProgramList);
+    const programTypeList = parseDropdownOptions(drpProgramType);
+    const systemTypeList = parseDropdownOptions(drpSystemType);
 
     return {
-      stateData: stateData,
-      programList: programList,
-      programTypeList: typeList,
-      systemTypeList: systemList,
+      stateData,
+      programList,
+      programTypeList,
+      systemTypeList,
     };
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'prepareSchemeOrSyllabusList', error: ${error}`,
-    );
+    console.error(`Error in 'prepareSchemeOrSyllabusList': ${error}`);
   }
 };
+
+/**
+ * Parses dropdown options and returns an array of objects with name and id.
+ * @param {string} dropdownHtml - HTML content of a dropdown element.
+ * @returns {Array} - An array containing objects with name and id properties.
+ */
+function parseDropdownOptions(dropdownHtml) {
+  const options = [];
+
+  $(dropdownHtml).each(function (i, elem) {
+    if (i !== 0 && i % 2 !== 0) {
+      const option = {
+        name: $(this).text().trim(),
+        id: parseInt($(this).attr('value').trim(), 10),
+      };
+      options.push(option);
+    }
+  });
+
+  return options;
+}
+

@@ -25,79 +25,54 @@ const rgpvHeaders = {
 };
 
 /**
- *
- * @param {String} sourceURL - The URL from which we have to fetch the data
- * @returns {String} - The data it received from source page response
+ * Reusable function to make GET requests.
+ * @param {string} sourceURL - The URL from which to fetch data.
+ * @param {string} responseType - The response type.
+ * @returns {Promise<any>} - The data received from the source page response.
  */
-exports.simpleGetData = async (sourceURL, responseType = null) => {
+async function simpleGetData(sourceURL, responseType = null) {
   try {
     const config = {
       method: 'get',
+      responseType: responseType,
+      headers: rgpvHeaders,
     };
-
-    responseType ? (config.responseType = responseType) : '';
-
-    return (await axios.get(sourceURL, config)).data;
+    const response = await axios.get(sourceURL, config);
+    return response.data;
   } catch (error) {
-    const domainExtractor = new URL(sourceURL).hostname;
-    console.error(
-      `Something went wrong with this request: Called by: 'simpleGetData' for url ${domainExtractor}, error: ${error}`,
-    );
+    console.error(`Error in simpleGetData for ${sourceURL}: ${error.message}`);
+    throw error;
   }
-};
+}
 
 /**
- *
- * @param {String} postDataToUrl  - The URL where we want to send the data
- * @param {Object} postData - Post body data
- * @param {Object} customHeaders - Custom header for the post request
- * @param {Object} customBasicAuth - Basic Auth data for the post request
- * @returns
+ * Reusable function to make POST requests.
+ * @param {string} postDataToUrl - The URL where to send the data.
+ * @param {Object} postData - Post body data.
+ * @param {Object} customHeaders - Custom headers for the post request.
+ * @param {Object} customBasicAuth - Basic Auth data for the post request.
+ * @returns {Promise<any>} - The response data from the server.
  */
-exports.simplePostData = async (
+async function simplePostData(
   postDataToUrl,
   postData,
   customHeaders = null,
   customBasicAuth = null,
-) => {
+) {
   try {
-    const options = {};
-
-    customHeaders ? (options.headers = customHeaders) : '';
-    customBasicAuth ? (options.auth = customBasicAuth) : '';
-
-    let responseFromServer;
-    if (customHeaders || customBasicAuth) {
-      console.log('customHeaders value ', !!customHeaders);
-      console.log('customBasicAuth value ', !!customBasicAuth);
-      responseFromServer = await axios.post(postDataToUrl, postData, options);
-    } else {
-      console.log('else condition inside simplePostData function');
-      responseFromServer = await axios.post(postDataToUrl, postData);
-      console.log('' + JSON.stringify(responseFromServer.data));
-    }
-
-    return responseFromServer.data;
+    const options = {
+      headers: customHeaders || null,
+      auth: customBasicAuth || null,
+    };
+    const response = await axios.post(postDataToUrl, postData, options);
+    return response.data;
   } catch (error) {
-    const domainExtractor = new URL(postDataToUrl).hostname;
     console.error(
-      `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
+      `Error in simplePostData for ${postDataToUrl}: ${error.message}`,
     );
+    throw error;
   }
-};
-
-exports.simplePostData2 = async (fetchDataFromUrl, postData) => {
-  try {
-    return (
-      await axios.post(fetchDataFromUrl, postData)
-    ).data;
-  } catch (error) {
-    const domainExtractor = new URL(fetchDataFromUrl).hostname;
-    console.error(
-      `Something went wrong with this request: Called by: 'simplePostData' for url ${domainExtractor}, error: ${error}`,
-    );
-  }
-};
+}
 
 /**
  *
@@ -105,7 +80,7 @@ exports.simplePostData2 = async (fetchDataFromUrl, postData) => {
  * @param {String} password - Secure password to authenticate
  * @param {Array} newsData - news data to be uploaded on API server DB
  */
-exports.updateNewsOnApiServer = async (urlToUpdateNews, password, newsData) => {
+async function updateNewsOnApiServer(urlToUpdateNews, password, newsData) {
   try {
     await axios.put(urlToUpdateNews, {
       password: password,
@@ -119,11 +94,11 @@ exports.updateNewsOnApiServer = async (urlToUpdateNews, password, newsData) => {
 };
 
 /**
- *
- * @param {Object} bodyData - This object will contain data that has to be sent with HTTP request
- * @returns {String} This function will return Timetable PDF url
+ * Function to fetch Timetable PDF URL.
+ * @param {Object} bodyData - The data to send with the HTTP request.
+ * @returns {Promise<string>} - The Timetable PDF URL.
  */
-exports.fetchTimeTableFileUrl = async (bodyData) => {
+async function fetchTimeTableFileUrl(bodyData) {
   try {
     const __VIEWSTATE = encodeURIComponent(bodyData.state);
     const __EVENTTARGET = encodeURIComponent(bodyData.triggerBy);
@@ -144,18 +119,17 @@ exports.fetchTimeTableFileUrl = async (bodyData) => {
     );
     return data;
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'fetchTimeTableFileUrl', error: ${error}`,
-    );
+    console.error(`Error in fetchTimeTableFileUrl: ${error.message}`);
+    throw error;
   }
-};
+}
 
 /**
- *
- * @param {Object} bodyData - This object will contain data that has to be sent with HTTP request
- * @returns {String} This function will return Scheme or Syllabus PDF url
+ * Function to fetch Scheme or Syllabus PDF URL.
+ * @param {Object} bodyData - The data to send with the HTTP request.
+ * @returns {Promise<string>} - The Scheme or Syllabus PDF URL.
  */
-exports.fetchSchemeOrSyllabusFileUrl = async (bodyData) => {
+async function fetchSchemeOrSyllabusFileUrl(bodyData) {
   try {
     const __VIEWSTATE = encodeURIComponent(bodyData.state);
     const __EVENTTARGET = encodeURIComponent(bodyData.triggerBy);
@@ -178,8 +152,15 @@ exports.fetchSchemeOrSyllabusFileUrl = async (bodyData) => {
     );
     return data;
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'fetchSchemeOrSyllabusFileUrl', error: ${error}`,
-    );
+    console.error(`Error in fetchSchemeOrSyllabusFileUrl: ${error.message}`);
+    throw error;
   }
+}
+
+module.exports = {
+  simpleGetData,
+  simplePostData,
+  fetchTimeTableFileUrl,
+  fetchSchemeOrSyllabusFileUrl,
+  updateNewsOnApiServer
 };

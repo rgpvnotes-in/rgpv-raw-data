@@ -2,7 +2,10 @@ const fs = require('fs');
 const cheerioFunctions = require('./services/cheerio/index');
 const axiosFunctions = require('./services/axios/index');
 
-const write_timetable_data = async () => {
+/**
+ * Writes timetable data to a JSON file.
+ */
+const writeTimetableData = async () => {
   try {
     const ttProgramListResponse =
       await cheerioFunctions.stateDataProgramListForTimeTable();
@@ -13,16 +16,16 @@ const write_timetable_data = async () => {
     const timeTableDataList = [];
 
     if (ttProgramList.length === 0) {
-      // log if program list length is zero
-      console.error('program list array is empty');
+      console.error('Program list array is empty');
+      return;
     }
 
-    for (const [index, program] of ttProgramList.entries()) {
-      const timeTableData = {};
-
-      timeTableData.programName = program.name;
-      timeTableData.programId = program.id;
-      timeTableData.programDataList = [];
+    for (const program of ttProgramList) {
+      const timeTableData = {
+        programName: program.name,
+        programId: program.id,
+        programDataList: [],
+      };
 
       const postData = {
         state: stateData,
@@ -32,15 +35,15 @@ const write_timetable_data = async () => {
       const ttListData = await cheerioFunctions.prepareTimeTableData(postData);
 
       if (ttListData.length === 0) {
-        // log if fileButton list length is zero
-        console.error('TT list with data is empty');
+        console.error('TT list with data is empty for program:', program.name);
+        continue;
       }
 
-      for (const [index, timeTable] of ttListData.entries()) {
-        const programData = {};
-
-        programData.title = timeTable.title.trim();
-        programData.semester = timeTable.semester.trim();
+      for (const timeTable of ttListData) {
+        const programData = {
+          title: timeTable.title.trim(),
+          semester: timeTable.semester.trim(),
+        };
 
         const postData = {
           state: stateData,
@@ -51,12 +54,17 @@ const write_timetable_data = async () => {
         const fileUrl = await axiosFunctions.fetchTimeTableFileUrl(postData);
 
         if (!fileUrl) {
-          // log if fileButton list length is zero
-          console.error('error while extracting PDF url');
+          console.error(
+            'Error while extracting PDF URL for program:',
+            program.name,
+          );
+          continue;
         }
+
         programData.url = fileUrl;
         timeTableData.programDataList.push(programData);
       }
+
       timeTableDataList.push(timeTableData);
     }
 
@@ -65,15 +73,15 @@ const write_timetable_data = async () => {
       JSON.stringify(timeTableDataList),
       (err) => {
         if (err) {
-          console.error('error while writing file');
+          console.error('Error while writing file', err);
           return;
         }
-        //file written successfully
+        console.log('File written successfully');
       },
     );
   } catch (error) {
-    console.error('some error occurred');
-    write_timetable_data();
+    console.error('Some error occurred', error);
   }
 };
-write_timetable_data();
+
+writeTimetableData();

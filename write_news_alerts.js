@@ -11,17 +11,16 @@ const spreadsheetId = process.env.SPREADSHEET_ID;
 
 /**
  * Write data to API server.
- * It takes POST url from ENV file & using PUT method send the data from google sheet to API server.
- * Password is required to update data on API server & this password is stored in ENV file.
+ * It takes POST URL from ENV file & using PUT method sends the data from the google sheet to the API server.
+ * Password is required to update data on the API server & this password is stored in ENV file.
  */
-
 const writeFullDataToApi = async () => {
   try {
     const urlToUpdateAllNews = process.env.POST_ALL_NEWS_URL;
     const password = process.env.POST_NEWS_PASSWORD;
 
-    let readNews = await readDataFromSheet(); // read all data from google sheet
-    readNews = readNews.slice(Math.max(readNews.length - 100, 0)); // slice to only show last 100 entry
+    let readNews = await readDataFromSheet();
+    readNews = readNews.slice(Math.max(readNews.length - 100, 0));
 
     const accessData = [];
     for (const news of readNews) {
@@ -38,19 +37,17 @@ const writeFullDataToApi = async () => {
       accessData,
     );
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'writeFullDataToApi', error: ${error}`,
-    );
+    console.error('Error in writeFullDataToApi:', error);
   }
 };
 
 /**
- * @params Array - recent news fetched from RGPV website
+ * Write recent news data to the API server.
+ * @param {Array} newsData - recent news fetched from RGPV website
  * Write data to Recent API server.
  * It takes POST url from ENV file & using PUT method send the data from RGPV website to API server.
  * Password is required to update data on API server & this password is stored in ENV file.
  */
-
 const writeRecentDataToApi = async (newsData) => {
   try {
     const urlToUpdateRecentNews = process.env.POST_RECENT_NEWS_URL;
@@ -61,19 +58,15 @@ const writeRecentDataToApi = async (newsData) => {
       newsData,
     );
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'writeRecentDataToApi', error: ${error}`,
-    );
+    console.error('Error in writeRecentDataToApi:', error);
   }
 };
 
 /**
- * It reads all the available news entry in google sheet & return them as response.
- * Credentials.json file is required to read data from sheet.
- *
- * @returns Array
+ * Read all the available news entries in the google sheet and return them as a response.
+ * Credentials.json file is required to read data from the sheet.
+ * @returns {Array} - Array of news entries
  */
-
 const readDataFromSheet = async () => {
   try {
     const auth = new google.auth.GoogleAuth({
@@ -81,13 +74,9 @@ const readDataFromSheet = async () => {
       scopes: 'https://www.googleapis.com/auth/spreadsheets',
     });
 
-    // Create client instance for auth
     const client = await auth.getClient();
-
-    // Instance of Google Sheets API
     const googleSheets = google.sheets({ version: 'v4', auth: client });
 
-    // Read rows from spreadsheet
     const getRows = await googleSheets.spreadsheets.values.get({
       auth,
       spreadsheetId,
@@ -95,14 +84,13 @@ const readDataFromSheet = async () => {
     });
     return getRows.data.values;
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'readDataFromSheet', error: ${error}`,
-    );
+    console.error('Error in readDataFromSheet:', error);
+    return [];
   }
 };
 
 /**
- * This is entry function
+ * Entry function to manage the entire data flow.
  * 1. Gets list of recent news from rgpv website.
  * 2. Write recent news data to API server
  * 3. Check if there is any new news alerts available on that file.
@@ -110,25 +98,17 @@ const readDataFromSheet = async () => {
  * 5. If news alert is already available in the list it will just console log the message.
  * 6. Trigger writeFullDataToApi function to write data on API server.
  */
-
 const writeDataToSheet = async () => {
   try {
     const latestAlerts = await cheerioFunctions.latestAlerts();
-    let ApiServerShouldUpdate = false; // if new entries are found then only update KV for news
-
-    /**
-     * Write new news alert to google sheet
-     */
+    let ApiServerShouldUpdate = false;
 
     const auth = new google.auth.GoogleAuth({
       keyFile: 'credentials.json',
       scopes: 'https://www.googleapis.com/auth/spreadsheets',
     });
 
-    // Create client instance for auth
     const client = await auth.getClient();
-
-    // Instance of Google Sheets API
     const googleSheets = google.sheets({ version: 'v4', auth: client });
 
     for (const news of latestAlerts) {
@@ -141,44 +121,32 @@ const writeDataToSheet = async () => {
 
       const readNews = await readDataFromSheet();
 
-      // URL encoding
       news.url = encodeURI(news.url);
 
-      // check if this is a new news alert or already available on sheet
       const isAvailable = readNews?.find((element) => element[2] === newsMd5);
-      if (undefined == isAvailable) {
-        // check if alert have URL, if available check if we have short URL for that, if not, generate it
+      if (undefined === isAvailable) {
         if (news.url) {
           const isUrlAvailable = readNews?.find(
             (element) => element[4] === news.url,
           );
-          if (undefined == isUrlAvailable) {
-            // if not available generate short url
+          if (undefined === isUrlAvailable) {
             const fetchDataFromUrl = process.env.SHORT_URL_GENERATOR_URL;
             const postData = {
               password: process.env.SHORT_URL_PASSWORD,
               url: news.url,
             };
 
-            // const responseData = await axiosFunctions.simplePostData2(
-            //   fetchDataFromUrl,
-            //   postData,
-            // );
-
             try {
-              const responseData = await axios.post(
-                fetchDataFromUrl,
-                {
-                  password: process.env.SHORT_URL_PASSWORD,
-                  url: news.url,
-                },
-              );
+              const responseData = await axios.post(fetchDataFromUrl, postData);
               if (responseData && responseData.isSuccess) {
                 news.shortUrl = responseData.data.shortened;
               }
             } catch (error) {
               news.shortUrl = null;
-              console.log('failed to generate short URL, returning null');
+              console.error(
+                'Failed to generate short URL, returning null:',
+                error,
+              );
             }
           } else {
             news.shortUrl = isUrlAvailable[5];
@@ -204,7 +172,6 @@ const writeDataToSheet = async () => {
           news.shortUrl,
         ];
 
-        // Write row(s) to spreadsheet
         await googleSheets.spreadsheets.values.append({
           auth,
           spreadsheetId,
@@ -215,25 +182,15 @@ const writeDataToSheet = async () => {
           },
         });
 
-        // after writing news to google sheet share it on social media
         await shareOnSocialMedia(news.content, news.shortUrl || news.url);
-
-        // TODO
-        // code to make post on social media
       } else {
         console.log('Duplicate entry!');
       }
     }
 
     if (true === ApiServerShouldUpdate) {
-      /**
-       * Update all news alert to API server
-       */
       writeFullDataToApi();
 
-      /**
-       * Update latest news alert to API server
-       */
       for (const news of latestAlerts) {
         news.url = news.shortUrl;
         delete news.shortUrl;
@@ -241,9 +198,7 @@ const writeDataToSheet = async () => {
       writeRecentDataToApi(latestAlerts);
     }
   } catch (error) {
-    console.error(
-      `Something went wrong with this request: Called by: 'writeDataToSheet', error: ${error}`,
-    );
+    console.error('Error in writeDataToSheet:', error);
   }
 };
 

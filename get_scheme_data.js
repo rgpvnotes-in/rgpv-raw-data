@@ -3,7 +3,14 @@ const fs = require('fs');
 const cheerioFunctions = require('./services/cheerio/index');
 const axiosFunctions = require('./services/axios/index');
 
-const prepareFiledata = async (schemeSyllabusData, previousPostData) => {
+/**
+ * Prepares file data for a given scheme or syllabus entry.
+ *
+ * @param {object} schemeSyllabusData - Data for a scheme or syllabus entry.
+ * @param {object} previousPostData - Previous post data.
+ * @returns {Promise<object>} - Prepared file data.
+ */
+const prepareFileData = async (schemeSyllabusData, previousPostData) => {
   try {
     const postData = {
       state: previousPostData.state,
@@ -13,44 +20,59 @@ const prepareFiledata = async (schemeSyllabusData, previousPostData) => {
       triggerBy: schemeSyllabusData.btn,
     };
 
-    const data = {};
-    data.semester = schemeSyllabusData.semester.trim();
-    data.title = schemeSyllabusData.title.trim();
-    data.url = await axiosFunctions.fetchSchemeOrSyllabusFileUrl(postData);
+    const data = {
+      semester: schemeSyllabusData.semester.trim(),
+      title: schemeSyllabusData.title.trim(),
+      url: await axiosFunctions.fetchSchemeOrSyllabusFileUrl(postData),
+    };
+
     return data;
   } catch (error) {
-    console.error('error while preparing Filedata', error);
-    prepareFiledata(schemeSyllabusData, previousPostData);
+    console.error('Error while preparing file data', error);
+    return null;
   }
 };
 
+/**
+ * Prepares scheme or syllabus data for a given post data.
+ *
+ * @param {object} postData - Post data.
+ * @returns {Promise<Array>} - List of prepared file data.
+ */
 const prepareSchemeSyllabusData = async (postData) => {
   try {
     const schemeSyllabusDataList =
       await cheerioFunctions.prepareSchemeOrSyllabusData(postData);
 
     if (schemeSyllabusDataList.length === 0) {
-      // log if scheme Syllabus List length is zero
-      console.log('scheme data list is empty');
+      console.log('Scheme data list is empty');
     }
+
     const preparedFiledata = [];
 
-    for (const [
-      index,
-      schemeSyllabusData,
-    ] of schemeSyllabusDataList.entries()) {
-      preparedFiledata.push(
-        await prepareFiledata(schemeSyllabusData, postData),
-      );
+    for (const schemeSyllabusData of schemeSyllabusDataList) {
+      const fileData = await prepareFileData(schemeSyllabusData, postData);
+      if (fileData) {
+        preparedFiledata.push(fileData);
+      }
     }
 
     return preparedFiledata;
   } catch (error) {
-    console.error('error while preparing schemeSyllabusData', error);
-    prepareSchemeSyllabusData(postData);
+    console.error('Error while preparing schemeSyllabusData', error);
+    return [];
   }
 };
 
+/**
+ * Prepares program data for a given program, scheme list, state data, and type.
+ *
+ * @param {object} program - Program data.
+ * @param {Array} schemeSyllabusSchemeList - List of scheme data.
+ * @param {object} stateData - State data.
+ * @param {object} type - Type data.
+ * @returns {Promise<object>} - Prepared program data.
+ */
 const prepareProgramData = async (
   program,
   schemeSyllabusSchemeList,
@@ -58,135 +80,124 @@ const prepareProgramData = async (
   type,
 ) => {
   try {
-    const programData = {};
+    const programData = {
+      name: program.name,
+      id: program.id,
+      schemes: [],
+    };
 
-    programData.name = program.name;
-    programData.id = program.id;
-    programData.schemes = [];
-
-    for (const [index, scheme] of schemeSyllabusSchemeList.entries()) {
-      const schemeData = {};
-
-      schemeData.name = scheme.name;
-      schemeData.id = scheme.id;
-      schemeData.pdfs = [];
-
+    for (const scheme of schemeSyllabusSchemeList) {
       const postData = {
         state: stateData,
         program: program.id,
         schemeORsyllabus: type.id,
         pattern: scheme.id,
       };
-      schemeData.pdfs = await prepareSchemeSyllabusData(postData);
+
+      const schemeData = {
+        name: scheme.name,
+        id: scheme.id,
+        pdfs: await prepareSchemeSyllabusData(postData),
+      };
+
       programData.schemes.push(schemeData);
     }
 
     return programData;
   } catch (error) {
-    console.error('error while preparing ProgramData', error);
-    prepareProgramData(program, schemeSyllabusSchemeList, stateData, type);
+    console.error('Error while preparing programData', error);
+    return null;
   }
 };
 
+/**
+ * Retrieves scheme or syllabus data list.
+ *
+ * @returns {Promise<Array>} - List of scheme or syllabus data.
+ */
 const schemeSyllabusDataList = async () => {
   try {
-    // make axios get call
     const schemeSyllabusListResponse =
       await cheerioFunctions.prepareSchemeOrSyllabusList();
-
     const schemeSyllabusProgramList = schemeSyllabusListResponse.programList;
-
     const schemeSyllabusTypeList = schemeSyllabusListResponse.programTypeList;
-
     const schemeSyllabusSchemeList = schemeSyllabusListResponse.systemTypeList;
-
     const stateData = schemeSyllabusListResponse.stateData;
 
-    if (schemeSyllabusProgramList.length === 0) {
-      // log if program list length is zero
-      console.log('program list array is empty');
-      return;
-    }
-
-    if (schemeSyllabusTypeList.length === 0) {
-      // log if type list length is zero
-      console.log('type list array is empty');
-      return;
-    }
-
-    if (schemeSyllabusSchemeList.length === 0) {
-      // log if scheme list length is zero
-      console.log('scheme list array is empty');
-      return;
-    }
-
-    if (!stateData) {
-      // log if stateData is null or empty
-      console.log('stateData is null or empty');
-      return;
+    if (
+      schemeSyllabusProgramList.length === 0 ||
+      schemeSyllabusTypeList.length === 0 ||
+      schemeSyllabusSchemeList.length === 0 ||
+      !stateData
+    ) {
+      console.log('Some data arrays are empty or stateData is null or empty');
+      return [];
     }
 
     const schemeSyllabusFinalList = [];
-
     const type = { name: 'Scheme', id: 1 };
 
-    const schemeSyllabusTypeData = {};
-    schemeSyllabusTypeData.type = type.name; // scheme h ya syllabus
-    schemeSyllabusTypeData.id = type.id;
-    schemeSyllabusTypeData.programs = [];
+    const schemeSyllabusTypeData = {
+      type: type.name,
+      id: type.id,
+      programs: [],
+    };
 
-    for (const [index, program] of schemeSyllabusProgramList.entries()) {
-      schemeSyllabusTypeData.programs.push(
-        await prepareProgramData(
-          program,
-          schemeSyllabusSchemeList,
-          stateData,
-          type,
-        ),
+    for (const program of schemeSyllabusProgramList) {
+      const programData = await prepareProgramData(
+        program,
+        schemeSyllabusSchemeList,
+        stateData,
+        type,
       );
+      if (programData) {
+        schemeSyllabusTypeData.programs.push(programData);
+      }
     }
 
     schemeSyllabusFinalList.push(schemeSyllabusTypeData);
-
     return schemeSyllabusFinalList;
   } catch (error) {
-    console.error(
-      'some error occurred while getting schemeSyllabusDataList',
-      error,
-    );
-    schemeSyllabusDataList();
+    console.error('Error while getting schemeSyllabusDataList', error);
+    return [];
   }
 };
 
-const write_data = async (schemeSyllabusFinalData) => {
+/**
+ * Writes data to a JSON file.
+ *
+ * @param {object} schemeSyllabusFinalData - Final scheme or syllabus data.
+ */
+const writeData = (schemeSyllabusFinalData) => {
   try {
     fs.writeFile(
       'dist/scheme.json',
       JSON.stringify(schemeSyllabusFinalData),
       (err) => {
         if (err) {
-          console.error('error while writing file', err);
-          write_data(schemeSyllabusFinalData);
-          return;
+          console.error('Error while writing file', err);
+        } else {
+          console.log('File written successfully');
         }
-        //file written successfully
       },
     );
   } catch (error) {
-    console.error('some error occurred with schemeSyllabusFinalData', error);
-    write_data(schemeSyllabusFinalData);
+    console.error('Error with schemeSyllabusFinalData', error);
   }
 };
 
-const main_data = async () => {
+/**
+ * Main function to orchestrate the process.
+ */
+const mainData = async () => {
   try {
     const schemeSyllabusFinalData = await schemeSyllabusDataList();
-
-    write_data(schemeSyllabusFinalData[0].programs);
+    if (schemeSyllabusFinalData.length > 0) {
+      writeData(schemeSyllabusFinalData[0].programs);
+    }
   } catch (error) {
-    console.error('some error occurred with schemeSyllabusFinalData', error);
-    main_data();
+    console.error('Error with schemeSyllabusFinalData', error);
   }
 };
 
-main_data();
+mainData();

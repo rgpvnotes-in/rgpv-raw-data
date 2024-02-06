@@ -916,18 +916,25 @@
             "title": "B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_BM290121125419.pdf"
           },
-          { "semester": "8th Semester", "title": "B.Tech Civil Engineering" },
           {
             "semester": "8th Semester",
-            "title": "B.Tech Chemical Engineering"
+            "title": "B.Tech Civil Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_CE290121125509.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "B.Tech Computer Science and Engineering"
+            "title": "B.Tech Chemical Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_CM290121125556.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "B.Tech Electronics and Communication Engineering"
+            "title": "B.Tech Computer Science and Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_CSE290121010008.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "B.Tech Electronics and Communication Engineering",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_EC290121010128.pdf"
           },
           {
             "semester": "8th Semester",

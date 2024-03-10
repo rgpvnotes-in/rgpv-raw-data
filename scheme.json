@@ -411,7 +411,11 @@
             "title": "B.Tech Computer Science and Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_CSIT_IV_Sem220422043657.pdf"
           },
-          { "semester": "4th Semester", "title": "3D Animation and Graphics" },
+          {
+            "semester": "4th Semester",
+            "title": "3D Animation and Graphics",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_3DAnimationGraphicsScheme220422044241.pdf"
+          },
           {
             "semester": "4th Semester",
             "title": "Mining and Mineral Processing",

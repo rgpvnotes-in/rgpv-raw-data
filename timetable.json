@@ -276,6 +276,11 @@
     "programId": 43,
     "programDataList": [
       {
+        "title": "Time Table BPharmacy PCI I Semester",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPHARMA PCI 1190324042454.pdf"
+      },
+      {
         "title": "Time Table B.Pharma III Semester December 2023",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharmacy_III Sem PCI221223124835.pdf"
@@ -497,6 +502,11 @@
     "programName": "M.Pharm. PCI",
     "programId": 71,
     "programDataList": [
+      {
+        "title": "Time Table MPharmacy PCI I Semester",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPHARMA PCI 1190324042417.pdf"
+      },
       {
         "title": "Time Table MPharma PCI II Semester NOVEMBER 2023",
         "semester": "2nd Semester",

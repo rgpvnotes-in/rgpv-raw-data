@@ -1,7 +1,27 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
   { "programName": "M.Arch", "programId": 22, "programDataList": [] },
-  { "programName": "B.Tech", "programId": 24, "programDataList": [] },
+  {
+    "programName": "B.Tech",
+    "programId": 24,
+    "programDataList": [
+      {
+        "title": "Time Table Btech VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech CSBS 78150424055514.pdf"
+      },
+      {
+        "title": "Time Table Btech VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech 8 Sem150424055417.pdf"
+      },
+      {
+        "title": "Time Table Btech VII Semester Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech 7 Sem150424055305.pdf"
+      }
+    ]
+  },
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
   { "programName": "BE", "programId": 1, "programDataList": [] },
   { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },

@@ -1,6 +1,21 @@
 [
   { "programName": "MBA", "programId": 4, "programDataList": [] },
-  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
+  {
+    "programName": "M.Arch",
+    "programId": 22,
+    "programDataList": [
+      {
+        "title": "Time Table M Arch III Semester Students only MAY 2024 Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MArch_III160424035620.pdf"
+      },
+      {
+        "title": "Time Table M Arch IV Semester MAY 2024 Examination",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MArch_III160424035159.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Tech",
     "programId": 24,
@@ -36,9 +51,19 @@
     "programId": 43,
     "programDataList": [
       {
-        "title": "Time Table BPharma PCI CBGS VII Semester Examination MAY 2024",
+        "title": "Time Table B Pharmacy PCI VIII Semester Regular Students only MAY 2024 Examination",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_VIII_R160424035513.pdf"
+      },
+      {
+        "title": "Time Table B Pharmacy PCI VIII Semester EX Students only MAY 2024 Examination",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_VIII_EX160424035445.pdf"
+      },
+      {
+        "title": "Time Table B Pharmacy PCI VII Semester EX Students only MAY 2024 Examination",
         "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Bpharma PCI and CBGS 78150424060716.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_VII_EX160424035419.pdf"
       }
     ]
   },
@@ -112,7 +137,17 @@
     "programDataList": []
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "Time Table M Pharmacy PCI III Semester MAY 2024 Examination",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharm_III160424035301.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,

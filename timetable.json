@@ -73,6 +73,26 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table BArch CoA X Sem  Examination MAY 2024",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010816.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA IX Sem  Examination MAY 2024",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010754.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA VIII Sem  Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010732.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA VII Sem  Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010705.pdf"
+      },
+      {
         "title": "Time Table BArch CBGS Scheme IV Sem NOV 2023",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TTBArchCBGS301123045431.pdf"
@@ -172,5 +192,20 @@
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },
   { "programName": "Ph.D. Entrance", "programId": 52, "programDataList": [] },
   { "programName": "PGCMB", "programId": 45, "programDataList": [] },
-  { "programName": "Pharm D.", "programId": 51, "programDataList": [] }
+  {
+    "programName": "Pharm D.",
+    "programId": 51,
+    "programDataList": [
+      {
+        "title": "Time Table Pharma D V Year Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 45180424010452.pdf"
+      },
+      {
+        "title": "Time Table Pharma D IV Year Examination MAY 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 45180424010403.pdf"
+      }
+    ]
+  }
 ]

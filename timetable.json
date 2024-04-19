@@ -73,24 +73,24 @@
     "programId": 11,
     "programDataList": [
       {
-        "title": "Time Table BArch CoA X Sem  Examination MAY 2024",
-        "semester": "10th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010816.pdf"
-      },
-      {
-        "title": "Time Table BArch CoA IX Sem  Examination MAY 2024",
-        "semester": "9th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010754.pdf"
+        "title": "Time Table BArch CoA VII Sem  Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 78910 CoA190424014302.pdf"
       },
       {
         "title": "Time Table BArch CoA VIII Sem  Examination MAY 2024",
         "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010732.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 78910 CoA190424014318.pdf"
       },
       {
-        "title": "Time Table BArch CoA VII Sem  Examination MAY 2024",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Barch 7 to 10 CoA180424010705.pdf"
+        "title": "Time Table BArch CoA IX Sem  Examination MAY 2024",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 78910 CoA190424014348.pdf"
+      },
+      {
+        "title": "Time Table BArch CoA X Sem  Examination MAY 2024",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BArch 78910 CoA190424014405.pdf"
       },
       {
         "title": "Time Table BArch CBGS Scheme IV Sem NOV 2023",
@@ -185,8 +185,58 @@
     ]
   },
   { "programName": "MCA", "programId": 5, "programDataList": [] },
-  { "programName": "MCA Dual Degree", "programId": 23, "programDataList": [] },
-  { "programName": "MBA Integrated", "programId": 21, "programDataList": [] },
+  {
+    "programName": "MCA Dual Degree",
+    "programId": 23,
+    "programDataList": [
+      {
+        "title": "Time Table MCA INT X Semester Examination MAY 2024",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 78910190424014222.pdf"
+      },
+      {
+        "title": "Time Table MCA INT IX Semester Examination MAY 2024",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 78910190424014205.pdf"
+      },
+      {
+        "title": "Time Table MCA INT VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 78910190424014143.pdf"
+      },
+      {
+        "title": "Time Table MCA INT VII Semester Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 78910190424014107.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "MBA Integrated",
+    "programId": 21,
+    "programDataList": [
+      {
+        "title": "Time Table MBA INT X Semester Examination MAY 2024",
+        "semester": "10th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 78910190424014027.pdf"
+      },
+      {
+        "title": "Time Table MBA INT IX Semester Examination MAY 2024",
+        "semester": "9th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 78910190424013929.pdf"
+      },
+      {
+        "title": "Time Table MBA INT VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 78910190424013905.pdf"
+      },
+      {
+        "title": "Time Table MBA INT VII Semester Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA INT 78910190424013834.pdf"
+      }
+    ]
+  },
   { "programName": "DDI-PG", "programId": 12, "programDataList": [] },
   { "programName": "Diploma", "programId": 3, "programDataList": [] },
   { "programName": "Ph.D.", "programId": 44, "programDataList": [] },

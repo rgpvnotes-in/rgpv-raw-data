@@ -4650,7 +4650,8 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Master of Applied Management"
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III Semester syllabus171114025402.pdf"
           },
           {
             "semester": "4th Semester",
@@ -4659,15 +4660,18 @@
           },
           {
             "semester": "5th Semester",
-            "title": "Master of Applied Management"
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V MAMSy120716040900.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Master of Applied Management"
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI MAM SY120716040756.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Master of Applied Management"
+            "title": "Master of Applied Management",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syll7181116015808.pdf"
           },
           {
             "semester": "8th Semester",
@@ -4676,7 +4680,7 @@
           }
         ]
       },
-      { "name": "Non Grading System", "id": 2 },
+      { "name": "Non Grading System", "id": 2, "pdfs": [] },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },

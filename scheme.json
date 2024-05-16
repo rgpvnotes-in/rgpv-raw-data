@@ -731,7 +731,11 @@
             "title": "Scheme BTech Automation And  Robotics VI Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Automation  Robotics_VI Sem Scheme231123031127.pdf"
           },
-          { "semester": "6th Semester", "title": "Scheme Data Science" },
+          {
+            "semester": "6th Semester",
+            "title": "Scheme Data Science",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Data Science VI sem scheme060123015516.pdf"
+          },
           {
             "semester": "6th Semester",
             "title": "Scheme BTech Robotics and Mechatronics VI Sem",

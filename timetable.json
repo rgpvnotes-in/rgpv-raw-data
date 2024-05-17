@@ -21,6 +21,26 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech 5 A170524025001.pdf"
+      },
+      {
+        "title": "Time Table BTech VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech 6 A170524024939.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 56170524024858.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 56170524024836.pdf"
+      },
+      {
         "title": "Time Table Btech VIII Semester Examination MAY 2024",
         "semester": "8th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech 8 Sem150424055417.pdf"
@@ -50,6 +70,16 @@
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
     "programDataList": [
+      {
+        "title": "Time Table BPharma PCI CBGS VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharma PCI and CBGS 56170524025309.pdf"
+      },
+      {
+        "title": "Time Table BPharma PCI CBGS V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPharma PCI and CBGS 56170524025240.pdf"
+      },
       {
         "title": "Time Table B Pharmacy PCI VIII Semester Regular Students only MAY 2024 Examination",
         "semester": "8th Semester",

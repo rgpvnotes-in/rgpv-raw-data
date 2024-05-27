@@ -64,8 +64,58 @@
   },
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
   { "programName": "BE", "programId": 1, "programDataList": [] },
-  { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
-  { "programName": "B.Tech.-PTDC", "programId": 42, "programDataList": [] },
+  {
+    "programName": "BE-PTDC",
+    "programId": 10,
+    "programDataList": [
+      {
+        "title": "Time Table BEPTDC VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043304.pdf"
+      },
+      {
+        "title": "Time Table BEPTDC VII Semester Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043237.pdf"
+      },
+      {
+        "title": "Time Table BEPTDC VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043212.pdf"
+      },
+      {
+        "title": "Time Table BEPTDC V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043135.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "B.Tech.-PTDC",
+    "programId": 42,
+    "programDataList": [
+      {
+        "title": "Time Table BTech PTDC VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043455.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC VII Semester Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043431.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043409.pdf"
+      },
+      {
+        "title": "Time Table BTech PTDC V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043344.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
@@ -185,6 +235,16 @@
     "programId": 23,
     "programDataList": [
       {
+        "title": "Time Table MCA INT VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Int_MCA_5_6270524042921.pdf"
+      },
+      {
+        "title": "Time Table MCA INT V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Int_MCA_5_6270524042843.pdf"
+      },
+      {
         "title": "Time Table MCA INT X Semester Examination MAY 2024",
         "semester": "10th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA INT 78910190424014222.pdf"
@@ -210,6 +270,16 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table MBA INT VI Semester Examination MAY 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_Int_5_6270524042653.pdf"
+      },
+      {
+        "title": "Time Table MBA INT V Semester Examination MAY 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA_Int_5_6270524042601.pdf"
+      },
       {
         "title": "Time Table MBA INT X Semester Examination MAY 2024",
         "semester": "10th Semester",
@@ -241,6 +311,11 @@
     "programName": "Pharm D.",
     "programId": 51,
     "programDataList": [
+      {
+        "title": "Time Table PharmD III Year Examination MAY 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/PharmD_3Y270524043549.pdf"
+      },
       {
         "title": "Time Table Pharma D V Year Examination MAY 2024",
         "semester": "5th Semester",

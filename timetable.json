@@ -63,7 +63,22 @@
     ]
   },
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
-  { "programName": "BE", "programId": 1, "programDataList": [] },
+  {
+    "programName": "BE",
+    "programId": 1,
+    "programDataList": [
+      {
+        "title": "Time Table BE CBGS VIII Semester Examination MAY 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BE_CBGS_VIII060624033053.pdf"
+      },
+      {
+        "title": "Time Table BE CBGS VII Semester Examination MAY 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BE_CBGS_VII060624033030.pdf"
+      }
+    ]
+  },
   {
     "programName": "BE-PTDC",
     "programId": 10,

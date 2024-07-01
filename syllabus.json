@@ -606,11 +606,7 @@
             "title": "Syllabus CSE Internet of Things",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIoT_syllabus180822050756.pdf"
           },
-          {
-            "semester": "5th Semester",
-            "title": "CSE Cyber Security",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSyllabusCyberecurity180822050908.pdf"
-          },
+          { "semester": "5th Semester", "title": "CSE Cyber Security" },
           {
             "semester": "5th Semester",
             "title": "Syllabus Cyber Security",

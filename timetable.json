@@ -5,6 +5,16 @@
     "programId": 22,
     "programDataList": [
       {
+        "title": "Time Table MArch II Semester Session June 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARCH 12050724053445.pdf"
+      },
+      {
+        "title": "Time Table MArch I Semester Session June 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARCH 12050724053409.pdf"
+      },
+      {
         "title": "Time Table M Arch III Semester Students only MAY 2024 Examination",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MArch_III160424035620.pdf"
@@ -284,6 +294,16 @@
     "programId": 6,
     "programDataList": [
       {
+        "title": "Time Table ME M.Tech II Semester Examination MAY 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II050724054546.pdf"
+      },
+      {
+        "title": "Time Table ME M.Tech I Semester Examination MAY 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_I050724054436.pdf"
+      },
+      {
         "title": "Time Table ME III Semester Examination MAY 2024",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME Mtech 3 Sem 150424060311.pdf"
@@ -294,6 +314,16 @@
     "programName": "M.Tech.",
     "programId": 8,
     "programDataList": [
+      {
+        "title": "Time Table ME M.Tech II Semester Examination MAY 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II050724054526.pdf"
+      },
+      {
+        "title": "Time Table ME M.Tech I Semester Examination MAY 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_I050724054457.pdf"
+      },
       {
         "title": "Time Table MTECH III Semester Examination MAY 2024",
         "semester": "3rd Semester",
@@ -306,11 +336,31 @@
     "programId": 20,
     "programDataList": []
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "Time Table MPHARMA  III Semester Session June 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPHarma 3050724053051.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,
     "programDataList": [
+      {
+        "title": "Time Table MPHARMA PCI II Semester Session June 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma PCI 12050724052945.pdf"
+      },
+      {
+        "title": "Time Table MPHARMA PCI I Semester Session June 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma PCI 12050724052903.pdf"
+      },
       {
         "title": "Time Table M Pharmacy PCI III Semester MAY 2024 Examination",
         "semester": "3rd Semester",
@@ -322,6 +372,16 @@
     "programName": "MCA 2 Year",
     "programId": 53,
     "programDataList": [
+      {
+        "title": "Time Table MCA 2Y II Semester Session June 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2Y 12050724053243.pdf"
+      },
+      {
+        "title": "Time Table MCA 2Y I Semester Session June 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2Y 12050724053201.pdf"
+      },
       {
         "title": "Time Table MCA IV Semester Examination MAY 2024",
         "semester": "4th Semester",
@@ -339,6 +399,26 @@
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "Time Table INT MCA IV Semester Session June 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 1 to 4050724052727.pdf"
+      },
+      {
+        "title": "Time Table INT MCA III Semester Session June 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 1 to 4050724052639.pdf"
+      },
+      {
+        "title": "Time Table INT MCA II Semester Session June 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 1 to 4050724052557.pdf"
+      },
+      {
+        "title": "Time Table INT MCA I Semester Session June 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 1 to 4050724052525.pdf"
+      },
       {
         "title": "Time Table MCA INT VI Semester Examination MAY 2024",
         "semester": "6th Semester",
@@ -375,6 +455,26 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table INT MBA IV Semester Session June 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1 to 4050724052334.pdf"
+      },
+      {
+        "title": "Time Table INT MBA III Semester Session June 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1 to 4050724052238.pdf"
+      },
+      {
+        "title": "Time Table INT MBA II Semester Session June 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1 to 4050724052158.pdf"
+      },
+      {
+        "title": "Time Table INT MBA I Semester Session June 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 1 to 4050724052120.pdf"
+      },
       {
         "title": "Time Table MBA INT VI Semester Examination MAY 2024",
         "semester": "6th Semester",
@@ -416,6 +516,16 @@
     "programName": "Pharm D.",
     "programId": 51,
     "programDataList": [
+      {
+        "title": "Time Table Pharma D II Year  Session June 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 12050724053654.pdf"
+      },
+      {
+        "title": "Time Table Pharma D I Year  Session June 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Pharma D 12050724053602.pdf"
+      },
       {
         "title": "Time Table PharmD III Year Examination MAY 2024",
         "semester": "3rd Semester",

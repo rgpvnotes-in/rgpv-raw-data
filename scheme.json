@@ -29,8 +29,13 @@
           },
           {
             "semester": "1st Semester",
-            "title": "Schem",
+            "title": "Scheme MBA Healthcare management I Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBAHCM_ISem Scheme100724031347.pdf"
+          },
+          {
+            "semester": "1st Semester",
+            "title": "Scheme  MBA Rural management I Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBARM_ISem - Scheme100724032504.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -54,8 +59,13 @@
           },
           {
             "semester": "2nd Semester",
-            "title": "Schem",
+            "title": "Scheme MBA Healthcare management II Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBAHCM_IISem Scheme100724031430.pdf"
+          },
+          {
+            "semester": "2nd Semester",
+            "title": "Scheme  MBA Rural management II Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBARM_IISem Scheme100724032634.pdf"
           },
           {
             "semester": "3rd Semester",
@@ -79,8 +89,13 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Schem",
+            "title": "SchemScheme MBA Healthcare management III Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBAHCM_III_ Scheme100724031501.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Scheme  MBA Rural management III Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBARM_III Sem Scheme100724032719.pdf"
           },
           {
             "semester": "4th Semester",
@@ -101,6 +116,16 @@
             "semester": "4th Semester",
             "title": "Scheme MBA Pharmaceutical Management IV Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBA Scheme100523013356.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Scheme MBA Healthcare management IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBAHCM_IV Scheme100724031539.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Scheme  MBA Rural management IV Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/MBARM_IVSem - Scheme100724032842.pdf"
           }
         ]
       },

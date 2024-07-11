@@ -487,17 +487,7 @@
       }
     ]
   },
-  {
-    "programName": "M.Pharm",
-    "programId": 7,
-    "programDataList": [
-      {
-        "title": "Time Table MPHARMA  III Semester Session June 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPHarma 3050724053051.pdf"
-      }
-    ]
-  },
+  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,

@@ -492,7 +492,27 @@
       }
     ]
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "Time Table MPharma Non PCI III Semester Session JUNE 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124900.pdf"
+      },
+      {
+        "title": "Time Table MPharma Non PCI II Semester Session JUNE 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124832.pdf"
+      },
+      {
+        "title": "Time Table MPharma Non PCI I Semester Session JUNE 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124752.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,

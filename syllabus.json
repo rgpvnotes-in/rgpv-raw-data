@@ -378,8 +378,13 @@
           },
           {
             "semester": "3rd Semester",
-            "title": "Syll",
+            "title": "Syll Btech III Electronics and Communication ACT",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ACT-3rdSem-Syllabus200924041515.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Sy Btech III Electronics Engi VLSI Design and Tech",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VLSI-3rdSem-Syllabus-200924041708.pdf"
           },
           {
             "semester": "4th Semester",
@@ -484,657 +489,662 @@
           {
             "semester": "4th Semester",
             "title": "Automation and Robotics",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syll_IV_Robo_Mechatronics040222052749.pdf"
-          },
-          {
-            "semester": "4th Semester",
-            "title": "Artificial Intelligence and Machine Learning",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syll_IV_Auto_Robo040222052902.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "CSE Data Science",
+            "title": "Artificial Intelligence and Machine Learning",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_BTech_AIML230222083345.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "IoT Cyber Security Including Block Chain Tech",
+            "title": "CSE Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_BTech_Data_Science230222083656.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "CSE IOT",
+            "title": "IoT Cyber Security Including Block Chain Tech",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/including_Block_Chain230222084110.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Cyber Security",
+            "title": "CSE IOT",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_BTech_IoT230222084226.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Artificial Intelligence and Data Science",
+            "title": "Cyber Security",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_Cyber_Security280222114501.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Syllabus Agriculture Engineering",
+            "title": "Artificial Intelligence and Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_sem_BT_AIDS_FINAL280222114613.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Syllabus B.Tech Electric Vehicles IV Semester",
+            "title": "Syllabus Agriculture Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV_Sem_Agriculture_Engg_Syllabus240123122734.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Syllabus BTech Robotics and AI IV Sem",
+            "title": "Syllabus B.Tech Electric Vehicles IV Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syllabus  IV    Electric Vehicles290323010459.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Syllabus BTech CSE AI IV Sem",
+            "title": "Syllabus BTech Robotics and AI IV Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Sem Robotics  AI_Syllabus_220224034309.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Syllabus BTech CSD IV Semester",
+            "title": "Syllabus BTech CSE AI IV Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AI 4 Sem Syllabus190324044711.pdf"
           },
           {
             "semester": "4th Semester",
-            "title": "Syll",
+            "title": "Syllabus BTech CSD IV Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syllabus CSD IV Sem230224050921.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Syll Btech IV Electronics and Communication ACT",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ACT-4thSem-Syllabus-200924041446.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Sy Btech IV Electronics Engi VLSI Design and Tech",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VLSI-4thSem-Syllabus-200924041748.pdf"
           },
           {
             "semester": "5th Semester",
             "title": "B.Tech Civil Engineering",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ACT-4thSem-Syllabus-200924041446.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "B.Tech Chemical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem Civil_Sy060719033742.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Computer Science Engineering",
+            "title": "B.Tech Chemical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem CM _SY060719033808.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Electronics and communication Engg",
+            "title": "B.Tech Computer Science Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem CSE_Sy060719033838.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Electrical Engineering",
+            "title": "B.Tech Electronics and communication Engg",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem EC _SY060719033907.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Electrical and Electronics Engineering",
+            "title": "B.Tech Electrical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ee120719041301.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Fire Technology Safety Engg.",
+            "title": "B.Tech Electrical and Electronics Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ex120719041315.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Industrial Production Engineering",
+            "title": "B.Tech Fire Technology Safety Engg.",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem FT_Sy060719034152.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Mechanical Engineering",
+            "title": "B.Tech Industrial Production Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem IPE _Sy060719034217.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Mining Engineering",
+            "title": "B.Tech Mechanical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem ME _Sy060719034258.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Biomedical Engineering",
+            "title": "B.Tech Mining Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/mi170719031805.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Electronics and Instrumentation Engineering",
+            "title": "B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem BM_Sy080719034811.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Agriculture Technology",
+            "title": "B.Tech Electronics and Instrumentation Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ei_sy090719010507.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "B.Tech Computer Science and Information Technology",
+            "title": "B.Tech Agriculture Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Sem AT_Sy270819032306.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "BTech  Information Technology Syllabus",
+            "title": "B.Tech Computer Science and Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_CSIT_Syllabus230920124333.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Computer Science and Business System",
+            "title": "BTech  Information Technology Syllabus",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_Sem_IT_Syllabus061020013357.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "3D Animations and Graphics",
+            "title": "Computer Science and Business System",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS_RGPV_5_sem_Syllabus130722102118.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Automation and Robotics",
+            "title": "3D Animations and Graphics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSem3DAnimationGraphicsSyllabus220722052304.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Robotics and Mechatronics",
+            "title": "Automation and Robotics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syVsemAutomationandRobotics020822022025.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Syllabus CSE Data Science/ Data Science",
+            "title": "Robotics and Mechatronics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/sylVsemRoboticsandMechatronics020822022142.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "IoT and Cyber Security Including Block Chain",
+            "title": "Syllabus CSE Data Science/ Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech V sem CSE-DS180823113359.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Mining and Mineral Processing",
+            "title": "IoT and Cyber Security Including Block Chain",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IoTCyber_SecuincludingBlockChain170822013316.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Syllabus CSE Internet of Things",
+            "title": "Mining and Mineral Processing",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VsemMiningMineralProcessingSY180822035134.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "CSE Cyber Security",
+            "title": "Syllabus CSE Internet of Things",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIoT_syllabus180822050756.pdf"
           },
           {
             "semester": "5th Semester",
+            "title": "CSE Cyber Security",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSyllabusCyberecurity180822050908.pdf"
+          },
+          {
+            "semester": "5th Semester",
             "title": "Syllabus Cyber Security",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSyllabusCyberecurity180822050908.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "CSE IOT",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VSyllabusCyberecurity180822050908.pdf"
-          },
-          {
-            "semester": "5th Semester",
-            "title": "Syllabus Automobile Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_SY_Cyber_Security160123043234.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "CSE  Artificial Intelligence and Machine Learning",
+            "title": "CSE IOT",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIoT_syllabus180822051057.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Syllabus Artificial Intelligence and Data Science",
+            "title": "Syllabus Automobile Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B tech V Sem AU020223102632.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Syllabus BTech Agriculture Engineering V Sem",
+            "title": "CSE  Artificial Intelligence and Machine Learning",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/B Tech V sem CSE AIML syllabus010223052406.pdf"
           },
           {
             "semester": "5th Semester",
-            "title": "Syllabus BTech Electric Vehicles V Semester",
+            "title": "Syllabus Artificial Intelligence and Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Final_AIDS-Syllabus V semester280423020207.pdf"
           },
           {
-            "semester": "6th Semester",
-            "title": "Syllabus Automobile Engineering",
+            "semester": "5th Semester",
+            "title": "Syllabus BTech Agriculture Engineering V Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V_ Sem_SY_2023 Agriculture Engg020823042515.pdf"
           },
           {
-            "semester": "6th Semester",
-            "title": "B.Tech Agriculture Technology",
+            "semester": "5th Semester",
+            "title": "Syllabus BTech Electric Vehicles V Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus _EV _ V Sem061023035709.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Biomedical Engineering",
+            "title": "Syllabus Automobile Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_AU_Syllabus260123094901.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Civil Engineering",
+            "title": "B.Tech Agriculture Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AT VI Sem _Sy311219032110.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Chemical Engineering",
+            "title": "B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BM _VI Sem _SY_311219032128.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Computer Science and Engineering",
+            "title": "B.Tech Civil Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CE__6_Sem_Syllabus311219032225.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Electronics and communication Engg",
+            "title": "B.Tech Chemical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CM_VI Sem _SY311219032247.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Electrical Engineering",
+            "title": "B.Tech Computer Science and Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE-6_Sem_Syallbus311219032311.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Electrical and Electronics Engineering",
+            "title": "B.Tech Electronics and communication Engg",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EC_6_Sem_Syllabus311219032346.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Electronics and Instrumentation Engineering",
+            "title": "B.Tech Electrical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE_6 SEM_SYLLABUS311219032410.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Fire Technology Safety Engg.",
+            "title": "B.Tech Electrical and Electronics Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EX_VI Sem _Syllabus _Final_311219034757.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Industrial Production Engineering",
+            "title": "B.Tech Electronics and Instrumentation Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EI _VI Sem _SY Final311219034823.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Information Technology",
+            "title": "B.Tech Fire Technology Safety Engg.",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT 6 Sem Syllabus311219034902.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Mechanical Engineering",
+            "title": "B.Tech Industrial Production Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IPE_VI Sem _ Syllabus311219034939.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "B.Tech Mining Engineering",
+            "title": "B.Tech Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IT_6th_SEM_SYLLABUS_311219034959.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Computer Science and Information Technology",
+            "title": "B.Tech Mechanical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/ME_6_Sem_Syllabus311219035027.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Mining and Mineral Processing",
+            "title": "B.Tech Mining Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mining_6th Sem_Syllabus311219035051.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus Artificial Intelligence and Data Science",
+            "title": "Computer Science and Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSIT VI SYLLABUS040321042244.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syallbus Artificial Intelligence  Machine Learning",
+            "title": "Mining and Mineral Processing",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIsemMiningMineralProcessingSY180822035045.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus  CSE Data Science/ Data Science",
+            "title": "Syllabus Artificial Intelligence and Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_SEM_AIDS_Sy170123113611.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "syllabus BTech Cyber security VI Semester",
+            "title": "Syallbus Artificial Intelligence  Machine Learning",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_AIML_SY170123114104.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus Automation Robotics",
+            "title": "Syllabus  CSE Data Science/ Data Science",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_Sem_SY_Data_Science170123114331.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus Robotics and Mechatronics",
+            "title": "syllabus BTech Cyber security VI Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Sem_SY_Cyber Security190224021154.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "CSE IoT and Cyber Security Incl Block Chain Tech",
+            "title": "Syllabus Automation Robotics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Automation Robotics190123035915.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus Computer Science and Engineering IOT",
+            "title": "Syllabus Robotics and Mechatronics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus Robo Mechatronics190123040107.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus 3D Animation  Graphics",
+            "title": "CSE IoT and Cyber Security Incl Block Chain Tech",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Cybersecurity including Blockchain190123045921.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus BTech CSBS VI Semester",
+            "title": "Syllabus Computer Science and Engineering IOT",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syllabus IOT VI Semester230123124644.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus BTech Agriculture Engineering VI Sem",
+            "title": "Syllabus 3D Animation  Graphics",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3 D Animation  Graphics 6 sem280223125554.pdf"
           },
           {
             "semester": "6th Semester",
-            "title": "Syllabus  BTech Electric Vehicles VI Semester",
+            "title": "Syllabus BTech CSBS VI Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS_RGPV_6_sem_Syllabus130723045733.pdf"
           },
           {
-            "semester": "7th Semester",
-            "title": "Syllabus B Tech Automobile Engineering VII Sem",
+            "semester": "6th Semester",
+            "title": "Syllabus BTech Agriculture Engineering VI Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI_ Sem_Sy_2024 Agriculture Engg020823042449.pdf"
           },
           {
-            "semester": "7th Semester",
-            "title": "Syllabus Computer Science Engg",
+            "semester": "6th Semester",
+            "title": "Syllabus  BTech Electric Vehicles VI Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Final Syllabus _EV _VI Sem250124050859.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Electrical Electronics Engg.",
+            "title": "Syllabus B Tech Automobile Engineering VII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem AU Syllabus040723122657.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Electrical Engineering",
+            "title": "Syllabus Computer Science Engg",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Computer_Science_100720025532.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Fire Tech and Safety Engineering",
+            "title": "Syllabus Electrical Electronics Engg.",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Electrical_Electronics_100720025715.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Industrial Production Engineering",
+            "title": "Syllabus Electrical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Electrical_Engineering_100720025755.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Mechanical Engineering",
+            "title": "Syllabus Fire Tech and Safety Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Fire_Technology_100720025858.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Mining Engineering",
+            "title": "Syllabus Industrial Production Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Industrial_Production100720030047.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Information Technology",
+            "title": "Syllabus Mechanical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mechanical_100720030154.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Electronics and communication Engg",
+            "title": "Syllabus Mining Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mining_Engg_100720030309.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Chemical Engineering",
+            "title": "Syllabus Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/nformation_Technology100720030407.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Biomedical Engineering",
+            "title": "Syllabus Electronics and communication Engg",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIIEC140720035016.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Electronics and Instrumentation Engineering",
+            "title": "Syllabus Chemical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIISemCM140720035140.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus B.Tech Civil Engineering",
+            "title": "Syllabus Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_Sem_BM_Sy170720122742.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus B.Tech Agriculture Technology",
+            "title": "Electronics and Instrumentation Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_Sem_EI_Sy170720122902.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Computer Science and Information Technology",
+            "title": "Syllabus B.Tech Civil Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_Sem_Civil__SY230720025332.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech Cyber Security VII Semester",
+            "title": "Syllabus B.Tech Agriculture Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_Sem_AT_Sy230720025658.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "CSE IOT and cyber Security inc Block Chain Tech",
+            "title": "Computer Science and Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSIT VII SYLLABUS040321042257.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "BTech Mining and Mineral Processing VII Semester",
+            "title": "Syllabus BTech Cyber Security VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem _Sy Cyber Security030823011733.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech CSE Data Science VII Semester",
+            "title": "CSE IOT and cyber Security inc Block Chain Tech",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IOT with Block Chain _Sy VII Sem030823012216.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Artificial Intelligence and Data Science VII Sem",
+            "title": "BTech Mining and Mineral Processing VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mining and Mineral_Sy VII sem030823012355.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech CSE Cyber Security VII Sem",
+            "title": "Syllabus BTech CSE Data Science VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE-Data Science  VII Sem Syllabus030823012826.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "BTech 3D Animation  Graphics VII Sem",
+            "title": "Artificial Intelligence and Data Science VII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AI  DS Syllabus VII Sem FINAL030823013101.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech AUtomation and Robotics VII Sem",
+            "title": "Syllabus BTech CSE Cyber Security VII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII Sem _Sy Cyber Security030823013312.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech Robotics and Mechatronics VII Sem",
+            "title": "BTech 3D Animation  Graphics VII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3 D Animation  Syllabus030823054620.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech CSBS VII Semester",
+            "title": "Syllabus BTech AUtomation and Robotics VII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus_Automation__Robotic070823044353.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech AIML VII Semester",
+            "title": "Syllabus BTech Robotics and Mechatronics VII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus Robotics_and_Mechatronics070823044501.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech CSE IOT VII Semester",
+            "title": "Syllabus BTech CSBS VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS_New7_sem_Syllabus 1090823121206.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus Btech Agriculture Engg VII Semester",
+            "title": "Syllabus BTech AIML VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE-AIML VII sem syllabus090823122849.pdf"
           },
           {
             "semester": "7th Semester",
-            "title": "Syllabus BTech Electric Vehicles VII Semester",
+            "title": "Syllabus BTech CSE IOT VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE  IoT_7th_Syllabus090823123004.pdf"
           },
           {
-            "semester": "8th Semester",
-            "title": "Syllabus Fire Tech and Safety Engineering",
+            "semester": "7th Semester",
+            "title": "Syllabus Btech Agriculture Engg VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_Sem_AT_Sy_230724121522.pdf"
           },
           {
-            "semester": "8th Semester",
-            "title": "Syllabus Mechanical Engineering",
+            "semester": "7th Semester",
+            "title": "Syllabus BTech Electric Vehicles VII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus _EV_VII Sem _Final210824035044.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus Industrial Production Engineering",
+            "title": "Syllabus Fire Tech and Safety Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/FT_BTech_VIII300121025619.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus Mining Engineering",
+            "title": "Syllabus Mechanical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_ME_SY_300121025723.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Automobile Engineering",
+            "title": "Syllabus Industrial Production Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_IPE_Syllabus300121025818.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Biomedical Engineering",
+            "title": "Syllabus Mining Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_Mining_Sy300121025918.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Electronics and communication Engg",
+            "title": "Syllabus B.Tech Automobile Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII Sem AU syllabus110124123800.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Chemical Engineering",
+            "title": "Syllabus B.Tech Biomedical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_BM__Sy_020221063737.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Information Technology",
+            "title": "Syllabus B.Tech Electronics and communication Engg",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VII_EC_Sy020221063906.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Electrical Engineering",
+            "title": "Syllabus B.Tech Chemical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_CM__SY020221064331.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Electrical and Electronics Engg",
+            "title": "Syllabus B.Tech Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BTech_IT_VIII__Syllabus030221030445.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Agriculture Technology",
+            "title": "Syllabus B.Tech Electrical Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EE_VIII_Sem_Sy030221030614.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus B.Tech Civil Engineering",
+            "title": "Syllabus B.Tech Electrical and Electronics Engg",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EX_VIII_Sem_Sy030221030720.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "B.Tech Computer Science and Engineering",
+            "title": "Syllabus B.Tech Agriculture Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_AT_Sy030221030900.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "B.Tech Electronics and Instrumentation Engineering",
+            "title": "Syllabus B.Tech Civil Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_Civil__SY040221030917.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Computer Science and Information Technology",
+            "title": "B.Tech Computer Science and Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSE_VIII_Sem_RGPV-Syllabus060221121616.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech CSBS VIII Semester",
+            "title": "B.Tech Electronics and Instrumentation Engineering",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/EI_VIII_sem__Syllabus060221121721.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech AIDS VIII Semester",
+            "title": "Computer Science and Information Technology",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSIT VIII SYLLABUS040321042314.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech Mining Mineral Processing VIII Sem",
+            "title": "Syllabus BTech CSBS VIII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/CSBS_New8_sem_Syllabus  1090823121141.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech AIML VIII Semester",
+            "title": "Syllabus BTech AIDS VIII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AI DS Syllabus 8080124012158.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "SYL CSE IoT and Cyber Secu Incl Block Chain Tech",
+            "title": "Syllabus BTech Mining Mineral Processing VIII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Mining  Mineral Processing  SYL080124012638.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech CSE Data Science VIII Semester",
+            "title": "Syllabus BTech AIML VIII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/AIML VIII sem Syllabus 1070224045203.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech 3D Animation Graphics VIII Semester",
+            "title": "SYL CSE IoT and Cyber Secu Incl Block Chain Tech",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/syllabus - IoT and Cybe inclBlock090124023825.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech Cyber Security VIII Semester",
+            "title": "Syllabus BTech CSE Data Science VIII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Data Science  syllabus090124024152.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech Automation and Robotics VIII Sem",
+            "title": "Syllabus BTech 3D Animation Graphics VIII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/3 D Ani Graphics Sylla120124113549.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech Robotics and  Mechatronics VIII Sem",
+            "title": "Syllabus BTech Cyber Security VIII Semester",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/8 sem syllabus cyber sec150124025231.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus BTech CSE IOT VIII Semester",
+            "title": "Syllabus BTech Automation and Robotics VIII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus _Automation and Robo160124051118.pdf"
           },
           {
             "semester": "8th Semester",
-            "title": "Syllabus Btech Agriculture Engg VIII Semester",
+            "title": "Syllabus BTech Robotics and  Mechatronics VIII Sem",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syl Robotics and Mechatr160124051313.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "Syllabus BTech CSE IOT VIII Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus_IoT_VIII Semester240124042038.pdf"
+          },
+          {
+            "semester": "8th Semester",
+            "title": "Syllabus Btech Agriculture Engg VIII Semester",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VIII_Sem_AT_Sy_230724121216.pdf"
           }
         ]
       },

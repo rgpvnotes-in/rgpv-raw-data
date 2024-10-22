@@ -1,151 +1,6 @@
 [
-  {
-    "programName": "MBA",
-    "programId": 4,
-    "programDataList": [
-      {
-        "title": "Time Table MBA PM I Semester Session  Jun 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_I_II110724115316.pdf"
-      },
-      {
-        "title": "Time Table MBA PM II Semester Session  Jun 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_I_II110724115330.pdf"
-      },
-      {
-        "title": "Time Table MBA IV Semester Session Jun 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_III_IV090724020015.pdf"
-      },
-      {
-        "title": "Time Table MBA RM IV Semester Session  Jun 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_III_IV080724070436.pdf"
-      },
-      {
-        "title": "Time Table MBA RM III Semester Session  Jun 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_III_IV080724070352.pdf"
-      },
-      {
-        "title": "Time Table MBA FA II Semester Session  Jun 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_I_II080724070252.pdf"
-      },
-      {
-        "title": "Time Table MBA FA I Semester Session  Jun 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_I_II080724070026.pdf"
-      },
-      {
-        "title": "Time Table MBA HM II Semester Session  Jun 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_I_II080724065851.pdf"
-      },
-      {
-        "title": "Time Table MBA HM I Semester Session  Jun 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_I_II080724065810.pdf"
-      },
-      {
-        "title": "Time Table MBA MM II Semester Session  Jun 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_I_II080724065539.pdf"
-      },
-      {
-        "title": "Time Table MBA MM I Semester Session  Jun 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_I_II080724065448.pdf"
-      },
-      {
-        "title": "Time Table MBA FA IV Semester Session  Jun 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_III_IV080724065350.pdf"
-      },
-      {
-        "title": "Time Table MBA FA III Semester Session  Jun 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_III_IV080724065317.pdf"
-      },
-      {
-        "title": "Time Table MBA RM II Semester Session  Jun 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_I_II080724065155.pdf"
-      },
-      {
-        "title": "Time Table MBA RM I Semester Session  Jun 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_I_II080724065117.pdf"
-      },
-      {
-        "title": "Time Table MBA MM IV Semester Session  Jun 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_III_IV080724064928.pdf"
-      },
-      {
-        "title": "Time Table MBA MM III Semester Session  Jun 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_III_IV080724064857.pdf"
-      },
-      {
-        "title": "Time Table MBA HM IV Semester Session  Jun 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_III_IV080724064725.pdf"
-      },
-      {
-        "title": "Time Table MBA HM III Semester Session  Jun 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_III_IV080724064651.pdf"
-      },
-      {
-        "title": "Time Table MBA  II Semester Session  Jun 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_I_II080724063929.pdf"
-      },
-      {
-        "title": "Time Table MBA  I Semester Session  Jun 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_I_II080724063901.pdf"
-      },
-      {
-        "title": "Time Table MBA PM IV Semester Session  Jun 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_III_IV080724063748.pdf"
-      },
-      {
-        "title": "Time Table MBA PM III Semester Session  Jun 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_III_IV080724063707.pdf"
-      }
-    ]
-  },
-  {
-    "programName": "M.Arch",
-    "programId": 22,
-    "programDataList": [
-      {
-        "title": "Time Table MArch II Semester Session June 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARCH 12050724053445.pdf"
-      },
-      {
-        "title": "Time Table MArch I Semester Session June 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MARCH 12050724053409.pdf"
-      },
-      {
-        "title": "Time Table M Arch III Semester Students only MAY 2024 Examination",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MArch_III160424035620.pdf"
-      },
-      {
-        "title": "Time Table M Arch IV Semester MAY 2024 Examination",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MArch_III160424035159.pdf"
-      }
-    ]
-  },
+  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
   {
     "programName": "B.Tech",
     "programId": 24,
@@ -154,26 +9,6 @@
         "title": "Time Table BTech IV Semester Working Professional Session June 2024",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_WP_IV290724055734.pdf"
-      },
-      {
-        "title": "Time Table BTech  IV Semester Session June 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_IV_rotated050724122942.pdf"
-      },
-      {
-        "title": "Time Table BTech  III Semester Session June 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_III_rotated050724122902.pdf"
-      },
-      {
-        "title": "Time Table BTech  II Semester Session June 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_I_II_rotated050724122810.pdf"
-      },
-      {
-        "title": "Time Table BTech  I Semester Session June 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_I_II_rotated050724122740.pdf"
       },
       {
         "title": "Time Table BTech CSBS I Semester Session June 2024",
@@ -196,16 +31,6 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_ItoIV_CSBS_rotated050724122406.pdf"
       },
       {
-        "title": "Time Table BTech V Semester Examination MAY 2024",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech 5 A170524025001.pdf"
-      },
-      {
-        "title": "Time Table BTech VI Semester Examination MAY 2024",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech 6 A170524024939.pdf"
-      },
-      {
         "title": "Time Table BTech CSBS VI Semester Examination MAY 2024",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 56170524024858.pdf"
@@ -214,16 +39,6 @@
         "title": "Time Table BTech CSBS V Semester Examination MAY 2024",
         "semester": "5th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 56170524024836.pdf"
-      },
-      {
-        "title": "Time Table Btech VIII Semester Examination MAY 2024",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech 8 Sem150424055417.pdf"
-      },
-      {
-        "title": "Time Table Btech VII Semester Examination MAY 2024",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/Btech 7 Sem150424055305.pdf"
       },
       {
         "title": "Time Table BTech CSBS VII Semester Examination MAY 2024",
@@ -237,27 +52,7 @@
       }
     ]
   },
-  {
-    "programName": "B.Design",
-    "programId": 25,
-    "programDataList": [
-      {
-        "title": "Time Table B.Design III Semester December 2023 Examination",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BDesign_III160824110413.pdf"
-      },
-      {
-        "title": "Time Table B.Design II Semester June 2024 Examination",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BDesign_I_II120824055404.pdf"
-      },
-      {
-        "title": "Time Table B.Design I Semester June 2024 Examination",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BDesign_I_II120824055306.pdf"
-      }
-    ]
-  },
+  { "programName": "B.Design", "programId": 25, "programDataList": [] },
   {
     "programName": "BE",
     "programId": 1,
@@ -274,82 +69,12 @@
       }
     ]
   },
-  {
-    "programName": "BE-PTDC",
-    "programId": 10,
-    "programDataList": [
-      {
-        "title": "Time Table BEPTDC VIII Semester Examination MAY 2024",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043304.pdf"
-      },
-      {
-        "title": "Time Table BEPTDC VII Semester Examination MAY 2024",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043237.pdf"
-      },
-      {
-        "title": "Time Table BEPTDC VI Semester Examination MAY 2024",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043212.pdf"
-      },
-      {
-        "title": "Time Table BEPTDC V Semester Examination MAY 2024",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043135.pdf"
-      }
-    ]
-  },
-  {
-    "programName": "B.Tech.-PTDC",
-    "programId": 42,
-    "programDataList": [
-      {
-        "title": "Time Table BTech PTDC VIII Semester Examination MAY 2024",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043455.pdf"
-      },
-      {
-        "title": "Time Table BTech PTDC VII Semester Examination MAY 2024",
-        "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043431.pdf"
-      },
-      {
-        "title": "Time Table BTech PTDC VI Semester Examination MAY 2024",
-        "semester": "6th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043409.pdf"
-      },
-      {
-        "title": "Time Table BTech PTDC V Semester Examination MAY 2024",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE_BTech_PT_5_8270524043344.pdf"
-      }
-    ]
-  },
+  { "programName": "BE-PTDC", "programId": 10, "programDataList": [] },
+  { "programName": "B.Tech.-PTDC", "programId": 42, "programDataList": [] },
   {
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
     "programDataList": [
-      {
-        "title": "Time Table BPharma PCI IV Semester Session June 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_ItoIV050724024458.pdf"
-      },
-      {
-        "title": "Time Table BPharma PCI III Semester Session June 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_ItoIV050724024417.pdf"
-      },
-      {
-        "title": "Time Table BPharma PCI II Semester Session June 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_ItoIV050724024339.pdf"
-      },
-      {
-        "title": "Time Table BPharma PCI I Semester Session June 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BPharm_ItoIV050724024232.pdf"
-      },
       {
         "title": "Time Table BPharma PCI CBGS VI Semester Examination MAY 2024",
         "semester": "6th Semester",
@@ -459,127 +184,16 @@
       }
     ]
   },
-  {
-    "programName": "M.E.",
-    "programId": 6,
-    "programDataList": [
-      {
-        "title": "Time Table ME M.Tech II Semester Examination MAY 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II110724051646.pdf"
-      },
-      {
-        "title": "Time Table ME M.Tech I Semester Examination MAY 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_I050724054436.pdf"
-      },
-      {
-        "title": "Time Table ME III Semester Examination MAY 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME Mtech 3 Sem 150424060311.pdf"
-      }
-    ]
-  },
-  {
-    "programName": "M.Tech.",
-    "programId": 8,
-    "programDataList": [
-      {
-        "title": "Time Table ME M.Tech II Semester Examination MAY 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II090724042055.pdf"
-      },
-      {
-        "title": "Time Table ME M.Tech I Semester Examination MAY 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_I050724054457.pdf"
-      },
-      {
-        "title": "Time Table MTECH III Semester Examination MAY 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/ME Mtech 3 Sem 150424060042.pdf"
-      }
-    ]
-  },
+  { "programName": "M.E.", "programId": 6, "programDataList": [] },
+  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": [
-      {
-        "title": "Time Table M.Tech Part Time IV Semester Examination MAY 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_PT_IV110724052222.pdf"
-      }
-    ]
+    "programDataList": []
   },
-  {
-    "programName": "M.Pharm",
-    "programId": 7,
-    "programDataList": [
-      {
-        "title": "Time Table MPharma Non PCI III Semester Session JUNE 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124900.pdf"
-      },
-      {
-        "title": "Time Table MPharma Non PCI II Semester Session JUNE 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124832.pdf"
-      },
-      {
-        "title": "Time Table MPharma Non PCI I Semester Session JUNE 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124752.pdf"
-      }
-    ]
-  },
-  {
-    "programName": "M.Pharm. PCI",
-    "programId": 71,
-    "programDataList": [
-      {
-        "title": "Time Table MPHARMA PCI II Semester Session June 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma PCI 12050724052945.pdf"
-      },
-      {
-        "title": "Time Table MPHARMA PCI I Semester Session June 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPharma PCI 12050724052903.pdf"
-      },
-      {
-        "title": "Time Table M Pharmacy PCI III Semester MAY 2024 Examination",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharm_III160424035301.pdf"
-      }
-    ]
-  },
-  {
-    "programName": "MCA 2 Year",
-    "programId": 53,
-    "programDataList": [
-      {
-        "title": "Time Table MCA 2Y II Semester Session June 2024",
-        "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2Y 12050724053243.pdf"
-      },
-      {
-        "title": "Time Table MCA 2Y I Semester Session June 2024",
-        "semester": "1st Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 2Y 12050724053201.pdf"
-      },
-      {
-        "title": "Time Table MCA IV Semester Examination MAY 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 34 sem  2Y150424055911.pdf"
-      },
-      {
-        "title": "Time Table MCA III Semester Examination MAY 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MCA 34 sem  2Y150424055753.pdf"
-      }
-    ]
-  },
+  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  { "programName": "MCA 2 Year", "programId": 53, "programDataList": [] },
   { "programName": "MCA", "programId": 5, "programDataList": [] },
   {
     "programName": "MCA Dual Degree",

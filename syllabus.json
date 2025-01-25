@@ -1811,35 +1811,106 @@
             "title": "B.E.(EI)",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V EI(Sy)290911035659.pdf"
           },
-          { "semester": "5th Semester", "title": "B.E.(EX)" },
-          { "semester": "5th Semester", "title": "B.E.(FT)" },
-          { "semester": "5th Semester", "title": "B.E.(IEM)" },
-          { "semester": "5th Semester", "title": "B.E.(IP)" },
-          { "semester": "5th Semester", "title": "B.E.(IT)" },
-          { "semester": "5th Semester", "title": "B.E.(ME)" },
-          { "semester": "5th Semester", "title": "B.E.(BM)" },
-          { "semester": "6th Semester", "title": "BE (Automobile Engg.)" },
-          { "semester": "6th Semester", "title": "B.E.(Civil Engg)" },
-          { "semester": "6th Semester", "title": "B.E.(Chemical Engg.)" },
-          { "semester": "6th Semester", "title": "B.E.(Comp.Sc. and Engg.)" },
           {
-            "semester": "6th Semester",
-            "title": "B.E.(Electronics and Comm.)"
-          },
-          { "semester": "6th Semester", "title": "B.E.(Electrical Engg.)" },
-          {
-            "semester": "6th Semester",
-            "title": "B.E.(Electronics and Inst.)"
+            "semester": "5th Semester",
+            "title": "B.E.(EX)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V EX (SY)290911035844.pdf"
           },
           {
-            "semester": "6th Semester",
-            "title": "B.E.(Electrical Electronics Engg.)"
+            "semester": "5th Semester",
+            "title": "B.E.(FT)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V FT (SY)290911040016.pdf"
           },
-          { "semester": "6th Semester", "title": "B.E.(Fire Tech.)" },
-          { "semester": "6th Semester", "title": "B.E.(IP,IEM)" },
-          { "semester": "6th Semester", "title": "B.E.(Information Tech.)" },
-          { "semester": "6th Semester", "title": "B.E.(Mechanical Engg.)" },
-          { "semester": "6th Semester", "title": "B.E.(Textile Engg.)" },
+          {
+            "semester": "5th Semester",
+            "title": "B.E.(IEM)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V IP (SY)290911040225.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "B.E.(IP)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V IP (SY)290911040451.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "B.E.(IT)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V IT (SY)290911040621.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "B.E.(ME)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V ME (SY)290911040841.pdf"
+          },
+          {
+            "semester": "5th Semester",
+            "title": "B.E.(BM)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Bio Medical (SY)290911041035.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "BE (Automobile Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI AU (SY)010411051200.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Civil Engg)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI SYLLABUS OF CIVIL010411050859.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Chemical Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Chemical (SY)010411051932.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Comp.Sc. and Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI CSE (Syllabus)010411052318.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Electronics and Comm.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EC (SY)080411014912.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Electrical Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Syllabus_EE301211024400.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Electronics and Inst.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EI (sy)080411020117.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Electrical Electronics Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI EX (SY)080411020322.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Fire Tech.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI FT(SY)080411020629.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(IP,IEM)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI IP (SY)080411021410.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Information Tech.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BE_6_SEM_SYLLABUS160212123750.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Mechanical Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI ME (SY)080411022959.pdf"
+          },
+          {
+            "semester": "6th Semester",
+            "title": "B.E.(Textile Engg.)",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI TX (SY)080411023353.pdf"
+          },
           {
             "semester": "6th Semester",
             "title": "B.E.(Bio Medical Engg.)",

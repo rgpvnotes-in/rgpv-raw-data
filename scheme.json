@@ -4753,47 +4753,39 @@
           },
           {
             "semester": "4th Semester",
-            "title": "Advanced Production Systems (Part Time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Advanced161214125247.pdf"
+            "title": "Advanced Production Systems (Part Time)"
           },
           {
             "semester": "4th Semester",
-            "title": "Electrical Power System (Part-time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV Eps171214034137.pdf"
+            "title": "Electrical Power System (Part-time)"
           },
           {
             "semester": "5th Semester",
-            "title": "Power System and Automation",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V011013110236.pdf"
+            "title": "Power System and Automation"
           },
           {
             "semester": "5th Semester",
-            "title": "Advanced Production Systems (Part Time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Advanced161214125308.pdf"
+            "title": "Advanced Production Systems (Part Time)"
           },
           {
             "semester": "5th Semester",
-            "title": "Electrical Power System (Part-time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/V Eps171214034205.pdf"
+            "title": "Electrical Power System (Part-time)"
           },
           {
             "semester": "6th Semester",
-            "title": "Power System and Automation",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI011013110254.pdf"
+            "title": "Power System and Automation"
           },
           {
             "semester": "6th Semester",
-            "title": "Advanced Production Systems (Part Time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Advanced161214125326.pdf"
+            "title": "Advanced Production Systems (Part Time)"
           },
           {
             "semester": "6th Semester",
-            "title": "Electrical Power System (Part-time)",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/VI Eps171214034221.pdf"
+            "title": "Electrical Power System (Part-time)"
           }
         ]
       },
-      { "name": "Non Grading System", "id": 2, "pdfs": [] },
+      { "name": "Non Grading System", "id": 2 },
       { "name": "Lateral Entry", "id": 3, "pdfs": [] },
       { "name": "CBCS", "id": 4, "pdfs": [] },
       { "name": "CBGS", "id": 5, "pdfs": [] },

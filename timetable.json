@@ -503,6 +503,11 @@
     "programId": 71,
     "programDataList": [
       {
+        "title": "Time Table MPharm PCI I Sem Examination Session Dec2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPHARM PCI 1180225045932.pdf"
+      },
+      {
         "title": "Time Table M.Pharmacy PCI II Semester Examination Session Dec 2024",
         "semester": "2nd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharm_II080125010351.pdf"
@@ -662,6 +667,11 @@
     "programName": "Pharm D.",
     "programId": 51,
     "programDataList": [
+      {
+        "title": "Time Table Pharm D I Year Examination Session Dec2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharm D 1 year180225050035.pdf"
+      },
       {
         "title": "Time Table PHARMA D III Year Examination Session Dec 2024",
         "semester": "3rd Semester",

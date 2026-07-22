@@ -1,14 +1,10 @@
 import { writeFile } from "fs/promises";
 import { ProgramAndSystemList } from "./services/cheerio/index";
+import { withRetry } from "./services/retry/index";
 
 const writeInfoParameterData = async (): Promise<void> => {
-  try {
-    const informationData = await ProgramAndSystemList();
-    await writeFile("dist/info.json", JSON.stringify(informationData));
-  } catch (error) {
-    console.error("some error occurred", error);
-    await writeInfoParameterData();
-  }
+  const informationData = await ProgramAndSystemList();
+  await writeFile("dist/info.json", JSON.stringify(informationData));
 };
 
-void writeInfoParameterData();
+void withRetry("writeInfoParameterData", writeInfoParameterData, { retries: 3, delayMs: 1500 });

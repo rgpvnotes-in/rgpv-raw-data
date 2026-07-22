@@ -6,15 +6,17 @@ import "dotenv/config";
 import { latestAlerts } from "./services/cheerio/index";
 import { updateNewsOnApiServer } from "./services/axios/index";
 import { shareOnSocialMedia } from "./services/socialMediaShare/index";
+import { getEnv } from "./services/env/index";
 
-const spreadsheetId = process.env.SPREADSHEET_ID;
+const env = getEnv();
+const spreadsheetId = env.SPREADSHEET_ID;
 
 const md5Hash = (value: string): string => createHash("md5").update(value).digest("hex");
 
 const writeFullDataToApi = async (): Promise<void> => {
   try {
-    const urlToUpdateAllNews = process.env.POST_ALL_NEWS_URL || "";
-    const password = process.env.POST_NEWS_PASSWORD;
+    const urlToUpdateAllNews = env.POST_ALL_NEWS_URL;
+    const password = env.POST_NEWS_PASSWORD;
 
     let readNews = await readDataFromSheet();
     readNews = readNews.slice(Math.max(readNews.length - 100, 0));
@@ -39,8 +41,8 @@ const writeRecentDataToApi = async (
   newsData: Array<{ content: string; url: string | null }>,
 ): Promise<void> => {
   try {
-    const urlToUpdateRecentNews = process.env.POST_RECENT_NEWS_URL || "";
-    const password = process.env.POST_NEWS_PASSWORD;
+    const urlToUpdateRecentNews = env.POST_RECENT_NEWS_URL;
+    const password = env.POST_NEWS_PASSWORD;
     await updateNewsOnApiServer(urlToUpdateRecentNews, password, newsData);
   } catch (error) {
     console.error(
@@ -56,8 +58,7 @@ const readDataFromSheet = async (): Promise<string[][]> => {
       scopes: "https://www.googleapis.com/auth/spreadsheets",
     });
 
-    const client = await auth.getClient();
-    const googleSheets = google.sheets({ version: "v4", auth: client as any });
+    const googleSheets = google.sheets("v4");
 
     const getRows = await googleSheets.spreadsheets.values.get({
       auth,
@@ -83,8 +84,7 @@ const writeDataToSheet = async (): Promise<void> => {
       scopes: "https://www.googleapis.com/auth/spreadsheets",
     });
 
-    const client = await auth.getClient();
-    const googleSheets = google.sheets({ version: "v4", auth: client as any });
+    const googleSheets = google.sheets("v4");
 
     for (const news of latestNewsAlerts as Array<{
       content: string;
@@ -104,14 +104,16 @@ const writeDataToSheet = async (): Promise<void> => {
         if (news.url) {
           const isUrlAvailable = readNews.find((element) => element[4] === news.url);
           if (isUrlAvailable === undefined) {
-            const fetchDataFromUrl = process.env.SHORT_URL_GENERATOR_URL || "";
+            const fetchDataFromUrl = env.SHORT_URL_GENERATOR_URL;
             try {
-              const responseData = await axios.post(fetchDataFromUrl, {
-                password: process.env.SHORT_URL_PASSWORD,
+              const responseData = await axios.post<
+                { shortened?: string } & { isSuccess?: boolean }
+              >(fetchDataFromUrl, {
+                password: env.SHORT_URL_PASSWORD,
                 url: news.url,
               });
-              if (responseData && (responseData as any).isSuccess) {
-                news.shortUrl = (responseData.data as any).shortened;
+              if (responseData?.data?.isSuccess) {
+                news.shortUrl = responseData.data.shortened || null;
               }
             } catch (error) {
               news.shortUrl = null;

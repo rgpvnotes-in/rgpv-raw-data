@@ -7,14 +7,16 @@ import "dotenv/config";
 import { postImageUrl } from "../imageGenerator/index";
 import { constantHashTag } from "../hashtagGenerator/index";
 import { simpleGetData } from "../axios/index";
+import { getEnv } from "../env/index";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const env = getEnv();
 
 const zohoLoginUrl = "https://accounts.zoho.in/signin?servicename=ZohoSocial";
 const zohoHomePage = "https://social.zoho.in/Home.do";
-const zohoUsername = process.env.ZOHO_USERNAME;
-const zohoPassword = process.env.ZOHO_PASSWORD;
+const zohoUsername = env.ZOHO_USERNAME;
+const zohoPassword = env.ZOHO_PASSWORD;
 const socialMediaPostFileName = "_social_post_image.png";
 const separatorBasedOnOs = process.platform === "win32" ? "\\" : "/";
 const uploadFilePath = path.relative(

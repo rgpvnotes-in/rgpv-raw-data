@@ -1,6 +1,7 @@
 import { writeFile } from "fs/promises";
 import { fetchSchemeOrSyllabusFileUrl } from "./services/axios/index";
 import { prepareSchemeOrSyllabusData, prepareSchemeOrSyllabusList } from "./services/cheerio/index";
+import { withRetry } from "./services/retry/index";
 
 type PostData = {
   state: string;
@@ -16,6 +17,9 @@ type SchemeSyllabusRow = {
 };
 
 type ProgramRow = { name: string; id: number };
+type SyllabusBucket = { name: string; id: number; pdfs: SchemeSyllabusRow[] };
+type ProgramWithSyllabus = { name: string; id: number; syllabus: SyllabusBucket[] };
+type SyllabusTypeData = { type: string; id: number; programs: ProgramWithSyllabus[] };
 
 const prepareFileData = async (
   schemeSyllabusData: { semester: string; title: string; btn: string },
@@ -37,7 +41,7 @@ const prepareFileData = async (
     };
   } catch (error) {
     console.error("error while preparing Filedata", error);
-    return await prepareFileData(schemeSyllabusData, previousPostData);
+    throw error;
   }
 };
 
@@ -60,7 +64,7 @@ const prepareSchemeSyllabusData = async (postData: PostData): Promise<SchemeSyll
     return preparedFileData;
   } catch (error) {
     console.error("error while preparing schemeSyllabusData", error);
-    return await prepareSchemeSyllabusData(postData);
+    throw error;
   }
 };
 
@@ -69,14 +73,7 @@ const prepareProgramData = async (
   schemeSyllabusSchemeList: ProgramRow[],
   stateData: string,
   type: ProgramRow,
-): Promise<
-  | {
-      name: string;
-      id: number;
-      syllabus: Array<{ name: string; id: number; pdfs: SchemeSyllabusRow[] }>;
-    }
-  | undefined
-> => {
+): Promise<ProgramWithSyllabus> => {
   try {
     const programData = {
       name: program.name,
@@ -104,11 +101,11 @@ const prepareProgramData = async (
     return programData;
   } catch (error) {
     console.error("error while preparing ProgramData", error);
-    return await prepareProgramData(program, schemeSyllabusSchemeList, stateData, type);
+    throw error;
   }
 };
 
-const schemeSyllabusDataList = async (): Promise<Array<{ programs: any[] }> | undefined> => {
+const schemeSyllabusDataList = async (): Promise<SyllabusTypeData[] | undefined> => {
   try {
     const schemeSyllabusListResponse = await prepareSchemeOrSyllabusList();
     const schemeSyllabusProgramList = schemeSyllabusListResponse.programList;
@@ -133,9 +130,9 @@ const schemeSyllabusDataList = async (): Promise<Array<{ programs: any[] }> | un
       return;
     }
 
-    const schemeSyllabusFinalList: Array<{ type: string; id: number; programs: any[] }> = [];
+    const schemeSyllabusFinalList: SyllabusTypeData[] = [];
     const type = { name: "Syllabus", id: 2 };
-    const schemeSyllabusTypeData = { type: type.name, id: type.id, programs: [] as any[] };
+    const schemeSyllabusTypeData: SyllabusTypeData = { type: type.name, id: type.id, programs: [] };
 
     for (const program of schemeSyllabusProgramList) {
       const preparedProgramData = await prepareProgramData(
@@ -144,25 +141,23 @@ const schemeSyllabusDataList = async (): Promise<Array<{ programs: any[] }> | un
         stateData,
         type,
       );
-      if (preparedProgramData) {
-        schemeSyllabusTypeData.programs.push(preparedProgramData);
-      }
+      schemeSyllabusTypeData.programs.push(preparedProgramData);
     }
 
     schemeSyllabusFinalList.push(schemeSyllabusTypeData);
     return schemeSyllabusFinalList;
   } catch (error) {
     console.error("some error occurred while getting schemeSyllabusDataList", error);
-    return await schemeSyllabusDataList();
+    throw error;
   }
 };
 
-const writeData = async (schemeSyllabusFinalData: any[]): Promise<void> => {
+const writeData = async (schemeSyllabusFinalData: ProgramWithSyllabus[]): Promise<void> => {
   try {
     await writeFile("dist/syllabus.json", JSON.stringify(schemeSyllabusFinalData));
   } catch (error) {
     console.error("some error occurred with schemeSyllabusFinalData", error);
-    await writeData(schemeSyllabusFinalData);
+    throw error;
   }
 };
 
@@ -174,8 +169,8 @@ const mainData = async (): Promise<void> => {
     }
   } catch (error) {
     console.error("some error occurred with schemeSyllabusFinalData", error);
-    await mainData();
+    throw error;
   }
 };
 
-void mainData();
+void withRetry("compileSyllabusData", mainData, { retries: 3, delayMs: 1500 });

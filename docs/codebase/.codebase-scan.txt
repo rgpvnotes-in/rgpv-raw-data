@@ -1,0 +1,324 @@
+
+=== DIRECTORY TREE (max depth 3, source files only) ===
+.agents
+.agents\skills
+.agents\skills\acquire-codebase-knowledge
+.agents\skills\acquire-codebase-knowledge\assets
+.agents\skills\acquire-codebase-knowledge\references
+.agents\skills\acquire-codebase-knowledge\scripts
+.agents\skills\acquire-codebase-knowledge\SKILL.md
+.env.example
+.github
+.github\workflows
+.github\workflows\check news alerts.yml
+.github\workflows\compile data.yml
+.gitignore
+.node-version
+.oxfmtrc.json
+.oxlintrc.json
+.vscode
+.vscode\settings.json
+credentials.json
+docs
+docs\codebase
+docs\codebase\.codebase-scan.txt
+get_info_data.ts
+get_scheme_data.ts
+get_syllabus_data.ts
+get_timetable_data.ts
+LICENSE.txt
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+README.md
+services
+services\auth
+services\auth\index.ts
+services\axios
+services\axios\index.ts
+services\cheerio
+services\cheerio\index.ts
+services\env
+services\env\index.ts
+services\hashtagGenerator
+services\hashtagGenerator\index.ts
+services\imageGenerator
+services\imageGenerator\index.ts
+services\retry
+services\retry\index.ts
+services\socialMediaShare
+services\socialMediaShare\index.ts
+skills-lock.json
+tsconfig.json
+tsdown.config.ts
+vite.config.ts
+vitest.config.ts
+write_news_alerts.ts
+
+=== STACK DETECTION (manifest files) ===
+
+--- package.json ---
+{
+  "name": "rgpv-raw-data",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/rgpvnotes-in/rgpv-raw-data#readme",
+  "bugs": {
+    "url": "https://github.com/rgpvnotes-in/rgpv-raw-data/issues"
+  },
+  "license": "ISC",
+  "author": "Aditya Jain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgpvnotes-in/rgpv-raw-data.git"
+  },
+  "type": "module",
+  "main": "get_timetable_data.ts",
+  "scripts": {
+    "compile:timetable": "tsx get_timetable_data.ts",
+    "compile:syllabus": "tsx get_syllabus_data.ts",
+    "compile:scheme": "tsx get_scheme_data.ts",
+    "compile:info": "tsx get_info_data.ts",
+    "compile:news": "tsx write_news_alerts.ts",
+    "build:data": "pnpm run compile:timetable && pnpm run compile:syllabus && pnpm run compile:scheme && pnpm run compile:info",
+    "build": "pnpm run build:data",
+    "bundle": "tsdown",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint .",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "pnpm run lint && pnpm run format:check && pnpm run typecheck && pnpm run test"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^173.0.0",
+    "puppeteer": "^25.3.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "oxfmt": "^0.60.0",
+    "oxlint": "^1.75.0",
+    "tsdown": "^0.22.13",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "pnpm@11.15.1"
+}
+
+--- pnpm-lock.yaml ---
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      axios:
+        specifier: ^1.18.1
+        version: 1.18.1(debug@4.4.3)
+      cheerio:
+        specifier: ^1.2.0
+        version: 1.2.0
+      dotenv:
+        specifier: ^17.4.2
+        version: 17.4.2
+      googleapis:
+        specifier: ^173.0.0
+        version: 173.0.0
+      puppeteer:
+        specifier: ^25.3.0
+        version: 25.3.0
+      zod:
+        specifier: ^4.1.5
+        version: 4.4.3
+    devDependencies:
+      '@types/node':
+        specifier: ^26.1.1
+        version: 26.1.1
+      oxfmt:
+        specifier: ^0.60.0
+        version: 0.60.0
+      oxlint:
+        specifier: ^1.75.0
+        version: 1.75.0
+      tsdown:
+        specifier: ^0.22.13
+        version: 0.22.13(tsx@4.23.1)(typescript@7.0.2)
+      tsx:
+        specifier: ^4.23.1
+        version: 4.23.1
+      typescript:
+        specifier: ^7.0.2
+        version: 7.0.2
+      vite:
+        specifier: ^8.1.5
+        version: 8.1.5(@types/node@26.1.1)(esbuild@0.28.1)(tsx@4.23.1)
+      vitest:
+        specifier: ^4.1.10
+        version: 4.1.10(@types/node@26.1.1)(vite@8.1.5(@types/node@26.1.1)(esbuild@0.28.1)(tsx@4.23.1))
+
+packages:
+
+  '@emnapi/core@1.11.1':
+    resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
+
+  '@emnapi/core@1.11.2':
+    resolution: {integrity: sha512-TC8MkTuZUtcTSiFeuC0ksCh9QIJ5+F21MvZ4Wn4ORfYaFJ/0dsiudv5tVkejgwZlwQ39jL9WWDe2lz8x0WglOA==}
+
+  '@emnapi/runtime@1.11.1':
+    resolution: {integrity: sha512-vgj7R3y3Wgx24IQaGPA/R6YFXLHVMOZ0uVEyIQPaWs+rd1AzfEMXlAC22FYwO1XkKR6NPsq7mUandH8oIRdZFw==}
+
+  '@emnapi/runtime@1.11.2':
+    resolution: {integrity: sha512-kyOl3X0DuTiT1h2ft8r2fYO8JYtU9a9Xis/zBSiGArNaagCOWx90N1k2wxp18czFDH+OgcWGb5ZP/XMt3dcyPA==}
+
+  '@emnapi/wasi-threads@1.2.2':
+    resolution: {integrity: sha512-c95qOXkHdydNKhscBTebqEC1CVAZpyqOfVfBzQ1qgzyl3gfeldUjIggDbIZgDKsHLgnsM+igH7TJ/eAasaVuMA==}
+
+  '@esbuild/aix-ppc64@0.28.1':
+    resolution: {integrity: sha512-Svl7tq8k/08+p6CXPpRjQ1fKX+1odH/BQbb48fV6fj3CWHhsoIOoY87w1oHXm0qEpkIK3ZfVgp0hed3XBXzXMQ==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/android-arm64@0.28.1':
+    resolution: {integrity: sha512-34EGEbCIAgosYz6goLcopX6Mo7NyGv9tfwEM2/7Ce2VcVRk568iSvniGWcUXIy7wEDR1wzolcxcriFVrWYcwBg==}
+    engines: {node: '>=18'}
+
+[TRUNCATED] Showing first 80 of 3561 lines.
+
+=== ENTRY POINTS ===
+No common entry points found. Check 'main' or 'scripts.start' in manifest files above.
+
+=== LINTING AND FORMATTING CONFIG ===
+Found: tsconfig.json
+
+=== ENVIRONMENT VARIABLE TEMPLATES ===
+--- .env.example ---
+SPREADSHEET_ID=
+POST_ALL_NEWS_URL=
+POST_RECENT_NEWS_URL=
+POST_NEWS_PASSWORD=
+SHORT_URL_GENERATOR_URL=
+SHORT_URL_PASSWORD=
+ZOHO_USERNAME=
+ZOHO_PASSWORD=
+IMAGE_GENERATOR_AUTH_1=
+IMAGE_GENERATOR_AUTH_2=
+IMAGE_GENERATOR_AUTH_3=
+IMAGE_GENERATOR_AUTH_4=
+IMAGE_GENERATOR_AUTH_5=
+
+
+=== TODO / FIXME / HACK (production code only, test dirs excluded) ===
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:28: TODO_LIMIT = 60
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:320: return todos[:TODO_LIMIT]
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:617: # TODOs
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+
+=== GIT RECENT COMMITS (last 20) ===
+7924cc8 Add GNU General Public License v3 to the project
+33ba33f Add README.md with project overview, setup instructions, and workflows
+3784b1e Completed now:
+5da30fb Phase 2 is implemented: the codebase is now TypeScript + ESM end-to-end for entry scripts and services.
+d524a3a Phase 1 â€” Runtime and package manager foundation Pin Node 24: Add .node-version with 24. Add engines.node in package.json (>=24 <25 or equivalent). Move to pnpm: Add packageManager field in package.json. Remove yarn.lock. Generate pnpm-lock.yaml. Keep scripts runnable in CI/local with pnpm commands only.
+02345b1 updated .gitignore to include .agents and added skills-lock.json with skill definitions
+e8cbaca Merge pull request #8 from rgpvnotes-in/dev
+8a97bb6 dont remember
+d4e1e1f directly making axios request for short url from here
+bf344ed added more linear gradient CSS
+e4ea740 Merge pull request #14 from rgpvnotes-in/conditionally-adding-basic-auth-in-post-header
+a8de467 conditionally adding basic auth in headers
+ae0df3a Merge pull request #12 from rgpvnotes-in/encoding-news-url
+f42f208 encoding news URL
+545e860 Merge pull request #11 from rgpvnotes-in/moving-shortUrl-generation-logic-to-unnecessary-prevent-API-call
+189fc51 adding new words in workspace
+4aa40e4 moving shortUrl find logic
+c183032 Merge pull request #10 from rgpvnotes-in/shortUrl-bugfix
+492edd8 shortUrl bug fixing
+5cc19a9 Merge pull request #9 from rgpvnotes-in/fixing-issue-with-short-url-generation
+
+=== HIGH-CHURN FILES (last 90 days, top 20) ===
+   3 .github/workflows/check news alerts.yml
+   3 package.json
+   3 pnpm-lock.yaml
+   2 .oxfmtrc.json
+   2 dist/404.html
+   2 dist/index.html
+   2 dist/swagger.json
+   2 get_info_data.ts
+   2 get_scheme_data.ts
+   2 get_syllabus_data.ts
+   2 get_timetable_data.ts
+   2 services/auth/index.ts
+   2 services/socialMediaShare/index.ts
+   2 write_news_alerts.ts
+   2 .github/workflows/compile data.yml
+   2 .oxlintrc.json
+   2 pnpm-workspace.yaml
+   2 tsconfig.json
+   2 tsdown.config.ts
+   2 vitest.config.ts
+
+=== MONOREPO SIGNALS ===
+Monorepo tool detected: pnpm-workspace.yaml
+Sub-package directory found: services/
+
+=== CODE METRICS ===
+Total files scanned: 42
+Total lines of code: 2397
+
+Files by language:
+  Other: 25
+  TypeScript: 16
+  Python: 1
+
+Top 10 largest files:
+pnpm-lock.yaml: 111.9KB
+LICENSE.txt: 34.3KB
+.agents\skills\acquire-codebase-knowledge\scripts\scan.py: 23.2KB
+services\cheerio\index.ts: 11.4KB
+.agents\skills\acquire-codebase-knowledge\SKILL.md: 8.9KB
+services\axios\index.ts: 6.1KB
+.github\workflows\compile data.yml: 5.8KB
+write_news_alerts.ts: 5.6KB
+.agents\skills\acquire-codebase-knowledge\references\stack-detection.md: 5.5KB
+get_syllabus_data.ts: 5.4KB
+
+=== CI/CD PIPELINES ===
+CI/CD: GitHub Actions
+
+=== CONTAINERS & ORCHESTRATION ===
+No containerization configs detected.
+
+=== SECURITY & COMPLIANCE ===
+No security configs detected.
+
+=== PERFORMANCE & TESTING ===
+No performance testing configs detected.
+
+=== SCAN COMPLETE ===

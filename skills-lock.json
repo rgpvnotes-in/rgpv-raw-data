@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "acquire-codebase-knowledge": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/acquire-codebase-knowledge/SKILL.md",
+      "computedHash": "06b7a3d0bb44b70b470247aacc2ffffe37c8ce64cc3f9178be6f392c81cb6d22"
+    },
     "caveman-commit": {
       "source": "juliusbrussee/caveman",
       "sourceType": "github",

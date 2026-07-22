@@ -14,7 +14,7 @@ export default defineConfig({
     ],
   },
   fmt: {
-    ignorePatterns: [".vscode/**", "dist/**"],
+    ignorePatterns: [".vscode/**", "dist/**", "node_modules/**", "docs/**"],
   },
   lint: {
     plugins: ["typescript", "unicorn", "oxc"],

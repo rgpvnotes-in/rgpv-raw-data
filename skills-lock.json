@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "skills": {
+    "caveman-commit": {
+      "source": "juliusbrussee/caveman",
+      "sourceType": "github",
+      "skillPath": "skills/caveman-commit/SKILL.md",
+      "computedHash": "f028652defd5fdeddcce2994083cb1a7b201ee827bba8e2495546ee159fca3de"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "d6cb30212b3b19f531378574784af1da09928b2e5078f299eaeaedd50191a4af"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "569299a60c8e93880f3b3c1eca55578f58f7e1a4155876edb4cb814da3d6b3ea"
+    },
+    "playwright-best-practices": {
+      "source": "currents-dev/playwright-best-practices-skill",
+      "sourceType": "github",
+      "skillPath": "playwright-best-practices/SKILL.md",
+      "computedHash": "88623575c97314e115f0e361a7d942e31d3b7a4e8925832257e1ad33f52096e4"
+    },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "sourceType": "github",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "computedHash": "438b922468b7bb2ab5ce4a0f318fc65db93337f0df03908a5476effbae9487e6"
+    },
+    "receiving-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/receiving-code-review/SKILL.md",
+      "computedHash": "3f56080356c62e4f74a183d7371686babc661e41a952dc67a97c2c76fe8a9329"
+    },
+    "requesting-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/requesting-code-review/SKILL.md",
+      "computedHash": "cde520e9118d7e6b74b5ab0123cff2f68d9c07bddb3f82c997753b6126600aed"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "computedHash": "eee144aea35d783296d178017e9fe843c6d16cc8b240e106f5e50910f6caf329"
+    },
+    "verification-before-completion": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/verification-before-completion/SKILL.md",
+      "computedHash": "9b446f0c7fe1cfb560b1d34439523b1a76d5f177290007b2c053a1c749a4a8ba"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "computedHash": "3f14af7f5690695209c22fbf8c8d133769a86d64892602c09bb13f135e14e857"
+    },
+    "writing-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "computedHash": "9c221f46dca7bdf94af9c27ce54a7b4ea323c590333f8bc0a55c65254c646584"
+    }
+  }
+}

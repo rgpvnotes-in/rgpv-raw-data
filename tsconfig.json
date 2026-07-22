@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2024",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
     "allowJs": true,
@@ -10,8 +10,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node"]
   },
-  "include": ["*.js", "services/**/*.js", "*.ts", "src/**/*.ts"],
+  "include": ["*.js", "services/**/*.js", "*.ts", "services/**/*.ts", "src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

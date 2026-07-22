@@ -2,17 +2,25 @@
   "name": "rgpv-raw-data",
   "version": "1.0.0",
   "description": "",
-  "main": "get_TT_data.js",
-  "packageManager": "pnpm@11.15.1",
-  "engines": {
-    "node": ">=24 <25"
+  "keywords": [],
+  "homepage": "https://github.com/rgpvnotes-in/rgpv-raw-data#readme",
+  "bugs": {
+    "url": "https://github.com/rgpvnotes-in/rgpv-raw-data/issues"
   },
+  "license": "ISC",
+  "author": "Aditya Jain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgpvnotes-in/rgpv-raw-data.git"
+  },
+  "type": "module",
+  "main": "get_timetable_data.ts",
   "scripts": {
-    "compile:timetable": "node get_timetable_data.js",
-    "compile:syllabus": "node get_syllabus_data.js",
-    "compile:scheme": "node get_scheme_data.js",
-    "compile:info": "node get_info_data.js",
-    "compile:news": "node write_news_alerts.js",
+    "compile:timetable": "tsx get_timetable_data.ts",
+    "compile:syllabus": "tsx get_syllabus_data.ts",
+    "compile:scheme": "tsx get_scheme_data.ts",
+    "compile:info": "tsx get_info_data.ts",
+    "compile:news": "tsx write_news_alerts.ts",
     "build:data": "pnpm run compile:timetable && pnpm run compile:syllabus && pnpm run compile:scheme && pnpm run compile:info",
     "build": "pnpm run build:data",
     "bundle": "tsdown",
@@ -24,17 +32,6 @@
     "test:watch": "vitest",
     "check": "pnpm run lint && pnpm run format:check && pnpm run typecheck && pnpm run test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rgpvnotes-in/rgpv-raw-data.git"
-  },
-  "keywords": [],
-  "author": "Aditya Jain",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rgpvnotes-in/rgpv-raw-data/issues"
-  },
-  "homepage": "https://github.com/rgpvnotes-in/rgpv-raw-data#readme",
   "dependencies": {
     "axios": "^1.18.1",
     "cheerio": "^1.2.0",
@@ -44,11 +41,17 @@
     "puppeteer": "^25.3.0"
   },
   "devDependencies": {
+    "@types/node": "^26.1.1",
     "oxfmt": "^0.60.0",
     "oxlint": "^1.75.0",
     "tsdown": "^0.22.13",
+    "tsx": "^4.20.6",
     "typescript": "^7.0.2",
     "vite": "^8.1.5",
     "vitest": "^4.1.10"
-  }
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "pnpm@11.15.1"
 }

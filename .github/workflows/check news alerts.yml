@@ -5,7 +5,7 @@ name: compile-latest-news-data
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '*/10 * * * *' # every 10 minutes
+    - cron: "*/10 * * * *" # every 10 minutes
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -16,21 +16,29 @@ jobs:
     timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: setup-node
-        uses: actions/setup-node@master
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
       - name: installing dependencies
         run: |
-          npm install
+          pnpm install --frozen-lockfile
 
       - name: compiling timetable file
         run: |
-          node get_timetable_data.js
+          pnpm run compile:timetable
 
       - name: cache timetable file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: timetable-file
         with:
@@ -42,21 +50,29 @@ jobs:
     timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: setup-node
-        uses: actions/setup-node@master
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
       - name: installing dependencies
         run: |
-          npm install
+          pnpm install --frozen-lockfile
 
       - name: compiling syllabus file
         run: |
-          node get_syllabus_data.js
+          pnpm run compile:syllabus
 
       - name: cache syllabus file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: syllabus-file
         with:
@@ -68,21 +84,29 @@ jobs:
     timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: setup-node
-        uses: actions/setup-node@master
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
       - name: installing dependencies
         run: |
-          npm install
+          pnpm install --frozen-lockfile
 
       - name: compiling scheme file
         run: |
-          node get_scheme_data.js
+          pnpm run compile:scheme
 
       - name: cache scheme file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: scheme-file
         with:
@@ -94,21 +118,29 @@ jobs:
     timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: setup-node
-        uses: actions/setup-node@master
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
       - name: installing dependencies
         run: |
-          npm install
+          pnpm install --frozen-lockfile
 
       - name: compiling info file
         run: |
-          node get_info_data.js
+          pnpm run compile:info
 
       - name: cache info file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: info-file
         with:
@@ -127,13 +159,25 @@ jobs:
     timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: setup-node
-        uses: actions/setup-node@master
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: installing dependencies
+        run: |
+          pnpm install --frozen-lockfile
 
       - name: restore timetable file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: timetable-file
         with:
@@ -141,7 +185,7 @@ jobs:
           key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
 
       - name: restore syllabus file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: syllabus-file
         with:
@@ -149,7 +193,7 @@ jobs:
           key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
 
       - name: restore scheme file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: scheme-file
         with:
@@ -157,7 +201,7 @@ jobs:
           key: ${{ runner.os }}-compiled-${{ env.cache-name }}-${{ github.run_id }}-${{ github.run_number }}
 
       - name: restore info file
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: info-file
         with:
@@ -166,8 +210,7 @@ jobs:
 
       - name: prettify files in dist folder
         run: |
-          npm i prettier -g
-          prettier --write "dist/**/*"
+          pnpm exec oxfmt --write "dist/**/*"
           cd dist
           ls -a
 

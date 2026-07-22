@@ -16,10 +16,18 @@ jobs:
     timeout-minutes: 120
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: setup-node
-        uses: actions/setup-node@master
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
       - name: create .env file
         run: |
@@ -45,8 +53,8 @@ jobs:
 
       - name: installing dependencies
         run: |
-          npm install
+          pnpm install --frozen-lockfile
 
       - name: check news alerts
         run: |
-          node write_news_alerts.js
+          pnpm run compile:news
